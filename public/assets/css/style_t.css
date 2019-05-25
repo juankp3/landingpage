@@ -1,0 +1,120 @@
+@media screen and (min-width: 483px) and (max-width: 1024px) {
+    
+    .ventana2 {
+        width: 100%;
+	    height: auto;
+	    top: 0;
+	    left: 0;
+	    margin-left: 0;
+	    margin-top: 0;
+	    
+    }
+    .ventana2 .btn_close{
+    	background: url(../img/btnx.png) no-repeat;
+	    cursor: pointer;
+	    width: 44px;
+	    height: 44px;
+	    position: absolute;
+	    top: 15px;
+	    right: 15px;
+	    font-size: 18px;
+	    z-index: 9999999999;
+    }
+    .title_prom{
+    	margin-top: 60px;
+    }
+	.list_prom{
+		margin: 30px 70px;
+	}
+	.mobile{
+        display: none;
+    }
+    
+    .desktop{
+        display: none;   
+    }
+    .tablet{
+        display: block !important;
+    }
+    
+	.row{
+	    width: 100%;
+	    height: auto;
+	    position: relative;
+	    margin: 0 auto;
+	}
+	
+	#container{
+	    width: 100%;
+	}
+	
+	/* -- FORMULARIO -- */
+    .content_form{
+        position: relative;
+        margin-top: 0px;
+    }
+    .content_form .formulario form{
+    	padding: 15px 4%;
+    }
+    .formulario{
+        background-size: 100% 100%;
+        background: url("../img/bg_form.png") no-repeat;
+        box-shadow: 1px 1px 24px -5.5px;
+    }
+    /* -- FORMULARIO -- */
+    
+    
+    /* -- BOTONES -- */
+    #content_btns{
+	    position: relative;
+	    margin: 0 auto;
+	}
+    /* -- BOTONES -- */
+    
+    
+    /* -- FECHAS -- */
+    #content_fechas{
+	    position: relative;
+	    margin: 0 auto;
+	    top: 20px;
+	}
+    /* -- FECHAS -- */
+
+	footer{
+	    width: 90%;
+	    padding: 0 5%;
+	}    
+	
+	
+	
+	.info_tablet {
+	    width: 100%;
+	    padding: 60px 0;
+	    position: absolute;
+	    margin-top: -154px;
+	    background-color: #e6f3f9;
+	}
+	.info_fechas{
+		float: left;
+	    width: 25%;	
+	}
+	.info_btns{
+		float: right;
+	    width: 25%;	
+	}
+	.info_form{
+		float: left;
+	    width: 50%;	
+	}
+	
+	
+	.block_left {
+	    height: 100%;
+	}
+	
+	
+	
+	
+
+}
+

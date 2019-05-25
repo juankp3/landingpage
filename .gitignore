@@ -1,0 +1,7 @@
+.c9/
+.DS_Store
+.idea
+/vendor
+.env
+composer.lock
+config.php
