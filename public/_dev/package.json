@@ -1,5 +1,5 @@
 {
-  "name": "desarrollo",
+  "name": "config_gulp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "gulp-cli": "^2.2.0",
-    "gulp-stylus": "^2.7.0"
+    "gulp": "^4.0.2",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
