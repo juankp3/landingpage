@@ -1,6 +1,6 @@
 <?php
 
-require '../PHPMailer/PHPMailerAutoload.php';
+require '../lib/PHPMailer/PHPMailerAutoload.php';
 
 
 class Mail{
@@ -38,16 +38,14 @@ class Mail{
 
 
 
-    public function envio_correo($datos){
-
+    public function envio_correo($datos)
+    {
         $correos_envio = RECEPTIONISTS;
 
         if (is_string($correos_envio)){
             $correos_envio = explode(",", $correos_envio);
 
             if (is_array($correos_envio)) {
-
-
                 $this->mail->Body = '<h2>Datos del Participante:</h2>';
                 $this->mail->Body .= '<p>Nombres: '.$datos['nombre'].'</p>';
                 $this->mail->Body .= '<p>Correo: '.$datos['correo'].'</p>';

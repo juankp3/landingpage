@@ -1,11 +1,13 @@
-body
-    background pink
+// Abstracts!
+@import './abstracts/_variables'
+@import './abstracts/_mixins'
 
-padding-div()
-    padding-top: arguments 
-    padding-bottom: arguments
-    padding-left: arguments 
-    padding-right: arguments 
+// Base!
+@import './base/_reset'
+@import './base/_typography'
+@import './base/_helpers'
+@import './base/_headings'
+@import './base/_bodytext'
 
-#div
-    padding-div: 5px
+// Web!
+@import './pages/*.styl'
