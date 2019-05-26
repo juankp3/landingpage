@@ -64,7 +64,8 @@
     </section>
 
     <footer>
-        <p>Footer</p>
+        <div class="sf-top-footer"></div>
+        <div class="sf-botoom-footer"></div>
     </footer>
 
 </body>
