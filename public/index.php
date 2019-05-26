@@ -72,8 +72,8 @@ Flight::route('POST /registro', function () {
 
 
 Flight::route('GET /', function () {
-    $model = new Conexion();
-    $ganadores = $model->get_ganadores();
+    // $model = new Conexion();
+    $ganadores = array(); //$model->get_ganadores();
     //var_dump($ganadores);
     Flight::render('registro.php', array('ganadores' => $ganadores));
 });
