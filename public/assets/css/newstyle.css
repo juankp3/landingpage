@@ -492,16 +492,39 @@ b {
 .txt-sm-xs {
   font-size: 0.75rem;
 }
-.header {
+header {
   background: #f00;
 }
-@media screen and (max-width: 960px) {
-  .header {
-    background: #ff0;
+header .logo {
+  position: relative;
+  margin-left: 0;
+  transition: all 0.35s ease;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  header .logo img {
+    height: 50px;
   }
 }
-@media screen and (max-width: 960px) and (max-width: 768px) {
-  .header {
-    background: #008000;
-  }
+header .cl-blue {
+  color: #1f3864;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+header .content {
+  overflow: hidden;
+  max-width: 75rem;
+  margin: auto;
+  box-sizing: content-box;
+  padding: 0 0.625rem;
+}
+.room {
+  background-image: url("../img/bg_header.png");
+  height: 530px;
+}
+section {
+  min-height: 110px;
 }

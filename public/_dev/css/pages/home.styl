@@ -1,6 +1,38 @@
-.header 
+header
     background red
-    +media-l()
-        background yellow
+    .logo
+        position: relative
+        margin-left: 0
+        transition: all 0.35s ease
+        display: flex
+        justify-content: left
+        align-items: center
         +media-m()
-            background green
+            img 
+                height: 50px;
+        
+    .cl-blue
+        color: $color-segunday
+        font-weight: bold
+        font-size: 18px
+        font-family: sans-serif;
+    .content
+        overflow: hidden
+        max-width: 75rem
+        margin: auto
+        box-sizing: content-box
+        padding: 0 .625rem
+
+// .header 
+//     background red
+//     +media-l()
+//         background yellow
+//         +media-m()
+//             background green
+
+.room
+    background-image url('../img/bg_header.png')
+    height 530px
+
+section
+    min-height: 110px
