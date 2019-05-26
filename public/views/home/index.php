@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
+    <link rel="stylesheet" type="text/css" href="https://superpet.pe/themes/superpet/assets/lib/font-awesome/css/font-awesome.min.css" >
     <title>Document</title>
 </head>
 <body>
@@ -14,25 +15,27 @@
                 <a href="#"><img src="assets/img/isotipo.png" alt=""></a>
                 <a href="#"><h1 class="cl-blue">SERVICIOS FELIX</h1></a>
             </div>
-            <!-- <img src="assets/img/whatsApp.png" alt=""> -->
-            <a class="sp-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=997360983&amp;text=_*Hola!*_">
-                <i class="fa fa-whatsapp mr5" aria-hidden="true"></i>
-                <span>997-360-983</span>
-            </a>
+            <div class="cl-whatsapp">
+                <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=997360983&amp;text=_*Hola!*_">
+                    <i class="fa fa-whatsapp mr5" aria-hidden="true"></i>
+                    <span>997-360-983</span>
+                </a>
+            </div>
         </div>
     </header>
 
-    <section>
+    <section class="sf-title sf-gray-100">
         ¿Necesitas <strong>remodelar</strong> o <strong>ampliar</strong> los ambientes de tu hogar?
     </section>
 
-    <section class="room">
+    <section class="sf-room">
         <div class="content">
-            <h2>¡No te preocupes! Tenemos la más completa solución.</h2>
-            <p>Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
-            muebles a medida y más. Todos con precios a tu alcance.</p>
-
-            <div class="form">
+            <div class="sf-description">
+                <h2>¡No te preocupes! Tenemos la más completa solución.</h2>
+                <p>Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
+                muebles a medida y más. Todos con precios a tu alcance.</p>
+            </div>
+            <div class="sf-form">
                 <form action="">
                     <h4>SOLICITA INFORMACIÓN Y <strong>OBTÉN UN 5% DE DESCUENTO<strong></h4>
                     <p>( Incluye plano de distribución )</p>

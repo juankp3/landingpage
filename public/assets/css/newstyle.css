@@ -65,7 +65,7 @@ b {
   font-style: normal;
 }
 .bg-gray-200 {
-  bachgorund-color: #f5f5f5;
+  bachgorund-color: #f8f8f8;
 }
 .-text-uppercase {
   text-transform: uppercase !important;
@@ -492,8 +492,20 @@ b {
 .txt-sm-xs {
   font-size: 0.75rem;
 }
+.content {
+  overflow: hidden;
+  max-width: 75rem;
+  margin: auto;
+  box-sizing: content-box;
+  padding: 0 0.625rem;
+}
 header {
-  background: #f00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
 }
 header .logo {
   position: relative;
@@ -508,23 +520,67 @@ header .logo {
     height: 50px;
   }
 }
-header .cl-blue {
+header .logo .cl-blue {
   color: #1f3864;
   font-weight: bold;
   font-size: 18px;
   font-family: sans-serif;
 }
-header .content {
-  overflow: hidden;
-  max-width: 75rem;
-  margin: auto;
-  box-sizing: content-box;
-  padding: 0 0.625rem;
+header .cl-whatsapp {
+  position: relative;
+  margin-left: 0;
+  transition: all 0.35s ease;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
-.room {
+header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
+    display: none;
+  }
+}
+section {
+  font-size: 16px;
+}
+section.sf-title {
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  min-height: 110px;
+  color: #00ad91;
+  background: #f8f8f8;
+  align-items: center;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  section.sf-title {
+    display: block;
+    padding: 16px 16px;
+    font-size: 22px;
+    line-height: 30px;
+    min-height: auto;
+  }
+}
+section.sf-room {
   background-image: url("../img/bg_header.png");
   height: 530px;
 }
-section {
-  min-height: 110px;
+section.sf-room .content {
+  display: flex;
+}
+section.sf-room .sf-description {
+  width: 66.6%;
+}
+section.sf-room .sf-description h2 {
+  color: #1f3864;
+  font-size: 30px;
+  padding-top: 52px;
+}
+section.sf-room .sf-form {
+  background: #205d81;
+  width: 33%;
+  height: 527px;
 }
