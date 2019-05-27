@@ -1,0 +1,83 @@
+.content {
+  overflow: hidden;
+  max-width: 75rem;
+  margin: auto;
+  box-sizing: content-box;
+  padding: 0 0.625rem;
+}
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  position: relative;
+  margin-left: 0;
+  transition: all 0.35s ease;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+media-m()
+}
+header .logo .cl-blue {
+  color: $color-segunday;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+header .cl-whatsapp {
+  position: relative;
+  margin-left: 0;
+  transition: all 0.35s ease;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
+  display: block;
+media-m()
+}
+section {
+  font-size: 16px;
+}
+section.sf-title {
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  min-height: 110px;
+  color: $color-primary;
+  background: $color-gray-100;
+  align-items: center;
+  display: flex;
+media-m()
+}
+section.sf-room {
+  background-image: url("../img/bg_header.png");
+  height: 530px;
+}
+section.sf-room .content {
+  display: flex;
+}
+section.sf-room .sf-description {
+  width: 66.6%;
+}
+section.sf-room .sf-description h2 {
+  color: $color-segunday;
+  font-size: 30px;
+  padding-top: 52px;
+}
+section.sf-room .sf-form {
+  background: #205d81;
+  width: 33%;
+  height: 527px;
+}
+footer section.sf-top-footer {
+  background: #205d81;
+}
+footer section.sf-bottom-footer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
