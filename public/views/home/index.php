@@ -37,7 +37,7 @@
             </div>
             <div class="sf-form">
                 <form action="">
-                    <h4>SOLICITA INFORMACIÓN Y <strong>OBTÉN UN 5% DE DESCUENTO<strong></h4>
+                    <h4>SOLICITA INFORMACIÓN Y <strong>OBTÉN UN 5% DE DESCUENTO</strong></h4>
                     <p>( Incluye plano de distribución )</p>
                     <input type="text" placeholder="Nombre">
                     <input type="text" placeholder="Correo">
@@ -64,8 +64,18 @@
     </section>
 
     <footer>
-        <div class="sf-top-footer"></div>
-        <div class="sf-botoom-footer"></div>
+        <section class="sf-top-footer">
+            <div class="content">“ofrecemos soluciones integrales, pensando en tus necesidades”</div>
+        </section>
+        <section class="sf-bottom-footer">
+            <div class="content">¡COMENCEMOS TU PROYECTO!
+            CONTÁCTANOS
+            Dirección : Av. los Precursores 590
+            Teléfonos : 997 360 983
+            E-mail : isr200305@outlook.com
+            Atención : Lunes a Sábado
+            </div>
+        </section>
     </footer>
 
 </body>
