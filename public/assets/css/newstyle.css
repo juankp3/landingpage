@@ -600,6 +600,12 @@ footer section.sf-bottom-footer div.sf-data-contact-footer span {
   display: block;
   text-align: center;
 }
+body {
+  font-family: 'UbuntuRegular';
+}
+strong {
+  font-family: 'UbuntuBold';
+}
 .content {
   overflow: hidden;
   max-width: 75rem;
@@ -654,22 +660,27 @@ section {
   font-size: 16px;
 }
 section.sf-title {
-  text-align: center;
-  font-size: 30px;
   justify-content: center;
   min-height: 110px;
-  color: #00ad91;
   background: #f8f8f8;
   align-items: center;
   display: flex;
 }
+section.sf-title p {
+  text-align: center;
+  font-size: 30px;
+  color: #00caa9;
+  margin: 0;
+}
 @media screen and (max-width: 768px) {
   section.sf-title {
     display: block;
-    padding: 16px 16px;
-    font-size: 22px;
     line-height: 30px;
     min-height: auto;
+  }
+  section.sf-title p {
+    padding: 24px 32px;
+    font-size: 22px;
   }
 }
 section.sf-room {
@@ -705,15 +716,23 @@ section.sf-room .sf-description {
   }
 }
 section.sf-room .sf-description h2 {
+  font-family: 'UbuntuBold';
   color: #1f3864;
   font-size: 30px;
   padding-top: 52px;
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-description h2 {
+    padding: 24px 32px;
+    font-size: 24px;
+  }
 }
 section.sf-room .sf-form {
   background: #205d81;
   opacity: 0.9;
   width: 33%;
-  height: 527px;
+  height: 530px;
 }
 @media screen and (max-width: 960px) {
   section.sf-room .sf-form {
@@ -726,9 +745,120 @@ section.sf-room .sf-form {
     height: auto;
   }
 }
+<<<<<<< HEAD
 section.sf-trabaja-nosotros {
   background-image: url("../img/bg_trabaja.png");
   height: 456px;
   background-repeat: no-repeat;
   background-position-x: left 10%;
+=======
+section.sf-room .sf-form form {
+  width: 80%;
+  margin: auto;
+}
+section.sf-room .sf-form form h4 {
+  font-family: 'UbuntuBold';
+  font-size: 20px;
+  line-height: 22px;
+  color: #fff;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+section.sf-room .sf-form form h4 strong {
+  color: #00caa9 !important;
+}
+section.sf-room .sf-form form p {
+  font-family: 'UbuntuMedium';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  margin: 0px 0px 16px;
+}
+.sf_btn {
+  text-align: center;
+}
+._btn,
+.btn-bar,
+.btn-content-solid,
+a {
+  font-weight: 400;
+  white-space: nowrap;
+  user-select: none;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  min-height: 40px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+.select {
+  position: relative;
+  width: 100%;
+}
+.select>select {
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #6a6a6a;
+  height: 36px;
+  background-color: #fff;
+  color: #6a6a6a;
+  padding: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select>select:after {
+  content: "\F107";
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-family: 'fontawesome';
+  pointer-events: none;
+  z-index: 1;
+  margin: auto;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.textarea {
+  position: relative;
+  width: 100%;
+  margin: 16px 0px 25px;
+}
+.textarea textarea {
+  width: 100%;
+}
+.btn-content-solid {
+  font-family: 'UbuntuMedium';
+  padding: 0.625em 1.5em;
+  border-radius: 2rem;
+  background-color: #00caa9;
+  color: #fff;
+}
+.input {
+  width: 100%;
+  height: 50px;
+  color: #6a6a6a;
+  position: relative;
+}
+.input>input {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  height: 36px;
+/* outline: none; */
+/* font-weight: 700; */
+>>>>>>> 3630b0ad45b0c96426f9ad4b0ddd06414747dcd5
 }
