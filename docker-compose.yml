@@ -1,4 +1,4 @@
-version: "3.1"
+version: "2"
 services:
     apache:
         build: docker/apache
@@ -9,39 +9,39 @@ services:
             - ./:/var/www/html/
             - ./docker/apache/virtualhost.conf:/etc/apache2/sites-enabled/000-default.conf
             # - ./docker/php/mcrypt.ini:/etc/php/7.3/apache2/conf.d/20-mcrypt.ini
-        links:
-            - mysql
+        # links:
+        #     - mysql
         networks:
             - default
         restart: always
-    mysql:
-        image: mysql:8.0
-        container_name: servife_mysql
-        ports: 
-            - "3306:3306"
-        command: --default-authentication-plugin=mysql_native_password
-        environment:
-            MYSQL_DATABASE: servife
-            MYSQL_USER: user
-            MYSQL_PASSWORD: test
-            MYSQL_ROOT_PASSWORD: test 
-        volumes:
-            # - ./dump:/docker-entrypoint-initdb.d
-            - ./docker/mysql/database:/docker-entrypoint-initdb.d
-            # - ./conf:/etc/mysql/conf.d
-            # - persistent:/var/lib/mysql
-        networks:
-            - default
-    phpmyadmin:
-        image: phpmyadmin/phpmyadmin
-        container_name: servife_phpmyadmin
-        links: 
-            - mysql:mysql
-        ports:
-            - 8000:80
-        environment:
-            MYSQL_USER: user
-            MYSQL_PASSWORD: test
-            MYSQL_ROOT_PASSWORD: test 
+    # mysql:
+    #     image: mysql:8.0
+    #     container_name: servife_mysql
+    #     ports: 
+    #         - "3306:3306"
+    #     command: --default-authentication-plugin=mysql_native_password
+    #     environment:
+    #         MYSQL_DATABASE: servife
+    #         MYSQL_USER: user
+    #         MYSQL_PASSWORD: test
+    #         MYSQL_ROOT_PASSWORD: test 
+    #     volumes:
+    #         # - ./dump:/docker-entrypoint-initdb.d
+    #         - ./docker/mysql/database:/docker-entrypoint-initdb.d
+    #         # - ./conf:/etc/mysql/conf.d
+    #         # - persistent:/var/lib/mysql
+    #     networks:
+    #         - default
+    # phpmyadmin:
+    #     image: phpmyadmin/phpmyadmin
+    #     container_name: servife_phpmyadmin
+    #     links: 
+    #         - mysql:mysql
+    #     ports:
+    #         - 8000:80
+    #     environment:
+    #         MYSQL_USER: user
+    #         MYSQL_PASSWORD: test
+    #         MYSQL_ROOT_PASSWORD: test 
 volumes:
     persistent:

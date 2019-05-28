@@ -65,8 +65,8 @@
 
     <footer>
         <section class="sf-top-footer">
-            <div class="content">“ofrecemos soluciones integrales, pensando en tus necesidades”</div>
-        </section>
+            <div class="content">“Ofrecemos soluciones integrales, pensando en tus necesidades”</div>
+        </section> 
         <section class="sf-bottom-footer">
             <div class="content">¡COMENCEMOS TU PROYECTO!
             CONTÁCTANOS

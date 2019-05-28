@@ -610,6 +610,11 @@ section.sf-room .sf-form {
 }
 footer section.sf-top-footer {
   background: #205d81;
+  font-family: UbuntuRegular;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  padding: 27px 0;
 }
 footer section.sf-bottom-footer {
   padding-left: 10px;

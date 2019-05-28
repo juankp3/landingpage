@@ -4,7 +4,7 @@ const uglify  = require('gulp-uglify');
 
 function styluscss(){
     //ruta de  archivos .styl
-    return src('css/**/*.styl')
+    return src('css/*.styl')
         //indicando compilar con stylus 
         .pipe(stylus())
         //ruta de guardado del archivo compilado .styl a css 
