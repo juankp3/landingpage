@@ -621,6 +621,7 @@ section.sf-room .sf-description h2 {
 }
 section.sf-room .sf-form {
   background: #205d81;
+  opacity: 0.9;
   width: 33%;
   height: 527px;
 }

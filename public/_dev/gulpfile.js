@@ -12,7 +12,7 @@ function styluscss(){
 }
 
 function watch_files(){
-    watch('css/**/*.styl', styluscss);
+    watch('css/**/**/*.styl', styluscss);
 }
 
 //ejecutando funcion style

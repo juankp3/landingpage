@@ -60,9 +60,12 @@ section.sf-room {
 }
 section.sf-room .content {
   display: flex;
+media-s()
 }
 section.sf-room .sf-description {
   width: 66.6%;
+media-l()
+media-s()
 }
 section.sf-room .sf-description h2 {
   color: $color-segunday;
@@ -70,8 +73,11 @@ section.sf-room .sf-description h2 {
   padding-top: 52px;
 }
 section.sf-room .sf-form {
-  background: #205d81;
+  background: $color-segunday-light;
+  opacity: 0.9;
   width: 33%;
+media-l()
+media-s()
   height: 527px;
 }
 footer section.sf-top-footer {
