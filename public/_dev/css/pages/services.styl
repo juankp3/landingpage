@@ -3,13 +3,50 @@ section
     section.sf-trabaja-nosotros
         display: flex
         flex-direction: row
-        justify-content: space-around
-        div.sf-content-img-nosotros
-                background-image: url(../img/bg_trabaja.png)
-                background-repeat: no-repeat
-                width: 456px 
-                height: 456px
-                flex-grow: 1
+        justify-content: center
+        height: 456px
+        +media-s()
+            flex-direction: column
+            height: auto
         div.sf-content-data-nosotros
-                flex-grow: 1
-        
+            margin-left: 5%
+            +media-s()
+                order: 1
+                margin: 0 10%;
+            div.sf-title-data-nosotros
+                font-family: UbuntuRegular
+                font-size: 32px;
+                color: $color-blue
+                margin: 30px 0 0 0
+                +media-s()
+                    font-size: 35px
+                    margin: 0
+                p
+                    text-align: left
+                    margin: 40px 0 20px 0;
+            div.sf-list-data-nosotros
+                ul.list-nosotros
+                    list-style: none
+                    li
+                        font-size: 16px
+                        padding: 10px 0
+                        +media-s()
+                            font-size: 16px;
+                            padding: 10px 0;
+                +media-s()
+                    margin-bottom: 30px;
+            div.sf-button-data-contactenos
+                margin : 20px 0 0 0
+                +media-s()
+                    display: none
+        div.sf-content-bgmovil-nosotros
+            background-image: url(../img/bg_trabaja.png)
+            background-repeat: no-repeat
+            width: 456px
+            height: 456px
+            margin: 0 0 0 -20%;
+            +media-s()
+                order: 2
+                background-image: url(../img/bg_trabaja.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;

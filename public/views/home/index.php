@@ -83,9 +83,22 @@
     <section>
         <div class="content">
             <section class="sf-trabaja-nosotros">
-                <div class="sf-content-img-nosotros"></div>
+                <div class="sf-content-bgmovil-nosotros"></div>
                 <div class="sf-content-data-nosotros">
-                    <p>¿Por qué trabajar con nosotros?</p>
+                    <div class="sf-title-data-nosotros">
+                        <p>¿Por qué trabajar con nosotros?</p>
+                    </div>
+                    <div class="sf-list-data-nosotros">
+                        <ul class="list-nosotros">
+                            <li>Tenemos amplia experiencia en el rubro</li>
+                            <li>Nuestro personal es altamente capacitado y con gran experiencia</li>
+                            <li>Brindamos un servicio rápido y eficiente</li>
+                            <li>Manejamos precios justos y competitivos</li>
+                        </ul>
+                    </div>
+                    <div class="sf-button-data-contactenos">
+                        <button class="btn-content-solid" type="submit">CONTÁCTENOS</button>
+                    </div>
                 </div>
             </section>
         </div>
@@ -109,6 +122,9 @@
                     <span><strong>Teléfonos : </strong>  997 360 983</span>
                     <span><strong>E-mail : </strong>  isr200305@outlook.com</span>
                     <span><strong>Atención : </strong>  Lunes a Sábado</span>
+                </div>
+                <div class="sf-button-contact-footer">
+                    <button class="btn-content-solid" type="submit">ENVIAR SU PROYECTO</button>
                 </div>
             </div>
         </section>

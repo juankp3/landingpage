@@ -600,6 +600,10 @@ footer section.sf-bottom-footer div.sf-data-contact-footer span {
   display: block;
   text-align: center;
 }
+footer section.sf-bottom-footer div.sf-button-contact-footer {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
 body {
   font-family: 'UbuntuRegular';
 }
@@ -608,7 +612,7 @@ strong {
 }
 .content {
   overflow: hidden;
-  max-width: 75rem;
+  max-width: 90rem;
   margin: auto;
   box-sizing: content-box;
   padding: 0 0.625rem;
@@ -857,15 +861,78 @@ a {
 section section.sf-trabaja-nosotros {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  height: 456px;
 }
-section section.sf-trabaja-nosotros div.sf-content-img-nosotros {
+@media screen and (max-width: 480px) {
+  section section.sf-trabaja-nosotros {
+    flex-direction: column;
+    height: auto;
+  }
+}
+section section.sf-trabaja-nosotros div.sf-content-data-nosotros {
+  margin-left: 5%;
+}
+@media screen and (max-width: 480px) {
+  section section.sf-trabaja-nosotros div.sf-content-data-nosotros {
+    order: 1;
+    margin: 0 10%;
+  }
+}
+section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-title-data-nosotros {
+  font-family: UbuntuRegular;
+  font-size: 32px;
+  color: #00466f;
+  margin: 30px 0 0 0;
+}
+@media screen and (max-width: 480px) {
+  section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-title-data-nosotros {
+    font-size: 35px;
+    margin: 0;
+  }
+}
+section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-title-data-nosotros p {
+  text-align: left;
+  margin: 40px 0 20px 0;
+}
+section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-list-data-nosotros ul.list-nosotros {
+  list-style: none;
+}
+section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-list-data-nosotros ul.list-nosotros li {
+  font-size: 16px;
+  padding: 10px 0;
+}
+@media screen and (max-width: 480px) {
+  section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-list-data-nosotros ul.list-nosotros li {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-list-data-nosotros {
+    margin-bottom: 30px;
+  }
+}
+section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-button-data-contactenos {
+  margin: 20px 0 0 0;
+}
+@media screen and (max-width: 480px) {
+  section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-button-data-contactenos {
+    display: none;
+  }
+}
+section section.sf-trabaja-nosotros div.sf-content-bgmovil-nosotros {
   background-image: url("../img/bg_trabaja.png");
   background-repeat: no-repeat;
   width: 456px;
   height: 456px;
-  flex-grow: 1;
+  margin: 0 0 0 -20%;
 }
-section section.sf-trabaja-nosotros div.sf-content-data-nosotros {
-  flex-grow: 1;
+@media screen and (max-width: 480px) {
+  section section.sf-trabaja-nosotros div.sf-content-bgmovil-nosotros {
+    order: 2;
+    background-image: url("../img/bg_trabaja.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 }
