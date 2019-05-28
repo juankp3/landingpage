@@ -526,6 +526,8 @@ footer section.sf-top-footer {
 }
 footer section.sf-bottom-footer {
   background-image: url("../img/bg_footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 395px;
   padding-left: 10px;
   padding-right: 10px;
