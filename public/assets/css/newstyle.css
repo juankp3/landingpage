@@ -516,6 +516,20 @@ b {
 .txt-sm-xs {
   font-size: 0.75rem;
 }
+footer section.sf-top-footer {
+  background: #205d81;
+  font-family: UbuntuRegular;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  padding: 27px 0;
+}
+footer section.sf-bottom-footer {
+  background-image: url("../img/bg_footer.png");
+  height: 395px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .content {
   overflow: hidden;
   max-width: 75rem;
@@ -641,11 +655,4 @@ section.sf-room .sf-form {
     width: 100%;
     height: auto;
   }
-}
-footer section.sf-top-footer {
-  background: #205d81;
-}
-footer section.sf-bottom-footer {
-  padding-left: 10px;
-  padding-right: 10px;
 }
