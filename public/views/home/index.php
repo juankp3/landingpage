@@ -80,10 +80,17 @@
 
 
 
-
-    <section class="sf-trabaja-nosotros">
-       holaaaa
+    <section>
+        <div class="content">
+            <section class="sf-trabaja-nosotros">
+                <div class="sf-content-img-nosotros"></div>
+                <div class="sf-content-data-nosotros">
+                    <p>¿Por qué trabajar con nosotros?</p>
+                </div>
+            </section>
+        </div>
     </section>
+    
 
     <footer>
         <section class="sf-top-footer">

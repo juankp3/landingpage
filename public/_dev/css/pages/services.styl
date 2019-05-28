@@ -1,6 +1,15 @@
-section.sf-trabaja-nosotros
-    background-image: url(../img/bg_trabaja.png) left :10%
-    height : 456px
-    background-repeat: no-repeat;
 
-
+section
+    section.sf-trabaja-nosotros
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        div.sf-content-img-nosotros
+                background-image: url(../img/bg_trabaja.png)
+                background-repeat: no-repeat
+                width: 456px 
+                height: 456px
+                flex-grow: 1
+        div.sf-content-data-nosotros
+                flex-grow: 1
+        

@@ -745,13 +745,6 @@ section.sf-room .sf-form {
     height: auto;
   }
 }
-<<<<<<< HEAD
-section.sf-trabaja-nosotros {
-  background-image: url("../img/bg_trabaja.png");
-  height: 456px;
-  background-repeat: no-repeat;
-  background-position-x: left 10%;
-=======
 section.sf-room .sf-form form {
   width: 80%;
   margin: auto;
@@ -860,5 +853,19 @@ a {
   height: 36px;
 /* outline: none; */
 /* font-weight: 700; */
->>>>>>> 3630b0ad45b0c96426f9ad4b0ddd06414747dcd5
+}
+section section.sf-trabaja-nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section section.sf-trabaja-nosotros div.sf-content-img-nosotros {
+  background-image: url("../img/bg_trabaja.png");
+  background-repeat: no-repeat;
+  width: 456px;
+  height: 456px;
+  flex-grow: 1;
+}
+section section.sf-trabaja-nosotros div.sf-content-data-nosotros {
+  flex-grow: 1;
 }
