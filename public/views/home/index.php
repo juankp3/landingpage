@@ -25,7 +25,7 @@
     </header>
 
     <section class="sf-title sf-gray-100">
-        ¿Necesitas <strong>remodelar</strong> o <strong>ampliar</strong> los ambientes de tu hogar?
+        <p>¿Necesitas <strong>remodelar</strong> o <strong>ampliar</strong> los ambientes de tu hogar?</p>
     </section>
 
     <section class="sf-room">
@@ -37,16 +37,31 @@
             </div>
             <div class="sf-form">
                 <form action="">
-                    <h4>SOLICITA INFORMACIÓN Y <strong>OBTÉN UN 5% DE DESCUENTO</strong></h4>
+                    <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
                     <p>( Incluye plano de distribución )</p>
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Correo">
-                    <input type="text" placeholder="Telefono">
-                    <select>
-                        <option value="">- Selecione Area-</option>
-                    </select>
+                    <div class="input">
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Correo">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Telefono">
+                    </div>
+                    <div class="select">
+                        <select>
+                            <option value="">- Selecione Area-</option>
+                        </select>
+                    </div>
+
+                    <div class="textarea">
+                        <textarea placeholder="Hola estoy interesado (a), solicito más información." cols="30" rows="5"></textarea>
+                    </div>
+
+                    <div class="sf_btn">
+                        <button class="btn-content-solid" type="submit">SOLICITAR INFORMACIÓN</button>
+                    </div>
                 </form>
-                <button>SOLICITAR INFORMACIÓN</button>
             </div>
         </div>
     </section>
