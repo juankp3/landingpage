@@ -726,3 +726,9 @@ section.sf-room .sf-form {
     height: auto;
   }
 }
+section.sf-trabaja-nosotros {
+  background-image: url("../img/bg_trabaja.png");
+  height: 456px;
+  background-repeat: no-repeat;
+  background-position-x: left 10%;
+}
