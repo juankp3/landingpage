@@ -68,12 +68,15 @@
             <div class="content">“Ofrecemos soluciones integrales, pensando en tus necesidades”</div>
         </section> 
         <section class="sf-bottom-footer">
-            <div class="content">¡COMENCEMOS TU PROYECTO!
-            CONTÁCTANOS
-            Dirección : Av. los Precursores 590
-            Teléfonos : 997 360 983
-            E-mail : isr200305@outlook.com
-            Atención : Lunes a Sábado
+            <div class="content">
+                <div>¡COMENCEMOS TU PROYECTO!</div>
+                <div>CONTÁCTANOS</div>
+                <div>
+                    Dirección : Av. los Precursores 590
+                    Teléfonos : 997 360 983
+                    E-mail : isr200305@outlook.com
+                    Atención : Lunes a Sábado
+                </div>
             </div>
         </section>
     </footer>
