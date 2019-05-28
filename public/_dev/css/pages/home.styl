@@ -62,16 +62,27 @@ section.sf-room
     height 530px 
     .content
         display: flex
+        +media-s()
+            display: block
+            padding 0px
     .sf-description  
         width: 66.6%
+        +media-l()
+            width: 50%
+        +media-s()
+            width: 100%
         h2
             color: $color-segunday
             font-size: 30px
             padding-top: 52px
-
     .sf-form
-        background: #205D81
+        background: $color-segunday-light
+        opacity : 0.9
         width: 33%
+        +media-l()
+            width: 50%
+        +media-s()
+            width: 100%
         height 527px
 
 

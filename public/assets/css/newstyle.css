@@ -595,8 +595,24 @@ section.sf-room {
 section.sf-room .content {
   display: flex;
 }
+@media screen and (max-width: 480px) {
+  section.sf-room .content {
+    display: block;
+    padding: 0px;
+  }
+}
 section.sf-room .sf-description {
   width: 66.6%;
+}
+@media screen and (max-width: 960px) {
+  section.sf-room .sf-description {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-description {
+    width: 100%;
+  }
 }
 section.sf-room .sf-description h2 {
   color: #1f3864;
@@ -605,8 +621,19 @@ section.sf-room .sf-description h2 {
 }
 section.sf-room .sf-form {
   background: #205d81;
+  opacity: 0.9;
   width: 33%;
   height: 527px;
+}
+@media screen and (max-width: 960px) {
+  section.sf-room .sf-form {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-form {
+    width: 100%;
+  }
 }
 footer section.sf-top-footer {
   background: #205d81;
