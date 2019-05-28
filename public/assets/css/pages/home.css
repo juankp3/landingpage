@@ -57,6 +57,7 @@ media-m()
 section.sf-room {
   background-image: url("../img/bg_header.png");
   height: 530px;
+media-s()
 }
 section.sf-room .content {
   display: flex;
@@ -76,9 +77,9 @@ section.sf-room .sf-form {
   background: $color-segunday-light;
   opacity: 0.9;
   width: 33%;
+  height: 527px;
 media-l()
 media-s()
-  height: 527px;
 }
 footer section.sf-top-footer {
   background: #205d81;

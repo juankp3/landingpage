@@ -60,9 +60,12 @@ section.sf-title
 section.sf-room
     background-image url('../img/bg_header.png')
     height 530px
+    +media-s()
+        height auto
     .content
         display: flex
         +media-s()
+            height auto
             display: block
             padding 0px
     .sf-description  
@@ -79,11 +82,13 @@ section.sf-room
         background: $color-segunday-light
         opacity : 0.9
         width: 33%
+        height 527px
         +media-l()
             width: 50%
         +media-s()
             width: 100%
-        height 527px
+            height auto
+        
 
 
 footer

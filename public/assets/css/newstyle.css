@@ -592,11 +592,17 @@ section.sf-room {
   background-image: url("../img/bg_header.png");
   height: 530px;
 }
+@media screen and (max-width: 480px) {
+  section.sf-room {
+    height: auto;
+  }
+}
 section.sf-room .content {
   display: flex;
 }
 @media screen and (max-width: 480px) {
   section.sf-room .content {
+    height: auto;
     display: block;
     padding: 0px;
   }
@@ -633,6 +639,7 @@ section.sf-room .sf-form {
 @media screen and (max-width: 480px) {
   section.sf-room .sf-form {
     width: 100%;
+    height: auto;
   }
 }
 footer section.sf-top-footer {
