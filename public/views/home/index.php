@@ -74,12 +74,26 @@
         </ul>
     </section>
 
-    <section>
-        “Ahora cuenta con nosotros para los cambios que planeabas”
-    </section>
 
 
 
+
+    <section class="sf-container-proyectos">
+        <div class="content">
+            proyectos
+        </div>
+    </section> 
+
+    <section class="sf-container-msj-proyectos">
+        <div class="content">
+            <div class="sf-container-flex-msj-proyectos">
+                <div class="sf-msj-proyectos">"<label>Ahora cuenta con nosotros</label> para los cambios que planeabas”</div>
+                <div class="sf-msj-button">
+                    <button class="btn-content-solid" type="submit">CONTÁCTENOS</button>
+                </div>
+            </div> 
+        </div>
+    </section> 
 
     <section class="sf-container-servicios">
         <div class="content">
@@ -120,52 +134,6 @@
             </div>
         </div>
     </section>
-
-
-
-<!--
-    <section class="sf-servicios">
-        <div class="content">
-
-            <div class="sf-data-servicios">
-                <div class="sf-especializados">
-                    <div class="sf-title-especializacion">
-                        <p>Servicios Especializados</p>
-                    </div>
-                    <div class="sf-list-especializacion">
-                        <ul class="list-especializacion">
-                            <li>Estructuras metálicas</li>
-                            <li>Cableado eléctrico, data y telefonía</li>
-                            <li>Iluminación y rollers</li>
-                            <li>Obra civil, sanitarias</li>
-                            <li>Drywall y falsos cielos</li>
-                            <li>Pintura</li>
-                            <li>Ventanas y mamparas de vídrio</li>
-                            <li>Escaleras metálicas</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="sf-complementarios">
-                    <div class="sf-title-complementarios">
-                        <p>Servicios Complementarios</p>
-                    </div>
-                    <div class="sf-list-complementarios">
-                        <ul class="list-complementarios">
-                            <li>Gasfitería</li>
-                            <li>Electricidad</li>
-                            <li>Mantenimiento e Instalación</li>
-                            <li>Aire acondicionado</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="sf-img-servicios">
-                imagen
-            </div>
-
-        </div>
-    </section>
--->
 
     <section class="sf-container-trabaja">
         <div class="content">

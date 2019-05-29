@@ -858,6 +858,56 @@ a {
 /* outline: none; */
 /* font-weight: 700; */
 }
+section.sf-container-msj-proyectos {
+  background: #fff;
+  margin: 20px 0;
+}
+section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos {
+    flex-direction: column;
+  }
+}
+section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-proyectos {
+  font-family: UbuntuRegular;
+  text-align: center;
+  font-size: 22px;
+  color: #00caa9;
+  align-self: center;
+}
+@media screen and (max-width: 768px) {
+  section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-proyectos {
+    font-size: 22px;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-proyectos {
+    font-size: 22px;
+  }
+}
+section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-proyectos label {
+  font-weight: bold;
+}
+section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-button {
+  margin: 0 0 0 30px;
+}
+@media screen and (max-width: 768px) {
+  section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-button {
+    margin: 10px 0 0 0;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-button {
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+}
 section.sf-container-servicios {
   background-color: #f5f5f5;
 }
