@@ -80,7 +80,94 @@
 
 
 
-    <section>
+
+    <section class="sf-container-servicios">
+        <div class="content">
+            <div class="sf-servicios">
+                <div class="sf-data-servicios">
+                    <div class="sf-especializados">
+                        <div class="sf-title-especializacion">
+                            <p>Servicios Especializados</p>
+                        </div>
+                        <div class="sf-list-especializacion">
+                            <ul class="list-especializacion">
+                                <li>Estructuras metálicas</li>
+                                <li>Cableado eléctrico, data y telefonía</li>
+                                <li>Iluminación y rollers</li>
+                                <li>Obra civil, sanitarias</li>
+                                <li>Drywall y falsos cielos</li>
+                                <li>Pintura</li>
+                                <li>Ventanas y mamparas de vídrio</li>
+                                <li>Escaleras metálicas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sf-complementarios">
+                        <div class="sf-title-complementarios">
+                            <p>Servicios Complementarios</p>
+                        </div>
+                        <div class="sf-list-complementarios">
+                            <ul class="list-complementarios">
+                                <li>Gasfitería</li>
+                                <li>Electricidad</li>
+                                <li>Mantenimiento e Instalación</li>
+                                <li>Aire acondicionado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sf-img-servicios"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!--
+    <section class="sf-servicios">
+        <div class="content">
+
+            <div class="sf-data-servicios">
+                <div class="sf-especializados">
+                    <div class="sf-title-especializacion">
+                        <p>Servicios Especializados</p>
+                    </div>
+                    <div class="sf-list-especializacion">
+                        <ul class="list-especializacion">
+                            <li>Estructuras metálicas</li>
+                            <li>Cableado eléctrico, data y telefonía</li>
+                            <li>Iluminación y rollers</li>
+                            <li>Obra civil, sanitarias</li>
+                            <li>Drywall y falsos cielos</li>
+                            <li>Pintura</li>
+                            <li>Ventanas y mamparas de vídrio</li>
+                            <li>Escaleras metálicas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sf-complementarios">
+                    <div class="sf-title-complementarios">
+                        <p>Servicios Complementarios</p>
+                    </div>
+                    <div class="sf-list-complementarios">
+                        <ul class="list-complementarios">
+                            <li>Gasfitería</li>
+                            <li>Electricidad</li>
+                            <li>Mantenimiento e Instalación</li>
+                            <li>Aire acondicionado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sf-img-servicios">
+                imagen
+            </div>
+
+        </div>
+    </section>
+-->
+
+    <section class="sf-container-trabaja">
         <div class="content">
             <section class="sf-trabaja-nosotros">
                 <div class="sf-content-bgmovil-nosotros"></div>

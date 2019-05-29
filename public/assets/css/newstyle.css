@@ -858,6 +858,115 @@ a {
 /* outline: none; */
 /* font-weight: 700; */
 }
+section.sf-container-servicios {
+  background-color: #f5f5f5;
+}
+section.sf-container-servicios div.sf-servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
+  display: flex;
+  flex-direction: column;
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
+  margin: 10% 0 0 0;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
+    margin: 0 10%;
+  }
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion {
+  color: #000;
+  font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion {
+    font-size: 28px;
+  }
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion p {
+  margin: 0 0 10px 0;
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-list-especializacion ul.list-especializacion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-list-especializacion ul.list-especializacion li {
+  background-image: url("../img/dot.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: 6px;
+  padding: 4px 0 4px 12px;
+  font-family: UbuntuRegular;
+  font-size: 16px;
+  color: #00466f;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-list-especializacion ul.list-especializacion li {
+    font-size: 18px;
+  }
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios {
+  margin: 10% 0 0 0;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios {
+    margin: 20px 10% 0 10%;
+  }
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios {
+  color: #000;
+  font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios {
+    font-size: 28px;
+  }
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios p {
+  margin: 0 0 10px 0;
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-list-complementarios ul.list-complementarios {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-list-complementarios ul.list-complementarios li {
+  background-image: url("../img/dot.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: 6px;
+  padding: 4px 0 4px 12px;
+  font-family: UbuntuRegular;
+  font-size: 16px;
+  color: #00466f;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-list-complementarios ul.list-complementarios li {
+    font-size: 18px;
+  }
+}
+section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
+  background-image: url("../img/bg_servicios.png");
+  width: 792px;
+  height: 488px;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
+    display: none;
+  }
+}
 section section.sf-trabaja-nosotros {
   display: flex;
   flex-direction: row;
