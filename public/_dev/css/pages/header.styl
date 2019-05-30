@@ -1,0 +1,35 @@
+header
+    padding-top: 10px
+    padding-bottom: 10px
+    .content
+        display: flex
+        justify-content: space-between
+    .logo
+        position: relative
+        margin-left: 0
+        transition: all 0.35s ease
+        display: flex
+        justify-content: left
+        align-items: center
+        +media-m()
+            img 
+                height: 50px;
+        .cl-blue
+            color: $color-secundary
+            font-weight: bold
+            font-size: 22px
+            font-family: sans-serif
+            padding-left: 16px
+    .cl-whatsapp
+        color: $color-secundary
+        position: relative
+        margin-left: 0
+        transition: all 0.35s ease
+        display: flex
+        justify-content: left
+        align-items: center
+        a.sf-btn.-whatsapp.-web span 
+            display: block
+            +media-m()
+                display: none
+
