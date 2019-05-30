@@ -1051,6 +1051,31 @@ section.sf-title p {
     font-size: 22px;
   }
 }
+section.sf-content-beneficios {
+  background: #fff;
+}
+section.sf-content-beneficios >.content {
+  padding: 26px 0;
+}
+section.sf-content-beneficios ul {
+  height: 85px;
+}
+section.sf-content-beneficios ul li {
+  display: inline;
+  background-repeat: no-repeat;
+  background-size: 72px;
+  font-size: 16px;
+  padding: 0px 0 66px 87px;
+}
+section.sf-content-beneficios ul li.trabajo {
+  background-image: url("../img/work.png");
+}
+section.sf-content-beneficios ul li.servicio {
+  background-image: url("../img/service.png");
+}
+section.sf-content-beneficios ul li.satisfaccion {
+  background-image: url("../img/security.png");
+}
 section.sf-container-proyectos {
   background: #00caa9;
 }

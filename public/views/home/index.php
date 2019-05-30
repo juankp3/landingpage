@@ -66,12 +66,14 @@
         </div>
     </section>
 
-    <section>
-        <ul>
-            <li>Trabajo Personalizado</li>
-            <li>Servicio 100% Profesional</li>
-            <li>Satisfacción Garantizada</li>
-        </ul>
+    <section class="sf-content-beneficios">
+        <div class="content">
+            <ul>
+                <li class="trabajo">Trabajo Personalizado</li>
+                <li class="servicio">Servicio 100% Profesional</li>
+                <li class="satisfaccion">Satisfacción Garantizada</li>
+            </ul>
+        </div>
     </section>
 
 
