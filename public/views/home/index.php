@@ -89,29 +89,29 @@
                     <div class="sf-container-pictures-tiny">
 
                         <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="../../assets/img/tiny.png" alt=""></div>
+                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
                             <div class="sf-title-picture-tiny">SALAS</div>
                         </div>
                         <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="../../assets/img/tiny.png" alt=""></div>
+                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
                             <div class="sf-title-picture-tiny">SALAS</div>
                         </div>
                         <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="../../assets/img/tiny.png" alt=""></div>
+                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
                             <div class="sf-title-picture-tiny">SALAS</div>
                         </div>
                         <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="../../assets/img/tiny.png" alt=""></div>
+                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
                             <div class="sf-title-picture-tiny">SALAS</div>
                         </div>
                         <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="../../assets/img/tiny.png" alt=""></div>
+                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
                             <div class="sf-title-picture-tiny">SALAS</div>
                         </div>
 
                     </div>
                     <div class="sf-container-picture-big">
-                        <img src="../../assets/img/comedor.png" alt="">
+                        <img src="assets/img/comedor.png" alt="">
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="sf-img-servicios">
-                    <img src="../../assets/img/bg_servicios.png" alt="">
+                    <img src="assets/img/bg_servicios.png" alt="">
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@
         <div class="content">
             <section class="sf-trabaja-nosotros">
                 <div class="sf-content-bgmovil-nosotros">
-                    <img src="../../assets/img/bg_trabaja.png" alt="">
+                    <img src="assets/img/bg_trabaja.png" alt="">
                 </div>
                 <div class="sf-content-data-nosotros">
                     <div class="sf-title-data-nosotros">
