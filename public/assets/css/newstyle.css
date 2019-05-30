@@ -789,6 +789,45 @@ b {
   box-sizing: border-box;
   height: 36px;
 }
+section.sf-container-beneficios {
+  background: #fff;
+}
+section.sf-container-beneficios div.sf-content-beneficios {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-beneficios div.sf-content-beneficios {
+    flex-direction: column;
+    margin: 10%;
+  }
+}
+section.sf-container-beneficios div.sf-content-beneficios div.sf-beneficio {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-beneficios div.sf-content-beneficios div.sf-beneficio {
+    margin: 10% 0 10% 0;
+  }
+}
+section.sf-container-beneficios div.sf-content-beneficios div.sf-beneficio div.sf-image-beneficios {
+  text-align: center;
+}
+section.sf-container-beneficios div.sf-content-beneficios div.sf-beneficio div.sf-title-beneficios {
+  align-self: center;
+  width: 100%;
+  color: #71787c;
+  font-size: 18px;
+  padding-left: 15px;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-beneficios div.sf-content-beneficios div.sf-beneficio div.sf-title-beneficios {
+    font-size: 24px;
+  }
+}
 footer section.sf-top-footer {
   background: #205d81;
   font-family: UbuntuRegular;
@@ -1052,31 +1091,6 @@ section.sf-title p {
     padding: 24px 32px;
     font-size: 22px;
   }
-}
-section.sf-content-beneficios {
-  background: #fff;
-}
-section.sf-content-beneficios >.content {
-  padding: 26px 0;
-}
-section.sf-content-beneficios ul {
-  height: 85px;
-}
-section.sf-content-beneficios ul li {
-  display: inline;
-  background-repeat: no-repeat;
-  background-size: 72px;
-  font-size: 16px;
-  padding: 0px 0 66px 87px;
-}
-section.sf-content-beneficios ul li.trabajo {
-  background-image: url("../img/work.png");
-}
-section.sf-content-beneficios ul li.servicio {
-  background-image: url("../img/service.png");
-}
-section.sf-content-beneficios ul li.satisfaccion {
-  background-image: url("../img/security.png");
 }
 section.sf-container-proyectos {
   background: #00caa9;

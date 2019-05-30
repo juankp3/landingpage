@@ -66,19 +66,35 @@
         </div>
     </section>
 
-    <section class="sf-content-beneficios">
+
+
+
+
+
+    <section class="sf-container-beneficios">
         <div class="content">
-            <ul>
-                <li class="trabajo">Trabajo Personalizado</li>
-                <li class="servicio">Servicio 100% Profesional</li>
-                <li class="satisfaccion">Satisfacción Garantizada</li>
-            </ul>
+            <div class="sf-content-beneficios">
+                <div class="sf-beneficio">
+                    <div class="sf-image-beneficios">
+                        <img src="assets/img/work.png" alt="">
+                    </div>
+                    <div class="sf-title-beneficios">Trabajo Personalizado</div>
+                </div>
+                <div class="sf-beneficio">
+                    <div class="sf-image-beneficios">
+                        <img src="assets/img/service.png" alt="">
+                    </div>
+                    <div class="sf-title-beneficios">Servicio 100% Profesional</div>
+                </div>
+                <div class="sf-beneficio">
+                    <div class="sf-image-beneficios">
+                        <img src="assets/img/security.png" alt="">
+                    </div>
+                    <div class="sf-title-beneficios">Satisfacción Garantizada</div>
+                </div>
+            </div>
         </div>
     </section>
-
-
-
-
 
     <section class="sf-container-proyectos">
         <div class="content">
@@ -119,11 +135,6 @@
             </div>
         </div>
     </section> 
-
-
-
-
-
 
     <section class="sf-container-msj-proyectos">
         <div class="content">
@@ -203,7 +214,6 @@
             </section>
         </div>
     </section>
-    
 
     <footer>
         <section class="sf-top-footer">
