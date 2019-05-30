@@ -1201,7 +1201,7 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
     width: 100px;
-    margin: 0px 2% 3% 2%;
+    margin: 0px 0 3% 2%;
   }
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img {
