@@ -1,3 +1,64 @@
+section.sf-container-proyectos
+    background: $color-primary
+    div.sf-container-flex-proyectos
+        display: flex
+        flex-direction: column
+        margin: 40px 0
+        div.sf-content-titles-proyectos 
+            color: $color-white
+            text-align: center
+            margin : 0 0 25px 0
+            div.sf-title-proyectos
+                font-family: UbuntuMedium
+                font-size: 44px 
+                label
+                    font-family: UbuntuBold
+                +media-s()
+                    font-size: 35px
+            div.sf-subtitle-proyectos
+                font-family: UbuntuMedium
+                font-size: 26px 
+                label
+                    font-family: UbuntuLight
+                +media-s()
+                    font-size: 22px
+        div.sf-container-pictures-proyectos
+            display: flex
+            flex-direction: row
+            +media-s()
+                flex-direction: column
+            div.sf-container-pictures-tiny
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                justify-content: space-around
+                div.sf-content-pictures-tiny
+                    display: flex
+                    flex-direction: column
+                    margin: 0 0 8px 0;
+                    div.sf-picture-tiny
+                        img 
+                            max-width: 110px
+                            height: auto
+                        img:hover 
+                            outline: 4px solid $color-white
+                        img:focus
+                            outline: 4px solid $color-white
+                    div.sf-title-picture-tiny
+                        font-family: UbuntuBold
+                        font-size: 14px 
+                        color: $color-white
+                        text-align: center
+                        padding: 8px 0;
+                        +media-s()
+                            font-size: 16px 
+            div.sf-container-picture-big
+                img
+                    width: 100%
+                    height: auto 
+
+
+
 section.sf-container-msj-proyectos
     background: $color-white
     margin: 20px 0
