@@ -3,7 +3,7 @@ section.sf-container-servicios
     div.sf-servicios
         display: flex
         flex-direction: row
-        justify-content: space-evenly
+        justify-content: space-between
         +media-s()
             display: flex
             flex-direction: column
@@ -11,6 +11,7 @@ section.sf-container-servicios
         div.sf-data-servicios
             display: flex   
             flex-direction: column
+            flex-grow: 1
             div.sf-especializados
                 margin: 10% 0 0 0
                 +media-s()  
@@ -67,8 +68,11 @@ section.sf-container-servicios
                                 font-size: 18px
         div.sf-img-servicios
             background-image: url(../img/bg_servicios.png)
+            background-repeat: no-repeat;
+            background-size: 100% 100%
             width: 792px
             height 488px
+            flex-grow: 2;
             +media-s()
                 display: none
 

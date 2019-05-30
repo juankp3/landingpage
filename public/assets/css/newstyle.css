@@ -997,7 +997,7 @@ section.sf-container-servicios {
 section.sf-container-servicios div.sf-servicios {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios {
@@ -1009,6 +1009,7 @@ section.sf-container-servicios div.sf-servicios {
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
   margin: 10% 0 0 0;
@@ -1092,8 +1093,11 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
 }
 section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
   background-image: url("../img/bg_servicios.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 792px;
   height: 488px;
+  flex-grow: 2;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
