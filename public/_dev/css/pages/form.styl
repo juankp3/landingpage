@@ -1,8 +1,13 @@
 section.sf-room
     background-image url('../img/bg_header.png')
-    height 530px 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 530px;
     +media-s()
-        height auto
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     .content
         display: flex
         +media-s()

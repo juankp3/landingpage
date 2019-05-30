@@ -918,11 +918,16 @@ footer section.sf-bottom-footer div.sf-button-contact-footer {
 }
 section.sf-room {
   background-image: url("../img/bg_header.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 530px;
 }
 @media screen and (max-width: 480px) {
   section.sf-room {
     height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 section.sf-room .content {
