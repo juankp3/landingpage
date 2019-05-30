@@ -997,7 +997,7 @@ section.sf-container-servicios {
 section.sf-container-servicios div.sf-servicios {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios {
@@ -1009,7 +1009,6 @@ section.sf-container-servicios div.sf-servicios {
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
 }
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
   margin: 10% 0 0 0;
@@ -1091,23 +1090,18 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
     font-size: 18px;
   }
 }
-section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
-  background-image: url("../img/bg_servicios.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 792px;
-  height: 488px;
-  flex-grow: 2;
-}
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
     display: none;
   }
 }
+section.sf-container-servicios div.sf-servicios div.sf-img-servicios img {
+  width: 100%;
+}
 section section.sf-trabaja-nosotros {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   height: 456px;
 }
 @media screen and (max-width: 480px) {
@@ -1117,7 +1111,7 @@ section section.sf-trabaja-nosotros {
   }
 }
 section section.sf-trabaja-nosotros div.sf-content-data-nosotros {
-  margin-left: 5%;
+  align-self: center;
 }
 @media screen and (max-width: 480px) {
   section section.sf-trabaja-nosotros div.sf-content-data-nosotros {
@@ -1168,17 +1162,13 @@ section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-button-d
   }
 }
 section section.sf-trabaja-nosotros div.sf-content-bgmovil-nosotros {
-  background-image: url("../img/bg_trabaja.png");
-  background-repeat: no-repeat;
-  width: 456px;
-  height: 456px;
-  margin: 0 0 0 -20%;
+  margin: 0 6% 0 0;
 }
 @media screen and (max-width: 480px) {
   section section.sf-trabaja-nosotros div.sf-content-bgmovil-nosotros {
     order: 2;
-    background-image: url("../img/bg_trabaja.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
   }
+}
+section section.sf-trabaja-nosotros div.sf-content-bgmovil-nosotros img {
+  width: 100%;
 }

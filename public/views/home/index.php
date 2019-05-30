@@ -169,7 +169,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="sf-img-servicios"></div>
+                <div class="sf-img-servicios">
+                    <img src="../../assets/img/bg_servicios.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -177,7 +179,9 @@
     <section class="sf-container-trabaja">
         <div class="content">
             <section class="sf-trabaja-nosotros">
-                <div class="sf-content-bgmovil-nosotros"></div>
+                <div class="sf-content-bgmovil-nosotros">
+                    <img src="../../assets/img/bg_trabaja.png" alt="">
+                </div>
                 <div class="sf-content-data-nosotros">
                     <div class="sf-title-data-nosotros">
                         <p>¿Por qué trabajar con nosotros?</p>
