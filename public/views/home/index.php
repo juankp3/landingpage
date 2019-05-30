@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <header class="header">
         <div class="content">
             <div class="logo">
@@ -24,6 +25,8 @@
         </div>
     </header>
 
+
+    
     <section class="sf-title sf-gray-100">
         <p>¿Necesitas <strong>remodelar</strong> o <strong>ampliar</strong> los ambientes de tu hogar?</p>
     </section>

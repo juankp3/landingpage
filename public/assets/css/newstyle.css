@@ -1021,6 +1021,7 @@ header .logo {
   margin-left: 0;
   transition: all 0.35s ease;
   display: flex;
+  flex-direction: row;
   justify-content: left;
   align-items: center;
 }
@@ -1032,9 +1033,15 @@ header .logo {
 header .logo .cl-blue {
   color: #1f3864;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
   font-family: sans-serif;
   padding-left: 16px;
+}
+@media screen and (max-width: 480px) {
+  header .logo .cl-blue {
+    font-size: 20px;
+    padding-left: 5px;
+  }
 }
 header .cl-whatsapp {
   color: #1f3864;
@@ -1045,8 +1052,26 @@ header .cl-whatsapp {
   justify-content: left;
   align-items: center;
 }
+header .cl-whatsapp a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+header .cl-whatsapp a.sf-btn.-whatsapp.-web i {
+  font-size: 28px;
+  color: #00caa9;
+  margin: 0 5px;
+  align-self: center;
+}
+@media screen and (max-width: 480px) {
+  header .cl-whatsapp a.sf-btn.-whatsapp.-web i {
+    font-size: 38px;
+  }
+}
 header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
   display: block;
+  font-size: 25px;
+  color: #00466f;
 }
 @media screen and (max-width: 768px) {
   header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
@@ -1157,7 +1182,7 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
   display: flex;
   flex-direction: column;
-  margin: 0 6% 8px 0%;
+  margin: 0 5% 8px 1%;
   width: 150px;
 }
 @media screen and (max-width: 480px) {
