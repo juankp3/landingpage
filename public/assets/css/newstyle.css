@@ -609,9 +609,6 @@ b {
   position: relative;
   min-height: 40px;
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   line-height: 1;
 }
 ._btn:focus,
@@ -1024,6 +1021,11 @@ strong {
   margin: auto;
   box-sizing: content-box;
 }
+@media screen and (max-width: 480px) {
+  .content {
+    margin: 0 4%;
+  }
+}
 section {
   font-size: 16px;
 }
@@ -1136,23 +1138,17 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
   display: flex;
   flex-direction: column;
-  margin: 0 4% 8px 0%;
-  width: 190px;
+  margin: 0 6% 8px 0%;
+  width: 150px;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
-    width: auto;
-    margin: 0 2% 8px 0;
+    width: 100px;
+    margin: 0px 2% 3% 2%;
   }
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img {
   width: 100%;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img {
-    max-width: 110px;
-    height: auto;
-  }
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img:hover {
   outline: 4px solid #fff;
@@ -1250,7 +1246,7 @@ section.sf-container-servicios div.sf-servicios {
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
   display: flex;
   flex-direction: column;
-  flex-grow: 4;
+  flex-grow: 1;
   align-self: center;
 }
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
@@ -1336,7 +1332,7 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
 section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
   width: 792px;
   height: 488px;
-  flex-grow: 8;
+  flex-grow: 2;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
