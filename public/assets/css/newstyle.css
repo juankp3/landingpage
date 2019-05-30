@@ -897,7 +897,7 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-ti
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos {
@@ -906,18 +906,35 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny {
+    justify-content: flex-start;
+  }
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
   display: flex;
   flex-direction: column;
-  margin: 0 0 8px 0;
+  margin: 0 4% 8px 0%;
+  width: 190px;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
+    width: auto;
+    margin: 0 2% 8px 0;
+  }
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img {
-  max-width: 110px;
-  height: auto;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img {
+    max-width: 110px;
+    height: auto;
+  }
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img:hover {
   outline: 4px solid #fff;
@@ -937,9 +954,16 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-
     font-size: 16px;
   }
 }
+section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big {
+  width: 100%;
+}
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big img {
   width: 100%;
-  height: auto;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big img {
+    height: auto;
+  }
 }
 section.sf-container-msj-proyectos {
   background: #fff;
@@ -997,7 +1021,6 @@ section.sf-container-servicios {
 section.sf-container-servicios div.sf-servicios {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios {
@@ -1009,9 +1032,11 @@ section.sf-container-servicios div.sf-servicios {
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
   display: flex;
   flex-direction: column;
+  flex-grow: 4;
+  align-self: center;
 }
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
-  margin: 10% 0 0 0;
+  margin: 0;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
@@ -1090,6 +1115,11 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
     font-size: 18px;
   }
 }
+section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
+  width: 792px;
+  height: 488px;
+  flex-grow: 8;
+}
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
     display: none;
@@ -1097,6 +1127,7 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
 }
 section.sf-container-servicios div.sf-servicios div.sf-img-servicios img {
   width: 100%;
+  height: 100%;
 }
 section section.sf-trabaja-nosotros {
   display: flex;

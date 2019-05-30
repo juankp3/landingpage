@@ -24,22 +24,30 @@ section.sf-container-proyectos
                     font-size: 22px
         div.sf-container-pictures-proyectos
             display: flex
-            flex-direction: row
+            justify-content: center
             +media-s()
                 flex-direction: column
             div.sf-container-pictures-tiny
                 display: flex
-                flex-direction: row
-                flex-wrap: wrap
-                justify-content: space-around
+                flex-flow: row wrap
+                justify-content: flex-start
+                width: 100%;
+                +media-s()
+                    justify-content: flex-start
                 div.sf-content-pictures-tiny
-                    display: flex
+                    display: flex;
                     flex-direction: column
-                    margin: 0 0 8px 0;
+                    margin: 0 4% 8px 0%
+                    width: 190px;
+                    +media-s()
+                        width: auto
+                        margin: 0 2% 8px 0
                     div.sf-picture-tiny
                         img 
-                            max-width: 110px
-                            height: auto
+                            width : 100%
+                            +media-s()
+                                max-width: 110px
+                                height: auto
                         img:hover 
                             outline: 4px solid $color-white
                         img:focus
@@ -49,14 +57,15 @@ section.sf-container-proyectos
                         font-size: 14px 
                         color: $color-white
                         text-align: center
-                        padding: 8px 0;
+                        padding: 8px 0
                         +media-s()
                             font-size: 16px 
             div.sf-container-picture-big
+                width 100%
                 img
                     width: 100%
-                    height: auto 
-
+                    +media-s()
+                        height : auto
 
 
 section.sf-container-msj-proyectos
@@ -73,19 +82,19 @@ section.sf-container-msj-proyectos
             text-align : center
             font-size: 22px
             color: $color-primary
-            align-self: center;
+            align-self: center
             +media-m()
                 font-size: 22px
-                align-self: center;
+                align-self: center
             +media-s()
                 font-size: 22px
             label 
                 font-weight: bold
         div.sf-msj-button
-            margin: 0 0 0 30px;
+            margin: 0 0 0 30px
             +media-m()
                 margin: 10px 0 0 0
-                align-self: center;
+                align-self: center
             +media-s()
                 text-align: center
                 margin: 20px 0 0 0

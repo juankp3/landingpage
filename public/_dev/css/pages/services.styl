@@ -3,7 +3,6 @@ section.sf-container-servicios
     div.sf-servicios
         display: flex
         flex-direction: row
-        justify-content: space-evenly
         +media-s()
             display: flex
             flex-direction: column
@@ -11,8 +10,10 @@ section.sf-container-servicios
         div.sf-data-servicios
             display: flex   
             flex-direction: column
+            flex-grow: 4;
+            align-self: center;
             div.sf-especializados
-                margin: 10% 0 0 0
+                margin: 0
                 +media-s()  
                     margin: 0 10%
                 div.sf-title-especializacion
@@ -66,10 +67,14 @@ section.sf-container-servicios
                             +media-s()
                                 font-size: 18px
         div.sf-img-servicios
+            width: 792px;
+            height: 488px;
+            flex-grow: 8;
             +media-s()
                 display: none
             img
-                width: 100%
+                width: 100%;
+                height: 100%;
 
 section
     section.sf-trabaja-nosotros
