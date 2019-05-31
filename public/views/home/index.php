@@ -2,11 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ViewPort -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
     <link rel="stylesheet" type="text/css" href="https://superpet.pe/themes/superpet/assets/lib/font-awesome/css/font-awesome.min.css" >
-    <title>Document</title>
+
+    <!-- SEO -->
+    <title>Servicios Felix</title>
+    <meta name="description" content="">
+    <meta name="keywords" content=""">
+
+    <!-- Image icon -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="">
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <!-- Properties for social -->
+    <meta property="og:site_name" content="Entel Perú"/>
+    <meta property="og:title" content="Ofertas y promociones"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="">
+    <meta property="og:type" content="page"/>
+    <!-- <meta name="google-site-verification" content="" /> -->
 </head>
 <body>
 
