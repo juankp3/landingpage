@@ -16,7 +16,7 @@ section
 section.sf-title
     justify-content: center
     min-height: 110px
-    background: $color-gray-100
+    background: $color-white
     align-items: center
     display: flex
     p
@@ -31,7 +31,18 @@ section.sf-title
         p
             padding: 24px 32px
             font-size: 22px
+    +media-s()
+        p
+            font-size: 30px
+            padding: 20px 0;
 
+.show-mobile
+    display: none
+    +media-s()
+        display: flex
+.hide-mobile
+    +media-s()
+        display: none
 
 /*
 .sf_btn

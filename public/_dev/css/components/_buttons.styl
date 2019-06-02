@@ -138,6 +138,31 @@ Available buttons:
     display: block
     box-sizing: content-box
 
+._btn-content-rectagle
+  width: 100%
+  font-family: $font-family-ubuntu-medium
+  padding: 0.625em 1.5em
+  border-radius: .25rem
+  background-color: $color-primary
+  color: white
+  &:focus
+    box-shadow: 0 0 0 2px alpha($color-default-action, 0.55)
+  &:hover
+    background-color: $color-primary-dark
+  &:active
+    border-color: $color-primary
+    background-color: $color-primary-light
+  &.-small
+    height: auto
+    line-height: 36px
+    min-height: 0
+    font-size: 14px
+    padding-top: 0
+    padding-bottom: 0
+    text-align: center
+    display: block
+    box-sizing: content-box
+
 ._btn-hollow
   background-color: transparent
   &:hover
@@ -161,14 +186,18 @@ Available buttons:
     background-color: alpha($color-dark, 0.75)
 
 // Use ONLY this buttons
+.btn-content-solid
+  @extend ._btn, ._btn-content
+
+.btn-content-solid-2
+  @extend ._btn, ._btn-content-rectagle
+
+
 .btn-bar
   @extend ._btn, ._btn-bar
 
 .btn-bar-hollow
   @extend ._btn, ._btn-bar, ._btn-hollow, ._btn-hollow-primary
-
-.btn-content-solid
-  @extend ._btn, ._btn-content
 
 .btn-content-hollow-primary
   @extend ._btn, ._btn-content, ._btn-hollow, ._btn-hollow-primary

@@ -47,52 +47,37 @@
 
     
     <section class="sf-title sf-gray-100">
-        <p>¿Necesitas <strong>remodelar</strong> o <strong>ampliar</strong> los ambientes de tu hogar?</p>
+        <div class="content">
+            <p>¿Necesitas <strong>remodelar</strong> o <strong>ampliar</strong> los ambientes de tu hogar?</p>
+        </div>
     </section>
+
 
     <section class="sf-room">
         <div class="content">
-            <div class="sf-description">
-                <h2>¡No te preocupes! Tenemos la más completa solución.</h2>
-                <p>Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
-                muebles a medida y más. Todos con precios a tu alcance.</p>
-            </div>
-            <div class="sf-form">
-                <form action="">
-                    <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
-                    <p>( Incluye plano de distribución )</p>
-                    <div class="input">
-                        <input type="text" placeholder="Nombre">
-                    </div>
-                    <div class="input">
-                        <input type="text" placeholder="Correo">
-                    </div>
-                    <div class="input">
-                        <input type="text" placeholder="Telefono">
-                    </div>
-                    <div class="select">
-                        <select>
-                            <option value="">- Selecione Area-</option>
-                        </select>
-                    </div>
-
-                    <div class="textarea">
-                        <textarea placeholder="Hola estoy interesado (a), solicito más información." cols="30" rows="5"></textarea>
-                    </div>
-
-                    <div class="sf_btn">
-                        <button class="btn-content-solid" type="submit">SOLICITAR INFORMACIÓN</button>
-                    </div>
-                </form>
+            <div class="sf-container-room">
+                <div class="sf-content-description">
+                    <h2 class="sf-room-title">¡No te preocupes! <p>Tenemos la más completa solución.</p></h2>
+                    <p class="sf-room-description">Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
+                    muebles a medida y más. Todos con precios a tu alcance.</p>
+                </div>
+                <div class="sf-content-form hide-mobile">
+                    <?php include 'form.php' ?>
+                </div>
             </div>
         </div>
     </section>
 
 
+    <section class="sf-room show-mobile">
+        <div class="sf-container-room">
+            <div class="sf-content-form">
+                <?php include 'form.php' ?>
+            </div>
+        </div>
+    </section>
 
-
-
-
+    
     <section class="sf-container-beneficios">
         <div class="content">
             <div class="sf-content-beneficios">

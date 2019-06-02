@@ -593,9 +593,10 @@ b {
   box-shadow: 0 0 3px rgba(45,114,183,0.8);
 }
 ._btn,
+.btn-content-solid,
+.btn-content-solid-2,
 .btn-bar,
 .btn-bar-hollow,
-.btn-content-solid,
 .btn-content-hollow-primary,
 .btn-content-hollow-secondary {
   font-weight: 400;
@@ -612,9 +613,10 @@ b {
   line-height: 1;
 }
 ._btn:focus,
+.btn-content-solid:focus,
+.btn-content-solid-2:focus,
 .btn-bar:focus,
 .btn-bar-hollow:focus,
-.btn-content-solid:focus,
 .btn-content-hollow-primary:focus,
 .btn-content-hollow-secondary:focus {
   outline: none;
@@ -676,6 +678,40 @@ b {
 .btn-content-solid.-small,
 .btn-content-hollow-primary.-small,
 .btn-content-hollow-secondary.-small {
+  height: auto;
+  line-height: 36px;
+  min-height: 0;
+  font-size: 14px;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  display: block;
+  box-sizing: content-box;
+}
+._btn-content-rectagle,
+.btn-content-solid-2 {
+  width: 100%;
+  font-family: "UbuntuMedium";
+  padding: 0.625em 1.5em;
+  border-radius: 0.25rem;
+  background-color: #00caa9;
+  color: #fff;
+}
+._btn-content-rectagle:focus,
+.btn-content-solid-2:focus {
+  box-shadow: 0 0 0 2px rgba(1,111,229,0.55);
+}
+._btn-content-rectagle:hover,
+.btn-content-solid-2:hover {
+  background-color: #018e77;
+}
+._btn-content-rectagle:active,
+.btn-content-solid-2:active {
+  border-color: #00caa9;
+  background-color: #00caa9;
+}
+._btn-content-rectagle.-small,
+.btn-content-solid-2.-small {
   height: auto;
   line-height: 36px;
   min-height: 0;
@@ -925,69 +961,74 @@ section.sf-room {
 @media screen and (max-width: 480px) {
   section.sf-room {
     height: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: none;
   }
 }
-section.sf-room .content {
+section.sf-room .sf-container-room {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 @media screen and (max-width: 480px) {
-  section.sf-room .content {
-    height: auto;
-    display: block;
-    padding: 0px;
+  section.sf-room .sf-container-room {
+    flex-direction: column;
   }
 }
-section.sf-room .sf-description {
+section.sf-room .sf-container-room .sf-content-description {
   width: 66.6%;
 }
 @media screen and (max-width: 960px) {
-  section.sf-room .sf-description {
+  section.sf-room .sf-container-room .sf-content-description {
     width: 50%;
   }
 }
 @media screen and (max-width: 480px) {
-  section.sf-room .sf-description {
+  section.sf-room .sf-container-room .sf-content-description {
     width: 100%;
+    text-align: center;
   }
 }
-section.sf-room .sf-description h2 {
-  font-family: 'UbuntuBold';
-  color: #1f3864;
-  font-size: 30px;
-  padding-top: 52px;
-  font-weight: bold;
+section.sf-room .sf-container-room .sf-content-description h2.sf-room-title {
+  color: #00466f;
+  font-family: "UbuntuRegular";
+  font-size: 24px;
+  padding: 10px 0;
 }
-@media screen and (max-width: 480px) {
-  section.sf-room .sf-description h2 {
-    padding: 24px 32px;
-    font-size: 24px;
-  }
+section.sf-room .sf-container-room .sf-content-description h2.sf-room-title p {
+  margin: 0;
 }
-section.sf-room .sf-form {
-  background: #205d81;
-  opacity: 0.9;
+section.sf-room .sf-container-room .sf-content-description p.sf-room-description {
+  font-family: "UbuntuLight";
+  font-size: 18px;
+  padding: 0 0 10px 0;
+}
+section.sf-room .sf-container-room .sf-content-form {
   width: 33%;
-  height: 530px;
 }
 @media screen and (max-width: 960px) {
-  section.sf-room .sf-form {
+  section.sf-room .sf-container-room .sf-content-form {
     width: 50%;
   }
 }
 @media screen and (max-width: 480px) {
-  section.sf-room .sf-form {
+  section.sf-room .sf-container-room .sf-content-form {
     width: 100%;
-    height: auto;
   }
 }
-section.sf-room .sf-form form {
+section.sf-room .sf-container-room .sf-content-form .sf-form {
+  height: 530px;
+  background: #205d81;
+}
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form {
+    background: #f5f5f5;
+  }
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form {
   width: 80%;
   margin: auto;
 }
-section.sf-room .sf-form form h4 {
+section.sf-room .sf-container-room .sf-content-form .sf-form form h4 {
   font-family: 'UbuntuBold';
   font-size: 20px;
   line-height: 22px;
@@ -996,10 +1037,15 @@ section.sf-room .sf-form form h4 {
   text-align: center;
   font-weight: bold;
 }
-section.sf-room .sf-form form h4 strong {
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form h4 {
+    color: #757575;
+  }
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form h4 strong {
   color: #00caa9 !important;
 }
-section.sf-room .sf-form form p {
+section.sf-room .sf-container-room .sf-content-form .sf-form form p {
   font-family: 'UbuntuMedium';
   font-weight: 500;
   font-size: 13px;
@@ -1008,16 +1054,21 @@ section.sf-room .sf-form form p {
   color: #fff;
   margin: 0px 0px 16px;
 }
-section.sf-room .sf-form form div.sf_btn {
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form p {
+    color: #757575;
+  }
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form div.sf_btn {
   text-align: center;
 }
 @media screen and (max-width: 480px) {
-  section.sf-room .sf-form form div.sf_btn {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form div.sf_btn {
     margin: 0 0 15px 0;
   }
 }
 @media screen and (max-width: 480px) {
-  section.sf-room .sf-form form {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form {
     height: 100%;
   }
 }
@@ -1114,7 +1165,7 @@ section {
 section.sf-title {
   justify-content: center;
   min-height: 110px;
-  background: #f8f8f8;
+  background: #fff;
   align-items: center;
   display: flex;
 }
@@ -1133,6 +1184,25 @@ section.sf-title p {
   section.sf-title p {
     padding: 24px 32px;
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-title p {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+}
+.show-mobile {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .show-mobile {
+    display: flex;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hide-mobile {
+    display: none;
   }
 }
 section.sf-container-proyectos {
