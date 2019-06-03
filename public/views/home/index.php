@@ -52,6 +52,11 @@
         </div>
     </section>
 
+    <section class="st-container-img-banner show-mobile">
+        <div class="content">
+            <img src="assets/img/sala.png" alt="">
+        </div>
+    </section>
 
     <section class="sf-room">
         <div class="content">
@@ -101,7 +106,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <section class="sf-container-proyectos">
         <div class="content">
