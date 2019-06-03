@@ -692,7 +692,7 @@ b {
 .btn-content-solid-2 {
   width: 100%;
   font-family: "UbuntuMedium";
-  padding: 0.625em 1.5em;
+  padding: 16px 8px;
   border-radius: 0.25rem;
   background-color: #00caa9;
   color: #fff;
@@ -1025,7 +1025,14 @@ section.sf-room .sf-container-room .sf-content-form .sf-form {
   }
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form {
+  width: 100%;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top {
   width: 80%;
+  margin: auto;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-bottom {
+  width: 90%;
   margin: auto;
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form h4 {
