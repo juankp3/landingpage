@@ -95,3 +95,47 @@ section.sf-container-msj-proyectos
             +media-s()
                 text-align: center
                 margin: 20px 0 0 0
+
+
+
+
+
+
+
+
+ul.list-categories
+    list-style: none
+    padding: 0
+    margin: 0 0 0 10px
+    overflow hidden
+    width: 150px;
+    li
+        height 80px
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border-top: solid 2px $color-gray-350
+        border-left: solid 6px $color-gray-600
+        border-right: solid 2px $color-gray-350
+        //outline: 2px solid $color-gray-350  $color-gray-600
+        & i
+            align-self: center
+            font-size: 2em
+            margin-bottom: 4px
+        & div
+            font-family: $font-family-ubuntu-regular
+            font-size: 0.9em
+        &:last-child
+                border-bottom: solid 2px $color-gray-350
+
+        
+    /*li:hover
+        border-left: solid 4px $color-primary
+    li:focus
+        border-left: solid 4px $color-primary
+        outline: 0
+    li:active 
+        //outline: 4px solid $color-primary
+        border-left: solid -4px $color-primary
+*/

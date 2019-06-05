@@ -148,6 +148,33 @@
         </div>
     </section> 
 
+
+    <section>
+        <ul class="list-categories">
+            <li>
+                <i class="fa fa-bed"></i>
+                <div>SALAS</div>
+            </li>  
+            <li>
+                <i class="fa fa-bath"></i>
+                <div>COCINA</div>
+            </li>  
+            <li>
+                <i class="fa fa-bed"></i>
+                <div>DORMITORIO</div>
+            </li>  
+            <li>
+                <i class="fa fa-bath"></i>
+                <div>COMEDOR</div>
+            </li>
+            <li>
+                <i class="fa fa-bath"></i>
+                <div>BAÑO</div>
+            </li>   
+        </ul>
+    </section>
+
+
     <section class="sf-container-msj-proyectos">
         <div class="content">
             <div class="sf-container-flex-msj-proyectos">
