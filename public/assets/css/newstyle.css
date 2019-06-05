@@ -1396,7 +1396,8 @@ ul.list-categories li a:focus {
   box-shadow: -6px 0px 0px 0px #00caa9;
   outline: 0;
 }
-ul.list-categories li a:hover div {
+ul.list-categories li a:hover div,
+ul.list-categories li a:focus div {
   color: #00caa9;
 }
 ul.list-categories li i {
