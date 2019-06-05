@@ -148,28 +148,38 @@
         </div>
     </section> 
 
-
+<br><br>
     <section>
         <ul class="list-categories">
             <li>
-                <i class="fa fa-bed"></i>
-                <div>SALAS</div>
+                <a href="#">
+                    <i class="fa fa-bed"></i>
+                    <div>SALAS</div>
+                </a>
             </li>  
             <li>
-                <i class="fa fa-bath"></i>
-                <div>COCINA</div>
+                <a href="#">
+                    <i class="fa fa-bath"></i>
+                    <div>COCINA</div>
+                </a>
             </li>  
             <li>
-                <i class="fa fa-bed"></i>
-                <div>DORMITORIO</div>
+                <a href="#">
+                    <i class="fa fa-bed"></i>
+                    <div>DORMITORIO</div>
+                </a>
             </li>  
             <li>
-                <i class="fa fa-bath"></i>
-                <div>COMEDOR</div>
+                <a href="#">
+                    <i class="fa fa-bath"></i>
+                    <div>COMEDOR</div>
+                </a>
             </li>
             <li>
-                <i class="fa fa-bath"></i>
-                <div>BAÑO</div>
+                <a href="#">
+                    <i class="fa fa-bath"></i>
+                    <div>BAÑO</div>
+                </a>
             </li>   
         </ul>
     </section>
