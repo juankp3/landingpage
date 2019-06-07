@@ -10,6 +10,13 @@
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
     <link rel="stylesheet" type="text/css" href="https://superpet.pe/themes/superpet/assets/lib/font-awesome/css/font-awesome.min.css" >
 
+
+     <!-- Owl Stylesheets -->
+     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+
     <!-- SEO -->
     <title>Servicios Felix</title>
     <meta name="description" content="">
@@ -26,6 +33,28 @@
     <meta property="og:image" content="">
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
+
+    <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 1
+                  },
+                  1000: {
+                    items: 1
+                  }
+                }
+              })
+            })
+          </script>
 </head>
 <body>
 
@@ -150,38 +179,10 @@
 
 <br><br>
     <section>
-        <ul class="list-categories">
-            <li>
-                <a href="#">
-                    <i class="fa fa-bed"></i>
-                    <div>SALAS</div>
-                </a>
-            </li>  
-            <li>
-                <a href="#">
-                    <i class="fa fa-bath"></i>
-                    <div>COCINA</div>
-                </a>
-            </li>  
-            <li>
-                <a href="#">
-                    <i class="fa fa-bed"></i>
-                    <div>DORMITORIO</div>
-                </a>
-            </li>  
-            <li>
-                <a href="#">
-                    <i class="fa fa-bath"></i>
-                    <div>COMEDOR</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-bath"></i>
-                    <div>BAÑO</div>
-                </a>
-            </li>   
-        </ul>
+        <?php 
+        
+
+        include 'gallery.php' ?>
     </section>
 
 

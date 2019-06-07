@@ -6,7 +6,61 @@ class HomeController
 
     public function index() 
     {
-        Flight::render('home/index.php');
+        $gallery = $this->gallery();
+        Flight::render('home/index.php', array('gallery' => $gallery));
+    }
+
+    public function gallery()
+    {
+        $gallery = array(
+            array(
+                'name' => 'SALAS', 
+                'icon' => 'fa-bed', 
+                'photos' => array(
+                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
+                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
+                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                )
+            ),
+            array(
+                'name' => 'COCINA', 
+                'icon' => 'fa-bath', 
+                'photos' => array(
+                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
+                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
+                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                )
+            ),
+            array(
+                'name' => 'DORMITORIO', 
+                'icon' => 'fa-bed', 
+                'photos' => array(
+                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
+                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
+                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                )
+            ),
+            array(
+                'name' => 'COMEDOR', 
+                'icon' => 'fa-bed', 
+                'photos' => array(
+                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
+                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
+                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                )
+            ),
+            array(
+                'name' => 'BAÑO', 
+                'icon' => 'fa-bed', 
+                'photos' => array(
+                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
+                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
+                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                )
+            )
+        );
+
+        return $gallery;
     }
 
 
