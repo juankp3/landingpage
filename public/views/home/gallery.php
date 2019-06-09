@@ -24,12 +24,11 @@
 
             </div>
             <div class="sf-container-picture-big">
-
+                    <div class="load"></div>
                     <?php 
                     $contGallery = 0;
                     foreach($gallery as $room): 
                         $contGallery++;
-                        
                     ?>
                     <div id="<?php echo 'gallery_'.$contGallery ?>" class="owl-carousel owl-theme" style="display: <?php echo ($contGallery == 1)?'block':'none';  ?>">
                         <?php foreach($room['photos'] as $photos): ?>

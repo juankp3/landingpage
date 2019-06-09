@@ -18,12 +18,21 @@ function landing() {
         dom.actionGallery.removeClass('active')
         $(this).addClass('active')
 
-        $('.owl-carousel').hide()
-        $('#gallery_'+id).show();
-        console.log('Holaaa')
+        $( '.load' ).fadeIn(function() {
+            // debugger
+            setTimeout(function(){
+                $('.owl-carousel').hide().addClass('owl-hidden')
+                setTimeout(function(){
+                    $( '#gallery_'+id ).show()
+                    setTimeout(function(){
+                        $( '.load' ).fadeOut()
+                    }, 10);
+                }, 10);
+            }, 10);
+
+        });
 
         return false
-        // return fn.checkReminder(e);
     }
 
 
