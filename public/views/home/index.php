@@ -77,7 +77,7 @@
     
     <section class="sf-title sf-gray-100">
         <div class="content">
-            <p>¿Necesitas <strong>remodelar</strong> o <strong>ampliar</strong> los ambientes de tu hogar?</p>
+            <p>¿Necesitas <strong>Remodelar</strong> o <strong>Ampliar</strong> los ambientes de tu hogar?</p>
         </div>
     </section>
 

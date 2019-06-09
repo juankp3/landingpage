@@ -4,7 +4,7 @@
             <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
             <p>( Incluye plano de distribución )</p>
             <div class="input">
-                <input type="text" placeholder="Nombre">
+                <input class="inputtext" type="text" placeholder="Nombre">
             </div> 
             <div class="input">
                 <input type="text" placeholder="Correo"> 
@@ -15,6 +15,11 @@
             <div class="select">
                 <select>
                     <option value="">- Selecione Area-</option>
+                    <option value="sala">Sala</option>
+                    <option value="cocina">Cocina</option>
+                    <option value="dormitorio">Dormitorio</option>
+                    <option value="comedor">Comedor</option>
+                    <option value="bano">Baño</option>
                 </select>
             </div>
 
