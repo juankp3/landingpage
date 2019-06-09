@@ -108,15 +108,22 @@ ul.list-categories
     list-style: none
     padding: 0
     margin: 0 0 0 10px
-    width: 120px;
-    li
+    width: 120px
+    +media-s()
+        margin: 0
+        display: flex;
+        flex-direction: row
+        width: 1200px
+    & li
         display: flex;
         flex-direction: column
         justify-content: center
         text-align: center
         border-left: solid 6px $color-gray-600
-        background: $color-white
-        a
+        background: $color-white    
+        +media-s()
+            width: 144px 
+        & a
             color : $color-gray-600
             padding: 15px 0
             display: block
@@ -144,44 +151,49 @@ ul.list-categories
 //nueva seccion
 section.sf-container-proyectos-new
     background: $color-gray
-    & div.sf-container-flex-proyectos
-        display: flex
-        flex-direction: column
-        margin: 40px 0
-        div.sf-content-titles-proyectos 
-            color: $color-gray-500
-            text-align: center
-            margin : 0 0 25px 0
-            div.sf-title-proyectos
-                font-family: UbuntuMedium
-                font-size: 44px 
-                label
-                    font-family: UbuntuBold
-                +media-s()
-                    font-size: 35px
-            div.sf-subtitle-proyectos
-                font-family: UbuntuMedium
-                font-size: 26px 
-                label
-                    font-family: UbuntuLight
-                +media-s()
-                    font-size: 22px
-        div.sf-container-pictures-proyectos
+    & .content
+        +media-s()
+            margin: 0
+        & div.sf-container-flex-proyectos
             display: flex
-            +media-s()
-                flex-direction: column
-            div.sf-container-pictures-tiny
-                display: flex
-                flex-direction: row-reverse
-                flex-grow: 1
-                +media-s()
-                    justify-content: flex-start
-            div.sf-container-picture-big
-                flex-grow: 3
-                img
-                    width: 100%
+            flex-direction: column
+            margin: 40px 0
+            & div.sf-content-titles-proyectos 
+                color: $color-gray-500
+                text-align: center
+                margin : 0 0 25px 0
+                & div.sf-title-proyectos
+                    font-family: UbuntuMedium
+                    font-size: 44px 
+                    & label
+                        font-family: UbuntuBold
                     +media-s()
-                        height : auto
+                        font-size: 35px
+                & div.sf-subtitle-proyectos
+                    font-family: UbuntuMedium
+                    font-size: 26px 
+                    & label
+                        font-family: UbuntuLight
+                    +media-s()
+                        font-size: 22px
+            & div.sf-container-pictures-proyectos
+                display: flex
+                +media-s()
+                    flex-direction: column
+                & div.sf-container-pictures-tiny
+                    display: flex
+                    flex-direction: row-reverse
+                    flex-grow: 1
+                    +media-s()
+                        justify-content: flex-start
+                        flex-direction: row
+                        overflow-x: auto
+                & div.sf-container-picture-big
+                    flex-grow: 3
+                    & img
+                        +media-s()
+                            height : auto
+                            flex-grow: 1
 
 
 
