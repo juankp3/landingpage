@@ -14,8 +14,12 @@ function landing() {
 
     events = {}
     events.onClickActionGallery = function (e) {
+        let id = $(this).data('id')
         dom.actionGallery.removeClass('active')
         $(this).addClass('active')
+
+        $('.owl-carousel').hide()
+        $('#gallery_'+id).show();
         console.log('Holaaa')
 
         return false

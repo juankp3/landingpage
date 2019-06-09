@@ -14,7 +14,7 @@
                             $cont++;
                         ?>
                             <li>
-                                <a href="#" class="<?php echo ($cont == 1)?'active':'';  ?>">
+                                <a href="#" class="<?php echo ($cont == 1)?'active':'';  ?>" data-id="<?php echo $cont; ?>">
                                     <i class="fa <?php echo $room['icon'] ?>"></i>
                                     <div><?php echo $room['name'] ?></div>
                                 </a>
@@ -31,7 +31,7 @@
                             $contGallery++;
                             
                         ?>
-                        <div class="owl-carousel owl-theme">
+                        <div id="<?php echo 'gallery_'.$contGallery ?>" class="owl-carousel owl-theme" style="display: <?php echo ($contGallery == 1)?'block':'none';  ?>">
                             <?php foreach($room['photos'] as $photos): ?>
                             <div class="item">
                                 <img src="assets/img/room/<?php echo $photos['image']?>">
