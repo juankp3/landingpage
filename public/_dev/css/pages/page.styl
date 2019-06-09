@@ -1,7 +1,6 @@
 body 
-    font-family: 'UbuntuRegular'
-strong 
-    font-family: 'UbuntuBold'
+    font-family: $font-family-ubuntu
+
 .content
     overflow: hidden
     max-width: $extra-large
@@ -20,6 +19,9 @@ section.sf-title
     align-items: center
     display: flex
     p
+        font-family: $font-family-ubuntu
+        font-weight: lighter
+        line-height: 35px
         text-align: center
         font-size: 30px
         color: $color-primary
