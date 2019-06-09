@@ -7,11 +7,14 @@
             </div>
             <div class="sf-container-pictures-proyectos">
                 <div class="sf-container-pictures-tiny">
-                    
                     <ul class="list-categories">
-                        <?php foreach($gallery as $room): ?>
+                        <?php 
+                        $cont = 0;
+                        foreach($gallery as $room): 
+                            $cont++;
+                        ?>
                             <li>
-                                <a href="#">
+                                <a href="#" class="<?php echo ($cont == 1)?'active':'';  ?>">
                                     <i class="fa <?php echo $room['icon'] ?>"></i>
                                     <div><?php echo $room['name'] ?></div>
                                 </a>

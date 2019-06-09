@@ -1,18 +1,25 @@
 function landing() {
-    var dom, catchDom, suscribeEvents, events, fn, init,
+    var dom, catchDom, suscribeEvents, event, fn, init,
 
     dom = {}
     catchDom = function () {
-        dom.cboReminder = $('.js-id_reminder')
+        dom.gallery = $('ul.list-categories')
+        dom.actionGallery = $('ul.list-categories li a')
     }
 
     suscribeEvents = function () {
-        // dom.btnPaymentConfirmation.on('click', events.onClickbtnPaymentConfirmation)
+        console.log('Test event')
+        dom.actionGallery.on('click', events.onClickActionGallery)
     }
 
     events = {}
-    events.onClickbtnPaymentConfirmation = function (e) {
-        return fn.checkReminder(e);
+    events.onClickActionGallery = function (e) {
+        dom.actionGallery.removeClass('active')
+        $(this).addClass('active')
+        console.log('Holaaa')
+
+        return false
+        // return fn.checkReminder(e);
     }
 
 
@@ -41,9 +48,11 @@ function landing() {
 
 
     init = function () {
-        catchDom()
-        suscribeEvents()
-        fn.carousel()
+        $(document).ready(function() {
+            catchDom()
+            suscribeEvents()
+            fn.carousel()
+        })
 
     }
 
