@@ -176,6 +176,7 @@ section.sf-container-proyectos-new
         width: 1100px
         +media-s()
             margin: 0
+            width: 100%
         & div.sf-container-flex-proyectos
             display: flex
             flex-direction: column
@@ -260,7 +261,12 @@ section.sf-container-proyectos-new
             font-size: 40px
             color: $color-primary
 .owl-dots
-    margin-top: 10px
+    margin-top: 15px
+    & button
+        outline: 0
+    & button.active span
+        background: $color-primary !important
+        outline: 0
 
 
 
