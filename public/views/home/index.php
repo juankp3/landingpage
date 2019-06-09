@@ -117,75 +117,9 @@
     </section> 
 
 
-
-<!--
-    <section class="sf-container-proyectos">
-        <div class="content">
-            <div class="sf-container-flex-proyectos">
-                <div class="sf-content-titles-proyectos">
-                    <div class="sf-title-proyectos">¡RENUEVA <label>TODO</label>!</div>
-                    <div class="sf-subtitle-proyectos">PROYECTOS <label>REALIZADOS</label></div>
-                </div>
-                <div class="sf-container-pictures-proyectos">
-                    <div class="sf-container-pictures-tiny">
-
-                        <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
-                            <div class="sf-title-picture-tiny">SALAS</div>
-                        </div>
-                        <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
-                            <div class="sf-title-picture-tiny">SALAS</div>
-                        </div>
-                        <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
-                            <div class="sf-title-picture-tiny">SALAS</div>
-                        </div>
-                        <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
-                            <div class="sf-title-picture-tiny">SALAS</div>
-                        </div>
-                        <div class="sf-content-pictures-tiny">
-                            <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
-                            <div class="sf-title-picture-tiny">SALAS</div>
-                        </div>
-                    </div>
-                    <div class="sf-container-picture-big">
-                        <img src="assets/img/comedor.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> 
--->
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br>
-    <section>
-        <?php 
-        
-
-        include 'gallery.php' ?>
+    <section class="sf-container-proyectos-new">
+        <?php  include 'gallery.php' ?>
     </section>
-
-
-
-
-
-
-
-
-
 
     <section class="sf-container-msj-proyectos">
         <div class="content">
