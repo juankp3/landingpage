@@ -35,16 +35,4 @@
             </div>
         </div>
     </div>
-</section> 
-
-
-<!--
-<div class="owl-carousel owl-theme">
-    <div class="item">
-        <img src="assets/img/room/SALA-1.png">
-    </div>
-    <div class="item">
-        <img src="assets/img/room/SALA-2.png">
-    </div>
-</div>
--->
+</section>

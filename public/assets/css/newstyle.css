@@ -1405,6 +1405,19 @@ section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-ms
     margin: 20px 0 0 0;
   }
 }
+ul.list-categories li a.active {
+  color: #00caa9;
+  -webkit-box-shadow: -6px 0px 0px 0px #00caa9;
+  box-shadow: -6px 0px 0px 0px #00caa9;
+  outline: 0;
+}
+@media screen and (max-width: 480px) {
+  ul.list-categories li a.active {
+    -webkit-box-shadow: 0px -6px 0px 0px #00caa9;
+    -moz-box-shadow: 0px -6px 0px 0px #00caa9;
+    box-shadow: 0px -6px 0px 0px #00caa9;
+  }
+}
 ul.list-categories {
   list-style: none;
   padding: 0;
