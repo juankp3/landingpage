@@ -123,17 +123,26 @@ ul.list-categories
         background: $color-white    
         +media-s()
             width: 144px 
+            border-top: solid 6px #757575
+            border-left: 0
         & a
             color : $color-gray-600
             padding: 15px 0
             display: block
             border-top: solid 1px $color-gray-350
             border-right: solid 1px $color-gray-350
+            +media-s()
+                border-top: solid 1px $color-gray-350
+                border-right: solid 1px $color-gray-350
             &:hover , &:focus 
                 color : $color-primary
                 -webkit-box-shadow: -6px 0px 0px 0px $color-primary
                 box-shadow: -6px 0px 0px 0px $color-primary
                 outline: 0 
+                +media-s()
+                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary
+                    -moz-box-shadow: 0px -6px 0px 0px $color-primary
+                    box-shadow: 0px -6px 0px 0px $color-primary
             &:hover div, &:focus div 
                 color : $color-primary
         & i
@@ -146,7 +155,9 @@ ul.list-categories
             color: $color-gray-550
         &:last-child
             border-bottom: solid 1px $color-gray-350
-
+            +media-s()
+                border-bottom: 0
+                border-right: solid 1px $color-gray-350
 
 //nueva seccion
 section.sf-container-proyectos-new
@@ -190,7 +201,9 @@ section.sf-container-proyectos-new
                         overflow-x: auto
                 & div.sf-container-picture-big
                     flex-grow: 3
+                    width: 100%
                     & img
+                        width: 100%
                         +media-s()
                             height : auto
                             flex-grow: 1
