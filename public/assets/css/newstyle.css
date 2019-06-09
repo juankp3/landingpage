@@ -779,7 +779,8 @@ b {
   box-sizing: border-box;
   height: 50px;
   outline: none;
-  font-weight: 700;
+  box-shadow: none;
+  color: #757575;
 }
 .input > input:focus {
   border-color: #00caa9;
@@ -796,7 +797,6 @@ b {
   background-color: #fff;
   color: #6a6a6a;
   padding: 0 10px;
-  font-size: 14px;
   cursor: pointer;
   outline: none;
   outline: 0;
