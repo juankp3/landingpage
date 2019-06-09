@@ -15,6 +15,11 @@
             <div class="select">
                 <select>
                     <option value="">- Selecione Area-</option>
+                    <option value="sala">Sala</option>
+                    <option value="cocina">Cocina</option>
+                    <option value="dormitorio">Dormitorio</option>
+                    <option value="comedor">Comedor</option>
+                    <option value="bano">Baño</option>
                 </select>
             </div>
 

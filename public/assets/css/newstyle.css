@@ -1086,6 +1086,12 @@ header {
   position: relative;
   z-index: 1000;
 }
+@media screen and (max-width: 768px) {
+  header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
 header .content {
   display: flex;
   justify-content: space-between;
@@ -1099,22 +1105,25 @@ header .logo {
   justify-content: left;
   align-items: center;
 }
+header .logo img {
+  height: 48px;
+}
 @media screen and (max-width: 768px) {
   header .logo img {
-    height: 50px;
+    height: 40px;
   }
 }
 header .logo .cl-blue {
   color: #1f3864;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   font-family: sans-serif;
   padding-left: 16px;
 }
 @media screen and (max-width: 480px) {
   header .logo .cl-blue {
-    font-size: 20px;
-    padding-left: 5px;
+    font-size: 16px;
+    padding-left: 8px;
   }
 }
 header .cl-whatsapp {
@@ -1181,7 +1190,7 @@ section.sf-title {
 }
 section.sf-title p {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   color: #00caa9;
   margin: 0;
 }
