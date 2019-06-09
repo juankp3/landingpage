@@ -137,6 +137,9 @@
         </div>
     </section> 
 
+
+
+<!--
     <section class="sf-container-proyectos">
         <div class="content">
             <div class="sf-container-flex-proyectos">
@@ -167,7 +170,6 @@
                             <div class="sf-picture-tiny"><img src="assets/img/tiny.png" alt=""></div>
                             <div class="sf-title-picture-tiny">SALAS</div>
                         </div>
-
                     </div>
                     <div class="sf-container-picture-big">
                         <img src="assets/img/comedor.png" alt="">
@@ -176,6 +178,18 @@
             </div>
         </div>
     </section> 
+-->
+
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
     <section>
@@ -184,6 +198,14 @@
 
         include 'gallery.php' ?>
     </section>
+
+
+
+
+
+
+
+
 
 
     <section class="sf-container-msj-proyectos">

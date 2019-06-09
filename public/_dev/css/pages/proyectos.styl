@@ -95,6 +95,15 @@ section.sf-container-msj-proyectos
                 text-align: center
                 margin: 20px 0 0 0
 
+
+
+
+
+
+
+
+
+//botones
 ul.list-categories
     list-style: none
     padding: 0
@@ -102,10 +111,11 @@ ul.list-categories
     width: 120px;
     li
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        flex-direction: column
+        justify-content: center
+        text-align: center
         border-left: solid 6px $color-gray-600
+        background: $color-white
         a
             color : $color-gray-600
             padding: 15px 0
@@ -128,4 +138,125 @@ ul.list-categories
             font-size: 10px
             color: $color-gray-550
         &:last-child
-                border-bottom: solid 1px $color-gray-350
+            border-bottom: solid 1px $color-gray-350
+
+
+//nueva seccion
+section.sf-container-proyectos-new
+    background: $color-gray
+    & div.sf-container-flex-proyectos
+        display: flex
+        flex-direction: column
+        margin: 40px 0
+        div.sf-content-titles-proyectos 
+            color: $color-gray-500
+            text-align: center
+            margin : 0 0 25px 0
+            div.sf-title-proyectos
+                font-family: UbuntuMedium
+                font-size: 44px 
+                label
+                    font-family: UbuntuBold
+                +media-s()
+                    font-size: 35px
+            div.sf-subtitle-proyectos
+                font-family: UbuntuMedium
+                font-size: 26px 
+                label
+                    font-family: UbuntuLight
+                +media-s()
+                    font-size: 22px
+        div.sf-container-pictures-proyectos
+            display: flex
+            +media-s()
+                flex-direction: column
+            div.sf-container-pictures-tiny
+                display: flex
+                flex-direction: row-reverse
+                flex-grow: 1
+                +media-s()
+                    justify-content: flex-start
+            div.sf-container-picture-big
+                flex-grow: 3
+                img
+                    width: 90%
+                    +media-s()
+                        height : auto
+
+
+
+/*section.sf-container-proyectos
+    background: $color-primary
+    div.sf-container-flex-proyectos
+        display: flex
+        flex-direction: column
+        margin: 40px 0
+        div.sf-content-titles-proyectos 
+            color: $color-white
+            text-align: center
+            margin : 0 0 25px 0
+            div.sf-title-proyectos
+                font-family: UbuntuMedium
+                font-size: 44px 
+                label
+                    font-family: UbuntuBold
+                +media-s()
+                    font-size: 35px
+            div.sf-subtitle-proyectos
+                font-family: UbuntuMedium
+                font-size: 26px 
+                label
+                    font-family: UbuntuLight
+                +media-s()
+                    font-size: 22px
+        div.sf-container-pictures-proyectos
+            display: flex
+            justify-content: center
+            +media-s()
+                flex-direction: column
+            div.sf-container-pictures-tiny
+                display: flex
+                flex-flow: row wrap
+                justify-content: flex-start
+                width: 100%;
+                +media-s()
+                    justify-content: flex-start
+                div.sf-content-pictures-tiny
+                    display: flex;
+                    flex-direction: column
+                    margin: 0 5% 8px 1%;
+                    width: 150px;
+                    +media-s()
+                        width: 100px;   
+                        margin: 0px 0 3% 2%
+                    div.sf-picture-tiny
+                        img 
+                            width : 100%
+                        img:hover 
+                            outline: 4px solid $color-white
+                        img:focus
+                            outline: 4px solid $color-white
+                    div.sf-title-picture-tiny
+                        font-family: UbuntuBold
+                        font-size: 14px 
+                        color: $color-white
+                        text-align: center
+                        padding: 8px 0
+                        +media-s()
+                            font-size: 16px 
+            div.sf-container-picture-big
+                width 100%
+                img
+                    width: 100%
+                    +media-s()
+                        height : auto
+*/
+
+
+
+
+
+
+
+
+
