@@ -17,45 +17,46 @@ class HomeController
                 'name' => 'SALAS', 
                 'icon' => 'fa-bed', 
                 'photos' => array(
-                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
-                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
-                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                    array('name' => 'Foto 1', 'image' => 'SALA-1.png'),
+                    array('name' => 'Foto 2', 'image' => 'SALA-2.png'),
+                    array('name' => 'Foto 3', 'image' => 'SALA-3.png'),
                 )
             ),
             array(
                 'name' => 'COCINA', 
                 'icon' => 'fa-bath', 
                 'photos' => array(
-                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
-                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
-                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                    array('name' => 'Foto 1', 'image' => 'COCINA-1.png'),
+                    array('name' => 'Foto 2', 'image' => 'COCINA-2.png'),
+                    array('name' => 'Foto 3', 'image' => 'COCINA-3.png'),
+                    array('name' => 'Foto 4', 'image' => 'COCINA-4.png'),
                 )
             ),
             array(
                 'name' => 'DORMITORIO', 
                 'icon' => 'fa-bed', 
                 'photos' => array(
-                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
-                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
-                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                    array('name' => 'Foto 1', 'image' => 'DORMITORIO-1.png'),
+                    array('name' => 'Foto 2', 'image' => 'DORMITORIO-2.png'),
+                    array('name' => 'Foto 3', 'image' => 'DORMITORIO-3.png'),
                 )
             ),
             array(
                 'name' => 'COMEDOR', 
                 'icon' => 'fa-bed', 
                 'photos' => array(
-                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
-                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
-                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                    array('name' => 'Foto 1', 'image' => 'COMEDOR-1.png'),
+                    array('name' => 'Foto 2', 'image' => 'COMEDOR-2.png'),
+                    array('name' => 'Foto 3', 'image' => 'COMEDOR-3.png'),
                 )
             ),
             array(
                 'name' => 'BAÑO', 
                 'icon' => 'fa-bed', 
                 'photos' => array(
-                    array('name' => 'Foto 1', 'image' => 'image.jpg'),
-                    array('name' => 'Foto 2', 'image' => 'image2.jpg'),
-                    array('name' => 'Foto 3', 'image' => 'image3.jpg'),
+                    array('name' => 'Foto 1', 'image' => 'BANO-1.png'),
+                    array('name' => 'Foto 2', 'image' => 'BANO-2.png'),
+                    array('name' => 'Foto 3', 'image' => 'BANO-3.png'),
                 )
             )
         );
