@@ -11,11 +11,12 @@
     <link rel="stylesheet" type="text/css" href="https://superpet.pe/themes/superpet/assets/lib/font-awesome/css/font-awesome.min.css" >
 
 
-     <!-- Owl Stylesheets -->
-     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/js/init.js"></script>
 
     <!-- SEO -->
     <title>Servicios Felix</title>
@@ -33,28 +34,6 @@
     <meta property="og:image" content="">
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
-
-    <script>
-        $(document).ready(function() {
-            var owl = $('.owl-carousel');
-            owl.owlCarousel({
-            margin: 10,
-            nav: true,
-            loop: true,
-            responsive: {
-                0: {
-                items: 1
-                },
-                600: {
-                items: 1
-                },
-                1000: {
-                items: 1
-                }
-            }
-            })
-        })
-    </script>
 </head>
 <body>
 
