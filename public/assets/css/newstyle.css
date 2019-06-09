@@ -1422,7 +1422,7 @@ ul.list-categories {
   list-style: none;
   padding: 0;
   margin: 0 0 0 10px;
-  width: 120px;
+  width: 112px;
 }
 @media screen and (max-width: 480px) {
   ul.list-categories {
@@ -1481,7 +1481,7 @@ ul.list-categories li a:focus div {
 }
 ul.list-categories li i {
   align-self: center;
-  font-size: 2em;
+  font-size: 24px;
   margin-bottom: 8px;
 }
 ul.list-categories li div {
@@ -1500,6 +1500,9 @@ ul.list-categories li:last-child {
 }
 section.sf-container-proyectos-new {
   background: #f5f5f5;
+}
+section.sf-container-proyectos-new .content {
+  width: 1100px;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos-new .content {
