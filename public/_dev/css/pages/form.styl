@@ -39,7 +39,7 @@ section.sf-room
             .sf-form
                 // height 530px
                 background: $color-secundary-light
-                padding: 0px 0px 24px 0px;
+                padding: 24px 0px 24px 0px
                 +media-s()
                     background: $color-tertiary
                 form 
@@ -48,8 +48,10 @@ section.sf-room
                         width: 90%
                         margin: auto
                         .conent-text
-                            width: 80%
+                            width: 90%
                             margin: auto
+                            +media-s()
+                                width: 80%
                     .form-bottom
                         width: 90%
                         margin: auto
@@ -58,7 +60,6 @@ section.sf-room
                         font-size: 20px
                         line-height: 22px
                         color: $color-white
-                        padding-top: 40px
                         text-align: center
                         font-weight: bold
                         +media-s()
