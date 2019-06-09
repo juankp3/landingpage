@@ -16,25 +16,27 @@ section
 section.sf-title
     justify-content: center
     min-height: 110px
-    background: $color-white
+    background: $color-gray-100 //$color-white
     align-items: center
     display: flex
     p
         text-align: center
-        font-size: 40px
+        font-size: 30px
         color: $color-primary
         margin: 0
     +media-m()
         display: block
         line-height: 30px
         min-height: auto
+        
         p
             padding: 24px 32px
             font-size: 22px
     +media-s()
+        background: $color-white
         p
             font-size: 30px
-            padding: 20px 0;
+            padding: 40px 0;
 
 section.st-container-img-banner
     img 

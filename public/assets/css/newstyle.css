@@ -764,6 +764,26 @@ b {
   border-color: #1f2123;
   background-color: rgba(31,33,35,0.75);
 }
+.input {
+  width: 100%;
+  height: 50px;
+  color: #6a6a6a;
+  position: relative;
+  margin: 8px 0px;
+}
+.input > input {
+  border-radius: 4px;
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  height: 50px;
+  outline: none;
+  font-weight: 700;
+}
+.input > input:focus {
+  border-color: #00caa9;
+}
 .select {
   position: relative;
   width: 100%;
@@ -771,8 +791,8 @@ b {
 .select>select {
   border-radius: 4px;
   width: 100%;
-  border: 1px solid #6a6a6a;
-  height: 36px;
+  border: 1px solid #d4d4d4;
+  height: 50px;
   background-color: #fff;
   color: #6a6a6a;
   padding: 0 10px;
@@ -802,7 +822,12 @@ b {
   margin: 16px 0px 25px;
 }
 .textarea textarea {
+  border: 1px solid #d4d4d4;
   width: 100%;
+  outline: #f0f8ff;
+}
+.textarea > textarea:focus {
+  border-color: #00caa9;
 }
 .btn-content-solid {
   font-family: 'UbuntuMedium';
@@ -810,20 +835,6 @@ b {
   border-radius: 2rem;
   background-color: #00caa9;
   color: #fff;
-}
-.input {
-  width: 100%;
-  height: 50px;
-  color: #6a6a6a;
-  position: relative;
-}
-.input>input {
-  border-radius: 4px;
-  border: 1px solid #fff;
-  width: 100%;
-  padding: 0 15px;
-  box-sizing: border-box;
-  height: 36px;
 }
 section.sf-container-beneficios {
   background: #fff;
@@ -1003,7 +1014,7 @@ section.sf-room .sf-container-room .sf-content-description p.sf-room-description
   padding: 0 0 10px 0;
 }
 section.sf-room .sf-container-room .sf-content-form {
-  width: 33%;
+  width: 400px;
 }
 @media screen and (max-width: 960px) {
   section.sf-room .sf-container-room .sf-content-form {
@@ -1016,8 +1027,8 @@ section.sf-room .sf-container-room .sf-content-form {
   }
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form {
-  height: 530px;
   background: #205d81;
+  padding: 0px 0px 24px 0px;
 }
 @media screen and (max-width: 480px) {
   section.sf-room .sf-container-room .sf-content-form .sf-form {
@@ -1028,7 +1039,7 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form {
   width: 100%;
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form .form-bottom {
@@ -1184,13 +1195,13 @@ section {
 section.sf-title {
   justify-content: center;
   min-height: 110px;
-  background: #fff;
+  background: #f8f8f8;
   align-items: center;
   display: flex;
 }
 section.sf-title p {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: #00caa9;
   margin: 0;
 }
@@ -1206,9 +1217,12 @@ section.sf-title p {
   }
 }
 @media screen and (max-width: 480px) {
+  section.sf-title {
+    background: #fff;
+  }
   section.sf-title p {
     font-size: 30px;
-    padding: 20px 0;
+    padding: 40px 0;
   }
 }
 section.st-container-img-banner img {
