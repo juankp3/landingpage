@@ -781,6 +781,7 @@ b {
   outline: none;
   box-shadow: none;
   color: #757575;
+  -webkit-box-shadow: none;
 }
 .input > input:focus {
   border-color: #00caa9;
@@ -1040,6 +1041,10 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form {
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top {
   width: 90%;
+  margin: auto;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top .conent-text {
+  width: 80%;
   margin: auto;
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form .form-bottom {

@@ -1,16 +1,18 @@
 <div class="sf-form">
     <form action="">
         <div class="form-top">
-            <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
-            <p>( Incluye plano de distribución )</p>
+            <div class="conent-text">
+                <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
+                <p>( Incluye plano de distribución )</p>
+            </div>
             <div class="input">
                 <input class="inputtext" type="text" placeholder="Nombre">
             </div> 
             <div class="input">
-                <input type="text" placeholder="Correo"> 
+                <input type="email" placeholder="Correo"> 
             </div>
             <div class="input">
-                <input type="text" placeholder="Telefono">
+                <input type="number" placeholder="Telefono">
             </div>
             <div class="select">
                 <select>
