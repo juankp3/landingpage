@@ -1496,7 +1496,7 @@ section.sf-container-proyectos-new div.sf-container-flex-proyectos div.sf-contai
   flex-grow: 3;
 }
 section.sf-container-proyectos-new div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big img {
-  width: 90%;
+  width: 100%;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos-new div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big img {
