@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/owlcarousel/owl.carousel.js"></script>
-    <script src="assets/js/init.js"></script>
+    <script src="assets/js/init.js?v=1"></script>
 
     <!-- SEO -->
     <title>Servicios Felix</title>
