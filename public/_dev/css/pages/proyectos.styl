@@ -213,6 +213,7 @@ section.sf-container-proyectos-new
                 & div.sf-container-picture-big
                     flex-grow: 2
                     width: 100%
+                    cursor: pointer
                     overflow: hidden
                     position relative
                     .load
@@ -229,101 +230,37 @@ section.sf-container-proyectos-new
                         +media-s()
                             height : auto
                             flex-grow: 1
+                    &:hover .owl-nav
+                        display: block
 
-
-
-
-.owl-theme .owl-nav
+.owl-nav
     width: 100%
-    margin-top: 10px
     position: absolute
     top: 0
+    margin-top: 25% !important
     overflow: hidden
-    .owl-carousel .owl-nav button.owl-prev, 
-    .owl-carousel .owl-nav button.owl-next
-        border-radius: 0;
-        background: #fff;
-        color: inherit;
-        border: none;
-        padding: 0!important;
-        font: inherit;
-        width: 50px;
-        height: 50px;
+    display: none
+    & button.owl-prev 
+        float: left
+    & button.owl-next
+        float: right
+    & button.owl-prev, 
+    & button.owl-next
+        border-radius: 0
+        background: $color-white !important
+        border: none
+        width: 50px
+        height: 50px
+        outline: 0
+        &:hover
+            background: $color-primary !important
+            & span 
+                color: $color-white
         & span
             font-size: 40px
-
-
-
-
-
-
-/*section.sf-container-proyectos
-    background: $color-primary
-    div.sf-container-flex-proyectos
-        display: flex
-        flex-direction: column
-        margin: 40px 0
-        div.sf-content-titles-proyectos 
-            color: $color-white
-            text-align: center
-            margin : 0 0 25px 0
-            div.sf-title-proyectos
-                font-family: UbuntuMedium
-                font-size: 44px 
-                label
-                    font-family: UbuntuBold
-                +media-s()
-                    font-size: 35px
-            div.sf-subtitle-proyectos
-                font-family: UbuntuMedium
-                font-size: 26px 
-                label
-                    font-family: UbuntuLight
-                +media-s()
-                    font-size: 22px
-        div.sf-container-pictures-proyectos
-            display: flex
-            justify-content: center
-            +media-s()
-                flex-direction: column
-            div.sf-container-pictures-tiny
-                display: flex
-                flex-flow: row wrap
-                justify-content: flex-start
-                width: 100%;
-                +media-s()
-                    justify-content: flex-start
-                div.sf-content-pictures-tiny
-                    display: flex;
-                    flex-direction: column
-                    margin: 0 5% 8px 1%;
-                    width: 150px;
-                    +media-s()
-                        width: 100px;   
-                        margin: 0px 0 3% 2%
-                    div.sf-picture-tiny
-                        img 
-                            width : 100%
-                        img:hover 
-                            outline: 4px solid $color-white
-                        img:focus
-                            outline: 4px solid $color-white
-                    div.sf-title-picture-tiny
-                        font-family: UbuntuBold
-                        font-size: 14px 
-                        color: $color-white
-                        text-align: center
-                        padding: 8px 0
-                        +media-s()
-                            font-size: 16px 
-            div.sf-container-picture-big
-                width 100%
-                img
-                    width: 100%
-                    +media-s()
-                        height : auto
-*/
-
+            color: $color-primary
+.owl-dots
+    margin-top: 10px
 
 
 
