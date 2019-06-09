@@ -21,7 +21,6 @@
 
                 </div>
                 <div class="sf-container-picture-big">
-                    <!--<img src="assets/img/comedor.png" alt="">-->
 
                     <div class="owl-carousel owl-theme">
                         <div class="item">
@@ -31,7 +30,7 @@
                             <img src="assets/img/room/SALA-2.png">
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
         </div>
