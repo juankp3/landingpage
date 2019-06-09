@@ -25,14 +25,22 @@
                 </div>
                 <div class="sf-container-picture-big">
 
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="assets/img/room/SALA-1.png">
+                        <?php 
+                        $contGallery = 0;
+                        foreach($gallery as $room): 
+                            $contGallery++;
+                            
+                        ?>
+                        <div class="owl-carousel owl-theme">
+                            <?php foreach($room['photos'] as $photos): ?>
+                            <div class="item">
+                                <img src="assets/img/room/<?php echo $photos['image']?>">
+                            </div>
+                            <?php endforeach ?>
                         </div>
-                        <div class="item">
-                            <img src="assets/img/room/SALA-2.png">
-                        </div>
-                    </div>
+                        <?php endforeach ?>
+
+                    
                     
                 </div>
             </div>
