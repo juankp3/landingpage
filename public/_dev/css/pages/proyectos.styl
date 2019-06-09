@@ -99,11 +99,20 @@ section.sf-container-msj-proyectos
 
 
 
-
-
-
-
 //botones
+ul.list-categories
+    & li
+        & a
+            &.active
+                color : $color-primary
+                -webkit-box-shadow: -6px 0px 0px 0px $color-primary
+                box-shadow: -6px 0px 0px 0px $color-primary
+                outline: 0 
+                +media-s()
+                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary
+                    -moz-box-shadow: 0px -6px 0px 0px $color-primary
+                    box-shadow: 0px -6px 0px 0px $color-primary
+
 ul.list-categories
     list-style: none
     padding: 0
@@ -134,7 +143,7 @@ ul.list-categories
             +media-s()
                 border-top: solid 1px $color-gray-350
                 border-right: solid 1px $color-gray-350
-            &:hover , &:focus 
+            &:hover , &:focus  
                 color : $color-primary
                 -webkit-box-shadow: -6px 0px 0px 0px $color-primary
                 box-shadow: -6px 0px 0px 0px $color-primary
