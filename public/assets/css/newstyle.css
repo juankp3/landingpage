@@ -779,9 +779,15 @@ b {
   box-sizing: border-box;
   height: 50px;
   outline: none;
-  font-weight: 700;
+  color: #757575;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 0px 0px rgba(0,0,0,0);
 }
 .input > input:focus {
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 0px 0px rgba(0,0,0,0);
   border-color: #00caa9;
 }
 .select {
@@ -796,7 +802,6 @@ b {
   background-color: #fff;
   color: #6a6a6a;
   padding: 0 10px;
-  font-size: 14px;
   cursor: pointer;
   outline: none;
   outline: 0;
@@ -1040,6 +1045,10 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form {
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top {
   width: 90%;
+  margin: auto;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top .conent-text {
+  width: 80%;
   margin: auto;
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form .form-bottom {
