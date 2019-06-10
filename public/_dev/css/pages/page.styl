@@ -29,9 +29,7 @@ section.sf-title
         color: $color-primary
         margin: 0
     +media-m()
-        display: block
-        line-height: 30px
-        min-height: auto
+        background: $color-white
         p
             padding: 24px 32px
             font-size: 30px
@@ -39,11 +37,17 @@ section.sf-title
         background: $color-white
         p
             font-size: 30px
-            padding: 40px 0;
+            padding: 35px 0 25px 0
 
-section.st-container-img-banner
-    img 
-        width: 100%
+section.sf-container-img-banner
+    & img 
+        width: 100%   
+    +media-m()
+        & .content
+            width: 100%
+            text-align: center
+            & img 
+                width: auto
 
 .show-mobile
     display: none

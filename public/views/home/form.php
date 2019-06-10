@@ -12,11 +12,11 @@
                 <input type="email" placeholder="Correo"> 
             </div>
             <div class="input">
-                <input type="number" placeholder="Telefono">
+                <input type="number" placeholder="Teléfono">
             </div>
             <div class="select">
                 <select>
-                    <option value="">- Selecione Area-</option>
+                    <option value="">- Seleccione Área -</option>
                     <option value="sala">Sala</option>
                     <option value="cocina">Cocina</option>
                     <option value="dormitorio">Dormitorio</option>

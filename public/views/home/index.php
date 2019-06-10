@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="st-container-img-banner show-mobile">
+    <section class="sf-container-img-banner show-mobile">
         <div class="content">
             <img src="assets/img/sala.png" alt="">
         </div>

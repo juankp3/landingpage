@@ -3,15 +3,17 @@ section.sf-container-servicios
     div.sf-servicios
         display: flex
         flex-direction: row
+        +media-m()
+            flex-direction: column
+            padding: 40px 0
         +media-s()
-            display: flex
             flex-direction: column
             padding: 40px 0
         div.sf-data-servicios
             display: flex   
             flex-direction: column
-            flex-grow: 1;
-            align-self: center;
+            flex-grow: 1
+            align-self: center
             div.sf-especializados
                 margin: 0
                 +media-s()  
@@ -19,6 +21,8 @@ section.sf-container-servicios
                 div.sf-title-especializacion
                     color: $color-black
                     font-size: 20px
+                    +media-m()
+                        font-size: 28px
                     +media-s()
                         font-size: 28px
                     p
@@ -37,6 +41,8 @@ section.sf-container-servicios
                             font-family: UbuntuRegular
                             font-size: 16px
                             color: #00466f
+                            +media-m()
+                                font-size: 18px
                             +media-s()
                                 font-size: 18px
             div.sf-complementarios
@@ -46,6 +52,8 @@ section.sf-container-servicios
                 div.sf-title-complementarios
                     color: $color-black
                     font-size: 20px
+                    +media-m()
+                        font-size: 28px
                     +media-s()
                         font-size: 28px
                     p
@@ -64,35 +72,45 @@ section.sf-container-servicios
                             font-family: UbuntuRegular
                             font-size: 16px
                             color: #00466f
+                            +media-m()
+                                font-size: 18px
                             +media-s()
                                 font-size: 18px
         div.sf-img-servicios
-            width: 792px;
-            height: 488px;
-            flex-grow: 2;
+            width: 792px
+            height: 488px
+            flex-grow: 2
+            +media-m()
+                display: none
             +media-s()
                 display: none
             img
-                width: 100%;
-                height: 100%;
+                width: 100%
+                height: 100%
 
 section
     section.sf-trabaja-nosotros
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        height: 456px;
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        height: 456px
+        +media-m()
+            flex-direction: column
+            height: auto
         +media-s()
             flex-direction: column
             height: auto
         div.sf-content-data-nosotros
-            align-self: center;
+            align-self: center
+            +media-m()
+                order: 1
+                margin: 0 10%
             +media-s()
                 order: 1
-                margin: 0 10%;
+                margin: 0 10%
             div.sf-title-data-nosotros
                 font-family: UbuntuRegular
-                font-size: 32px;
+                font-size: 32px
                 color: $color-blue
                 margin: 30px 0 0 0
                 +media-s()
@@ -105,25 +123,37 @@ section
                 ul.list-nosotros
                     list-style: none
                     li
-                        background-image: url(../img/arrow.png);
-                        background-repeat: no-repeat;
-                        background-position-y: center;
-                        background-size: 22px;
-                        font-size: 16px;
-                        padding: 10px 0 10px 28px;
+                        background-image: url(../img/arrow.png)
+                        background-repeat: no-repeat
+                        background-position-y: center
+                        background-size: 22px
+                        font-size: 16px
+                        padding: 10px 0 10px 28px
                         +media-s()
                             font-size: 16px
-                            padding: 10px 0 10px 28px;
+                            padding: 10px 0 10px 28px
+                +media-m()
+                    margin-bottom: 30px
+                    padding: 0 5% 0 0
                 +media-s()
-                    margin-bottom: 30px;
+                    margin-bottom: 30px
                     padding: 0 5% 0 0
             div.sf-button-data-contactenos
                 margin : 20px 0 0 0
+                +media-m()
+                    display: none
                 +media-s()
                     display: none
         div.sf-content-bgmovil-nosotros
-            margin: 0 6% 0 0;
+            margin: 0 6% 0 0
+            +media-m()
+                order: 2
+                text-align: center
             +media-s()
                 order: 2
             img
                 width: 100%
+                +media-m()
+                    width: 70%
+                +media-s()
+                    width: 100%

@@ -71,6 +71,8 @@ section.sf-container-msj-proyectos
         display: flex
         flex-direction: row
         justify-content: center
+        +media-m()
+            flex-direction: column
         +media-s()
             flex-direction: column
         div.sf-msj-proyectos
@@ -108,6 +110,10 @@ ul.list-categories
                 -webkit-box-shadow: -6px 0px 0px 0px $color-primary
                 box-shadow: -6px 0px 0px 0px $color-primary
                 outline: 0 
+                +media-m()
+                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary
+                    -moz-box-shadow: 0px -6px 0px 0px $color-primary
+                    box-shadow: 0px -6px 0px 0px $color-primary
                 +media-s()
                     -webkit-box-shadow: 0px -6px 0px 0px $color-primary
                     -moz-box-shadow: 0px -6px 0px 0px $color-primary
@@ -118,6 +124,11 @@ ul.list-categories
     padding: 0
     margin: 0 0 0 10px
     width: 112px
+    +media-m()
+        margin: 0
+        display: flex;
+        flex-direction: row
+        width: 1200px
     +media-s()
         margin: 0
         display: flex;
@@ -130,6 +141,10 @@ ul.list-categories
         text-align: center
         border-left: solid 6px $color-gray-600
         background: $color-white    
+        +media-m()
+            width: 144px 
+            border-top: solid 6px #757575
+            border-left: 0
         +media-s()
             width: 144px 
             border-top: solid 6px #757575
@@ -140,6 +155,9 @@ ul.list-categories
             display: block
             border-top: solid 1px $color-gray-350
             border-right: solid 1px $color-gray-350
+            +media-m()
+                border-top: solid 1px $color-gray-350
+                border-right: solid 1px $color-gray-350
             +media-s()
                 border-top: solid 1px $color-gray-350
                 border-right: solid 1px $color-gray-350
@@ -148,6 +166,10 @@ ul.list-categories
                 -webkit-box-shadow: -6px 0px 0px 0px $color-primary
                 box-shadow: -6px 0px 0px 0px $color-primary
                 outline: 0 
+                +media-m()
+                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary
+                    -moz-box-shadow: 0px -6px 0px 0px $color-primary
+                    box-shadow: 0px -6px 0px 0px $color-primary
                 +media-s()
                     -webkit-box-shadow: 0px -6px 0px 0px $color-primary
                     -moz-box-shadow: 0px -6px 0px 0px $color-primary
@@ -164,6 +186,9 @@ ul.list-categories
             color: $color-gray-550
         &:last-child
             border-bottom: solid 1px $color-gray-350
+            +media-m()
+                border-bottom: 0
+                border-right: solid 1px $color-gray-350
             +media-s()
                 border-bottom: 0
                 border-right: solid 1px $color-gray-350
@@ -172,6 +197,8 @@ ul.list-categories
 section.sf-container-proyectos-new
     background: $color-gray
     height: 750px
+    +media-m()
+        height: auto
     +media-s()
         height: auto
     & .content
@@ -195,6 +222,8 @@ section.sf-container-proyectos-new
                     font-size: 44px 
                     & label
                         font-family: UbuntuBold
+                    +media-m()
+                        font-size: 35px
                     +media-s()
                         font-size: 35px
                 & div.sf-subtitle-proyectos
@@ -202,16 +231,24 @@ section.sf-container-proyectos-new
                     font-size: 26px 
                     & label
                         font-family: UbuntuLight
+                    +media-m()
+                        font-size: 22px
                     +media-s()
                         font-size: 22px
             & div.sf-container-pictures-proyectos
                 display: flex
+                +media-m()
+                    flex-direction: column
                 +media-s()
                     flex-direction: column
                 & div.sf-container-pictures-tiny
                     display: flex
                     flex-direction: row-reverse
                     flex-grow: 1
+                    +media-m()
+                        justify-content: flex-start
+                        flex-direction: row
+                        overflow-x: auto
                     +media-s()
                         justify-content: flex-start
                         flex-direction: row
@@ -233,11 +270,16 @@ section.sf-container-proyectos-new
                         position: absolute
                         background-color: #F5F5F5
                     & img
+                        +media-m()
+                            height : auto
+                            flex-grow: 1
                         +media-s()
                             height : auto
                             flex-grow: 1
                     &:hover .owl-nav
                         display: block
+                        +media-m()
+                            display: none
                         +media-s()
                             display: none
 

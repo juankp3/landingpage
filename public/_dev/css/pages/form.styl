@@ -3,6 +3,9 @@ section.sf-room
     background-repeat: no-repeat
     background-size: 100% 100%
     height: 530px;
+    +media-m()
+        height: auto
+        background-image : none
     +media-s()
         height: auto
         background-image : none
@@ -10,6 +13,8 @@ section.sf-room
         display: flex
         flex-direction: row
         justify-content: space-between
+        +media-m()
+            width: 100%;
         +media-s()
             flex-direction: column
         .sf-content-description
@@ -17,8 +22,13 @@ section.sf-room
             margin-top: 50px
             +media-l()
                 width: 50%
+            +media-m()
+                width: 100%
+                margin-top: 0
+                text-align: center
             +media-s()
                 width: 100%
+                margin-top: 0
                 text-align: center
             h2.sf-room-title
                 color: $color-blue 
@@ -39,14 +49,19 @@ section.sf-room
             width: 400px
             +media-l()
                 width: 50%
+            +media-m()
+                width: 65%
+                text-align: center
+                margin: 0 auto
             +media-s()
                 width: 100%
             .sf-form
-                // height 530px
                 background: $color-secundary-light
                 padding: 24px 0px 24px 0px
                 margin-top: 6px
                 border-radius: 12px
+                +media-m()
+                    background: $color-tertiary
                 +media-s()
                     background: $color-tertiary
                 form 
@@ -57,6 +72,8 @@ section.sf-room
                         .conent-text
                             width: 90%
                             margin: auto
+                            +media-m()
+                                width: 80%
                             +media-s()
                                 width: 80%
                     .form-bottom
@@ -69,23 +86,29 @@ section.sf-room
                         color: $color-white
                         text-align: center
                         font-weight: bold
+                        +media-m()
+                            color: $color-gray-600
                         +media-s()
                             color: $color-gray-600
                         strong
                             color : $color-primary !important
                     p
-                        font-family: 'UbuntuMedium';
+                        font-family: 'UbuntuMedium'
                         font-weight: 500
                         font-size: 13px
                         line-height: 30px
                         text-align: center
                         color: $color-white
-                        margin: 0px 0px 16px;
+                        margin: 0px 0px 16px
+                        +media-m()
+                            color: $color-gray-600
                         +media-s()
                             color: $color-gray-600
                     div.sf_btn
                         text-align: center
                         +media-s()
                             margin: 0 0 15px 0
+                    +media-m()
+                        height: 100%
                     +media-s()
                         height: 100%
