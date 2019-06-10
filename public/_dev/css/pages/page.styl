@@ -6,8 +6,10 @@ body
     max-width: $extra-large
     margin: auto
     box-sizing: content-box
+    +media-m()
+        margin: 0 4%
     +media-s()
-        margin: 0 4%;
+        margin: 0 4%
 
 section
     font-size: 16px
@@ -30,10 +32,9 @@ section.sf-title
         display: block
         line-height: 30px
         min-height: auto
-        
         p
             padding: 24px 32px
-            font-size: 22px
+            font-size: 30px
     +media-s()
         background: $color-white
         p
@@ -46,8 +47,12 @@ section.st-container-img-banner
 
 .show-mobile
     display: none
+    +media-m()
+        display: flex
     +media-s()
         display: flex
 .hide-mobile
+    +media-m()
+        display: none
     +media-s()
         display: none
