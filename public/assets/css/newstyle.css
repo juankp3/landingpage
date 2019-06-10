@@ -1341,6 +1341,11 @@ section.sf-container-img-banner img {
     width: auto;
   }
 }
+@media screen and (max-width: 480px) {
+  section.sf-container-img-banner .content img {
+    width: 100%;
+  }
+}
 .show-mobile {
   display: none;
 }
