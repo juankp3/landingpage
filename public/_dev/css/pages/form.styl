@@ -13,7 +13,8 @@ section.sf-room
         +media-s()
             flex-direction: column
         .sf-content-description
-            width: 66.6%
+            width: 540px
+            margin-top: 50px
             +media-l()
                 width: 50%
             +media-s()
@@ -21,15 +22,19 @@ section.sf-room
                 text-align: center
             h2.sf-room-title
                 color: $color-blue 
-                font-family: $font-family-ubuntu-regular
-                font-size: 24px
+                font-family: $font-family-ubuntu
+                font-size: 30px
                 padding: 10px 0
+                font-weight: bold
+                line-height: 40px
                 p
                     margin: 0
             p.sf-room-description
-                font-family: $font-family-ubuntu-light
-                font-size: 18px
+                font-size: 21px
                 padding: 0 0 10px 0
+                line-height: 30px
+                color: #405663
+                margin-top: 0px
         .sf-content-form
             width: 400px
             +media-l()
@@ -40,6 +45,8 @@ section.sf-room
                 // height 530px
                 background: $color-secundary-light
                 padding: 24px 0px 24px 0px
+                margin-top: 6px
+                border-radius: 12px
                 +media-s()
                     background: $color-tertiary
                 form 
@@ -58,7 +65,7 @@ section.sf-room
                     h4
                         font-family: $font-family-ubuntu
                         font-size: 20px
-                        line-height: 22px
+                        line-height: 27px
                         color: $color-white
                         text-align: center
                         font-weight: bold

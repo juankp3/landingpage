@@ -770,6 +770,7 @@ b {
   color: #6a6a6a;
   position: relative;
   margin: 10px 0px;
+  font-size: 14px;
 }
 .input > input {
   border-radius: 4px;
@@ -779,6 +780,7 @@ b {
   box-sizing: border-box;
   height: 44px;
   outline: none;
+  font-size: 14px;
   color: #757575;
   box-shadow: 0px 0px 0px rgba(0,0,0,0);
   -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0);
@@ -807,6 +809,7 @@ b {
   outline: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
+  font-size: 14px;
 }
 .select>select:after {
   content: "\F107";
@@ -824,18 +827,19 @@ b {
 .textarea {
   position: relative;
   width: 100%;
-  margin: 16px 0px 25px;
+  margin: 16px 0px 16px;
 }
 .textarea textarea {
   border: 1px solid #d4d4d4;
   width: 100%;
   outline: #f0f8ff;
+  font-size: 14px;
 }
 .textarea > textarea:focus {
   border-color: #00caa9;
 }
 .btn-content-solid {
-  font-family: 'UbuntuMedium';
+  font-family: 'Ubuntu', sans-serif;
   padding: 0.625em 1.5em;
   border-radius: 2rem;
   background-color: #00caa9;
@@ -991,7 +995,8 @@ section.sf-room .sf-container-room {
   }
 }
 section.sf-room .sf-container-room .sf-content-description {
-  width: 66.6%;
+  width: 540px;
+  margin-top: 50px;
 }
 @media screen and (max-width: 960px) {
   section.sf-room .sf-container-room .sf-content-description {
@@ -1006,17 +1011,21 @@ section.sf-room .sf-container-room .sf-content-description {
 }
 section.sf-room .sf-container-room .sf-content-description h2.sf-room-title {
   color: #00466f;
-  font-family: "UbuntuRegular";
-  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
   padding: 10px 0;
+  font-weight: bold;
+  line-height: 40px;
 }
 section.sf-room .sf-container-room .sf-content-description h2.sf-room-title p {
   margin: 0;
 }
 section.sf-room .sf-container-room .sf-content-description p.sf-room-description {
-  font-family: "UbuntuLight";
-  font-size: 18px;
+  font-size: 21px;
   padding: 0 0 10px 0;
+  line-height: 30px;
+  color: #405663;
+  margin-top: 0px;
 }
 section.sf-room .sf-container-room .sf-content-form {
   width: 400px;
@@ -1034,6 +1043,8 @@ section.sf-room .sf-container-room .sf-content-form {
 section.sf-room .sf-container-room .sf-content-form .sf-form {
   background: #205d81;
   padding: 24px 0px 24px 0px;
+  margin-top: 6px;
+  border-radius: 12px;
 }
 @media screen and (max-width: 480px) {
   section.sf-room .sf-container-room .sf-content-form .sf-form {
@@ -1063,7 +1074,7 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form .form-bottom {
 section.sf-room .sf-container-room .sf-content-form .sf-form form h4 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 27px;
   color: #fff;
   text-align: center;
   font-weight: bold;
