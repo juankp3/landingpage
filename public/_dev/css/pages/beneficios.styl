@@ -2,6 +2,10 @@ section.sf-container-beneficios
     background: $color-white
     & .content
         width: $width-slim-fit
+        +media-m()
+            width: 90%
+        +media-s()
+            width: 90%
     div.sf-content-beneficios
         display: flex
         flex-flow: row nowrap

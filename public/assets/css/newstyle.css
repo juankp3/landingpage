@@ -851,6 +851,16 @@ section.sf-container-beneficios {
 section.sf-container-beneficios .content {
   width: 1100px;
 }
+@media screen and (max-width: 768px) {
+  section.sf-container-beneficios .content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-beneficios .content {
+    width: 90%;
+  }
+}
 section.sf-container-beneficios div.sf-content-beneficios {
   display: flex;
   flex-flow: row nowrap;
@@ -918,7 +928,7 @@ section.sf-container-beneficios div.sf-content-beneficios div.sf-beneficio div.s
 }
 footer section.sf-top-footer {
   background: #205d81;
-  font-family: UbuntuRegular;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   font-size: 24px;
   color: #fff;
@@ -966,7 +976,7 @@ footer section.sf-bottom-footer {
   }
 }
 footer section.sf-bottom-footer div.sf-title-footer {
-  font-family: UbuntuRegular;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 32px;
   color: #fff;
   margin-top: 50px;
@@ -991,7 +1001,7 @@ footer section.sf-bottom-footer div.sf-title-contact-footer p {
   text-align: center;
 }
 footer section.sf-bottom-footer div.sf-data-contact-footer {
-  font-family: UbuntuRegular;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   color: #fff;
 }
@@ -1160,7 +1170,7 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form h4 strong {
   color: #00caa9 !important;
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form p {
-  font-family: 'UbuntuMedium';
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: 13px;
   line-height: 30px;
@@ -1388,11 +1398,11 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-ti
   margin: 0 0 25px 0;
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos {
-  font-family: UbuntuMedium;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 44px;
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos label {
-  font-family: UbuntuBold;
+  font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos {
@@ -1400,11 +1410,11 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-ti
   }
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
-  font-family: UbuntuMedium;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 26px;
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos label {
-  font-family: UbuntuLight;
+  font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
@@ -1477,7 +1487,7 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-
 }
 section.sf-container-msj-proyectos {
   background: #fff;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos {
   display: flex;
@@ -1495,7 +1505,7 @@ section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos {
   }
 }
 section.sf-container-msj-proyectos div.sf-container-flex-msj-proyectos div.sf-msj-proyectos {
-  font-family: UbuntuRegular;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   font-size: 22px;
   color: #00caa9;
@@ -1920,7 +1930,7 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-esp
   background-position-y: center;
   background-size: 6px;
   padding: 4px 0 4px 12px;
-  font-family: UbuntuRegular;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   color: #00466f;
 }
@@ -1970,7 +1980,7 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
   background-position-y: center;
   background-size: 6px;
   padding: 4px 0 4px 12px;
-  font-family: UbuntuRegular;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   color: #00466f;
 }
@@ -2037,7 +2047,7 @@ section section.sf-trabaja-nosotros div.sf-content-data-nosotros {
   }
 }
 section section.sf-trabaja-nosotros div.sf-content-data-nosotros div.sf-title-data-nosotros {
-  font-family: UbuntuRegular;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 32px;
   color: #00466f;
   margin: 30px 0 0 0;
