@@ -1,4 +1,4 @@
-<div class="sf-form">
+<div id="mainForm" class="sf-form">
     <form action="">
         <div class="form-top">
             <div class="conent-text">
@@ -6,7 +6,7 @@
                 <p>( Incluye plano de distribución )</p>
             </div>
             <div class="input">
-                <input class="inputtext" type="text" placeholder="Nombre">
+                <input name="name" class="inputtext" type="text" placeholder="Nombre">
             </div> 
             <div class="input">
                 <input type="email" placeholder="Correo"> 

@@ -5,11 +5,13 @@ function landing() {
     catchDom = function () {
         dom.gallery = $('ul.list-categories')
         dom.actionGallery = $('ul.list-categories li a')
+        dom.actionButton = $('.btn-content-solid')
     }
 
     suscribeEvents = function () {
         console.log('Test event')
         dom.actionGallery.on('click', events.onClickActionGallery)
+        dom.actionButton.on('click', events.onClickActionButton)
     }
 
     events = {}
@@ -35,6 +37,13 @@ function landing() {
         return false
     }
 
+    events.onClickActionButton = function() {
+        $('html, body').animate({
+            scrollTop: $('body').offset().top
+        }, 1000, function(){
+            $('input[name]').focus()
+        })
+    }
 
     fn = {}
     fn.carousel = function () {

@@ -1,10 +1,12 @@
 section.sf-container-beneficios
     background: $color-white
+    & .content
+        width: $width-slim-fit
     div.sf-content-beneficios
         display: flex
         flex-flow: row nowrap
         justify-content: space-between
-        margin : 15px 0
+        margin : 30px 0
         +media-m()
             margin: 5% 10% 0% 20%
             flex-direction: column
@@ -20,7 +22,8 @@ section.sf-container-beneficios
                 margin: 10% 0 10% 0
             div.sf-image-beneficios
                 text-align: center
-                & img 
+                & img
+                    max-width : 50px
                     +media-m()
                         max-width : 50px
                     +media-s()
