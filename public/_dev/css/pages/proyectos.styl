@@ -197,12 +197,16 @@ ul.list-categories
 section.sf-container-proyectos-new
     background: $color-gray
     height: 750px
+    +media-xl()
+        height: auto
     +media-m()
         height: auto
     +media-s()
         height: auto
     & .content
         width: $width-slim-fit
+        +media-xl()
+            width: auto
         +media-m()
             width: 100%
             margin: 0

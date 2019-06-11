@@ -6,6 +6,8 @@ body
     max-width: $extra-large
     margin: auto
     box-sizing: content-box
+    +media-xl()
+        margin: 0 4%
     +media-m()
         margin: 0 4%
     +media-s()
@@ -17,7 +19,7 @@ section
 section.sf-title
     justify-content: center
     min-height: 110px
-    background: $color-gray-100 //$color-white
+    background: $color-gray-100 
     align-items: center
     display: flex
     p
