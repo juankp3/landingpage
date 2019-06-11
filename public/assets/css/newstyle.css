@@ -990,7 +990,7 @@ footer section.sf-bottom-footer div.sf-title-footer p {
   text-align: center;
 }
 footer section.sf-bottom-footer div.sf-title-contact-footer {
-  font-family: UbuntuBold;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   color: #fff;
   display: flex;
@@ -1463,7 +1463,7 @@ section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-
   outline: 4px solid #fff;
 }
 section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-title-picture-tiny {
-  font-family: UbuntuBold;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   color: #fff;
   text-align: center;
@@ -1715,11 +1715,11 @@ section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.
   margin: 0 0 25px 0;
 }
 section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos {
-  font-family: UbuntuMedium;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 44px;
 }
 section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos label {
-  font-family: UbuntuBold;
+  font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (max-width: 768px) {
   section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos {
@@ -1732,11 +1732,11 @@ section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.
   }
 }
 section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
-  font-family: UbuntuMedium;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 26px;
 }
 section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos label {
-  font-family: UbuntuLight;
+  font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (max-width: 768px) {
   section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
