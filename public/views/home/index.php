@@ -146,6 +146,9 @@
                                 <li>Cableado eléctrico, data y telefonía</li>
                                 <li>Iluminación y rollers</li>
                                 <li>Obra civil, sanitarias</li>
+                                <li>Preparación de estructuras existentes para caso de sismos</li>
+                                <li>Impermeabilización y reparación de cisternas, piscinas, tanques elevados</li>
+                                <li>Impermeabilización de techos</li>
                                 <li>Drywall y falsos cielos</li>
                                 <li>Pintura</li>
                                 <li>Ventanas y mamparas de vídrio</li>

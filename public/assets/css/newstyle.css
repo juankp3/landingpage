@@ -829,11 +829,12 @@ b {
   width: 100%;
   margin: 16px 0px 16px;
 }
-.textarea textarea {
+.textarea > textarea {
   border: 1px solid #d4d4d4;
-  width: 100%;
+  width: 91%;
   outline: #f0f8ff;
   font-size: 14px;
+  padding: 5px 15px;
 }
 .textarea > textarea:focus {
   border-color: #00caa9;
@@ -1911,8 +1912,20 @@ section.sf-container-servicios div.sf-servicios {
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
   align-self: center;
+  width: 30%;
+  margin: 12px 10px 12px 0;
+}
+@media screen and (max-width: 768px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
+    margin: 0 10%;
+    width: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios {
+    width: 100%;
+  }
 }
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados {
   margin: 0;
@@ -2015,9 +2028,8 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
   }
 }
 section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
-  width: 792px;
-  height: 488px;
-  flex-grow: 2;
+  width: 70%;
+  height: auto;
 }
 @media screen and (max-width: 768px) {
   section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
@@ -2026,6 +2038,7 @@ section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
 }
 @media screen and (max-width: 480px) {
   section.sf-container-servicios div.sf-servicios div.sf-img-servicios {
+    width: 100%;
     display: none;
   }
 }

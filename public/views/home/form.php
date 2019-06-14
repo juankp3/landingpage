@@ -26,7 +26,7 @@
             </div>
 
             <div class="textarea">
-                <textarea placeholder="Hola estoy interesado (a), solicito más información." cols="30" rows="5"></textarea>
+                <textarea placeholder="Hola estoy interesado (a), solicito más información." cols="" rows="5"></textarea>
             </div>
         </div>
         <div class="form-bottom">
