@@ -8,7 +8,10 @@
     
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
-    <link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" >
+
+    <!-- JS - fontawesome -->
+    <script src="https://kit.fontawesome.com/4a94473818.js"></script>
+
 
 
     <!-- Owl Stylesheets -->
