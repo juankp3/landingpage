@@ -1239,11 +1239,11 @@ header .logo {
   align-items: center;
 }
 header .logo img {
-  height: 48px;
+  height: 58px;
 }
 @media screen and (max-width: 768px) {
   header .logo img {
-    height: 40px;
+    height: 50px;
   }
 }
 header .logo .cl-blue {
@@ -1393,107 +1393,6 @@ section.sf-container-img-banner img {
 @media screen and (max-width: 480px) {
   .hide-mobile {
     display: none;
-  }
-}
-section.sf-container-proyectos {
-  background: #00caa9;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos {
-  display: flex;
-  flex-direction: column;
-  margin: 40px 0;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos {
-  color: #fff;
-  text-align: center;
-  margin: 0 0 25px 0;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 44px;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos label {
-  font-family: 'Ubuntu', sans-serif;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-title-proyectos {
-    font-size: 35px;
-  }
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 26px;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos label {
-  font-family: 'Ubuntu', sans-serif;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
-    font-size: 22px;
-  }
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos {
-  display: flex;
-  justify-content: center;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos {
-    flex-direction: column;
-  }
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  width: 100%;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny {
-    justify-content: flex-start;
-  }
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
-  display: flex;
-  flex-direction: column;
-  margin: 0 5% 8px 1%;
-  width: 150px;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny {
-    width: 100px;
-    margin: 0px 0 3% 2%;
-  }
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img {
-  width: 100%;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img:hover {
-  outline: 4px solid #fff;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-picture-tiny img:focus {
-  outline: 4px solid #fff;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-title-picture-tiny {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
-  color: #fff;
-  text-align: center;
-  padding: 8px 0;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-pictures-tiny div.sf-content-pictures-tiny div.sf-title-picture-tiny {
-    font-size: 16px;
-  }
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big {
-  width: 100%;
-}
-section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big img {
-  width: 100%;
-}
-@media screen and (max-width: 480px) {
-  section.sf-container-proyectos div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big img {
-    height: auto;
   }
 }
 section.sf-container-msj-proyectos {
@@ -1889,6 +1788,9 @@ section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.
 .owl-dots button.active span {
   background: #00caa9 !important;
   outline: 0;
+}
+.resaltar {
+  color: #3ba3de !important;
 }
 section.sf-container-servicios {
   background-color: #f5f5f5;
