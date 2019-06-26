@@ -8,8 +8,11 @@
     
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
-    <link rel="stylesheet" type="text/css" href="https://superpet.pe/themes/superpet/assets/lib/font-awesome/css/font-awesome.min.css" >
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- JS - fontawesome -->
+    <script src="https://kit.fontawesome.com/4a94473818.js"></script>
+
+
+
 
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
@@ -45,7 +48,7 @@
             </div>
             <div class="cl-whatsapp">
                 <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=997360983&amp;text=_*Hola!*_">
-                    <i class="fa fa-whatsapp mr5" aria-hidden="true"></i>
+                    <i class="fab fa-whatsapp mr5" aria-hidden="true"></i>
                     <span>997-360-983</span>
                 </a>
             </div>
@@ -142,6 +145,9 @@
                         </div>
                         <div class="sf-list-especializacion">
                             <ul class="list-especializacion">
+                                <li>Preparación de estructuras existentes para caso de sismos</li>
+                                <li>Impermeabilización y reparación de cisternas, piscinas, tanques elevados</li>
+                                <li>Impermeabilización de techos</li>
                                 <li>Estructuras metálicas</li>
                                 <li>Cableado eléctrico, data y telefonía</li>
                                 <li>Iluminación y rollers</li>

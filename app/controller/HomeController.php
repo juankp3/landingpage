@@ -7,12 +7,12 @@ class HomeController
     public function index() 
     {
         // https://hub.docker.com/_/php
-        echo phpinfo();
-        exit;
-        $cone = new Conexion();
-        $res = $cone->get();
-        var_dump($res);
-        exit;
+        // echo phpinfo();
+        // exit;
+        // $cone = new Conexion();
+        // $res = $cone->get();
+        // var_dump($res);
+        // exit;
 
         $gallery = $this->gallery();
         Flight::render('home/index.php', array('gallery' => $gallery));
@@ -23,7 +23,7 @@ class HomeController
         $gallery = array(
             array(
                 'name' => 'SALAS', 
-                'icon' => 'fa-bed', 
+                'icon' => 'fa-couch',
                 'photos' => array(
                     array('name' => 'Foto 1', 'image' => 'SALA-1.png'),
                     array('name' => 'Foto 2', 'image' => 'SALA-2.png'),
@@ -32,7 +32,7 @@ class HomeController
             ),
             array(
                 'name' => 'COCINA', 
-                'icon' => 'fa-bath', 
+                'icon' => 'fa-blender', 
                 'photos' => array(
                     array('name' => 'Foto 1', 'image' => 'COCINA-1.png'),
                     array('name' => 'Foto 2', 'image' => 'COCINA-2.png'),
@@ -51,7 +51,7 @@ class HomeController
             ),
             array(
                 'name' => 'COMEDOR', 
-                'icon' => 'fa-bed', 
+                'icon' => 'fa-coffee',       
                 'photos' => array(
                     array('name' => 'Foto 1', 'image' => 'COMEDOR-1.png'),
                     array('name' => 'Foto 2', 'image' => 'COMEDOR-2.png'),
@@ -60,7 +60,7 @@ class HomeController
             ),
             array(
                 'name' => 'BAÑO', 
-                'icon' => 'fa-bed', 
+                'icon' => 'fa-bath', 
                 'photos' => array(
                     array('name' => 'Foto 1', 'image' => 'BANO-1.png'),
                     array('name' => 'Foto 2', 'image' => 'BANO-2.png'),
