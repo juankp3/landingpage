@@ -1395,6 +1395,60 @@ section.sf-container-img-banner img {
     display: none;
   }
 }
+div.popup {
+  width: 400px;
+  height: auto;
+  position: fixed;
+  background-image: url("../img/bg_popup.png");
+  background-repeat: repeat;
+  bottom: 0;
+  z-index: 2;
+  padding: 14px 20px;
+}
+div.popup .popup_btn_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px 0 0;
+}
+div.popup .popup_btn_close a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "UbuntuRegular";
+}
+div.popup .popup_title {
+  color: #00466f;
+  font-size: 22px;
+  padding-left: 6px;
+}
+@media screen and (max-width: 480px) {
+  div.popup .popup_title {
+    font-size: 20px;
+  }
+}
+div.popup .popup_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 7px 10px 5px 10px;
+}
+div.popup .popup_description .desc_text {
+  color: #fff;
+  font-family: "UbuntuRegular";
+  width: 100%;
+  padding: 10px 0 0 10px;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  div.popup .popup_description .desc_text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  div.popup {
+    width: auto;
+  }
+}
 section.sf-container-msj-proyectos {
   background: #fff;
   margin: 30px 0;
