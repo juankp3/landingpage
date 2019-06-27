@@ -8,7 +8,6 @@
     
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
-
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
