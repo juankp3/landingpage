@@ -229,3 +229,23 @@
 
 </body>
 </html>
+
+<script>
+$(document).ready(function(){
+    $('.popup').hide();
+
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 400) {
+            $('.popup').slideDown(1000);
+        } else {
+            $('.popup').slideUp(1000);
+        }       
+    });
+
+    $('.popup_btn_close').click( function () {
+        $('.popup').hide();
+    });
+
+});
+</script>

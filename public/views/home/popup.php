@@ -1,5 +1,5 @@
-<div class="popup">
-    <div class="popup_btn_close"><a href="#">x</a></div>
+<div class="popup"> 
+    <div class="popup_btn_close">x</div> 
     <div class="popup_title">Impermeabilización y reparación</div>
     <div class="popup_description">
         <div class="desc_img"><img src="assets/img/people_icon.png" alt=""></div>

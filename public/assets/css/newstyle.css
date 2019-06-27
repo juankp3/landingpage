@@ -1410,11 +1410,11 @@ div.popup .popup_btn_close {
   top: 0;
   right: 0;
   padding: 5px 10px 0 0;
-}
-div.popup .popup_btn_close a {
   color: #fff;
   font-size: 20px;
   font-family: "UbuntuRegular";
+  z-index: 3;
+  cursor: pointer;
 }
 div.popup .popup_title {
   color: #00466f;
