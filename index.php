@@ -130,7 +130,7 @@ Flight::route('GET /exportar_inscritos', function () {
 
 
 Flight::map('notFound', function () {
-    echo "Error 404!";
+    Flight::render('home/404.php');
 });
 
 Flight::start();
