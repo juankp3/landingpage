@@ -8,7 +8,6 @@ function styluscss(){
         .pipe(stylus())
         .pipe(dest('../assets/css'));
     css_landing1();
-    css_landing2();
 }
 
 function css_newstyle(){
@@ -30,7 +29,7 @@ function css_landing2(){
 }
 
 function watch_files(){
-    watch('css/**/**/**/*.styl', styluscss);
+    watch('css/**/**/*.styl', styluscss);
 }
 
 exports.style = styluscss;
