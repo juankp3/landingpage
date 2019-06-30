@@ -1,13 +1,14 @@
 <?php
-require '../lib/flight/flight/Flight.php';
-require '../lib/PHPExcel/PHPExcel.php';
-require '../Email/mail.php';
-require '../Database/conexion.php';
+require 'lib/flight/flight/Flight.php';
+require 'lib/PHPExcel/PHPExcel.php';
+// require 'Email/mail.php';
+require 'Database/conexion.php';
 
 date_default_timezone_set('America/Lima');
 
 
-require '../app/controller/HomeController.php';
+require 'app/controller/HomeController.php';
+require 'app/controller/Landing2Controller.php';
 
 
 

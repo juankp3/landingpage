@@ -40,23 +40,8 @@
 </head>
 <body>
 
-    <header class="header">
-        <div class="content">
-            <div class="logo">
-                <a href="#"><img src="assets/img/isotipo.png" alt=""></a>
-                <a href="#"><h1 class="cl-blue">SERVICIOS FELIX</h1></a>
-            </div>
-            <div class="cl-whatsapp">
-                <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=997360983&amp;text=_*Hola!*_">
-                    <i class="fab fa-whatsapp mr5" aria-hidden="true"></i>
-                    <span>997-360-983</span>
-                </a>
-            </div>
-        </div>
-    </header>
+    <?php Flight::render('_partials/header.php'); ?>
 
-
-    
     <section class="sf-title sf-gray-100">
         <div class="content">
             <p>¿Necesitas <strong>Remodelar</strong> o <strong>Ampliar</strong> los ambientes de tu hogar?</p>
@@ -78,7 +63,7 @@
                     muebles a medida y más. Todos con precios a tu alcance.</p>
                 </div>
                 <div class="sf-content-form hide-mobile">
-                    <?php include 'form.php' ?>
+                    <?php include '_partials/form.php' ?>
                 </div>
             </div>
         </div>
@@ -88,7 +73,7 @@
     <section class="sf-room show-mobile">
         <div class="sf-container-room">
             <div class="sf-content-form">
-                <?php include 'form.php' ?>
+                <?php include '_partials/form.php' ?>
             </div>
         </div>
     </section>
@@ -121,7 +106,7 @@
 
 
     <section class="sf-container-proyectos-new">
-        <?php  include 'gallery.php' ?>
+        <?php  include '_partials/gallery.php' ?>
     </section>
 
     <section class="sf-container-msj-proyectos">
@@ -206,30 +191,8 @@
         </div>
     </section>
 
-    <footer>
-        <section class="sf-top-footer">
-            <div class="content">“Ofrecemos soluciones integrales, pensando en tus necesidades”</div>
-        </section> 
-        <section class="sf-bottom-footer">
-            <div class="content">
-                <div class="sf-title-footer">
-                    <p>¡COMENCEMOS <strong>TU PROYECTO</strong>!</p>
-                </div>
-                <div class="sf-title-contact-footer">
-                    <p>CONTÁCTANOS</p>
-                </div>
-                <div class="sf-data-contact-footer">
-                    <span><strong>Dirección : </strong> Av. los Precursores 590</span>
-                    <span><strong>Teléfonos : </strong>  997 360 983</span>
-                    <span><strong>E-mail : </strong>  isr200305@outlook.com</span>
-                    <span><strong>Atención : </strong>  Lunes a Sábado</span>
-                </div>
-                <div class="sf-button-contact-footer">
-                    <button class="btn-content-solid" type="submit">ENVIAR SU PROYECTO</button>
-                </div>
-            </div>
-        </section>
-    </footer>
+
+    <?php Flight::render('_partials/footer.php'); ?>
 
 </body>
 </html>
