@@ -7,4 +7,5 @@ composer.lock
 config.php
 
 # Dev
-dev.serviciosfe.com
+dev.serviciosfe.com/
+error_log
