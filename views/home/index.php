@@ -68,7 +68,7 @@ a {
                 <div class="col-md-12">
                     <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>
                     <h1>Servicios Felix</h1>
-                    <p class="lead">Estamos en contruncción</p>
+                    <p class="lead">Estamos en construcción</p>
                 </div>
             </div>
         </div>
