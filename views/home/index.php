@@ -4,6 +4,13 @@
 <title>Servicios Felix</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Image icon -->
+<?php Flight::render( '_partials/favicon.php') ?>
+
+<!-- Google Analytics -->
+<?php Flight::render( '_partials/analytics.php') ?>
+
 <style type="text/css">
 body {
     background-color: #eee;
@@ -55,7 +62,8 @@ a {
 </head>
     <body>
         <div class="container text-center" id="error">
-            <img src="assets/img/isotipo.png" alt="">
+            <!-- <img src="assets/img/isotipo.png" alt=""> -->
+            <img src="assets/img/favicon/servife.png"  style="width: 120px;" alt="Servicios Felix">
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>

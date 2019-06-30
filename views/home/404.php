@@ -5,9 +5,16 @@
 <title>File Not Found</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Image icon -->
+<?php Flight::render( '_partials/favicon.php') ?>
+
+<!-- Google Analytics -->
+<?php Flight::render( '_partials/analytics.php') ?>
+
 <style type="text/css">
 body {
-  background-color: #eee;
+    background-color: #eee;
 }
 
 body, h1, p {
@@ -72,12 +79,12 @@ a {
     <div class="row">
         <div class="col-md-12">
         <div class="main-icon text-warning"><span class="uxicon uxicon-alert"></span></div>
-            <h1>File not found (404 error)</h1>
+            <h1>Archivo no encontrado (404 error)</h1>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6 col-md-push-3">
-        <p class="lead">If you think what you're looking for should be here, please contact the site owner.</p>
+        <p class="lead">Si cree que lo que está buscando debería estar aquí, comuníquese con el propietario del sitio.</p>
         </div>
     </div>
     </div>

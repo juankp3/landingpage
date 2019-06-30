@@ -27,8 +27,7 @@
     <meta name="keywords" content=""">
 
     <!-- Image icon -->
-    <link rel="icon" type="image/vnd.microsoft.icon" href="">
-    <link rel="shortcut icon" type="image/x-icon" href="">
+    <?php Flight::render( '_partials/favicon.php') ?>
 
     <!-- Properties for social -->
     <meta property="og:site_name" content="Entel Perú"/>
@@ -37,6 +36,10 @@
     <meta property="og:image" content="">
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
+
+    <!-- Google Analytics -->
+    <?php Flight::render( '_partials/analytics.php') ?>
+    
 </head>
 <body>
 
