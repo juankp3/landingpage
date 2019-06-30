@@ -11,9 +11,6 @@
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
-
-
-
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
@@ -24,7 +21,7 @@
     <!-- SEO -->
     <title>Servicios Felix</title>
     <meta name="description" content="">
-    <meta name="keywords" content=""">
+    <meta name="keywords" content="">
 
     <!-- Image icon -->
     <link rel="icon" type="image/vnd.microsoft.icon" href="">
@@ -36,12 +33,12 @@
     <meta property="og:description" content=""/>
     <meta property="og:image" content="">
     <meta property="og:type" content="page"/>
-    <!-- <meta name="google-site-verification" content="" /> -->
 </head>
 <body>
 
     <?php Flight::render('_partials/header.php'); ?>
-
+    <?php include '_partials/popup.php' ?>
+    
     <section class="sf-title sf-gray-100">
         <div class="content">
             <p>¿Necesitas <strong>Remodelar</strong> o <strong>Ampliar</strong> los ambientes de tu hogar?</p>
@@ -196,3 +193,23 @@
 
 </body>
 </html>
+
+<script>
+$(document).ready(function(){
+    $('.popup').hide();
+
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 400) {
+            $('.popup').slideDown(1000);
+        } else {
+            $('.popup').slideUp(1000);
+        }       
+    });
+
+    $('.popup_btn_close').click( function () {
+        $('.popup').hide();
+    });
+
+});
+</script>
