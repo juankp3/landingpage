@@ -9,3 +9,4 @@ config.php
 # Dev
 dev.serviciosfe.com/
 error_log
+.htaccess
