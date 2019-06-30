@@ -1,6 +1,6 @@
 <?php
 
-require '../lib/PHPMailer/PHPMailerAutoload.php';
+require 'lib/PHPMailer/PHPMailerAutoload.php';
 
 
 class Mail{

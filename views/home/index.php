@@ -1,215 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <!-- ViewPort -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
-    <!-- JS - fontawesome -->
-    <script src="https://kit.fontawesome.com/4a94473818.js"></script>
+<title>Servicios Felix</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body {
+    background-color: #eee;
+}
 
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="assets/vendors/jquery.min.js"></script>
-    <script src="assets/owlcarousel/owl.carousel.js"></script>
-    <script src="assets/js/init.js?v=1"></script>
+body, h1, p {
+    font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-    <!-- SEO -->
-    <title>Servicios Felix</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+.container {
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-top: 177px;
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
-    <!-- Image icon -->
-    <link rel="icon" type="image/vnd.microsoft.icon" href="">
-    <link rel="shortcut icon" type="image/x-icon" href="">
+.row:before, .row:after {
+    display: table;
+    content: " ";
+}
 
-    <!-- Properties for social -->
-    <meta property="og:site_name" content="Entel Perú"/>
-    <meta property="og:title" content="Ofertas y promociones"/>
-    <meta property="og:description" content=""/>
-    <meta property="og:image" content="">
-    <meta property="og:type" content="page"/>
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}
+
+.lead {
+    font-size: 21px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+a {
+    color: #3282e6;
+    text-decoration: none;
+}
+</style>
 </head>
-<body>
-
-    <?php Flight::render('_partials/header.php'); ?>
-    <?php include '_partials/popup.php' ?>
-    
-    <section class="sf-title sf-gray-100">
-        <div class="content">
-            <p>¿Necesitas <strong>Remodelar</strong> o <strong>Ampliar</strong> los ambientes de tu hogar?</p>
-        </div>
-    </section>
-
-    <section class="sf-container-img-banner show-mobile">
-        <div class="content">
-            <img src="assets/img/sala.png" alt="">
-        </div>
-    </section>
-
-    <section class="sf-room">
-        <div class="content">
-            <div class="sf-container-room">
-                <div class="sf-content-description">
-                    <h2 class="sf-room-title">¡No te preocupes! <p>Tenemos la más completa solución.</p></h2>
-                    <p class="sf-room-description">Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
-                    muebles a medida y más. Todos con precios a tu alcance.</p>
-                </div>
-                <div class="sf-content-form hide-mobile">
-                    <?php include '_partials/form.php' ?>
+    <body>
+        <div class="container text-center" id="error">
+            <img src="assets/img/isotipo.png" alt="">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>
+                    <h1>Servicios Felix</h1>
+                    <p class="lead">Estamos en contruncción</p>
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <section class="sf-room show-mobile">
-        <div class="sf-container-room">
-            <div class="sf-content-form">
-                <?php include '_partials/form.php' ?>
-            </div>
-        </div>
-    </section>
-
-    
-    <section class="sf-container-beneficios">
-        <div class="content">
-            <div class="sf-content-beneficios">
-                <div class="sf-beneficio">
-                    <div class="sf-image-beneficios">
-                        <img src="assets/img/work.png" alt="">
-                    </div>
-                    <div class="sf-title-beneficios">Trabajo Personalizado</div>
-                </div>
-                <div class="sf-beneficio">
-                    <div class="sf-image-beneficios">
-                        <img src="assets/img/service.png" alt="">
-                    </div>
-                    <div class="sf-title-beneficios">Servicio 100% Profesional</div>
-                </div>
-                <div class="sf-beneficio">
-                    <div class="sf-image-beneficios">
-                        <img src="assets/img/security.png" alt="">
-                    </div>
-                    <div class="sf-title-beneficios">Satisfacción Garantizada</div>
-                </div>
-            </div>
-        </div>
-    </section> 
-
-
-    <section class="sf-container-proyectos-new">
-        <?php  include '_partials/gallery.php' ?>
-    </section>
-
-    <section class="sf-container-msj-proyectos">
-        <div class="content">
-            <div class="sf-container-flex-msj-proyectos">
-                <div class="sf-msj-proyectos">"<label>Ahora cuenta con nosotros</label> para los cambios que planeabas”</div>
-                <div class="sf-msj-button">
-                    <button class="btn-content-solid" type="submit">CONTÁCTENOS</button>
-                </div>
-            </div> 
-        </div>
-    </section> 
-
-    <section class="sf-container-servicios">
-        <div class="content">
-            <div class="sf-servicios">
-                <div class="sf-data-servicios">
-                    <div class="sf-especializados">
-                        <div class="sf-title-especializacion">
-                            <p>Servicios Especializados</p>
-                        </div>
-                        <div class="sf-list-especializacion">
-                            <ul class="list-especializacion">
-                                <li>Preparación de estructuras existentes para caso de sismos</li>
-                                <li>Impermeabilización y reparación de cisternas, piscinas, tanques elevados</li>
-                                <li>Impermeabilización de techos</li>
-                                <li>Estructuras metálicas</li>
-                                <li>Cableado eléctrico, data y telefonía</li>
-                                <li>Iluminación y rollers</li>
-                                <li>Obra civil, sanitarias</li>
-                                <li>Drywall y falsos cielos</li>
-                                <li>Pintura</li>
-                                <li>Ventanas y mamparas de vídrio</li>
-                                <li>Escaleras metálicas</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="sf-complementarios">
-                        <div class="sf-title-complementarios">
-                            <p>Servicios Complementarios</p>
-                        </div>
-                        <div class="sf-list-complementarios">
-                            <ul class="list-complementarios">
-                                <li>Gasfitería</li>
-                                <li>Electricidad</li>
-                                <li>Mantenimiento e Instalación</li>
-                                <li>Aire acondicionado</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="sf-img-servicios">
-                    <img src="assets/img/bg_servicios.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="sf-container-trabaja">
-        <div class="content">
-            <section class="sf-trabaja-nosotros">
-                <div class="sf-content-bgmovil-nosotros">
-                    <img src="assets/img/bg_trabaja.png" alt="">
-                </div>
-                <div class="sf-content-data-nosotros">
-                    <div class="sf-title-data-nosotros">
-                        <p>¿Por qué trabajar con nosotros?</p>
-                    </div>
-                    <div class="sf-list-data-nosotros">
-                        <ul class="list-nosotros">
-                            <li>Tenemos amplia experiencia en el rubro</li>
-                            <li>Nuestro personal es altamente capacitado y con gran experiencia</li>
-                            <li>Brindamos un servicio rápido y eficiente</li>
-                            <li>Manejamos precios justos y competitivos</li>
-                        </ul>
-                    </div>
-                    <div class="sf-button-data-contactenos">
-                        <button class="btn-content-solid" type="submit">CONTÁCTENOS</button>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </section>
-
-
-    <?php Flight::render('_partials/footer.php'); ?>
-
-</body>
+    </body>
 </html>
-
-<script>
-$(document).ready(function(){
-    $('.popup').hide();
-
-    $(document).scroll(function() {
-        var y = $(this).scrollTop();
-        if (y > 400) {
-            $('.popup').slideDown(1000);
-        } else {
-            $('.popup').slideUp(1000);
-        }       
-    });
-
-    $('.popup_btn_close').click( function () {
-        $('.popup').hide();
-    });
-
-});
-</script>

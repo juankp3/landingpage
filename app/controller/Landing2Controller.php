@@ -6,7 +6,7 @@ class Landing2Controller
 
     public function index() 
     {
-        Flight::render('Landing2/index.php');
+        Flight::render('landing2/index.php');
     }
 
 
@@ -14,4 +14,4 @@ class Landing2Controller
 
 $landing2 = new Landing2Controller();
 
-Flight::route('GET /landing', array($landing2, 'index'));
+Flight::route('GET /landing2', array($landing2, 'index'));

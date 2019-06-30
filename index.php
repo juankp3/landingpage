@@ -1,30 +1,16 @@
 <?php
 require 'lib/flight/flight/Flight.php';
 require 'lib/PHPExcel/PHPExcel.php';
-// require 'Email/mail.php';
+require 'Email/mail.php';
 require 'Database/conexion.php';
 
 date_default_timezone_set('America/Lima');
 
 
 require 'app/controller/HomeController.php';
+require 'app/controller/Landing1Controller.php';
 require 'app/controller/Landing2Controller.php';
 
-
-
-
-// Flight::route('GET /', function () {
-//     // $model = new Conexion();
-//     $ganadores = array(); //$model->get_ganadores();
-//     //var_dump($ganadores);
-//     echo "Hola";
-//     // Flight::render('registro.php', array('ganadores' => $ganadores));
-// });
-
-// Flight::route('GET /landing2', function () {
-//     $ganadores = array(); //$model->get_ganadores();
-//     echo "Hola mundo";
-// });
 
 
 Flight::route('GET /exportar_inscritos', function () {
