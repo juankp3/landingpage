@@ -2,11 +2,17 @@ div.popup
     width: 400px
     height: auto
     position: fixed
-    background-image: url(../img/bg_popup.png)
+    background-image: url(../img/bg_popup_dark.png)
     background-repeat: repeat
+    // background-color: #1F2123;
     bottom: 0
     z-index: 2
     padding: 14px 20px
+
+    // background-color: #1F2123
+    // opacity: 0.6
+    // filter: alpha(opacity=60)
+
     & .popup_btn_close
         position: absolute
         top: 0 
@@ -18,7 +24,7 @@ div.popup
         z-index: 3
         cursor: pointer
     & .popup_title
-        color: $color-blue
+        color: $color-primary-light
         font-size: 22px
         padding-left: 6px
         +media-s()

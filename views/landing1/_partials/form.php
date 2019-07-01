@@ -3,7 +3,7 @@
         <div class="form-top">
             <div class="conent-text">
                 <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
-                <p>( Incluye plano de distribución )</p>
+                <p>( Incluye plano de distribución del proyecto)</p>
             </div>
             <div class="input">
                 <input name="name" class="inputtext" type="text" placeholder="Nombre">

@@ -1399,7 +1399,7 @@ div.popup {
   width: 400px;
   height: auto;
   position: fixed;
-  background-image: url("../img/bg_popup.png");
+  background-image: url("../img/bg_popup_dark.png");
   background-repeat: repeat;
   bottom: 0;
   z-index: 2;
@@ -1417,7 +1417,7 @@ div.popup .popup_btn_close {
   cursor: pointer;
 }
 div.popup .popup_title {
-  color: #00466f;
+  color: #00caa9;
   font-size: 22px;
   padding-left: 6px;
 }
