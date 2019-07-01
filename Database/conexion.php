@@ -9,23 +9,22 @@ class Conexion {
      */
     public function __construct()
     {
-        // $conex = array(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-        // $this->_CON = mysqli_connect($conex[0],$conex[1],$conex[2],$conex[3]);
-
+        $conex = array(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+        $this->_CON = mysqli_connect($conex[0],$conex[1],$conex[2],$conex[3]);
 
         // $this->_CON = $mysqli = new mysqli('mysql', 'root', 'toor', 'servife');
-
         // Flight::register('db', 'mysqli', array('localhost','root','toor','servife'));
-        // $this->_CON = Flight::db();
+
+        $this->_CON = Flight::db();
     }
 
     public function get()
     {
-        // $this->_CON->connect();
-        // $customers = $this->_CON->query("SELECT * FROM clientes")->fetch_assoc();
-        // return $customers;
+        $this->_CON->connect();
+        $customers = $this->_CON->query("SELECT * FROM clientes")->fetch_assoc();
+        return $customers;
 
-        Flight::register('db', 'mysqli', array('localhost','root','toor','servife'));
+        // Flight::register('db', 'mysqli', array('localhost','root','toor','servife'));
 
         // Flight::register('db', 'PDO', array('mysql:host=mysql;dbname=servife','root','toor'),
         //     function($db){
@@ -35,13 +34,19 @@ class Conexion {
 
         // $shared = Flight::db();
 
-        $result = Flight::db()->query("SELECT * FROM clientes");
+        // Flight::register('db', 'Database', array('mysql', 'servife', 'root', 'toor'));
+        // $result = Flight::db()->query("SELECT * FROM clientes");
 
-        // $customers = $shared->query("SELECT * FROM clientes")->fetch_assoc();
-        // $customers = array();
-        // dump($customers);
 
-        return $result; 
+        // Flight::register('db', 'mysqli', array('mysql:host=mysql;dbname=servife','root','toor'));
+        // $db = Flight::db();
+        // $x=$db->query("SELECT * FROM `clientes` LIMIT 0, 30")->fetch_assoc();
+
+        // // $customers = $shared->query("SELECT * FROM clientes")->fetch_assoc();
+        // // $customers = array();
+        // // dump($customers);
+
+        // return $result; 
     }
 
 
