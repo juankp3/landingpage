@@ -11,7 +11,6 @@
                 <p>CONTÁCTANOS</p>
             </div>
             <div class="sf-data-contact-footer">
-                <span><strong>Dirección : </strong> Av. los Precursores 590</span>
                 <span><strong>Teléfonos : </strong>  997 360 983</span>
                 <span><strong>E-mail : </strong>  isr200305@outlook.com</span>
                 <span><strong>Atención : </strong>  Lunes a Sábado</span>
