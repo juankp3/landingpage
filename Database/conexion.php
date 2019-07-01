@@ -10,6 +10,12 @@ class Conexion {
     public function __construct()
     {
         $conex = array(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+
+        echo "<pre>";
+        var_dump($conex);
+        echo "</pre>";
+        exit;
+
         $this->_CON = mysqli_connect($conex[0],$conex[1],$conex[2],$conex[3]);
 
         // $this->_CON = $mysqli = new mysqli('mysql', 'root', 'toor', 'servife');
