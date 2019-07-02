@@ -9,50 +9,16 @@ class Conexion {
      */
     public function __construct()
     {
-        $conex = array(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-
-        echo "<pre>";
-        var_dump($conex);
-        echo "</pre>";
-        exit;
-
-        $this->_CON = mysqli_connect($conex[0],$conex[1],$conex[2],$conex[3]);
-
-        // $this->_CON = $mysqli = new mysqli('mysql', 'root', 'toor', 'servife');
-        // Flight::register('db', 'mysqli', array('localhost','root','toor','servife'));
-
+        // echo DB_HOST.' - '.DB_NAME.' - '.DB_USER.' - '.DB_PASS;exit;
+        Flight::register('db', 'PDO', array('mysql:host='.DB_HOST.';dbname='.DB_NAME, DB_USER, DB_PASS));
+        // Flight::register('db', 'PDO', array('mysql:host=;dbname=aa', 'aa', 'ff'));
         $this->_CON = Flight::db();
     }
 
     public function get()
     {
-        $this->_CON->connect();
-        $customers = $this->_CON->query("SELECT * FROM clientes")->fetch_assoc();
+        $customers =$this->_CON->query("SELECT * FROM clientes LIMIT 0, 30")->fetch(PDO::FETCH_ASSOC);
         return $customers;
-
-        // Flight::register('db', 'mysqli', array('localhost','root','toor','servife'));
-
-        // Flight::register('db', 'PDO', array('mysql:host=mysql;dbname=servife','root','toor'),
-        //     function($db){
-        //         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        //     }
-        // );
-
-        // $shared = Flight::db();
-
-        // Flight::register('db', 'Database', array('mysql', 'servife', 'root', 'toor'));
-        // $result = Flight::db()->query("SELECT * FROM clientes");
-
-
-        // Flight::register('db', 'mysqli', array('mysql:host=mysql;dbname=servife','root','toor'));
-        // $db = Flight::db();
-        // $x=$db->query("SELECT * FROM `clientes` LIMIT 0, 30")->fetch_assoc();
-
-        // // $customers = $shared->query("SELECT * FROM clientes")->fetch_assoc();
-        // // $customers = array();
-        // // dump($customers);
-
-        // return $result; 
     }
 
 
