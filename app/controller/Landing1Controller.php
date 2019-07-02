@@ -7,10 +7,10 @@ class Landing1Controller
     public function index() 
     {
         // echo phpinfo();exit;
-        $cone = new Conexion();
-        $res = $cone->get();
-        var_dump($res);
-        exit;
+        // $cone = new Conexion();
+        // $res = $cone->get();
+        // var_dump($res);
+        // exit;
         $gallery = $this->gallery();
         Flight::render('landing1/index.php', array('gallery' => $gallery));
     }

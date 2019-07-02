@@ -32,6 +32,7 @@ services:
             - ./docker/apache/virtualhost.conf:/etc/apache2/sites-enabled/000-default.conf
         networks:
             - front-tier
+            - back-tier
         restart: always
 
     mysql:

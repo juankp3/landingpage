@@ -11,7 +11,7 @@ class Conexion {
     {
         // echo DB_HOST.' - '.DB_NAME.' - '.DB_USER.' - '.DB_PASS;exit;
         Flight::register('db', 'PDO', array('mysql:host='.DB_HOST.';dbname='.DB_NAME, DB_USER, DB_PASS));
-        // Flight::register('db', 'PDO', array('mysql:host=;dbname=aa', 'aa', 'ff'));
+        // Flight::register('db', 'PDO', array('mysql:host=mysql;dbname=servife', 'user_servife', 'computadora'));
         $this->_CON = Flight::db();
     }
 
