@@ -1180,6 +1180,16 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_ca
   flex-direction: row;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards {
+    flex-direction: column;
+  }
+}
 section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.txt_cards {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
@@ -1190,8 +1200,28 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_ca
   align-self: center;
   padding-right: 4px;
 }
+@media screen and (max-width: 768px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.txt_cards {
+    color: #757575;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.txt_cards {
+    color: #757575;
+  }
+}
 section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.img_cards {
   float: left;
+}
+@media screen and (max-width: 768px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.img_cards {
+    margin-top: 4px;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.img_cards {
+    margin-top: 4px;
+  }
 }
 section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.img_cards img {
   max-width: 30px;
