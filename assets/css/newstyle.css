@@ -1175,14 +1175,35 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form h4 {
 section.sf-room .sf-container-room .sf-content-form .sf-form form h4 strong {
   color: #00caa9 !important;
 }
+section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.txt_cards {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  float: left;
+  align-self: center;
+  padding-right: 4px;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.img_cards {
+  float: left;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form div.content_cards div.img_cards img {
+  max-width: 30px;
+}
 section.sf-room .sf-container-room .sf-content-form .sf-form form p {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: 13px;
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
   color: #fff;
-  margin: 0px 0px 15px;
+  margin: 0;
 }
 @media screen and (max-width: 768px) {
   section.sf-room .sf-container-room .sf-content-form .sf-form form p {
