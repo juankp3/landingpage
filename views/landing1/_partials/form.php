@@ -3,11 +3,23 @@
         <div class="form-top">
             <div class="conent-text">
                 <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
-                <p>( Incluye plano de distribución del proyecto)</p>
+                <div class="content_cards">
+                    <div class="txt_cards">Aceptamos todas las tarjetas :</div>
+                    <!--<div class="img_cards"><img src="../../../assets/img/paymentsmethods.png" alt="" title="visa,american express,mastercard,paypal"></div>-->
+
+                    <div class="img_cards">
+                        <img src="../../../assets/img/visa.png" alt="" title="visa">
+                        <img src="../../../assets/img/american.png" alt="" title="american">
+                        <img src="../../../assets/img/master.png" alt="" title="master">
+                        <img src="../../../assets/img/paypal.png" alt="" title="paypal">
+                    </div>
+
+                </div>
+                <p>( Incluye plano de distribución del proyecto )</p>
             </div>
             <div class="input">
                 <input name="name" class="inputtext" type="text" placeholder="Nombre">
-            </div> 
+            </div>
             <div class="input">
                 <input type="email" placeholder="Correo"> 
             </div>
