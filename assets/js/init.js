@@ -7,6 +7,8 @@ function landing() {
         dom.actionGallery = $('ul.list-categories li a')
         dom.actionButton = $('.btn-content-solid')
         dom.actionButtonPopup = $('.--more-information')
+        dom.form = $('#mainForm')
+        dom.actionMainButton = $('#mainButton')
     }
 
     suscribeEvents = function () {
@@ -14,9 +16,50 @@ function landing() {
         dom.actionGallery.on('click', events.onClickActionGallery)
         dom.actionButton.on('click', events.onClickActionButton)
         dom.actionButtonPopup.on('click', events.onClickActionButtonPopup)
+        dom.actionMainButton.on('click', events.onClickActionMainButton)
     }
 
     events = {}
+    events.onClickActionMainButton = function(e) {
+        // validate signup form on keyup and submit
+        dom.form.validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 3
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone: {
+                    required: true,
+                    minlength: 7
+                },
+                message: {
+                    required: true,
+                    minlength: 7
+                },
+            },
+            messages: {
+                name: {
+                    required: "Ingrese su nombre",
+                    minlength: "Ingrese su nombre completo"
+                },
+                email: "Ingrese un correo valido",
+                phone: {
+                    required: "Ingrese su telefono",
+                    minlength: "Telefono incorrecto"
+                },
+                message: {
+                    required: "Ingrese un mensaje",
+                    minlength: "Por favor detalle el servicio"
+                },
+            }
+        });
+
+    }
+
     events.onClickActionGallery = function (e) {
         let id = $(this).data('id')
         dom.actionGallery.removeClass('active')

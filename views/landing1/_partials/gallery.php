@@ -33,7 +33,7 @@
                     <div id="<?php echo 'gallery_'.$contGallery ?>" class="owl-carousel owl-theme" style="display: <?php echo ($contGallery == 1)?'block':'none';  ?>">
                         <?php foreach($room['photos'] as $photos): ?>
                         <div class="item">
-                            <img src="assets/img/room/<?php echo $photos['image']?>">
+                            <img src="/assets/img/room/<?php echo $photos['image']?>">
                         </div>
                         <?php endforeach ?>
                     </div>

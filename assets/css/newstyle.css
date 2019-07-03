@@ -1150,6 +1150,10 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top .con
     width: 80%;
   }
 }
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top label.error {
+  color: #f00;
+  font-style: italic;
+}
 section.sf-room .sf-container-room .sf-content-form .sf-form form .form-bottom {
   width: 90%;
   margin: auto;

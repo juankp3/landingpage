@@ -2,7 +2,7 @@
     <div class="content">
         <div class="logo">
             <!-- <a href="#"><img src="assets/img/isotipo.png" alt=""></a> -->
-            <a href="#"><img src="assets/img/favicon/servife.png" alt="Servicios Felix"></a>
+            <a href="#"><img src="/assets/img/favicon/servife.png" alt="Servicios Felix"></a>
             <a href="#"><h1 class="cl-blue">SERVICIOS FELIX</h1></a>
         </div>
         <div class="cl-whatsapp">
