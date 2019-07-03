@@ -15,6 +15,28 @@ class Landing1Controller
         Flight::render('landing1/index.php', array('gallery' => $gallery));
     }
 
+    public function thanks()
+    {
+        $post = $_POST;
+        // $request = Flight::request();
+        // $body = Flight::request()->data;
+
+        // echo "<pre>";
+        // var_dump($post);
+        // echo "</pre>";
+
+        $cone = new Conexion();
+        $res = $cone->insert($post);
+
+        // $email = new Mail();
+        // $email->envio_correo($post);
+
+        if (!$res)
+            Flight::redirect('/landing1');
+
+        Flight::render('landing1/thanks.php');
+    }
+
     public function gallery()
     {
         $gallery = array(
@@ -141,3 +163,5 @@ class Landing1Controller
 $landing1 = new Landing1Controller();
 
 Flight::route('GET /landing1', array($landing1, 'index'));
+Flight::route('GET /landing1/thanks', array($landing1, 'thanks'));
+Flight::route('POST /landing1/thanks', array($landing1, 'thanks'));

@@ -27,12 +27,19 @@ class Conexion {
         return mysqli_fetch_assoc(mysqli_query($this->_CON,$query));
     }
 
-    public function insert($datos){
+    public function insert($data) {
 
-        $query = "INSERT INTO participante(nombre,dni,celular,correo,fecha_registro) values ".
-            "('".$datos['nombre']."','".$datos['dni']."','".$datos['celular']."','".
-            $datos['correo']."','".date("Y-m-d H:i:s")."')";
-        return mysqli_query($this->_CON,$query);
+        $sql = "INSERT INTO clientes (nombre,correo,celular,area,mensaje,fecha_registro) VALUES(?,?,?,?,?,?)";
+        $sth = Flight::db()->prepare($sql);
+        $sth->bindParam(1, $data["name"]);
+        $sth->bindParam(2, $data["email"]);
+        $sth->bindParam(3, $data["phone"]);
+        $sth->bindParam(4, $data["area"]);
+        $sth->bindParam(5, $data["message"]);
+        $sth->bindParam(6, date('Y-m-d H:i:s'));
+        $res = $sth->execute();
+
+        return $res;
     }
 
     public function get_ganadores() {

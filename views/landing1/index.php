@@ -7,17 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
+    <link rel="stylesheet" type="text/css" href="/assets/css/newstyle.css" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
     <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="assets/vendors/jquery.min.js"></script>
-    <script src="assets/owlcarousel/owl.carousel.js"></script>
-    <script src="assets/js/init.js?v=1"></script>
-
+    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="/assets/vendors/jquery.min.js"></script>
+    <script src="/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="/assets/js/init.js?v=1"></script>
+    <script src="/assets/js/jquery.validate.js"></script>
+    <!-- <script src="assets/js/dist/jquery.validate.js"></script> -->
     <!-- SEO -->
     <title>Servicios Felix</title>
     <meta name="description" content="">
@@ -50,7 +51,7 @@
 
     <section class="sf-container-img-banner show-mobile">
         <div class="content">
-            <img src="assets/img/sala.png" alt="">
+            <img src="/assets/img/sala.png" alt="">
         </div>
     </section>
 
@@ -84,19 +85,19 @@
             <div class="sf-content-beneficios">
                 <div class="sf-beneficio">
                     <div class="sf-image-beneficios">
-                        <img src="assets/img/work.png" alt="">
+                        <img src="/assets/img/work.png" alt="">
                     </div>
                     <div class="sf-title-beneficios">Trabajo Personalizado</div>
                 </div>
                 <div class="sf-beneficio">
                     <div class="sf-image-beneficios">
-                        <img src="assets/img/service.png" alt="">
+                        <img src="/assets/img/service.png" alt="">
                     </div>
                     <div class="sf-title-beneficios">Servicio 100% Profesional</div>
                 </div>
                 <div class="sf-beneficio">
                     <div class="sf-image-beneficios">
-                        <img src="assets/img/security.png" alt="">
+                        <img src="/assets/img/security.png" alt="">
                     </div>
                     <div class="sf-title-beneficios">Satisfacción Garantizada</div>
                 </div>
@@ -159,7 +160,7 @@
                     </div>
                 </div>
                 <div class="sf-img-servicios">
-                    <img src="assets/img/bg_servicios.png" alt="">
+                    <img src="/assets/img/bg_servicios.png" alt="">
                 </div>
             </div>
         </div>
@@ -169,7 +170,7 @@
         <div class="content">
             <section class="sf-trabaja-nosotros">
                 <div class="sf-content-bgmovil-nosotros">
-                    <img src="assets/img/bg_trabaja.png" alt="">
+                    <img src="/assets/img/bg_trabaja.png" alt="">
                 </div>
                 <div class="sf-content-data-nosotros">
                     <div class="sf-title-data-nosotros">
