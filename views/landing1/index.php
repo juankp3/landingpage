@@ -209,11 +209,9 @@ $(document).ready(function(){
         if (y > 200) {          
             $('#popup1').removeClass('animation_hide_left');
             $('#popup1').addClass('animation_show_left'); 
-
             $('#popup2').removeClass('animation_show_right');
             $('#popup2').addClass('animation_hide_right');
         }
-        
         if (y > 900) {
             $('#popup2').removeClass('animation_hide_right');
             $('#popup2').addClass('animation_show_right');
@@ -223,8 +221,7 @@ $(document).ready(function(){
 
             $('#popup3').removeClass('animation_show_left');
             $('#popup3').addClass('animation_hide_left'); 
-        }
-        
+        }       
         if (y > 1900) {
             $('#popup3').removeClass('animation_hide_left');
             $('#popup3').addClass('animation_show_left'); 
@@ -243,6 +240,5 @@ $(document).ready(function(){
     $('#closebtn3').click( function () {
         $('#popup3').hide();
     });
-
 });
 </script>
