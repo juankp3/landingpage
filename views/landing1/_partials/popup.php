@@ -33,4 +33,3 @@
         <button class="btn-content-solid-2 --more-information" type="submit">INFÓRMATE MÁS AQUÍ</button>
     </div>
 </div>
-

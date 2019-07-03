@@ -1446,6 +1446,9 @@ section.sf-container-img-banner img {
     display: none;
   }
 }
+.pos_right {
+  right: 0;
+}
 div.popup {
   width: 400px;
   height: auto;
@@ -1497,7 +1500,8 @@ div.popup .popup_description .desc_text {
 }
 @media screen and (max-width: 480px) {
   div.popup {
-    width: auto;
+    width: 92%;
+    padding: 4% 4%;
   }
 }
 .hide_pos_left {
