@@ -18,18 +18,11 @@ class Landing1Controller
     public function thanks()
     {
         $post = $_POST;
-        // $request = Flight::request();
-        // $body = Flight::request()->data;
-
-        // echo "<pre>";
-        // var_dump($post);
-        // echo "</pre>";
-
         $cone = new Conexion();
         $res = $cone->insert($post);
 
-        // $email = new Mail();
-        // $email->envio_correo($post);
+        $email = new Mail();
+        $email->envio_correo($post);
 
         if (!$res)
             Flight::redirect('/landing1');
