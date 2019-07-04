@@ -1,5 +1,5 @@
 <div class="sf-form">
-    <form id="mainForm" action="/landing1/thanks" method="post">
+    <form class="mainForm" action="/landing1/thanks" method="post">
         <div class="form-top">
             <div class="conent-text">
                 <h4>SOLICITA INFORMACIÓN Y OBTÉN UN <strong>5% DE DESCUENTO</strong></h4>
@@ -24,7 +24,7 @@
                 <input name="phone" type="number" placeholder="Teléfono" required>
             </div>
             <div class="select">
-                <select name="area">
+                <select name="area" required >
                     <option value="">- Seleccione Área -</option>
                     <option value="sala">Sala</option>
                     <option value="cocina">Cocina</option>
@@ -40,7 +40,7 @@
         </div>
         <div class="form-bottom">
             <div class="sf_btn">
-                <button id="mainButton" class="btn-content-solid-2" type="submit">SOLICITAR INFORMACIÓN</button>
+                <button class="mainButton btn-content-solid-2" type="submit">SOLICITAR INFORMACIÓN</button>
             </div>
         </div>
     </form>

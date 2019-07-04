@@ -47,6 +47,7 @@ section.sf-room
                 margin-top: 0px
         .sf-content-form
             width: 400px
+            z-index: 1
             +media-l()
                 width: 50%
             +media-m()
@@ -143,3 +144,18 @@ section.sf-room
                         height: 100%
                     +media-s()
                         height: 100%
+                    & .form-top div.input label 
+                        position: absolute
+                        right : 0
+                        margin: 12px 12px 0 0
+                    & .form-top div.select label
+                        position: absolute
+                        right : 0
+                        margin: 12px 12px 0 0
+                        font-size :  14px
+                    & .form-top div.textarea label
+                        position: absolute
+                        right : 0
+                        bottom : 0
+                        font-size :  14px
+                        margin: 0 12px 12px 0

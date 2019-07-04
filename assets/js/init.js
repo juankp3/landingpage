@@ -7,8 +7,8 @@ function landing() {
         dom.actionGallery = $('ul.list-categories li a')
         dom.actionButton = $('.btn-content-solid')
         dom.actionButtonPopup = $('.--more-information')
-        dom.form = $('#mainForm')
-        dom.actionMainButton = $('#mainButton')
+        // dom.form = $('#mainForm')
+        dom.actionMainButton = $('.mainButton')
     }
 
     suscribeEvents = function () {
@@ -22,6 +22,7 @@ function landing() {
     events = {}
     events.onClickActionMainButton = function(e) {
         // validate signup form on keyup and submit
+        dom.form = $(this).parent().parent().parent()
         dom.form.validate({
             rules: {
                 name: {
@@ -40,20 +41,26 @@ function landing() {
                     required: true,
                     minlength: 7
                 },
+                area: {
+                    required: true,
+                },
             },
             messages: {
                 name: {
                     required: "Ingrese su nombre",
                     minlength: "Ingrese su nombre completo"
                 },
-                email: "Ingrese un correo valido",
+                email: "Ingrese un correo válido",
                 phone: {
-                    required: "Ingrese su telefono",
-                    minlength: "Telefono incorrecto"
+                    required: "Ingrese su teléfono",
+                    minlength: "Teléfono incorrecto"
                 },
                 message: {
                     required: "Ingrese un mensaje",
                     minlength: "Por favor detalle el servicio"
+                },
+                area: {
+                    required: "Seleccione un área",
                 },
             }
         });

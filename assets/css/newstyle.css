@@ -1096,6 +1096,7 @@ section.sf-room .sf-container-room .sf-content-description p.sf-room-description
 }
 section.sf-room .sf-container-room .sf-content-form {
   width: 400px;
+  z-index: 1;
 }
 @media screen and (max-width: 960px) {
   section.sf-room .sf-container-room .sf-content-form {
@@ -1266,6 +1267,24 @@ section.sf-room .sf-container-room .sf-content-form .sf-form form div.sf_btn {
   section.sf-room .sf-container-room .sf-content-form .sf-form form {
     height: 100%;
   }
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top div.input label {
+  position: absolute;
+  right: 0;
+  margin: 12px 12px 0 0;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top div.select label {
+  position: absolute;
+  right: 0;
+  margin: 12px 12px 0 0;
+  font-size: 14px;
+}
+section.sf-room .sf-container-room .sf-content-form .sf-form form .form-top div.textarea label {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  margin: 0 12px 12px 0;
 }
 header {
   padding-top: 10px;
