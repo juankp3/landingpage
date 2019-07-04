@@ -9,14 +9,15 @@ class Mail{
 
     function __construct() {
         $mail = new PHPMailer;
-
+        
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = MAIL_HOST;  // Specify main and backup SMTP servers
-        $mail->SMTPAuth = true;                               // Enable SMTP authentication
+        $mail->SMTPAuth = false;                               // Enable SMTP authentication
         $mail->Username = MAIL_USERNAME;                 // SMTP username
         $mail->Password = MAIL_PASS;          // SMTP password
-        $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 587;                                    // TCP port to connect to
+        $mail->SMTPSecure = false;                           // Enable TLS encryption, `ssl` also accepted
+        $mail->SMTPAutoTLS = false;                           // Enable TLS encryption, `ssl` also accepted
+        $mail->Port = 25; //587;                                    // TCP port to connect to
 
         $mail->setFrom(MAIL_FROM_EMAIL, MAIL_FROM_NAME);
     //    $mail->addAddress('michael.alozano@janaq.com', 'Joe User');     // Add a recipient
