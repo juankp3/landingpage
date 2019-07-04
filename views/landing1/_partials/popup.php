@@ -14,7 +14,7 @@
     <div id="closebtn2"  class="popup_btn_close">x</div>
     <div class="popup_title">Impermeabilización y reparación</div>
     <div class="popup_description">
-        <div class="desc_img"><img src="assets/img/icons-tools.png" alt=""></div>
+        <div class="desc_img"><img class="size_38"  src="assets/img/icons-tools.png" alt=""></div>
         <div class="desc_text">Afecta las estructuras e incrementa tu consumo de agua.</div>
     </div>
     <div class="popup_button"> 
