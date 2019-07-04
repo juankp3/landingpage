@@ -194,6 +194,8 @@ section.sf-container-proyectos-new
                     cursor: pointer
                     overflow: hidden
                     position relative
+                    +media-s()
+                        height : 285px
                     .load
                         background-image: url(../img/spinner_1.png)
                         background-repeat: no-repeat
@@ -204,6 +206,8 @@ section.sf-container-proyectos-new
                         display none
                         position: absolute
                         background-color: #F5F5F5
+                        +media-s()
+                            height : 280px
                     & img
                         +media-m()
                             height : auto
