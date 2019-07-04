@@ -47,10 +47,11 @@ class Mail{
 
             if (is_array($correos_envio)) {
                 $this->mail->Body = '<h2>Datos del Participante:</h2>';
-                $this->mail->Body .= '<p>Nombres: '.$datos['nombre'].'</p>';
-                $this->mail->Body .= '<p>Correo: '.$datos['correo'].'</p>';
-                $this->mail->Body .= '<p>Dni: '.$datos['dni'].'</p>';
-                $this->mail->Body .= '<p>celular: '.$datos['celular'].'</p>';
+                $this->mail->Body .= '<p>Nombres: '.$datos['name'].'</p>';
+                $this->mail->Body .= '<p>Correo: '.$datos['email'].'</p>';
+                $this->mail->Body .= '<p>Télefono: '.$datos['phone'].'</p>';
+                $this->mail->Body .= '<p>Area: '.$datos['area'].'</p>';
+                $this->mail->Body .= '<p>Mensaje: '.$datos['message'].'</p>';
 
                 foreach ($correos_envio as $correo) {
                     $validate = preg_match('/^[a-zA-Z0-9+]+(?:([\.\_\-][a-zA-Z0-9+]+))*@(?:([a-zA-Z0-9]+(\-[a-zA-Z0-9]+)*)\.)+[a-zA-Z]+$/',$correo);
