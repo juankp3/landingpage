@@ -18,7 +18,6 @@ ul,
 li {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 a {
   color: #016fe5;
@@ -1508,7 +1507,6 @@ div.popup .popup_description {
   flex-direction: row;
   justify-content: left;
   margin: 8px;
-  height: 56px;
 }
 div.popup .popup_description .desc_text {
   color: #fff;
@@ -1517,6 +1515,15 @@ div.popup .popup_description .desc_text {
   padding: 0 0 0 10px;
   font-size: 18px;
   align-self: center;
+}
+div.popup .popup_description .desc_text ul {
+  padding: 0 0 0 14px;
+  margin: 0;
+  list-style: decimal !important;
+}
+div.popup .popup_description .desc_text ul li {
+  font-size: 12px;
+  padding: 3px 0;
 }
 @media screen and (max-width: 480px) {
   div.popup .popup_description .desc_text {

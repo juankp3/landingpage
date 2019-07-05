@@ -1,9 +1,15 @@
 <div id="popup1" class="popup hide_pos_left">
     <div id="closebtn1" class="popup_btn_close">x</div> 
-    <div class="popup_title">Preparación de estructuras</div>
+    <div class="popup_title">¡Sismos! Preparación de estructuras de tu casa para casos de sismos.</div>
     <div class="popup_description">
-        <div class="desc_img"><img src="assets/img/icons-drill.png" alt=""></div>
-        <div class="desc_text">En tres simples pasos.</div>
+        <div class="desc_img"><img src="assets/img/icons-house.png" alt=""></div>
+        <div class="desc_text">
+            <ul>
+                <li>Estudio Estructural : Visita técnica, planos, escaneos, etc.</li>
+                <li>Diagnóstico y presupuesto : Informe y valorización de la solución.</li>
+                <li>Ejecución de obra : Ponemos en marcha la solución.</li>
+            </ul>
+        </div>
     </div>
     <div class="popup_button">
         <button class="btn-content-solid-2 --more-information" type="submit">INFÓRMATE MÁS AQUÍ</button>
@@ -12,9 +18,9 @@
 
 <div id="popup2" class="popup hide_pos_right">
     <div id="closebtn2"  class="popup_btn_close">x</div>
-    <div class="popup_title">Impermeabilización y reparación</div>
+    <div class="popup_title">Filtración de lluvias, fugas en tanques, piscinas o cisternas</div>
     <div class="popup_description">
-        <div class="desc_img"><img class="size_38"  src="assets/img/icons-tools.png" alt=""></div>
+        <div class="desc_img"><img class="size_38"  src="assets/img/icons-filtration.png" alt=""></div>
         <div class="desc_text">Afecta las estructuras e incrementa tu consumo de agua.</div>
     </div>
     <div class="popup_button"> 
@@ -27,7 +33,7 @@
     <div class="popup_title">Impermeabilización de techos</div>
     <div class="popup_description">
         <div class="desc_img"><img src="assets/img/icons-rain.png" alt=""></div>
-        <div class="desc_text">Protege tu inmueble para las lluvias.</div>
+        <div class="desc_text"> Protege tu inmueble de las lluvias.</div>
     </div>
     <div class="popup_button">
         <button class="btn-content-solid-2 --more-information" type="submit">INFÓRMATE MÁS AQUÍ</button>

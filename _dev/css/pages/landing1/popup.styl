@@ -31,7 +31,6 @@ div.popup
         flex-direction: row
         justify-content: left
         margin: 8px
-        height : 56px
         & .desc_text
             color: $color-white
             font-family: $font-family-ubuntu-regular
@@ -39,6 +38,13 @@ div.popup
             padding: 0 0 0 10px
             font-size: 18px
             align-self: center
+            & ul 
+                padding: 0 0 0 14px
+                margin: 0
+                list-style: decimal !important
+                & li
+                    font-size: 12px
+                    padding: 3px 0
             +media-s()
                 font-size: 16px
         & .desc_img
@@ -50,7 +56,6 @@ div.popup
     +media-s()
         width: 92%
         padding: 4% 4%
-
 .hide_pos_left
     bottom: 0
     left : -500px
