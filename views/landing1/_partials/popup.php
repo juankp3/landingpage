@@ -2,7 +2,7 @@
     <div id="closebtn1" class="popup_btn_close">x</div> 
     <div class="popup_title">¡Sismos! Preparación de estructuras de tu casa para casos de sismos.</div>
     <div class="popup_description">
-        <div class="desc_img"><img src="assets/img/icons-house.png" alt=""></div>
+        <div class="desc_img"><img src="assets/img/icons-terremoto.png" alt=""></div>
         <div class="desc_text">
             <ul>
                 <li>Estudio Estructural : Visita técnica, planos, escaneos, etc.</li>
@@ -20,7 +20,7 @@
     <div id="closebtn2"  class="popup_btn_close">x</div>
     <div class="popup_title">Filtración de lluvias, fugas en tanques, piscinas o cisternas</div>
     <div class="popup_description">
-        <div class="desc_img"><img class="size_38"  src="assets/img/icons-filtration.png" alt=""></div>
+        <div class="desc_img"><img class="size_38"  src="assets/img/icons-water.png" alt=""></div>
         <div class="desc_text">Afecta las estructuras e incrementa tu consumo de agua.</div>
     </div>
     <div class="popup_button"> 
