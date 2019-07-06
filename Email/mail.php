@@ -15,9 +15,9 @@ class Mail{
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = MAIL_USERNAME;                 // SMTP username
         $mail->Password = MAIL_PASS;          // SMTP password
-        $mail->SMTPSecure = tls;                           // Enable TLS encryption, `ssl` also accepted
-        $mail->SMTPAutoTLS = false;                           // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 587; //587;                                    // TCP port to connect to
+        $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+        $mail->Port = 587;
+
 
         $mail->setFrom(MAIL_FROM_EMAIL, MAIL_FROM_NAME);
     //    $mail->addAddress('michael.alozano@janaq.com', 'Joe User');     // Add a recipient
