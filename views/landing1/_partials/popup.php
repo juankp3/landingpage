@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="popup_button">
-        <button class="btn-content-solid-2 --more-information" type="submit">INFÓRMATE MÁS AQUÍ</button>
+        <button class="btn-content-solid-2 --more-information" data-form="6" type="submit">INFÓRMATE MÁS AQUÍ</button>
     </div>
 </div>
 
@@ -24,7 +24,7 @@
         <div class="desc_text">Afecta las estructuras e incrementa tu consumo de agua.</div>
     </div>
     <div class="popup_button"> 
-        <button class="btn-content-solid-2 --more-information" type="submit">INFÓRMATE MÁS AQUÍ</button>
+        <button class="btn-content-solid-2 --more-information" data-form="7" type="submit">INFÓRMATE MÁS AQUÍ</button>
     </div>
 </div>
 
@@ -36,6 +36,6 @@
         <div class="desc_text"> Protege tu inmueble de las lluvias.</div>
     </div>
     <div class="popup_button">
-        <button class="btn-content-solid-2 --more-information" type="submit">INFÓRMATE MÁS AQUÍ</button>
+        <button class="btn-content-solid-2 --more-information" data-form="8" type="submit">INFÓRMATE MÁS AQUÍ</button>
     </div>
 </div>

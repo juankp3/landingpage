@@ -9,10 +9,17 @@ function landing() {
         dom.actionButtonPopup = $('.--more-information')
         // dom.form = $('#mainForm')
         dom.actionMainButton = $('.mainButton')
+
+        // Form
+        dom.inputFormArea = $(".--area")
+
+        // PopUps
+        dom.boxPopUp1 = $('#popup1')
+        dom.boxPopUp2 = $('#popup2')
+        dom.boxPopUp3 = $('#popup3')
     }
 
     suscribeEvents = function () {
-        console.log('Test event')
         dom.actionGallery.on('click', events.onClickActionGallery)
         dom.actionButton.on('click', events.onClickActionButton)
         dom.actionButtonPopup.on('click', events.onClickActionButtonPopup)
@@ -90,22 +97,34 @@ function landing() {
     }
 
     events.onClickActionButton = function() {
-        $('html, body').animate({
-            scrollTop: $('body').offset().top
-        }, 1000, function(){
-            $('input[name]').focus()
-        })
+        fn.goToForm('')
     }
 
     events.onClickActionButtonPopup = function() {
-        $('html, body').animate({
-            scrollTop: $('body').offset().top
-        }, 1000, function(){
-            $('input[name]').focus()
-        })
+        let dataForm = $(this).data('form')
+        fn.goToForm(dataForm)
     }
 
     fn = {}
+    fn.goToForm = function (dataForm) {
+        if (/Mobi/.test(navigator.userAgent)) {
+            var strAncla='#formMobile'
+        } else {
+            var strAncla='#formWeb'
+        }
+
+        $('body,html').stop(true,true).animate({				
+            scrollTop: $(strAncla).offset().top
+        },1000, function () {
+            fn.animationHide()
+            setTimeout(function(){ 
+                dom.inputFormArea.val(dataForm)
+                // fn.closeAllPopUp()
+            }, 500);
+        });
+
+    }
+
     fn.carousel = function () {
         $(document).ready(function() {
             var owl = $('.owl-carousel');
@@ -126,6 +145,18 @@ function landing() {
             }
             })
         })
+    }
+
+    fn.closeAllPopUp = function () {
+        dom.boxPopUp1.hide()
+        dom.boxPopUp2.hide()
+        dom.boxPopUp3.hide()
+    }
+
+    fn.animationHide = function () {
+        dom.boxPopUp1.addClass('animation_hide_left');
+        dom.boxPopUp2.addClass('animation_hide_right');
+        dom.boxPopUp3.addClass('animation_hide_left'); 
     }
 
 

@@ -24,13 +24,11 @@
                 <input name="phone" type="number" placeholder="Teléfono" required>
             </div>
             <div class="select">
-                <select name="area" required >
+                <select name="area" class="--area" required >
                     <option value="">- Seleccione Área -</option>
-                    <option value="sala">Sala</option>
-                    <option value="cocina">Cocina</option>
-                    <option value="dormitorio">Dormitorio</option>
-                    <option value="comedor">Comedor</option>
-                    <option value="bano">Baño</option>
+                    <?php foreach($dataForm as $key => $value): ?>
+                        <option value="<?php echo $key ?>"><?php echo $value ?></option>
+                    <?php endforeach ?>
                 </select>
             </div>
 
