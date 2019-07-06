@@ -2,7 +2,7 @@
     <div id="closebtn1" class="popup_btn_close">x</div> 
     <div class="popup_title">¡Sismos! Preparación de estructuras de tu casa para casos de sismos.</div>
     <div class="popup_description">
-        <div class="desc_img"><img src="assets/img/icons-house-broken.png" alt=""></div>
+        <div class="desc_img"><img src="assets/img/icons-terremoto.png" alt=""></div>
         <div class="desc_text">
             <ul>
                 <li>Estudio Estructural : Visita técnica, planos, escaneos, etc.</li>
