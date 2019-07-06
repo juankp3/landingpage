@@ -64,6 +64,7 @@
                     muebles a medida y más. Todos con precios a tu alcance.</p>
                 </div>
                 <div class="sf-content-form hide-mobile">
+                    <a name="formWeb" id="formWeb"> </a>
                     <?php include '_partials/form.php' ?>
                 </div>
             </div>
@@ -74,6 +75,7 @@
     <section class="sf-room show-mobile">
         <div class="sf-container-room">
             <div class="sf-content-form">
+                <a name="formMobile" id="formMobile"> </a>
                 <?php include '_partials/form.php' ?>
             </div>
         </div>
