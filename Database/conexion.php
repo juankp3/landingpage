@@ -50,7 +50,10 @@ class Conexion {
     }
 
     public function participantes() {
-        $query = "SELECT nombre, dni, correo, celular, fecha_registro FROM participante";
+        // $customers =$this->_CON->query("SELECT * FROM clientes LIMIT 0, 30")->fetch(PDO::FETCH_ASSOC);
+        // return $customers;
+
+        $query = "SELECT * FROM clientes";
         $result = mysqli_query($this->_CON,$query);
         $data = array();
         while ($d  = mysqli_fetch_assoc($result)) {

@@ -89,15 +89,23 @@ Flight::route('GET /exportar_inscritos', function () {
                     ->setCellValue('E1', 'Fecha Registro');
 
                 $model = new Conexion();
+                // $participantes = $model->get();
                 $participantes = $model->participantes();
+                
+                var_dump($participantes);
+                // exit;
                 $cont = 2 ;
                 foreach ($participantes as $p) {
+
+                    var_dump($p);exit;
                     $objPHPExcel->setActiveSheetIndex(0)
-                        ->setCellValueByColumnAndRow(0, $cont, $p['nombre'])
-                        ->setCellValueByColumnAndRow(1, $cont, $p['dni'])
+                        ->setCellValueByColumnAndRow(0, $cont, $p['id'])
+                        ->setCellValueByColumnAndRow(1, $cont, $p['nombre'])
                         ->setCellValueByColumnAndRow(2, $cont, $p['correo'])
                         ->setCellValueByColumnAndRow(3, $cont, $p['celular'])
-                        ->setCellValueByColumnAndRow(4, $cont, $p['fecha_registro']);
+                        ->setCellValueByColumnAndRow(4, $cont, $p['area'])
+                        ->setCellValueByColumnAndRow(5, $cont, $p['mensaje'])
+                        ->setCellValueByColumnAndRow(6, $cont, $p['fecha_registro']);
                     $cont ++;
                 }
 

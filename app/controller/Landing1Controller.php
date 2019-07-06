@@ -22,11 +22,11 @@ class Landing1Controller
         $cone = new Conexion();
         $res = $cone->insert($post);
 
-        $email = new Mail();
-        $email->envio_correo($post);
+        // $email = new Mail();
+        // $email->envio_correo($post);
 
-        if (!$res)
-            Flight::redirect('/landing1');
+        // if (!$res)
+        //     Flight::redirect('/landing1');
 
         Flight::render('landing1/thanks.php');
     }
