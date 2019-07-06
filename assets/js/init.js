@@ -20,7 +20,6 @@ function landing() {
     }
 
     suscribeEvents = function () {
-        console.log('Test event')
         dom.actionGallery.on('click', events.onClickActionGallery)
         dom.actionButton.on('click', events.onClickActionButton)
         dom.actionButtonPopup.on('click', events.onClickActionButtonPopup)
@@ -117,9 +116,9 @@ function landing() {
         $('body,html').stop(true,true).animate({				
             scrollTop: $(strAncla).offset().top
         },1000, function () {
+            fn.animationHide()
             setTimeout(function(){ 
                 dom.inputFormArea.val(dataForm)
-                fn.animationHide()
                 // fn.closeAllPopUp()
             }, 500);
         });
