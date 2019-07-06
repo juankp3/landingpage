@@ -20,18 +20,18 @@
     <script src="/assets/js/jquery.validate.js"></script>
     <!-- <script src="assets/js/dist/jquery.validate.js"></script> -->
     <!-- SEO -->
-    <title>Servicios Felix</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>¿Necesitas Remodelar o Ampliar los ambientes de tu hogar? | Servicios Felix</title>
+    <meta name="description" content="Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.">
+    <meta name="keywords" content="Realizamos asesorias, remodelación, casa, ">
 
     <!-- Image icon -->
     <?php Flight::render( '_partials/favicon.php') ?>
 
     <!-- Properties for social -->
-    <meta property="og:site_name" content="Entel Perú"/>
-    <meta property="og:title" content="Ofertas y promociones"/>
-    <meta property="og:description" content=""/>
-    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Servicios Felix"/>
+    <meta property="og:title" content="¿Necesitas Remodelar o Ampliar los ambientes de tu hogar?"/>
+    <meta property="og:description" content="Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance."/>
+    <meta property="og:image" content="/assets/img/sala.png">
     <meta property="og:type" content="page"/>
 
     <!-- Google Analytics -->
