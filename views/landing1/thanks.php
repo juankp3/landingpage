@@ -55,7 +55,7 @@
                         <span>997-360-983</span>
                     </a>
                 </div>
-                <div class="thanks-email"><strong>E-mail:</strong> irsh809@gmail.com</div>
+                <div class="thanks-email"><strong>E-mail:</strong> isr200305@outlook.com</div>
                 <div class="thanks-btn">
                     <button class="mainButton btn-content-solid-2" type="submit">VOLVER A LA PÁGINA</button>
                 </div>
