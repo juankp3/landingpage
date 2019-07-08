@@ -60,7 +60,7 @@
             <div class="sf-container-room">
                 <div class="sf-content-description">
                     <h2 class="sf-room-title">¡No te preocupes! <p>Tenemos la más completa solución.</p></h2>
-                    <p class="sf-room-description">Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
+                    <p class="sf-room-description">Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
                     muebles a medida y más. Todos con precios a tu alcance.</p>
                 </div>
                 <div class="sf-content-form hide-mobile">
