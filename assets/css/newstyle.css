@@ -1478,7 +1478,7 @@ div.popup {
   background-image: url("../img/bg_popup_dark.png");
   background-repeat: repeat;
   bottom: 0;
-  z-index: 2;
+  z-index: 3;
   padding: 14px 20px;
 }
 div.popup .popup_btn_close {
@@ -2140,6 +2140,34 @@ section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.
 @media screen and (max-width: 480px) {
   section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big .load {
     height: 280px;
+  }
+}
+section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big .txt_izq {
+  position: absolute;
+  left: 0;
+  background: url("../img/bg_popup_dark.png");
+  color: #fff;
+  z-index: 2;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big .txt_izq {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big .txt_der {
+  position: absolute;
+  background: url("../img/bg_popup_dark.png");
+  color: #fff;
+  right: 0;
+  z-index: 2;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-container-picture-big .txt_der {
+    padding: 6px 10px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
