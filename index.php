@@ -13,7 +13,7 @@ require 'app/controller/Landing2Controller.php';
 
 
 
-Flight::route('GET /exportar_inscritos', function () {
+Flight::route('GET /exportar', function () {
     if (!isset($_SERVER['PHP_AUTH_USER'])) {
         header('WWW-Authenticate: Basic realm="Mi dominio"');
         header('HTTP/1.0 401 Unauthorized');
@@ -27,11 +27,11 @@ Flight::route('GET /exportar_inscritos', function () {
                 $objPHPExcel = new PHPExcel();
                 $objPHPExcel->getProperties()->setCreator("Maarten Balliauw")
                     ->setLastModifiedBy("Maarten Balliauw")
-                    ->setTitle("Reporte de Participantes")
+                    ->setTitle("Reporte de Clientes potenciales")
                     ->setSubject("Reporte")
-                    ->setDescription("Participantes registrados")
+                    ->setDescription("Clientes potenciales registrados")
                     ->setKeywords("office PHPExcel php")
-                    ->setCategory("Participantes");
+                    ->setCategory("Clientes potenciales");
 
                 $styleArray = array(
                     'font' => array(
@@ -82,22 +82,24 @@ Flight::route('GET /exportar_inscritos', function () {
                 }
 
                 $objPHPExcel->setActiveSheetIndex(0)
-                    ->setCellValue('A1', 'Nombres')
-                    ->setCellValue('B1', 'DNI')
+                    ->setCellValue('A1', 'ID')
+                    ->setCellValue('B1', 'Nombre')
                     ->setCellValue('C1', 'Correo')
                     ->setCellValue('D1', 'Celular')
-                    ->setCellValue('E1', 'Fecha Registro');
+                    ->setCellValue('E1', 'Area')
+                    ->setCellValue('F1', 'Mensaje')
+                    ->setCellValue('G1', 'Fecha Registro');
 
                 $model = new Conexion();
                 // $participantes = $model->get();
                 $participantes = $model->participantes();
                 
-                var_dump($participantes);
+                // var_dump($participantes);
                 // exit;
                 $cont = 2 ;
                 foreach ($participantes as $p) {
 
-                    var_dump($p);exit;
+                    // var_dump($p);exit;
                     $objPHPExcel->setActiveSheetIndex(0)
                         ->setCellValueByColumnAndRow(0, $cont, $p['id'])
                         ->setCellValueByColumnAndRow(1, $cont, $p['nombre'])
@@ -110,20 +112,20 @@ Flight::route('GET /exportar_inscritos', function () {
                 }
 
                 $objPHPExcel->getActiveSheet()
-                    ->getStyle( 'A1:E1')
+                    ->getStyle( 'A1:G1')
                     ->applyFromArray($styleArray);
 
                 $objPHPExcel->getActiveSheet()
-                    ->getStyle( 'A2:E'. ($cont - 1) )
+                    ->getStyle( 'A2:G'. ($cont - 1) )
                     ->applyFromArray($styleArray2);
 
-                $objPHPExcel->getActiveSheet()->setTitle('Participantes');
+                $objPHPExcel->getActiveSheet()->setTitle('Clientes');
 
                 $objPHPExcel->setActiveSheetIndex(0);
 
                 $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
                 header('Content-type: application/vnd.ms-excel');
-                header('Content-Disposition: attachment; filename="reporte.xls"');
+                header('Content-Disposition: attachment; filename="reporte.xlsx"');
                 $objWriter->save('php://output');
             }
             else{

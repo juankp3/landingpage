@@ -50,15 +50,15 @@ class Conexion {
     }
 
     public function participantes() {
-        // $customers =$this->_CON->query("SELECT * FROM clientes LIMIT 0, 30")->fetch(PDO::FETCH_ASSOC);
-        // return $customers;
+        $customers =$this->_CON->query("SELECT * FROM clientes")->fetchAll();
+        return $customers;
 
-        $query = "SELECT * FROM clientes";
-        $result = mysqli_query($this->_CON,$query);
-        $data = array();
-        while ($d  = mysqli_fetch_assoc($result)) {
-            $data[] = $d;
-        }
-        return $data;
+        // $query = "SELECT * FROM clientes";
+        // $result = mysqli_query($this->_CON,$query);
+        // $data = array();
+        // while ($d  = mysqli_fetch_assoc($result)) {
+        //     $data[] = $d;
+        // }
+        // return $data;
     }
 }
