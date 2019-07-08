@@ -25,6 +25,8 @@
             </div>
             <div class="sf-container-picture-big">
                     <div class="load"></div>
+                    <div class="txt_izq">Antes</div>
+                    <div class="txt_der">Después</div>
                     <?php 
                     $contGallery = 0;
                     foreach($gallery as $room): 

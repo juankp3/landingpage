@@ -43,10 +43,23 @@
     <?php Flight::render('_partials/header.php'); ?>
     
     
-    <section class="">
+    <section class="sf-container-thanks">
         <div class="content">
-            <p>¡GRACIAS!</p>
-            <p>Se ha registrado tu solicitud. Tan pronto nos sea posible, nos podremos en contacto contigo.</p>
+            <div class="sf-content-thanks">
+                <p class="thanks-tit">¡GRACIAS!</p>
+                <p class="thanks-desc">Se ha registrado tu solicitud. Tan pronto nos sea posible, nos pondremos en contacto contigo.</p>
+                <div class="thanks-subtit">Contáctanos</div>
+                <div class="thanks-whatsapp">
+                    <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=_*Hola!*_">
+                        <i class="fab fa-whatsapp mr5" aria-hidden="true"></i>
+                        <span>997-360-983</span>
+                    </a>
+                </div>
+                <div class="thanks-email"><strong>E-mail:</strong> isr200305@outlook.com</div>
+                <div class="thanks-btn">
+                    <button class="mainButton btn-content-solid-2" type="submit">VOLVER A LA PÁGINA</button>
+                </div>
+            </div>
         </div>
     </section>
     
