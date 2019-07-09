@@ -213,24 +213,23 @@ Flight::route('GET /testmail', function () {
     // $email->envio_correo($datos);
 
 
-    $to = "juankp3@gmail.com";
-$subject = "HTML email";
+    $to = "juankp3@gmail.com, vangela06@gmail.com, ladislaox@gmail.com";
+$subject = "Landing 1 Servife";
 
 $message = "
 <html>
 <head>
-<title>HTML email</title>
+<title>Landing 1 Servife</title>
 </head>
 <body>
-<p>This email contains HTML Tags!</p>
 <table>
 <tr>
-<th>Firstname</th>
-<th>Lastname</th>
+<th>Nombre</th>
+<th>Apellido</th>
 </tr>
 <tr>
-<td>John</td>
-<td>Doe</td>
+<td>juan</td>
+<td>kuga</td>
 </tr>
 </table>
 </body>
@@ -242,8 +241,8 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <webmaster@example.com>' . "\r\n";
-$headers .= 'Cc: myboss@example.com' . "\r\n";
+$headers .= 'From: <contacto@serviciosfe.com>' . "\r\n";
+// $headers .= 'Cc: myboss@example.com' . "\r\n";
 
 $res = mail($to,$subject,$message,$headers);
 
