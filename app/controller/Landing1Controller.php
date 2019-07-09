@@ -25,8 +25,8 @@ class Landing1Controller
         // $email = new Mail();
         // $email->envio_correo($post);
 
-        // if (!$res)
-        //     Flight::redirect('/landing1');
+        if (!$res)
+            Flight::redirect('/');
 
         Flight::render('landing1/thanks.php');
     }
@@ -39,7 +39,7 @@ class Landing1Controller
             '3' => 'Dormitorio',
             '4' => 'Comedor',
             '5' => 'Baño',
-            '6' => '¡Sismos! Preparación de estructuras de tu casa para casos de sismos.',
+            '6' => 'Preparación de estructuras de tu casa para casos de sismos.',
             '7' => 'Filtración de lluvias, fugas en tanques, piscinas o cisternas',
             '8' => 'Impermeabilización de techos
             ',
@@ -171,6 +171,6 @@ class Landing1Controller
 
 $landing1 = new Landing1Controller();
 
-Flight::route('GET /landing1', array($landing1, 'index'));
-Flight::route('GET /landing1/thanks', array($landing1, 'thanks'));
-Flight::route('POST /landing1/thanks', array($landing1, 'thanks'));
+Flight::route('GET /', array($landing1, 'index'));
+Flight::route('GET /thanks', array($landing1, 'thanks'));
+Flight::route('POST /thanks', array($landing1, 'thanks'));

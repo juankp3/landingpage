@@ -12,4 +12,4 @@ class HomeController
 
 $home = new HomeController();
 
-Flight::route('GET /', array($home, 'index'));
+// Flight::route('GET /', array($home, 'index'));
