@@ -12,6 +12,65 @@ require 'app/controller/Landing1Controller.php';
 require 'app/controller/Landing2Controller.php';
 
 
+function download_send_headers($filename) 
+{
+    // disable caching
+    $now = gmdate("D, d M Y H:i:s");
+    header("Expires: Tue, 03 Jul 2001 06:00:00 GMT");
+    header("Cache-Control: max-age=0, no-cache, must-revalidate, proxy-revalidate");
+    header("Last-Modified: {$now} GMT");
+
+    // force download  
+    header("Content-Type: application/force-download");
+    header("Content-Type: application/octet-stream");
+    header("Content-Type: application/download");
+
+    // disposition / encoding on response body
+    header("Content-Disposition: attachment;filename={$filename}");
+    header("Content-Transfer-Encoding: binary");
+}
+
+function array2csv(array &$array)
+{
+    if (count($array) == 0) {
+        return null;
+    }
+    ob_start();
+    $df = fopen("php://output", 'w');
+    foreach ($array as $row) {
+        fputcsv($df, $row);
+    }
+    fclose($df);
+    return ob_get_clean();
+}
+
+function getData() 
+{
+    $person = array();
+    $model = new Conexion();
+    $content = $model->participantes();
+
+    $landing1 = new Landing1Controller();
+    $data = $landing1->dataValueForm();
+
+    $person = array(
+        array('Nombre', 'Correo', 'Celular', 'Area', 'Mensaje', 'fecha_registro'),
+    );
+
+    foreach($content as $item) {
+        $person[] = array(
+            $item['nombre'],
+            $item['correo'],
+            $item['celular'],
+            $data[$item['area']],
+            $item['mensaje'],
+            $item['fecha_registro'],
+        );
+    }
+
+    return $person;
+
+}
 
 Flight::route('GET /exportar', function () {
     if (!isset($_SERVER['PHP_AUTH_USER'])) {
@@ -24,6 +83,14 @@ Flight::route('GET /exportar', function () {
             if (($_SERVER['PHP_AUTH_USER']  == USER_DOWNLOAD  ) and
                 ($_SERVER['PHP_AUTH_PW'] == PASS_DOWNLOAD)
             ) {
+
+
+                $array = getData();
+                download_send_headers("data_export_" . date("Y-m-d") . ".csv");
+                die(array2csv($array));
+                exit;
+
+
                 $objPHPExcel = new PHPExcel();
                 $objPHPExcel->getProperties()->setCreator("Maarten Balliauw")
                     ->setLastModifiedBy("Maarten Balliauw")

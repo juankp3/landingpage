@@ -41,8 +41,7 @@ class Landing1Controller
             '5' => 'Baño',
             '6' => 'Preparación de estructuras de tu casa para casos de sismos.',
             '7' => 'Filtración de lluvias, fugas en tanques, piscinas o cisternas',
-            '8' => 'Impermeabilización de techos
-            ',
+            '8' => 'Impermeabilización de techos',
         );
     }
 
