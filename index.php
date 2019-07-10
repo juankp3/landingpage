@@ -214,35 +214,33 @@ Flight::route('GET /testmail', function () {
 
 
     $to = "juankp3@gmail.com, vangela06@gmail.com, ladislaox@gmail.com";
-$subject = "Landing 1 Servife";
+    $subject = "Landing 1 Servife";
 
-$message = "
-<html>
-<head>
-<title>Landing 1 Servife</title>
-</head>
-<body>
-<table>
-<tr>
-<th>Nombre</th>
-<th>Apellido</th>
-</tr>
-<tr>
-<td>juan</td>
-<td>kuga</td>
-</tr>
-</table>
-</body>
-</html>
-";
+    $message = "
+    <html>
+    <head>
+    <title>Landing 1 Servife</title>
+    </head>
+    <body>
+    <table>
+    <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    </tr>
+    <tr>
+    <td>juan</td>
+    <td>kuga</td>
+    </tr>
+    </table>
+    </body>
+    </html>
+    ";
 
 // Always set content-type when sending HTML email
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
 // More headers
 $headers .= 'From: <contacto@serviciosfe.com>' . "\r\n";
-// $headers .= 'Cc: myboss@example.com' . "\r\n";
 
 $res = mail($to,$subject,$message,$headers);
 

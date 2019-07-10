@@ -70,4 +70,58 @@ class Mail{
             }
         }
     }
+
+    public function sendMail($datos)
+    {
+        $correos_envio = RECEPTIONISTS;
+
+        if (is_string($correos_envio)){
+            $correos_envio = explode(",", $correos_envio);
+
+            if (is_array($correos_envio)) {
+
+                $message = "
+                    <html>
+                        <head>
+                            <title>". MAIL_SUBJECT ."</title>
+                        </head>
+                        <body>";
+
+                $message .= '<h2>Datos del Cliente:</h2>';
+                $message .= '<p>Nombres: '.$datos['name'].'</p>';
+                $message .= '<p>Correo: '.$datos['email'].'</p>';
+                $message .= '<p>Télefono: '.$datos['phone'].'</p>';
+                $message .= '<p>Area: '.$datos['area'].'</p>';
+                $message .= '<p>Mensaje: '.$datos['message'].'</p>';
+
+                $message .="
+                        </body>
+                    </html>";
+
+                
+
+                foreach ($correos_envio as $correo) {
+                    $validate = preg_match('/^[a-zA-Z0-9+]+(?:([\.\_\-][a-zA-Z0-9+]+))*@(?:([a-zA-Z0-9]+(\-[a-zA-Z0-9]+)*)\.)+[a-zA-Z]+$/',$correo);
+                    if ($validate) {
+                        $this->mail->addAddress($correo);
+                    }
+                }
+
+                // Always set content-type when sending HTML email
+                $headers = "MIME-Version: 1.0" . "\r\n";
+                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                // More headers
+                $headers .= 'From: <contacto@serviciosfe.com>' . "\r\n";
+
+                $fnMail = mail($correos_envio ,MAIL_SUBJECT ,$message, $headers);
+
+                if(!$fnMail) {
+                    echo 'Message could not be sent.';
+                    echo 'Mailer Error: ' . $this->mail->ErrorInfo;
+                } else {
+                    echo 'Message has been sent';
+                }
+            }
+        }
+    }
 }
