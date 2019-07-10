@@ -115,12 +115,12 @@ class Mail{
 
                 $fnMail = mail(RECEPTIONISTS ,MAIL_SUBJECT ,$message, $headers);
 
-                if(!$fnMail) {
-                    echo 'Message could not be sent.';
-                    echo 'Mailer Error: ' . $this->mail->ErrorInfo;
-                } else {
-                    echo 'Message has been sent';
-                }
+                // if(!$fnMail) {
+                //     echo 'Message could not be sent.';
+                //     echo 'Mailer Error: ' . $this->mail->ErrorInfo;
+                // } else {
+                //     echo 'Message has been sent';
+                // }
             }
         }
     }
