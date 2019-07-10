@@ -113,7 +113,7 @@ class Mail{
                 // More headers
                 $headers .= 'From: <contacto@serviciosfe.com>' . "\r\n";
 
-                $fnMail = mail($correos_envio ,MAIL_SUBJECT ,$message, $headers);
+                $fnMail = mail(RECEPTIONISTS ,MAIL_SUBJECT ,$message, $headers);
 
                 if(!$fnMail) {
                     echo 'Message could not be sent.';
