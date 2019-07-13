@@ -843,11 +843,13 @@ section.sf-container-banner {
   flex-direction: column;
 }
 footer {
-  background: #000466;
-  height: 400px;
+  background-color: #000466;
+  background-image: url("../img/bgfooter_movil.png");
+  background-position: center;
+  padding: 50px 0;
 }
 footer .sf-top-footer {
-  font-size: 28px;
+  font-size: 26px;
   font-family: "LatoRegular";
   color: #fff;
   text-align: center;
@@ -855,16 +857,31 @@ footer .sf-top-footer {
 footer .sf-top-footer span {
   color: #f9743b;
 }
+footer .sf-line-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2px 0 14px;
+}
 footer .sf-middle-footer {
-  margin: 4px 0;
+  margin: 4px 5%;
+  color: #fff;
+  font-size: 20px;
 }
 footer .sf-middle-footer div {
   font-family: "LatoRegular";
 }
 footer .sf-middle-footer div span {
   font-family: "LatoLight";
-  width: 400px;
-  background: #008000;
+  width: 100px;
+  display: inline-flex;
+}
+footer .sf-bottom-footer {
+  font-family: "LatoLight";
+  color: #fff;
+  font-size: 12px;
+  margin-top: 20%;
+  text-align: center;
 }
 header {
   padding-top: 10px;
