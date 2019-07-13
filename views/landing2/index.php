@@ -7,10 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
-
 
 
 
@@ -24,7 +23,7 @@
     <!-- SEO -->
     <title>Servicios Felix</title>
     <meta name="description" content="">
-    <meta name="keywords" content=""">
+    <meta name="keywords" content="">
 
     <!-- Image icon -->
     <?php Flight::render( '_partials/favicon.php') ?>
@@ -45,9 +44,20 @@
 
     <?php Flight::render('_partials/header.php'); ?>
 
-    Holaaaaa
+    <section class="sf-container-banner">
+        <div class="content">
+            <div>
+                <div>Protege la seguridad de tu familia y de tu hogar</div>
+                <div><div class="separatingline"></div></div>
+                <div>Construye y refuerza las zonas seguras de tu casa.</div>
+            </div>
+            <div>imagen</div>
+            <div>que hacemos</div>
+            <div>formulario</div>
+        </div>
+    </section>
 
-    <?php Flight::render('_partials/footer.php'); ?>
+    <?php Flight::render('_partials/footer2.php'); ?>
 
 </body>
 </html>

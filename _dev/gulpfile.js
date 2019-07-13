@@ -4,11 +4,13 @@ const uglify  = require('gulp-uglify');
 
 function styluscss(){
     css_newstyle();
+    css_newstyle2();
     return src('css/general/*.styl')
         .pipe(stylus())
         .pipe(dest('../assets/css'));
     css_landing1();
-}
+    css_landing2();
+} 
 
 function css_newstyle(){
     return src('css/newstyle.styl')
@@ -20,6 +22,12 @@ function css_landing1(){
     return src('css/pages/landing1/*.styl')
         .pipe(stylus())
         .pipe(dest('../assets/css/pages/landing1'));
+}
+
+function css_newstyle2(){
+    return src('css/newstyle2.styl')
+        .pipe(stylus())
+        .pipe(dest('../assets/css/'));
 }
 
 function css_landing2(){
