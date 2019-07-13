@@ -1,33 +1,53 @@
 footer
     background-color: $color-primary-blue
-    background-image: url(../img/bgfooter_movil.png)
+    background-image: url(../img/bgfooter_desktop.png)
+    background-repeat: repeat-x
     background-position: center
-    padding: 50px 0
+    padding: 80px 0 50px 0
+    +media-s() 
+        background-image: url(../img/bgfooter_movil.png)
+        padding: 50px 0
     & .sf-top-footer
-        font-size: 26px
+        font-size: 36px
         font-family: $font-family-lato-regular
         color: $color-white
         text-align: center
         & span 
             color: $color-primary-orange
+        +media-s()
+            font-size: 26px
+            margin: 0 10%
     & .sf-line-footer
         display: flex
         flex-direction: row
         justify-content: center
-        margin: 2px 0 14px
+        margin: 30px 0 40px
+        +media-s() 
+            margin: 4px 0 16px
     & .sf-middle-footer
-        margin: 4px 5% 
         color: $color-white
-        font-size: 20px
+        font-size: 22px
+        width: 350px
+        margin: 0 auto
+        padding-left: 40px
         & div
             font-family: $font-family-lato-regular
             & span
                 font-family: $font-family-lato-light
-                width: 100px
+                width: 120px
                 display: inline-flex
+                +media-s()
+                    width: 100px
+        +media-s()
+            font-size: 20px
+            margin: 4px 5%
+            padding-left: 2%
     & .sf-bottom-footer
         font-family: $font-family-lato-light
         color: $color-white
-        font-size: 12px
-        margin-top: 20%
+        font-size: 14px
         text-align: center
+        margin-top: 10%
+        +media-s()
+            margin-top: 20%
+            font-size: 12px

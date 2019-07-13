@@ -844,12 +844,19 @@ section.sf-container-banner {
 }
 footer {
   background-color: #000466;
-  background-image: url("../img/bgfooter_movil.png");
+  background-image: url("../img/bgfooter_desktop.png");
+  background-repeat: repeat-x;
   background-position: center;
-  padding: 50px 0;
+  padding: 80px 0 50px 0;
+}
+@media screen and (max-width: 480px) {
+  footer {
+    background-image: url("../img/bgfooter_movil.png");
+    padding: 50px 0;
+  }
 }
 footer .sf-top-footer {
-  font-size: 26px;
+  font-size: 36px;
   font-family: "LatoRegular";
   color: #fff;
   text-align: center;
@@ -857,31 +864,62 @@ footer .sf-top-footer {
 footer .sf-top-footer span {
   color: #f9743b;
 }
+@media screen and (max-width: 480px) {
+  footer .sf-top-footer {
+    font-size: 26px;
+    margin: 0 10%;
+  }
+}
 footer .sf-line-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 2px 0 14px;
+  margin: 30px 0 40px;
+}
+@media screen and (max-width: 480px) {
+  footer .sf-line-footer {
+    margin: 4px 0 16px;
+  }
 }
 footer .sf-middle-footer {
-  margin: 4px 5%;
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
+  width: 350px;
+  margin: 0 auto;
+  padding-left: 40px;
 }
 footer .sf-middle-footer div {
   font-family: "LatoRegular";
 }
 footer .sf-middle-footer div span {
   font-family: "LatoLight";
-  width: 100px;
+  width: 120px;
   display: inline-flex;
+}
+@media screen and (max-width: 480px) {
+  footer .sf-middle-footer div span {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer .sf-middle-footer {
+    font-size: 20px;
+    margin: 4px 5%;
+    padding-left: 2%;
+  }
 }
 footer .sf-bottom-footer {
   font-family: "LatoLight";
   color: #fff;
-  font-size: 12px;
-  margin-top: 20%;
+  font-size: 14px;
   text-align: center;
+  margin-top: 10%;
+}
+@media screen and (max-width: 480px) {
+  footer .sf-bottom-footer {
+    margin-top: 20%;
+    font-size: 12px;
+  }
 }
 header {
   padding-top: 10px;

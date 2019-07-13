@@ -1,6 +1,6 @@
 <footer>
     <div class="content">
-        <div class="sf-top-footer">ESTAMOS<br /> PARA AYUDARTE <br /> <span>SIEMPRE<span></div>
+        <div class="sf-top-footer">ESTAMOS<br /> PARA AYUDARTE <span>SIEMPRE<span></div>
         <div class="sf-line-footer"><div class="separatingline"></div></div>
         <div class="sf-middle-footer">
             <div><span>Teléfonos</span>997 360 983</div>
