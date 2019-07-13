@@ -3,9 +3,18 @@
         <div class="sf-top-footer">ESTAMOS<br /> PARA AYUDARTE <span>SIEMPRE<span></div>
         <div class="sf-line-footer"><div class="separatingline"></div></div>
         <div class="sf-middle-footer">
-            <div><span>Teléfonos</span>997 360 983</div>
-            <div><span>E-mail</span>isr200305@outlook.com</div>
-            <div><span>Atención</span>de Lunes a Sábados</div>
+            <div class="middle-footer-data">
+                <div class="m-f-d-title">Teléfonos</div>
+                <div class="m-f-d-description">997 360 983</div>
+            </div>
+            <div class="middle-footer-data">
+                <div class="m-f-d-title">E-mail</div>
+                <div class="m-f-d-description">isr200305@outlook.com</div>
+            </div>
+            <div class="middle-footer-data">
+                <div class="m-f-d-title">Atención</div>
+                <div class="m-f-d-description">de Lunes a Sábados</div>
+            </div>
         </div>
         <div class="sf-bottom-footer">2019 - Servicios Felix - Todos los derechos reservados</div>
     </div>

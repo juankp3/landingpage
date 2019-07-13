@@ -27,21 +27,22 @@ footer
     & .sf-middle-footer
         color: $color-white
         font-size: 22px
-        width: 350px
+        width: 350px 
         margin: 0 auto
-        padding-left: 40px
-        & div
-            font-family: $font-family-lato-regular
-            & span
+        display: flex
+        flex-direction: column
+        & .middle-footer-data
+            display: flex
+            flex-direction: row 
+            & .m-f-d-title
                 font-family: $font-family-lato-light
-                width: 120px
-                display: inline-flex
-                +media-s()
-                    width: 100px
+                width: 35%
+            & .m-f-d-description
+                font-family: $font-family-lato-regular
         +media-s()
-            font-size: 20px
-            margin: 4px 5%
-            padding-left: 2%
+            font-size: 18px
+            padding: 0 10%
+            width: 80%
     & .sf-bottom-footer
         font-family: $font-family-lato-light
         color: $color-white

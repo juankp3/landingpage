@@ -47,12 +47,15 @@
     <section class="sf-container-banner">
         <div class="content">
             <div>
-                <div>Protege la seguridad de tu familia y de tu hogar</div>
+                <div>PROTEGE LA SEGURIDAD DE TU FAMILIA Y DE TU HOGAR</div>
                 <div><div class="separatingline"></div></div>
                 <div>Construye y refuerza las zonas seguras de tu casa.</div>
             </div>
-            <div>imagen</div>
-            <div>que hacemos</div>
+            <div class="show-mobile">imagen</div>
+            <div>
+                <div>¿QUÉ HACEMOS?</div>
+                <div><div class="separatingline"></div></div>
+                <div>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</div>
             <div>formulario</div>
         </div>
     </section>
