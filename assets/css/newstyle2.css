@@ -1067,7 +1067,6 @@ ul.list-categories li {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  border-top: solid 6px #757575;
   border-left: 0;
   background: #fff;
   width: 90px;
@@ -1109,9 +1108,6 @@ ul.list-categories li div {
   font-family: "UbuntuRegular";
   font-size: 10px;
   color: #646464;
-}
-ul.list-categories li:last-child {
-  border-bottom: solid 1px #e9e9e9;
 }
 @media screen and (max-width: 768px) {
   ul.list-categories li:last-child {
