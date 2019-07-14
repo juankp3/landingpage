@@ -47,13 +47,13 @@
     <section class="sf-container-banner">
         <div class="content">
             <div class="sf-banner-block01">
-                <div class="block01-title"><h1>PROTEGE LA SEGURIDAD<br /> DE TU <span class="">FAMILIA</span> Y DE<br /> TU <span class="">HOGAR</span></h1></div>
+                <div class="block01-title"><h1>PROTEGE LA SEGURIDAD<br /> DE TU <span>FAMILIA</span> Y DE<br /> TU <span>HOGAR</span></h1></div>
                 <div class="block01-line"><div class="separatingline"></div></div>
                 <div class="block01-subtitle"><h3>Construye y refuerza las zonas seguras de tu casa.</h3></div>
             </div>
             <div class="sf-banner-block02 show-mobile">imagen</div>
             <div class="sf-banner-block03">
-                <div>¿QUÉ HACEMOS?</div>
+                <div class="block03-title"><h2>¿QUÉ HACEMOS?</h2></div>
                 <div><div class="separatingline"></div></div>
                 <div>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</div>
             <div class="sf-banner-block04">
