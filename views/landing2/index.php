@@ -74,7 +74,7 @@
         <?php  include '_partials/gallery.php' ?>
     </section>
 
-    <section class="sf-container p66">
+    <section class="sf-container">
         <div class="content">
             <div class="block-01">
                 <h2>PREPARA Y PROTEGE TU CASA</h2>
@@ -87,9 +87,9 @@
         <div class="content --felx">
             <div class="sf-content-info">
                 <h2> <span>PREPARACIÓN</span> DE ESTRUCTURAS DE TU CASA PARA CASOS DE <span>SISMOS.</span></h2>
-                <hr class="separatingline" />
+                <hr class="separatingline mb24" />
                 <p>Realízalo en estos 3 pasos:</p>
-                <ul class="sf-content-list">
+                <ul class="sf-content-list ">
                     <li><p><strong>Estudio Estructural</strong> - Visita técnica, planos, escaneos, etc.</p></li>
                     <li><p><strong>Diagnóstico y presupuesto</strong> - Informe y valorización de la solución.</p></li>
                     <li><p><strong>Ejecución de obra </strong>  - Ejecución de obra - Ponemos en marcha la solución.</p></li>
@@ -107,7 +107,7 @@
             <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
             <div class="sf-content-info">
                 <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
-                <hr class="separatingline">
+                <hr class="separatingline mb24">
                 <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
                     Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
             </div>
@@ -119,7 +119,7 @@
         <div class="content --felx">
             <div class="sf-content-info">
                 <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
-                <hr class="separatingline">
+                <hr class="separatingline mb24">
                 <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
                     Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
             </div>
@@ -133,7 +133,7 @@
             <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Especializados">
             <div class="sf-content-info">
                 <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
-                <hr class="separatingline">
+                <hr class="separatingline mb24">
                 <ul class="sf-content-list --right">
                     <li>Estructuras metálicas</li>
                     <li>Cableado eléctrico, data y telefonía</li>
@@ -154,7 +154,7 @@
         <div class="content --felx">
             <div class="sf-content-info">
                 <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
-                <hr class="separatingline">
+                <hr class="separatingline mb24">
                 <ul class="sf-content-list">
                     <li>Gasfitería</li>
                     <li>Electricidad</li>
@@ -171,7 +171,7 @@
         <div class="content">
             <div class="block-01">
                 <h2 class="center">ALGUNOS DE NUESTROS CLIENTES</h2>
-                <hr class="separatingline" />
+                <hr class="separatingline mb24" />
                 <p>Hemos realizado más de 650 trabajos sobre remodelación, reforzamientos sísmicos, estructuras metálicas, impermeabilización de cisternas, 
                 piscinas y tanques, en casas, edificios y oficinas. </p>
             </div>
@@ -192,7 +192,7 @@
         <div class="content">
             <div class="block-01">
                 <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
-                <hr class="separatingline" />
+                <hr class="separatingline mb24"  />
                 <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
                     Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
             </div>
