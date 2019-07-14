@@ -70,6 +70,7 @@
                 <h2>¡RENUÉVALO TODO!</h2>
                 <p>MIRA NUESTROS PROYECTOS REALIZADOS</p>
             </div>
+            <?php  include '_partials/gallery.php' ?>
         </div>
     </section>
 
