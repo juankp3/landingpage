@@ -78,6 +78,41 @@
     </section>
 
 
+
+    <section class="sf-container --gray">
+        <div class="content">
+            <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
+            <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
+                Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
+        </div>
+    </section>
+
+    <section class="sf-container --gray">
+        <div class="content">
+            <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
+            <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
+                Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
+        </div>
+    </section>
+    
+    <section class="sf-container --gray">
+        <div class="content">
+            <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
+            <ul>
+                <li>Estructuras metálicas</li>
+                <li>Cableado eléctrico, data y telefonía</li>
+                <li>Iluminación y rollers</li>
+                <li>Obra civil, sanitarias</li>
+                <li>Drywall y falsos cielos</li>
+                <li>Pintura</li>
+                <li>Ventanas y mamparas de vídrio</li>
+                <li>Escaleras metálicas</li>
+                <li>Servicios Complementarios</li>
+            </ul>
+            <img src="/assets/img/plomero1.jpg" alt="Servicios Complementarios">
+        </div>
+    </section>
+
     <section class="sf-container --gray">
         <div class="content">
             <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
@@ -87,6 +122,7 @@
                 <li>Mantenimiento e instalaciones</li>
                 <li>Aire acondicionado</li>
             </ul>
+            <img src="/assets/img/plomero1.jpg" alt="Servicios Complementarios">
         </div>
     </section>
 
