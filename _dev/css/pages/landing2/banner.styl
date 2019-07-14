@@ -3,30 +3,32 @@ section.sf-container-banner
     flex-direction: column
     & .sf-banner-block01
         padding-top: 30px
-        & .block01-title
-            color: $color-primary-blue
         & .block01-title h1
             text-align: left
             +media-s()
                 text-align: center
-            & span 
-                color: $color-primary-orange
         & .block01-line
-            padding: 10px 0
+            padding: 15px 0
             display: flex
             flex-direction: row
             justify-content: left
             +media-s()
                 justify-content: center
+                padding: 10px 0
         & .block01-subtitle
             text-align: left
+            width: 170px
             +media-s()
                 text-align: center
-
+                width: auto
+                padding: 0 10%
     & .sf-banner-block02
         background: yellow
     & .sf-banner-block03
-        background: purple 
+        text-align: center
+        & .block03-title
+            padding: 10px 0
+             
     & .sf-banner-block04
         background: lightblue  
     

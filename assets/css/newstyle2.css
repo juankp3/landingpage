@@ -899,9 +899,6 @@ section.sf-container-banner {
 section.sf-container-banner .sf-banner-block01 {
   padding-top: 30px;
 }
-section.sf-container-banner .sf-banner-block01 .block01-title {
-  color: #000466;
-}
 section.sf-container-banner .sf-banner-block01 .block01-title h1 {
   text-align: left;
 }
@@ -910,11 +907,8 @@ section.sf-container-banner .sf-banner-block01 .block01-title h1 {
     text-align: center;
   }
 }
-section.sf-container-banner .sf-banner-block01 .block01-title h1 span {
-  color: #f9743b;
-}
 section.sf-container-banner .sf-banner-block01 .block01-line {
-  padding: 10px 0;
+  padding: 15px 0;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -922,21 +916,28 @@ section.sf-container-banner .sf-banner-block01 .block01-line {
 @media screen and (max-width: 480px) {
   section.sf-container-banner .sf-banner-block01 .block01-line {
     justify-content: center;
+    padding: 10px 0;
   }
 }
 section.sf-container-banner .sf-banner-block01 .block01-subtitle {
   text-align: left;
+  width: 170px;
 }
 @media screen and (max-width: 480px) {
   section.sf-container-banner .sf-banner-block01 .block01-subtitle {
     text-align: center;
+    width: auto;
+    padding: 0 10%;
   }
 }
 section.sf-container-banner .sf-banner-block02 {
   background: #ff0;
 }
 section.sf-container-banner .sf-banner-block03 {
-  background: #800080;
+  text-align: center;
+}
+section.sf-container-banner .sf-banner-block03 .block03-title {
+  padding: 10px 0;
 }
 section.sf-container-banner .sf-banner-block04 {
   background: #add8e6;
@@ -1105,22 +1106,32 @@ body {
   font-family: "LatoLight";
 }
 h1 {
+  color: #000466;
   font-family: "LatoRegular";
   font-size: 36px;
+}
+h1 span {
+  color: #f9743b;
 }
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 26px;
   }
 }
-h3 {
+h2 {
+  color: #000466;
   font-family: "LatoRegular";
-  font-size: 28px;
+  font-size: 32px;
 }
 @media screen and (max-width: 480px) {
-  h3 {
-    font-size: 18px;
+  h2 {
+    font-size: 22px;
   }
+}
+h3 {
+  color: #000466;
+  font-family: "LatoRegular";
+  font-size: 18px;
 }
 section.sf-container {
   display: flex;
