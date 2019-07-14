@@ -96,6 +96,7 @@
     <section class="sf-container --gray">
         <div class="content">
             <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
+            <hr class="separatingline">
             <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
                 Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
             </div>
@@ -105,6 +106,7 @@
     <section class="sf-container --gray">
         <div class="content">
             <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
+            <hr class="separatingline">
             <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
                 Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
             </div>
@@ -114,7 +116,8 @@
     <section class="sf-container --gray">
         <div class="content">
             <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
-            <ul>
+            <hr class="separatingline">
+            <ul class="sf-content-list --right">
                 <li>Estructuras metálicas</li>
                 <li>Cableado eléctrico, data y telefonía</li>
                 <li>Iluminación y rollers</li>
@@ -132,7 +135,8 @@
     <section class="sf-container --gray">
         <div class="content">
             <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
-            <ul>
+            <hr class="separatingline">
+            <ul class="sf-content-list">
                 <li>Gasfitería</li>
                 <li>Electricidad</li>
                 <li>Mantenimiento e instalaciones</li>
@@ -142,7 +146,7 @@
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
     </section>
 
-    <section class="sf-container">
+    <section class="sf-container p66">
         <div class="content">
             <h2 class="center">ALGUNOS DE NUESTROS CLIENTES</h2>
             <hr class="separatingline">
@@ -161,7 +165,7 @@
         </div>
     </section>
 
-    <section class="sf-container --gray">
+    <section class="sf-container --gray p66">
         <div class="content">
             <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
             <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
