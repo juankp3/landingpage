@@ -1520,7 +1520,7 @@ section.sf-container .block-image {
 }
 @media screen and (max-width: 480px) {
   .content {
-    margin: 0 4%;
+    margin: 0 8%;
     width: auto;
   }
 }
@@ -1576,7 +1576,7 @@ ul.sf-content-list {
 }
 li {
   list-style: none;
-  padding: 8px 0px;
+  padding: 4px 0px;
 }
 li p {
   padding: 0px;
