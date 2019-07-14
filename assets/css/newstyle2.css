@@ -942,7 +942,7 @@ section.sf-container .sf-banner-block03 {
   text-align: center;
 }
 section.sf-container .sf-banner-block03 .block03-title {
-  padding: 10px 0;
+  padding-top: 10px;
 }
 section.sf-container .sf-banner-block04 {
   background: #add8e6;
@@ -1185,6 +1185,7 @@ section.sf-container.--gray {
 }
 .separatingline {
   background: #f9743b;
+  border-style: none;
   height: 5px;
   width: 64px;
 }
