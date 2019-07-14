@@ -70,14 +70,14 @@
         </div>
     </section>
 
-    <section class="sf-container --gray p-block-01">
+    <section class="sf-container --gray p-block-01 gallery">
         <div class="content">
             <div class="block-01">
                 <h2>¡RENUÉVALO TODO!</h2>
                 <p>MIRA NUESTROS PROYECTOS REALIZADOS</p>
             </div>
+            <?php  include '_partials/gallery.php' ?>
         </div>
-        <?php  include '_partials/gallery.php' ?>
     </section>
 
     <section class="sf-container">
