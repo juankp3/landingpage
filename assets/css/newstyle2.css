@@ -904,6 +904,15 @@ section.sf-container {
 }
 section.sf-container .sf-banner-block01 {
   padding-top: 30px;
+  background-image: url("../img/bg-familia-web.png");
+  height: 660px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  section.sf-container .sf-banner-block01 {
+    background-image: none;
+    height: auto;
+  }
 }
 section.sf-container .sf-banner-block01 .block01-title h1 {
   text-align: left;
