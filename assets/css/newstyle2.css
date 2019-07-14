@@ -1178,6 +1178,9 @@ section.sf-container.--gray {
     margin: 0 4%;
   }
 }
+.content .ft-image {
+  width: 100%;
+}
 .separatingline {
   background: #f9743b;
   height: 5px;
