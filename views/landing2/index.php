@@ -77,6 +77,22 @@
         </div>
     </section>
 
+    <section class="sf-container">
+        <div class="content">
+            <div>
+                <h2>Preparación de estructuras de tu casa para casos de sismos.</h2>
+                <div class="block01-line"><div class="separatingline"></div></div>
+                <h4>Realízalo en estos 3 pasos:
+    Estudio Estructural - Visita técnica, planos, escaneos, etc.
+    Diagnóstico y presupuesto - Informe y valorización de la solución.
+    Ejecución de obra - Ponemos en marcha la solución.</h4>
+            </div>
+            <div>imagen</div>            
+        </div>
+    </section>
+    
+
+
 
     <section class="sf-container --gray">
         <div class="content">
