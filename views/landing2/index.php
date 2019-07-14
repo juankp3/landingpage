@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css?v=4" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
@@ -62,6 +62,7 @@
         </div>
     </section>
 
+<<<<<<< HEAD
     <section class="sf-container">
         <div class="content">
             <div class=""><h2>¡RENUÉVALO TODO!</h2></div>
@@ -79,18 +80,66 @@
 
     <section class="sf-container --white">
     
+=======
+
+
+    <section class="sf-container --gray">
+        <div class="content">
+            <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
+            <ul>
+                <li>Gasfitería</li>
+                <li>Electricidad</li>
+                <li>Mantenimiento e instalaciones</li>
+                <li>Aire acondicionado</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="sf-container ">
+        <div class="content">
+            <h2>ALGUNOS DE NUESTROS CLIENTES</h2>
+            <p>Hemos realizado más de 650 trabajos sobre remodelación, reforzamientos sísmicos, estructuras metálicas, impermeabilización de cisternas, 
+                piscinas y tanques, en casas, edificios y oficinas. </p>
+                <ul>
+                    <?php for($i = 1; $i <= 6; $i++): ?>
+                        <li>
+                            <img src="/assets/img/qsi.jpg" alt="QSI">
+                        </li>
+                    <?php endfor ?>
+                </ul>
+        </div>
+    </section>
+
+    <section class="sf-container --gray">
+        <div class="content">
+            <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
+            <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
+                Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
+                <ul>
+                    <?php for($i = 1; $i <= 4; $i++): ?>
+                        <li>
+                            <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
+                            <p>Manejamos altos estándares de seguridad</p>
+                        </li>
+                    <?php endfor ?>
+                </ul>
+        </div>
+    </section>
+
+    <section class="sf-container">
+>>>>>>> 69df83f4829f210f2b2a307ddb095c0fcad3cbec
         <div class="content">
             <p class="">¡YA LO SABES!</p>
             <p>CONFÍANOS TU NUEVO PROYECTO</p>
         </div>
 
         <div class="content">
+            <button class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
             <p>Aceptamos todas las formas de pago</p>
-            <img src="/assets/img/aceptamos-todas-las-tarjetas.png" alt="Servicios Felix">
+            <img src="/assets/img/aceptamos-todas-las-tarjetas.png" alt="Aceptamos todas las formas de pago">
 
-            <button class="mainButton btn-content-solid-2" type="submit">SOLICITAR INFORMACIÓN</button>
         </div>
-    </div>
+    </section>
 
     
     <?php Flight::render('_partials/footer2.php'); ?>
