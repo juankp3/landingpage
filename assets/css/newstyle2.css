@@ -1166,13 +1166,13 @@ h4 span {
 section.sf-container {
   display: flex;
   background: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
 }
 section.sf-container.p66 {
   padding: 66px 0px;
 }
 section.sf-container.pt50 {
-  padding: 50px 0px 8px 0;
+  padding: 48px 0px 0 0;
 }
 section.sf-container.--gray {
   background: #f4f4f4 !important;
@@ -1181,6 +1181,9 @@ section.sf-container.--gray {
   section.sf-container {
     flex-direction: column;
   }
+}
+section.sf-container .ft-image {
+  width: 100%;
 }
 .content {
   max-width: 1200px;
@@ -1200,9 +1203,6 @@ section.sf-container.--gray {
   .content {
     margin: 0 4%;
   }
-}
-.content .ft-image {
-  width: 100%;
 }
 .separatingline {
   background: #f9743b;
