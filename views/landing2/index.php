@@ -62,6 +62,21 @@
         </div>
     </section>
 
+    <section class="sf-container">
+        <div class="content">
+            <div class=""><h2>¡RENUÉVALO TODO!</h2></div>
+            <div class=""><h3>MIRA NUESTROS PROYECTOS REALIZADOS</h3></div>
+            <div>GALERIA</div>
+        </div>
+    </div>
+
+    <section class="sf-container">
+        <div class="content">
+            <div class=""><h2>PREPARA Y PROTEGE TU CASA</h2></div>
+            <div class=""><h3>TENEMOS LA MÁS COMPLETA SOLUCIÓN</h3></div>
+        </div>
+    </div>
+
     <section class="sf-container --white">
     
         <div class="content">
