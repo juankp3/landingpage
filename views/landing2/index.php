@@ -60,6 +60,22 @@
         </div>
     </section>
 
+    <section class="sf-container --white">
+    
+        <div class="content">
+            <p class="">¡YA LO SABES!</p>
+            <p>CONFÍANOS TU NUEVO PROYECTO</p>
+        </div>
+
+        <div class="content">
+            <p>Aceptamos todas las formas de pago</p>
+            <img src="/assets/img/aceptamos-todas-las-tarjetas.png" alt="Servicios Felix">
+
+            <button class="mainButton btn-content-solid-2" type="submit">SOLICITAR INFORMACIÓN</button>
+        </div>
+    </div>
+
+    
     <?php Flight::render('_partials/footer2.php'); ?>
 
 </body>
