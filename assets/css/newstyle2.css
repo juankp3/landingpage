@@ -1474,10 +1474,33 @@ section.sf-container.--gray {
 }
 section.sf-container .ft-image {
   width: 100%;
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container .ft-image {
+    display: block;
+  }
+}
+section.sf-container .block-image {
+  width: 100%;
+  display: block;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container .block-image {
+    display: none;
+  }
 }
 .content {
   max-width: 1200px;
   margin: auto;
+}
+.content.--felx {
+  display: flex;
+}
+@media screen and (max-width: 480px) {
+  .content.--felx {
+    display: block;
+  }
 }
 @media screen and (max-width: 1200px) {
   .content {

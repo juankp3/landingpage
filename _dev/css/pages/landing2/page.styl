@@ -54,10 +54,22 @@ section.sf-container
         flex-direction: column;
     .ft-image
         width: 100%
+        display: none
+        +media-s()
+            display: block
+    .block-image
+        width: 100%
+        display: block
+        +media-s()
+            display: none
 
 .content
     max-width: $extra-large
     margin: auto
+    &.--felx
+        display: flex
+        +media-s()
+            display: block
     +media-xl()
         margin: auto 4%
     +media-m()
