@@ -22,7 +22,6 @@
                     <?php endforeach ?>
                 </select>
             </div>
-
             <div class="textarea">
                 <textarea name="message" placeholder="Si deseas, aquí puedes ingresar alguna pregunta o duda" cols="" rows="5" required></textarea>
             </div>
@@ -31,6 +30,13 @@
             <div class="sf_btn">
                 <button class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
             </div>
+        </div>
+        <p class="center">Aceptamos todas las formas de pago</p>
+        <div class="img_cards">
+            <img src="/assets/img/visa.png" alt="" title="visa">
+            <img src="/assets/img/american.png" alt="" title="american">
+            <img src="/assets/img/master.png" alt="" title="master">
+            <img src="/assets/img/paypal.png" alt="" title="paypal">
         </div>
     </form>
 </div>

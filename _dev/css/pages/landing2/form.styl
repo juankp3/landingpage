@@ -7,7 +7,14 @@
 .textarea > textarea
     color : $color-gray-450
     border: 1px solid $color-primary-lightorange
-
+div.img_cards 
+    text-align: center
+    +media-m()
+        margin-top: 4px
+    +media-s()
+        margin-top: 4px
+    img 
+        max-width: 30px 
 
 section.sf-room
     background-image url('../img/bg_header.png')
@@ -106,35 +113,6 @@ section.sf-room
                             color: $color-gray-600
                         strong
                             color : $color-primary !important
-                    div.content_cards 
-                        display : flex 
-                        flex-direction: row
-                        justify-content: center
-                        +media-m()
-                            flex-direction: column
-                        +media-s()
-                            flex-direction: column
-                        div.txt_cards
-                            font-family: $font-family-ubuntu
-                            font-weight: 500
-                            font-size: 13px
-                            text-align: center
-                            color: $color-white
-                            float left
-                            align-self: center
-                            padding-right: 4px
-                            +media-m()
-                                color: $color-gray-600
-                            +media-s()
-                                color: $color-gray-600
-                        div.img_cards 
-                            float left
-                            +media-m()
-                                margin-top: 4px
-                            +media-s()
-                                margin-top: 4px
-                            img 
-                                max-width: 30px 
                     p
                         font-family: $font-family-ubuntu
                         font-weight: 500

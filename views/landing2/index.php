@@ -55,11 +55,13 @@
         <div class="sf-banner-block02 show-mobile">
             <img src="/assets/img/familia-feliz.jpg" alt="">
         </div>
-        <div class="content">
-            <div class="block-01">
-                <h2>¿QUÉ HACEMOS?</h2>
-                <hr class="separatingline" />
-                <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
+        <div class=" bg-gray">
+            <div class="content">
+                <div class="block-01">
+                    <h2>¿QUÉ HACEMOS?</h2>
+                    <hr class="separatingline" />
+                    <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
+                </div>
             </div>
         </div>
         <div class="content">
@@ -215,7 +217,7 @@
                 <ul class="sf-content-item">
                     <?php for($i = 1; $i <= 4; $i++): ?>
                         <li>
-                            <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
+                            <img src="/assets/img/epps.jpg" alt="">
                             <p>Manejamos altos estándares de seguridad</p>
                             <hr class="separatingline">
                         </li>
