@@ -930,19 +930,10 @@ section.sf-container .sf-banner-block01 .block01-subtitle {
     padding: 0 10%;
   }
 }
-section.sf-container .sf-banner-block02 {
-  background: #ff0;
-}
 @media screen and (max-width: 480px) {
   section.sf-container .sf-banner-block02 img {
     width: 100%;
   }
-}
-section.sf-container .sf-banner-block03 {
-  text-align: center;
-}
-section.sf-container .sf-banner-block03 .block03-title {
-  padding-top: 10px;
 }
 section.sf-container .sf-banner-block04 {
   background: #add8e6;
@@ -1152,6 +1143,16 @@ h4 {
 h4 span {
   color: #f9743b;
 }
+.block-01 {
+  padding: 20px 0;
+}
+.block-01 h2 {
+  text-align: center;
+}
+.block-01 p {
+  text-align: center;
+  padding: 0 4%;
+}
 section.sf-container {
   display: flex;
   background: #fff;
@@ -1190,7 +1191,7 @@ section.sf-container.--gray {
   background: #f9743b;
   border-style: none;
   height: 5px;
-  width: 64px;
+  width: 50px;
 }
 .show-mobile {
   display: none;

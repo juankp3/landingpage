@@ -56,7 +56,7 @@
             <img src="/assets/img/familia-feliz.jpg" alt="">
         </div>
         <div class="content">
-            <div class="sf-banner-block03">
+            <div class="block-01">
                 <h2>¿QUÉ HACEMOS?</h2>
                 <hr class="separatingline" />
                 <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
