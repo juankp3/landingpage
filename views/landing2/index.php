@@ -72,14 +72,14 @@
         </div>
     </section>
 
-    <section class="sf-container">
+    <section class="sf-container p66">
         <div class="content">
             <h2>PREPARA Y PROTEGE TU CASA</h2>
             <h3>TENEMOS LA MÁS COMPLETA SOLUCIÓN</h3>
         </div>
     </section>
 
-    <section class="sf-container">
+    <section class="sf-container --gray pt50">
         <div class="content">
             <div>
                 <h2> <span>PREPARACIÓN</span> DE ESTRUCTURAS DE TU CASA PARA CASOS DE <span>SISMOS.</span></h2>
@@ -89,11 +89,11 @@
                     Diagnóstico y presupuesto - Informe y valorización de la solución.
                     Ejecución de obra - Ponemos en marcha la solución.</h4>
             </div>
-            <div>imagen</div>            
+            <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
         </div>
     </section>
     
-    <section class="sf-container --gray">
+    <section class="sf-container --gray pt50">
         <div class="content">
             <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
             <hr class="separatingline">
@@ -103,7 +103,7 @@
             <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
     </section>
 
-    <section class="sf-container --gray">
+    <section class="sf-container --gray pt50">
         <div class="content">
             <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
             <hr class="separatingline">
@@ -113,7 +113,7 @@
             <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización de techos">
     </section>
     
-    <section class="sf-container --gray">
+    <section class="sf-container --gray pt50">
         <div class="content">
             <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
             <hr class="separatingline">
@@ -132,7 +132,7 @@
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
     </section>
 
-    <section class="sf-container --gray">
+    <section class="sf-container --gray pt50">
         <div class="content">
             <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
             <hr class="separatingline">

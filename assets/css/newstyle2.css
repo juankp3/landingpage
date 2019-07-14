@@ -1160,6 +1160,9 @@ section.sf-container {
 section.sf-container.p66 {
   padding: 66px 0px;
 }
+section.sf-container.pt50 {
+  padding: 50px 0 0 0;
+}
 section.sf-container.--gray {
   background: #f4f4f4 !important;
 }
