@@ -62,6 +62,9 @@
                 <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
             </div>
         </div>
+        <div class="content">
+            <?php include '_partials/form.php' ?>
+        </div>
     </section>
 
     <section class="sf-container --gray">

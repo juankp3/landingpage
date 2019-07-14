@@ -7,9 +7,23 @@ class Landing2Controller
     public function index() 
     {
         $gallery = $this->gallery();
-        Flight::render('landing2/index.php', array('gallery' => $gallery) );
+        $dataForm = $this->dataValueForm();
+        Flight::render('landing2/index.php', array('gallery' => $gallery, 'dataForm' => $dataForm) );
     }
 
+    public function dataValueForm() {
+        return array(
+            '1' => 'Sala',
+            '2' => 'Cocina',
+            '3' => 'Dormitorio',
+            '4' => 'Comedor',
+            '5' => 'Baño',
+            '6' => 'Preparación de estructuras de tu casa para casos de sismos.',
+            '7' => 'Filtración de lluvias, fugas en tanques, piscinas o cisternas',
+            '8' => 'Impermeabilización de techos',
+        );
+    }
+    
     public function gallery()
     {
         $gallery = array(

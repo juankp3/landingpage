@@ -756,12 +756,12 @@ b {
 }
 ._btn-content-rectagle-orange:hover,
 .btn-content-solid-rectagle-organge:hover {
-  background-color: #018e77;
+  background-color: #ffd6c4;
 }
 ._btn-content-rectagle-orange:active,
 .btn-content-solid-rectagle-organge:active {
-  border-color: #00caa9;
-  background-color: #00caa9;
+  border-color: #ff9b6f;
+  background-color: #ff9b6f;
 }
 ._btn-content-rectagle-orange.-small,
 .btn-content-solid-rectagle-organge.-small {
