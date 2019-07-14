@@ -64,18 +64,34 @@
 
     <section class="sf-container">
         <div class="content">
-            <div class=""><h2>¡RENUÉVALO TODO!</h2></div>
-            <div class=""><h3>MIRA NUESTROS PROYECTOS REALIZADOS</h3></div>
+            <h2>¡RENUÉVALO TODO!</h2>
+            <h3>MIRA NUESTROS PROYECTOS REALIZADOS</h3>
             <div>GALERIA</div>
         </div>
     </section>
 
     <section class="sf-container">
         <div class="content">
-            <div class=""><h2>PREPARA Y PROTEGE TU CASA</h2></div>
-            <div class=""><h3>TENEMOS LA MÁS COMPLETA SOLUCIÓN</h3></div>
+            <h2>PREPARA Y PROTEGE TU CASA</h2>
+            <h3>TENEMOS LA MÁS COMPLETA SOLUCIÓN</h3>
         </div>
     </section>
+
+    <section class="sf-container">
+        <div class="content">
+            <div>
+                <h2>Preparación de estructuras de tu casa para casos de sismos.</h2>
+                <div class="block01-line"><div class="separatingline"></div></div>
+                <h4>Realízalo en estos 3 pasos:
+    Estudio Estructural - Visita técnica, planos, escaneos, etc.
+    Diagnóstico y presupuesto - Informe y valorización de la solución.
+    Ejecución de obra - Ponemos en marcha la solución.</h4>
+            </div>
+            <div>imagen</div>            
+        </div>
+    </section>
+    
+
 
 
 
