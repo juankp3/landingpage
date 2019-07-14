@@ -96,18 +96,18 @@
                 </ul>
             </div>
             <div class="sf-content-img">
-                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
+                <img src="/assets/img/w-preparacion-de-estructuras.jpg" class="block-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
             </div>
 
 
         </div>
-        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
+        <img src="/assets/img/preparacion-de-estructuras.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
     </section>
     
     <section class="sf-container --gray pt50">
         <div class="content --felx">
             <div class="sf-content-img">
-                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
+                <img src="/assets/img/w-Impermeabilizacion-y-reparacion.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
             </div>
             <div class="sf-content-info">
                 <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
@@ -117,7 +117,7 @@
             </div>
         </div>
         
-            <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
+            <img src="/assets/img/Impermeabilizacion-y-reparacion.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
     </section>
 
     <section class="sf-container --gray pt50">
@@ -129,16 +129,16 @@
                     Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
             </div>
             <div class="sf-content-img">
-                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización de techos">
+                <img src="/assets/img/w-Impermeabilizacion-de-techos.jpg" class="block-image" alt="Impermebilización de techos">
             </div>
         </div>
-        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización de techos">
+        <img src="/assets/img/Impermeabilizacion-de-techos.jpg" class="ft-image" alt="Impermebilización de techos">
     </section>
     
     <section class="sf-container --gray pt50">
         <div class="content --felx">
             <div class="sf-content-img">
-                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Especializados">
+                <img src="/assets/img/w-servicios-especializados.jpg" class="block-image" alt="Servicios Especializados">
             </div>
             <div class="sf-content-info">
                 <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
@@ -156,7 +156,7 @@
                 </ul>
             </div>
         </div>
-        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Especializados">
+        <img src="/assets/img/servicios-especializados.jpg" class="ft-image" alt="Servicios Especializados">
     </section>
 
     <section class="sf-container --gray pt50">
