@@ -1160,12 +1160,13 @@ h4 span {
 section.sf-container {
   display: flex;
   background: #fff;
+  margin-bottom: 8px;
 }
 section.sf-container.p66 {
   padding: 66px 0px;
 }
 section.sf-container.pt50 {
-  padding: 50px 0 0 0;
+  padding: 50px 0px 8px 0;
 }
 section.sf-container.--gray {
   background: #f4f4f4 !important;
@@ -1244,4 +1245,8 @@ ul.sf-content-list.--right {
 ul.sf-content-list li {
   list-style: none;
   padding: 8px 0px;
+}
+ul.sf-content-list li p {
+  padding: 0px;
+  margin: 0px;
 }

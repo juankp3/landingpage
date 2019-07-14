@@ -91,7 +91,7 @@
                 <ul class="sf-content-list">
                     <li><p><strong>Estudio Estructural</strong> - Visita técnica, planos, escaneos, etc.</p></li>
                     <li><p><strong>Diagnóstico y presupuesto</strong> - Informe y valorización de la solución.</p></li>
-                    <li><p><strong>Ejecución de obra </strong>  Ejecución de obra - Ponemos en marcha la solución.</p></li>
+                    <li><p><strong>Ejecución de obra </strong>  - Ejecución de obra - Ponemos en marcha la solución.</p></li>
                 </ul>
             </div>
             <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
