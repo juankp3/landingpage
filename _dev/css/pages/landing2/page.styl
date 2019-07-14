@@ -49,7 +49,9 @@ section.sf-container
     &.p66
         padding: 66px 0px
     &.pt50
-        padding: 48px 0px 0 0
+        padding: 0
+        +media-m()
+            padding: 48px 0px 0 0
     &.--gray
         background: $color-gray-servife-100   !important
     +media-s()
@@ -78,6 +80,8 @@ section.sf-container
                 width: auto
         +media-m()
             display: block
+    .sf-content-info
+        pading: 0
             
     +media-xl()
         margin: auto 4%
