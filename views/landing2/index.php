@@ -51,7 +51,11 @@
                 <div class="block01-line"><div class="separatingline"></div></div>
                 <div class="block01-subtitle"><h3>Construye y refuerza las zonas seguras de tu casa.</h3></div>
             </div>
-            <div class="sf-banner-block02 show-mobile">imagen</div>
+        </div>
+        <div class="sf-banner-block02 show-mobile">
+            <img src="/assets/img/familia-feliz.jpg" alt="">
+        </div>
+        <div class="content">
             <div class="sf-banner-block03">
                 <div class="block03-title"><h2>¿QUÉ HACEMOS?</h2></div>
                 <div><div class="separatingline"></div></div>
@@ -80,26 +84,23 @@
     <section class="sf-container">
         <div class="content">
             <div>
-                <h2>Preparación de estructuras de tu casa para casos de sismos.</h2>
+                <h2> <span>PREPARACIÓN</span> DE ESTRUCTURAS DE TU CASA PARA CASOS DE <span>SISMOS.</span></h2>
                 <div class="block01-line"><div class="separatingline"></div></div>
                 <h4>Realízalo en estos 3 pasos:
-    Estudio Estructural - Visita técnica, planos, escaneos, etc.
-    Diagnóstico y presupuesto - Informe y valorización de la solución.
-    Ejecución de obra - Ponemos en marcha la solución.</h4>
+                    Estudio Estructural - Visita técnica, planos, escaneos, etc.
+                    Diagnóstico y presupuesto - Informe y valorización de la solución.
+                    Ejecución de obra - Ponemos en marcha la solución.</h4>
             </div>
             <div>imagen</div>            
         </div>
     </section>
     
-
-
-
-
     <section class="sf-container --gray">
         <div class="content">
             <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
             <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
                 Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
+            <img src="/assets/img/plomero1.jpg" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
         </div>
     </section>
 
@@ -108,6 +109,7 @@
             <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
             <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
                 Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
+            <img src="/assets/img/plomero1.jpg" alt="Impermebilización de techos">
         </div>
     </section>
     
