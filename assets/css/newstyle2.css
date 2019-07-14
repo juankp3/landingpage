@@ -1156,6 +1156,9 @@ section.sf-container {
   display: flex;
   background: #fff;
 }
+section.sf-container.p66 {
+  padding: 66px 0px;
+}
 section.sf-container.--gray {
   background: #f4f4f4 !important;
 }
@@ -1226,4 +1229,11 @@ ul.sf-content-item {
 ul.sf-content-item li {
   list-style: none;
   padding: 20px;
+}
+ul.sf-content-list.--right {
+  text-align: right;
+}
+ul.sf-content-list li {
+  list-style: none;
+  padding: 8px 0px;
 }
