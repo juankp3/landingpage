@@ -1714,7 +1714,12 @@ section.sf-container.p66 {
   padding: 66px 0px;
 }
 section.sf-container.pt50 {
-  padding: 48px 0px 0 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  section.sf-container.pt50 {
+    padding: 48px 0px 0 0;
+  }
 }
 section.sf-container.--gray {
   background: #f4f4f4 !important;
@@ -1762,6 +1767,9 @@ section.sf-container .block-image {
   .content.--felx {
     display: block;
   }
+}
+.content .sf-content-info {
+  pading: 0;
 }
 @media screen and (max-width: 1200px) {
   .content {
