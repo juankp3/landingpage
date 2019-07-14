@@ -66,16 +66,19 @@
 
     <section class="sf-container">
         <div class="content">
-            <h2>¡RENUÉVALO TODO!</h2>
-            <h3>MIRA NUESTROS PROYECTOS REALIZADOS</h3>
-            <div>GALERIA</div>
+            <div class="block-01">
+                <h2>¡RENUÉVALO TODO!</h2>
+                <p>MIRA NUESTROS PROYECTOS REALIZADOS</p>
+            </div>
         </div>
     </section>
 
     <section class="sf-container p66">
         <div class="content">
-            <h2>PREPARA Y PROTEGE TU CASA</h2>
-            <h3>TENEMOS LA MÁS COMPLETA SOLUCIÓN</h3>
+            <div class="block-01">
+                <h2>PREPARA Y PROTEGE TU CASA</h2>
+                <p>TENEMOS LA MÁS COMPLETA SOLUCIÓN</p>
+            </div>
         </div>
     </section>
 
