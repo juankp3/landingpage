@@ -950,6 +950,14 @@ section.sf-container .sf-banner-block01 .block01-subtitle {
     width: 100%;
   }
 }
+section.banner .sf-quehacemos {
+  background: #fff;
+}
+@media screen and (max-width: 480px) {
+  section.banner .sf-quehacemos {
+    background: #f4f4f4;
+  }
+}
 footer {
   background-color: #000466;
   background-image: url("../img/bgfooter_desktop.png");
@@ -1670,10 +1678,17 @@ h4 span {
   text-align: center;
   padding: 0 4%;
 }
+.p-block-01 {
+  padding: 50px 0px;
+}
+@media screen and (max-width: 480px) {
+  .p-block-01 {
+    padding: 35px 0;
+  }
+}
 section.sf-container {
   display: flex;
   background: #fff;
-  margin-bottom: 32px;
 }
 section.sf-container.p66 {
   padding: 66px 0px;

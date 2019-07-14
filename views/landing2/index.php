@@ -44,7 +44,7 @@
 
     <?php Flight::render('_partials/header.php'); ?>
 
-    <section class="sf-container">
+    <section class="sf-container banner">
         <div class="content">
             <div class="sf-banner-block01">
                 <div class="block01-title"><h1>PROTEGE LA SEGURIDAD<br /> DE TU <span>FAMILIA</span> Y DE<br /> TU <span>HOGAR</span></h1></div>
@@ -55,21 +55,22 @@
         <div class="sf-banner-block02 show-mobile">
             <img src="/assets/img/familia-feliz.jpg" alt="">
         </div>
-        <div class=" bg-gray">
+        <div class="sf-quehacemos">
             <div class="content">
-                <div class="block-01">
+                <div class="block-01  p-block-01">
                     <h2>¿QUÉ HACEMOS?</h2>
                     <hr class="separatingline" />
+                    <h4>¡Te ofrecemos la más completa solución!</h4>
                     <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
                 </div>
             </div>
         </div>
-        <div class="content">
+        <div class="content show-mobile">
             <?php include '_partials/form.php' ?>
         </div>
     </section>
 
-    <section class="sf-container --gray">
+    <section class="sf-container --gray p-block-01">
         <div class="content">
             <div class="block-01">
                 <h2>¡RENUÉVALO TODO!</h2>
@@ -103,8 +104,6 @@
             <div class="sf-content-img">
                 <img src="/assets/img/w-preparacion-de-estructuras.jpg" class="block-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
             </div>
-
-
         </div>
         <img src="/assets/img/preparacion-de-estructuras.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
     </section>
@@ -121,7 +120,6 @@
                     Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
             </div>
         </div>
-        
             <img src="/assets/img/Impermeabilizacion-y-reparacion.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
     </section>
 
