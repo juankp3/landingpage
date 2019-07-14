@@ -933,6 +933,11 @@ section.sf-container-banner .sf-banner-block01 .block01-subtitle {
 section.sf-container-banner .sf-banner-block02 {
   background: #ff0;
 }
+@media screen and (max-width: 480px) {
+  section.sf-container-banner .sf-banner-block02 img {
+    width: 100%;
+  }
+}
 section.sf-container-banner .sf-banner-block03 {
   text-align: center;
 }
