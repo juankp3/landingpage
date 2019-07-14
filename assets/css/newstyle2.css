@@ -1469,7 +1469,15 @@ section.sf-container .block-image {
 .content.--felx {
   display: flex;
 }
-@media screen and (max-width: 480px) {
+.content.--felx > div {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .content.--felx > div {
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
   .content.--felx {
     display: block;
   }

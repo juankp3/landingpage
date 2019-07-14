@@ -95,8 +95,10 @@
                     <li><p><strong>Ejecución de obra </strong>  - Ejecución de obra - Ponemos en marcha la solución.</p></li>
                 </ul>
             </div>
+            <div class="sf-content-img">
+                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
+            </div>
 
-            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
 
         </div>
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
@@ -104,7 +106,9 @@
     
     <section class="sf-container --gray pt50">
         <div class="content --felx">
-            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
+            <div class="sf-content-img">
+                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
+            </div>
             <div class="sf-content-info">
                 <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
                 <hr class="separatingline mb24">
@@ -112,7 +116,8 @@
                     Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
             </div>
         </div>
-        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
+        
+            <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
     </section>
 
     <section class="sf-container --gray pt50">
@@ -123,14 +128,18 @@
                 <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
                     Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
             </div>
-            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización de techos">
+            <div class="sf-content-img">
+                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización de techos">
+            </div>
         </div>
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización de techos">
     </section>
     
     <section class="sf-container --gray pt50">
         <div class="content --felx">
-            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Especializados">
+            <div class="sf-content-img">
+                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Especializados">
+            </div>
             <div class="sf-content-info">
                 <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
                 <hr class="separatingline mb24">
@@ -162,7 +171,9 @@
                     <li>Aire acondicionado</li>
                 </ul>
             </div>
-            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Complementarios">
+            <div class="sf-content-img">
+                <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Complementarios">
+            </div>
         </div>
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
     </section>
