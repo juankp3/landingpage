@@ -63,12 +63,12 @@ section.sf-container
     .ft-image
         width: 100%
         display: none
-        +media-s()
+        +media-m()
             display: block
     .block-image
         width: 100%
         display: block
-        +media-s()
+        +media-m()
             display: none
 
 .bg-gray
@@ -89,6 +89,14 @@ section.sf-container
             display: block
     .sf-content-info
         pading: 0
+        .box-info
+            padding: 40px 100px 0 0
+            +media-m()
+                padding: 0
+            &.--right
+                padding: 40px 0px 0px 100px
+            +media-m()
+                padding: 0
             
     +media-xl()
         margin: auto 4%
