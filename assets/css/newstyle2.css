@@ -844,9 +844,6 @@ section.sf-container-banner {
 section.sf-container-banner .sf-banner-block01 {
   padding-top: 30px;
 }
-section.sf-container-banner .sf-banner-block01 .block01-title {
-  color: #000466;
-}
 section.sf-container-banner .sf-banner-block01 .block01-title h1 {
   text-align: left;
 }
@@ -1047,6 +1044,7 @@ header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
   }
 }
 h1 {
+  color: #000466;
   font-family: "LatoRegular";
   font-size: 36px;
 }
@@ -1055,7 +1053,18 @@ h1 {
     font-size: 26px;
   }
 }
+h2 {
+  color: #000466;
+  font-family: "LatoRegular";
+  font-size: 32px;
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 22px;
+  }
+}
 h3 {
+  color: #000466;
   font-family: "LatoRegular";
   font-size: 28px;
 }
