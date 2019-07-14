@@ -1214,3 +1214,15 @@ section.sf-container.--gray {
     display: none;
   }
 }
+.sf-container-ul {
+  justify-content: flex-start;
+  flex-direction: row;
+  overflow-x: auto;
+}
+ul.sf-content-item {
+  display: flex;
+}
+ul.sf-content-item li {
+  list-style: none;
+  padding: 20px;
+}

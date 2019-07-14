@@ -150,13 +150,16 @@
             <hr class="separatingline">
             <p>Hemos realizado más de 650 trabajos sobre remodelación, reforzamientos sísmicos, estructuras metálicas, impermeabilización de cisternas, 
                 piscinas y tanques, en casas, edificios y oficinas. </p>
-            <ul>
-                <?php for($i = 1; $i <= 6; $i++): ?>
-                    <li>
-                        <img src="/assets/img/qsi.jpg" alt="QSI">
-                    </li>
-                <?php endfor ?>
-            </ul>
+
+            <div class="sf-container-ul">
+                <ul class="sf-content-item">
+                    <?php for($i = 1; $i <= 6; $i++): ?>
+                        <li>
+                            <img src="/assets/img/qsi.jpg" alt="QSI">
+                        </li>
+                    <?php endfor ?>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -165,14 +168,18 @@
             <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
             <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
                 Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
-            <ul>
-                <?php for($i = 1; $i <= 4; $i++): ?>
-                    <li>
-                        <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
-                        <p>Manejamos altos estándares de seguridad</p>
-                    </li>
-                <?php endfor ?>
-            </ul>
+
+            <div class="sf-container-ul">
+                <ul class="sf-content-item">
+                    <?php for($i = 1; $i <= 4; $i++): ?>
+                        <li>
+                            <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
+                            <p>Manejamos altos estándares de seguridad</p>
+                            <hr class="separatingline">
+                        </li>
+                    <?php endfor ?>
+                </ul>
+            </div>
         </div>
     </section>
 
