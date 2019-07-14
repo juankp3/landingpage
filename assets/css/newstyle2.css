@@ -1,9 +1,8 @@
 body,
 html {
   margin: 0;
-  font-size: $font-size-m;
-  color: $color-dark;
-  font-family: $font-family-regular, sans-serif;
+  font-size: 16px;
+  color: #1f2123;
 }
 html.freeze,
 body.freeze {
@@ -20,7 +19,7 @@ li {
   padding: 0;
 }
 a {
-  color: $color-default-action;
+  color: #016fe5;
   text-decoration: none;
 }
 h1,
@@ -32,7 +31,7 @@ h6 {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-size: $font-size-m;
+  font-size: 16px;
 }
 b {
   font-family: $font-family-bold;
@@ -101,7 +100,7 @@ b {
   font-style: normal;
 }
 .bg-gray-200 {
-  bachgorund-color: $color-gray-100;
+  bachgorund-color: #f8f8f8;
 }
 .-text-uppercase {
   text-transform: uppercase !important;
@@ -132,7 +131,11 @@ b {
   box-sizing: content-box;
   padding: 0 0.625rem;
   margin: auto;
-media-m()
+}
+@media screen and (max-width: 768px) {
+  .wancho {
+    padding: 0 8px;
+  }
 }
 .content-text ul {
   padding-left: 40px;
@@ -163,7 +166,7 @@ media-m()
   background-color: rgba(255,255,255,0.85);
   left: 0;
   top: 0;
-  z-index: $z-overlay1;
+  z-index: 201;
   height: 100vh;
   visibility: hidden;
 }
@@ -180,10 +183,10 @@ media-m()
   position: relative;
 }
 .style-guide .text.-base {
-  font-size: $font-size-m;
+  font-size: 16px;
 }
 .style-guide .text.-small {
-  font-size: $font-size-s;
+  font-size: 0.875rem;
 }
 .style-guide .title {
   font-family: $font-family-bold;
@@ -461,19 +464,35 @@ media-m()
 }
 .heading-3 {
   font-size: 2rem;
-media-l()
+}
+@media screen and (max-width: 960px) {
+  .heading-3 {
+    font-size: 1.5rem;
+  }
 }
 .heading-4 {
   font-size: 1.75rem;
-media-m()
+}
+@media screen and (max-width: 768px) {
+  .heading-4 {
+    font-size: 1.5rem;
+  }
 }
 .heading-5 {
   font-size: 1.5rem;
-media-m()
+}
+@media screen and (max-width: 768px) {
+  .heading-5 {
+    font-size: 1rem;
+  }
 }
 .heading-6 {
   font-size: 1.25rem;
-media-m()
+}
+@media screen and (max-width: 768px) {
+  .heading-6 {
+    font-size: 1rem;
+  }
 }
 ._reset-block-text {
   font-weight: 400;
@@ -587,6 +606,7 @@ media-m()
 ._btn,
 .btn-content-solid,
 .btn-content-solid-2,
+.btn-content-solid-rectagle-organge,
 .btn-bar,
 .btn-bar-hollow,
 .btn-content-hollow-primary,
@@ -607,6 +627,7 @@ media-m()
 ._btn:focus,
 .btn-content-solid:focus,
 .btn-content-solid-2:focus,
+.btn-content-solid-rectagle-organge:focus,
 .btn-bar:focus,
 .btn-bar-hollow:focus,
 .btn-content-hollow-primary:focus,
@@ -618,7 +639,7 @@ media-m()
 .btn-bar-hollow {
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
-  font-family: "mullersemibold";
+  font-family: $font-family-semibold;
   font-size: 1.125rem;
   background-color: #00caa9;
   color: #fff;
@@ -641,7 +662,7 @@ media-m()
 .btn-content-solid,
 .btn-content-hollow-primary,
 .btn-content-hollow-secondary {
-  font-family: "mullerbold";
+  font-family: $font-family-bold;
   padding: 0.625em 1.5em;
   border-radius: 2rem;
   background-color: #00caa9;
@@ -704,6 +725,40 @@ media-m()
 }
 ._btn-content-rectagle.-small,
 .btn-content-solid-2.-small {
+  height: auto;
+  line-height: 36px;
+  min-height: 0;
+  font-size: 14px;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  display: block;
+  box-sizing: content-box;
+}
+._btn-content-rectagle-orange,
+.btn-content-solid-rectagle-organge {
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 16px 8px;
+  border-radius: 0.25rem;
+  background-color: #f9743b;
+  color: #fff;
+}
+._btn-content-rectagle-orange:focus,
+.btn-content-solid-rectagle-organge:focus {
+  box-shadow: 0 0 0 2px rgba(1,111,229,0.55);
+}
+._btn-content-rectagle-orange:hover,
+.btn-content-solid-rectagle-organge:hover {
+  background-color: #018e77;
+}
+._btn-content-rectagle-orange:active,
+.btn-content-solid-rectagle-organge:active {
+  border-color: #00caa9;
+  background-color: #00caa9;
+}
+._btn-content-rectagle-orange.-small,
+.btn-content-solid-rectagle-organge.-small {
   height: auto;
   line-height: 36px;
   min-height: 0;
@@ -1046,6 +1101,9 @@ header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
     display: none;
   }
 }
+body {
+  font-family: "LatoLight";
+}
 h1 {
   font-family: "LatoRegular";
   font-size: 36px;
@@ -1062,6 +1120,18 @@ h3 {
 @media screen and (max-width: 480px) {
   h3 {
     font-size: 18px;
+  }
+}
+section.sf-container {
+  display: flex;
+  background: #fff;
+}
+section.sf-container.--gray {
+  background: #f4f4f4 !important;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container {
+    flex-direction: column;
   }
 }
 .content {

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css?v=4" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
@@ -62,7 +62,13 @@
         </div>
     </section>
 
-    <section class="sf-container --white">
+    <section class="sf-container --gray">
+        <h2>¿Por qué trabajar con nosotros?</h2>
+        <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
+            Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
+
+    </section>
+    <section class="sf-container">
     
         <div class="content">
             <p class="">¡YA LO SABES!</p>
@@ -70,12 +76,12 @@
         </div>
 
         <div class="content">
+            <button class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
             <p>Aceptamos todas las formas de pago</p>
             <img src="/assets/img/aceptamos-todas-las-tarjetas.png" alt="Servicios Felix">
 
-            <button class="mainButton btn-content-solid-2" type="submit">SOLICITAR INFORMACIÓN</button>
         </div>
-    </div>
+    </section>
 
     
     <?php Flight::render('_partials/footer2.php'); ?>
