@@ -1,30 +1,25 @@
-//botones
+//botones active
 ul.list-categories
     & li
         & a
             &.active
                 color : $color-primary-orange
-                -webkit-box-shadow: -6px 0px 0px 0px $color-primary-orange
-                box-shadow: -6px 0px 0px 0px $color-primary-orange
-                outline: 0 
-                +media-m()
-                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    -moz-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    box-shadow: 0px -6px 0px 0px $color-primary-orange
-                +media-s()
-                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    -moz-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    box-shadow: 0px -6px 0px 0px $color-primary-orange
+                -webkit-box-shadow: 0px -6px 0px 0px $color-primary-orange
+                -moz-box-shadow: 0px -6px 0px 0px $color-primary-orange
+                box-shadow: 0px -6px 0px 0px $color-primary-orange
+                outline: 0
+                & div
+                    color : $color-primary-orange
 
+//botones  
 ul.list-categories
     list-style: none
     padding: 0
     margin: 0 0 0 10px
-    width: 112px
+    display: flex
+    flex-direction: row
     +media-m()
         margin: 0
-        display: flex;
-        flex-direction: row
         width: 1200px
     +media-s()
         margin: 0
@@ -36,16 +31,10 @@ ul.list-categories
         flex-direction: column
         justify-content: center
         text-align: center
-        border-left: solid 6px $color-gray-600
-        background: $color-white    
-        +media-m()
-            width: 144px 
-            border-top: solid 6px #757575
-            border-left: 0
-        +media-s()
-            width: 90px 
-            border-top: solid 6px $color-white
-            border-left: 0
+        border-top: solid 6px #757575
+        border-left: 0
+        background: $color-white   
+        width: 90px
         & a
             color : $color-gray-600
             padding: 8px 0
@@ -57,23 +46,20 @@ ul.list-categories
                 border-right: solid 1px $color-gray-350
             &:hover , &:focus  
                 color : $color-primary-orange
-                -webkit-box-shadow: -6px 0px 0px 0px $color-primary-orange
-                box-shadow: -6px 0px 0px 0px $color-primary-orange
-                outline: 0 
-                +media-m()
-                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    -moz-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    box-shadow: 0px -6px 0px 0px $color-primary-orange
-                +media-s()
-                    -webkit-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    -moz-box-shadow: 0px -6px 0px 0px $color-primary-orange
-                    box-shadow: 0px -6px 0px 0px $color-primary-orange
+                -webkit-box-shadow: 0px -6px 0px 0px $color-primary-orange
+                -moz-box-shadow: 0px -6px 0px 0px $color-primary-orange
+                box-shadow: 0px -6px 0px 0px $color-primary-orange
+                outline: 0
             &:hover div, &:focus div 
                 color : $color-primary-orange
         & i
             align-self: center
             font-size: 24px
             margin-bottom: 8px
+        & div
+            font-family: $font-family-ubuntu-regular
+            font-size: 10px
+            color: $color-gray-550
         &:last-child
             border-bottom: solid 1px $color-gray-350
             +media-m()
@@ -83,20 +69,17 @@ ul.list-categories
                 border-bottom: 0
                 border-right: solid 1px $color-gray-350
 
-//nueva seccion
+//seccion galeria
 div.sf-container-flex-proyectos
     display: flex
     flex-direction: column
     & div.sf-container-pictures-proyectos
         display: flex
-        +media-m()
-            flex-direction: column
-        +media-s()
-            flex-direction: column
+        flex-direction: column
         & div.sf-container-pictures-tiny
             display: flex
-            flex-direction: row-reverse
-            flex-grow: 1
+            flex-direction: row
+            justify-content: center
             +media-m()
                 justify-content: flex-start
                 flex-direction: row
@@ -106,13 +89,13 @@ div.sf-container-flex-proyectos
                 flex-direction: row
                 overflow-x: auto
         & div.sf-container-picture-big
-            flex-grow: 2
-            width: 100%
             cursor: pointer
             overflow: hidden
             position relative
+            margin: 0 5%
             +media-s()
                 height : auto
+                margin: 0
             .load
                 background-image: url(../img/spinner_1.png)
                 background-repeat: no-repeat
@@ -165,7 +148,7 @@ div.sf-container-flex-proyectos
     top: 0
     margin-top: 25% !important
     overflow: hidden
-    display: none      
+    display: none
     & button.owl-prev 
         float: left
     & button.owl-next
@@ -178,19 +161,24 @@ div.sf-container-flex-proyectos
         width: 50px
         height: 50px
         outline: 0
+        position: relative
         &:hover
             background: $color-primary !important
             & span 
                 color: $color-white
         & span
+            position: absolute
             font-size: 40px
             color: $color-primary
+            position: absolute;
+            top: -3px
+            left: 41%
 .owl-dots
     margin-top: 15px
     & button
         outline: 0
     & button.active span
-        background: $color-primary !important
+        background: $color-primary-orange !important
         outline: 0
 
 

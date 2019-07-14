@@ -11,6 +11,7 @@
                     <li>
                         <a href="#" class="<?php echo ($cont == 1)?'active':'';  ?>" data-id="<?php echo $cont; ?>">
                             <i class="fas <?php echo $room['icon'] ?>"></i>
+                            <div><?php echo $room['name'] ?></div>
                         </a>
                     </li>
                 <?php endforeach ?>
@@ -33,9 +34,6 @@
                     <?php endforeach ?>
                 </div>
                 <?php endforeach ?>
-
-            
-            
         </div>
     </div>
 </div>
