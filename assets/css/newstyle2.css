@@ -904,6 +904,15 @@ section.sf-container {
 }
 section.sf-container .sf-banner-block01 {
   padding-top: 30px;
+  background-image: url("../img/bg-familia-web.png");
+  height: 660px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  section.sf-container .sf-banner-block01 {
+    background-image: none;
+    height: auto;
+  }
 }
 section.sf-container .sf-banner-block01 .block01-title h1 {
   text-align: left;
@@ -1364,6 +1373,9 @@ body {
 body strong {
   font-family: "LatoBold";
 }
+p {
+  line-height: 24px;
+}
 h1 {
   color: #000466;
   font-family: "LatoRegular";
@@ -1455,6 +1467,7 @@ section.sf-container .block-image {
 }
 .content {
   max-width: 1200px;
+  width: 1200px;
   margin: auto;
 }
 .content.--felx {
@@ -1468,16 +1481,19 @@ section.sf-container .block-image {
 @media screen and (max-width: 1200px) {
   .content {
     margin: auto 4%;
+    width: auto;
   }
 }
 @media screen and (max-width: 768px) {
   .content {
     margin: auto 4%;
+    width: auto;
   }
 }
 @media screen and (max-width: 480px) {
   .content {
-    margin: 0 4%;
+    margin: 0 8%;
+    width: auto;
   }
 }
 .separatingline {
@@ -1485,6 +1501,9 @@ section.sf-container .block-image {
   border-style: none;
   height: 5px;
   width: 50px;
+}
+.separatingline.mb24 {
+  margin-bottom: 24px;
 }
 .show-mobile {
   display: none;
@@ -1521,14 +1540,17 @@ ul.sf-content-item li {
   list-style: none;
   padding: 20px;
 }
-ul.sf-content-list.--right {
+ul.sf-content-list {
+  margin-bottom: 24px;
+}
+.--right {
   text-align: right;
 }
-ul.sf-content-list li {
+li {
   list-style: none;
-  padding: 8px 0px;
+  padding: 4px 0px;
 }
-ul.sf-content-list li p {
+li p {
   padding: 0px;
   margin: 0px;
 }

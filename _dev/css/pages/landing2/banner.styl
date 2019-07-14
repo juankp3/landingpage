@@ -3,6 +3,13 @@ section.sf-container
     flex-direction: column
     & .sf-banner-block01
         padding-top: 30px
+        background-image: url(../img/bg-familia-web.png)
+        height: 660px
+        +media-m()
+            background-image: none
+            height: auto
+
+        background-repeat: no-repeat
         & .block01-title h1
             text-align: left
             +media-s()
