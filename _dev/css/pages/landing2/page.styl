@@ -73,10 +73,16 @@ section.sf-container
     max-width: $extra-large
     width: $extra-large
     margin: auto
+    
     &.--felx
         display: flex
-        +media-s()
+        > div
+            width: 50%
+            +media-m()
+                width: auto
+        +media-m()
             display: block
+            
     +media-xl()
         margin: auto 4%
         width: auto
