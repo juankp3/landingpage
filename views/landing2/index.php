@@ -148,10 +148,12 @@
 
     <section class="sf-container p66">
         <div class="content">
-            <h2 class="center">ALGUNOS DE NUESTROS CLIENTES</h2>
-            <hr class="separatingline">
-            <p>Hemos realizado más de 650 trabajos sobre remodelación, reforzamientos sísmicos, estructuras metálicas, impermeabilización de cisternas, 
+            <div class="block-01">
+                <h2 class="center">ALGUNOS DE NUESTROS CLIENTES</h2>
+                <hr class="separatingline" />
+                <p>Hemos realizado más de 650 trabajos sobre remodelación, reforzamientos sísmicos, estructuras metálicas, impermeabilización de cisternas, 
                 piscinas y tanques, en casas, edificios y oficinas. </p>
+            </div>
 
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
@@ -167,9 +169,12 @@
 
     <section class="sf-container --gray p66">
         <div class="content">
-            <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
-            <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
-                Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
+            <div class="block-01">
+                <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
+                <hr class="separatingline" />
+                <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
+                    Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
+            </div>
 
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
