@@ -86,11 +86,13 @@
         <div class="content">
             <div>
                 <h2> <span>PREPARACIÓN</span> DE ESTRUCTURAS DE TU CASA PARA CASOS DE <span>SISMOS.</span></h2>
-                <div class="block01-line"><div class="separatingline"></div></div>
-                <h4>Realízalo en estos 3 pasos:
-                    Estudio Estructural - Visita técnica, planos, escaneos, etc.
-                    Diagnóstico y presupuesto - Informe y valorización de la solución.
-                    Ejecución de obra - Ponemos en marcha la solución.</h4>
+                <hr class="separatingline" />
+                <p>Realízalo en estos 3 pasos:</p>
+                <ul class="sf-content-list">
+                    <li><p><strong>Estudio Estructural</strong> - Visita técnica, planos, escaneos, etc.</p></li>
+                    <li><p><strong>Diagnóstico y presupuesto</strong> - Informe y valorización de la solución.</p></li>
+                    <li><p><strong>Ejecución de obra </strong>  Ejecución de obra - Ponemos en marcha la solución.</p></li>
+                </ul>
             </div>
             <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
         </div>

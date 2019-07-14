@@ -1106,6 +1106,10 @@ header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
 }
 body {
   font-family: "LatoLight";
+  color: #000466;
+}
+body strong {
+  font-family: "LatoLight";
 }
 h1 {
   color: #000466;
