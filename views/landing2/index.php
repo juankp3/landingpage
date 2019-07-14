@@ -83,8 +83,8 @@
     </section>
 
     <section class="sf-container --gray pt50">
-        <div class="content">
-            <div>
+        <div class="content --felx">
+            <div class="sf-content-info">
                 <h2> <span>PREPARACIÓN</span> DE ESTRUCTURAS DE TU CASA PARA CASOS DE <span>SISMOS.</span></h2>
                 <hr class="separatingline" />
                 <p>Realízalo en estos 3 pasos:</p>
@@ -94,59 +94,74 @@
                     <li><p><strong>Ejecución de obra </strong>  - Ejecución de obra - Ponemos en marcha la solución.</p></li>
                 </ul>
             </div>
+
+            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
+
         </div>
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
     </section>
     
     <section class="sf-container --gray pt50">
-        <div class="content">
-            <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
-            <hr class="separatingline">
-            <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
-                Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
+        <div class="content --felx">
+            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
+            <div class="sf-content-info">
+                <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
+                <hr class="separatingline">
+                <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
+                    Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
             </div>
-            <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
+        </div>
+        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
     </section>
 
     <section class="sf-container --gray pt50">
-        <div class="content">
-            <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
-            <hr class="separatingline">
-            <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
-                Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
+        <div class="content --felx">
+            <div class="sf-content-info">
+                <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
+                <hr class="separatingline">
+                <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
+                    Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
             </div>
-            <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización de techos">
+            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Impermebilización de techos">
+        </div>
+        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización de techos">
     </section>
     
     <section class="sf-container --gray pt50">
-        <div class="content">
-            <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
-            <hr class="separatingline">
-            <ul class="sf-content-list --right">
-                <li>Estructuras metálicas</li>
-                <li>Cableado eléctrico, data y telefonía</li>
-                <li>Iluminación y rollers</li>
-                <li>Obra civil, sanitarias</li>
-                <li>Drywall y falsos cielos</li>
-                <li>Pintura</li>
-                <li>Ventanas y mamparas de vídrio</li>
-                <li>Escaleras metálicas</li>
-                <li>Servicios Complementarios</li>
-            </ul>
+        <div class="content --felx">
+            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Especializados">
+            <div class="sf-content-info">
+                <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
+                <hr class="separatingline">
+                <ul class="sf-content-list --right">
+                    <li>Estructuras metálicas</li>
+                    <li>Cableado eléctrico, data y telefonía</li>
+                    <li>Iluminación y rollers</li>
+                    <li>Obra civil, sanitarias</li>
+                    <li>Drywall y falsos cielos</li>
+                    <li>Pintura</li>
+                    <li>Ventanas y mamparas de vídrio</li>
+                    <li>Escaleras metálicas</li>
+                    <li>Servicios Complementarios</li>
+                </ul>
+            </div>
         </div>
-        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
+        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Especializados">
     </section>
 
     <section class="sf-container --gray pt50">
-        <div class="content">
-            <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
-            <hr class="separatingline">
-            <ul class="sf-content-list">
-                <li>Gasfitería</li>
-                <li>Electricidad</li>
-                <li>Mantenimiento e instalaciones</li>
-                <li>Aire acondicionado</li>
-            </ul>
+        <div class="content --felx">
+            <div class="sf-content-info">
+                <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
+                <hr class="separatingline">
+                <ul class="sf-content-list">
+                    <li>Gasfitería</li>
+                    <li>Electricidad</li>
+                    <li>Mantenimiento e instalaciones</li>
+                    <li>Aire acondicionado</li>
+                </ul>
+            </div>
+            <img src="/assets/img/web-plomero1.jpg" class="block-image" alt="Servicios Complementarios">
         </div>
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
     </section>
