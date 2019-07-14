@@ -44,7 +44,7 @@
 
     <?php Flight::render('_partials/header.php'); ?>
 
-    <section class="sf-container-banner">
+    <section class="sf-container">
         <div class="content">
             <div class="sf-banner-block01">
                 <div class="block01-title"><h1>PROTEGE LA SEGURIDAD<br /> DE TU <span>FAMILIA</span> Y DE<br /> TU <span>HOGAR</span></h1></div>
@@ -144,18 +144,19 @@
         </div>
     </section>
 
-    <section class="sf-container ">
+    <section class="sf-container">
         <div class="content">
-            <h2>ALGUNOS DE NUESTROS CLIENTES</h2>
+            <h2 class="center">ALGUNOS DE NUESTROS CLIENTES</h2>
+            <hr class="separatingline">
             <p>Hemos realizado más de 650 trabajos sobre remodelación, reforzamientos sísmicos, estructuras metálicas, impermeabilización de cisternas, 
                 piscinas y tanques, en casas, edificios y oficinas. </p>
-                <ul>
-                    <?php for($i = 1; $i <= 6; $i++): ?>
-                        <li>
-                            <img src="/assets/img/qsi.jpg" alt="QSI">
-                        </li>
-                    <?php endfor ?>
-                </ul>
+            <ul>
+                <?php for($i = 1; $i <= 6; $i++): ?>
+                    <li>
+                        <img src="/assets/img/qsi.jpg" alt="QSI">
+                    </li>
+                <?php endfor ?>
+            </ul>
         </div>
     </section>
 
@@ -164,14 +165,14 @@
             <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
             <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
                 Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
-                <ul>
-                    <?php for($i = 1; $i <= 4; $i++): ?>
-                        <li>
-                            <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
-                            <p>Manejamos altos estándares de seguridad</p>
-                        </li>
-                    <?php endfor ?>
-                </ul>
+            <ul>
+                <?php for($i = 1; $i <= 4; $i++): ?>
+                    <li>
+                        <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
+                        <p>Manejamos altos estándares de seguridad</p>
+                    </li>
+                <?php endfor ?>
+            </ul>
         </div>
     </section>
 
