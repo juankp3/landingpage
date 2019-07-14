@@ -98,8 +98,8 @@
             <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
             <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
                 Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
-            <img src="/assets/img/plomero1.jpg" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
-        </div>
+            </div>
+            <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
     </section>
 
     <section class="sf-container --gray">
@@ -107,8 +107,8 @@
             <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
             <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
                 Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
-            <img src="/assets/img/plomero1.jpg" alt="Impermebilización de techos">
-        </div>
+            </div>
+            <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Impermebilización de techos">
     </section>
     
     <section class="sf-container --gray">
@@ -125,8 +125,8 @@
                 <li>Escaleras metálicas</li>
                 <li>Servicios Complementarios</li>
             </ul>
-            <img src="/assets/img/plomero1.jpg" alt="Servicios Complementarios">
         </div>
+        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
     </section>
 
     <section class="sf-container --gray">
@@ -138,8 +138,8 @@
                 <li>Mantenimiento e instalaciones</li>
                 <li>Aire acondicionado</li>
             </ul>
-            <img src="/assets/img/plomero1.jpg" alt="Servicios Complementarios">
         </div>
+        <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
     </section>
 
     <section class="sf-container">
@@ -148,13 +148,16 @@
             <hr class="separatingline">
             <p>Hemos realizado más de 650 trabajos sobre remodelación, reforzamientos sísmicos, estructuras metálicas, impermeabilización de cisternas, 
                 piscinas y tanques, en casas, edificios y oficinas. </p>
-            <ul>
-                <?php for($i = 1; $i <= 6; $i++): ?>
-                    <li>
-                        <img src="/assets/img/qsi.jpg" alt="QSI">
-                    </li>
-                <?php endfor ?>
-            </ul>
+
+            <div class="sf-container-ul">
+                <ul class="sf-content-item">
+                    <?php for($i = 1; $i <= 6; $i++): ?>
+                        <li>
+                            <img src="/assets/img/qsi.jpg" alt="QSI">
+                        </li>
+                    <?php endfor ?>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -163,14 +166,18 @@
             <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
             <p>Tenemos más de 15 años de experiencia en el rubro de la construcción y estamos siempre pensando en las necesidades de nuestros clientes. 
                 Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
-            <ul>
-                <?php for($i = 1; $i <= 4; $i++): ?>
-                    <li>
-                        <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
-                        <p>Manejamos altos estándares de seguridad</p>
-                    </li>
-                <?php endfor ?>
-            </ul>
+
+            <div class="sf-container-ul">
+                <ul class="sf-content-item">
+                    <?php for($i = 1; $i <= 4; $i++): ?>
+                        <li>
+                            <img src="/assets/img/epps.jpg" alt="Aceptamos todas las formas de pago">
+                            <p>Manejamos altos estándares de seguridad</p>
+                            <hr class="separatingline">
+                        </li>
+                    <?php endfor ?>
+                </ul>
+            </div>
         </div>
     </section>
 
