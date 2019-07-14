@@ -42,19 +42,19 @@ b {
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap");
 @font-face {
   font-family: 'LatoLight';
-  src: url("/assets/fonts/Lato-Light.woff2") format('woff2');
+  src: url("/assets/fonts/Lato-Light.woff") format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'LatoRegular';
-  src: url("/assets/fonts/Lato-Regular.woff2") format('woff2');
+  src: url("/assets/fonts/Lato-Regular.woff") format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'UbuntuBold';
-  src: url("/assets/fonts/Ubuntu-Bold.woff2") format('woff2');
+  src: url("/assets/fonts/Ubuntu-Bold.woff2") format('woff2'), url("/assets/fonts/Ubuntu-Bold.woff") format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -838,9 +838,53 @@ media-m()
   color: #fff;
 }
 section.sf-container-banner {
-  background: #ffc0cb;
   display: flex;
   flex-direction: column;
+}
+section.sf-container-banner .sf-banner-block01 {
+  padding-top: 30px;
+}
+section.sf-container-banner .sf-banner-block01 .block01-title {
+  color: #000466;
+}
+section.sf-container-banner .sf-banner-block01 .block01-title h1 {
+  text-align: left;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-banner .sf-banner-block01 .block01-title h1 {
+    text-align: center;
+  }
+}
+section.sf-container-banner .sf-banner-block01 .block01-title h1 span {
+  color: #f9743b;
+}
+section.sf-container-banner .sf-banner-block01 .block01-line {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-banner .sf-banner-block01 .block01-line {
+    justify-content: center;
+  }
+}
+section.sf-container-banner .sf-banner-block01 .block01-subtitle {
+  text-align: left;
+}
+@media screen and (max-width: 480px) {
+  section.sf-container-banner .sf-banner-block01 .block01-subtitle {
+    text-align: center;
+  }
+}
+section.sf-container-banner .sf-banner-block02 {
+  background: #ff0;
+}
+section.sf-container-banner .sf-banner-block03 {
+  background: #800080;
+}
+section.sf-container-banner .sf-banner-block04 {
+  background: #add8e6;
 }
 footer {
   background-color: #000466;
@@ -883,7 +927,7 @@ footer .sf-line-footer {
 }
 footer .sf-middle-footer {
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   width: 350px;
   margin: 0 auto;
   display: flex;
@@ -902,7 +946,7 @@ footer .sf-middle-footer .middle-footer-data .m-f-d-description {
 }
 @media screen and (max-width: 480px) {
   footer .sf-middle-footer {
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 10%;
     width: 80%;
   }
@@ -1002,6 +1046,24 @@ header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
     display: none;
   }
 }
+h1 {
+  font-family: "LatoRegular";
+  font-size: 36px;
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+}
+h3 {
+  font-family: "LatoRegular";
+  font-size: 28px;
+}
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 18px;
+  }
+}
 .content {
   max-width: 1200px;
   margin: auto;
@@ -1025,7 +1087,6 @@ header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
   background: #f9743b;
   height: 5px;
   width: 64px;
-  margin: 0 auto;
 }
 .show-mobile {
   display: none;

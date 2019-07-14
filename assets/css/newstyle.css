@@ -42,19 +42,19 @@ b {
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap");
 @font-face {
   font-family: 'LatoLight';
-  src: url("/assets/fonts/Lato-Light.woff2") format('woff2');
+  src: url("/assets/fonts/Lato-Light.woff") format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'LatoRegular';
-  src: url("/assets/fonts/Lato-Regular.woff2") format('woff2');
+  src: url("/assets/fonts/Lato-Regular.woff") format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'UbuntuBold';
-  src: url("/assets/fonts/Ubuntu-Bold.woff2") format('woff2');
+  src: url("/assets/fonts/Ubuntu-Bold.woff2") format('woff2'), url("/assets/fonts/Ubuntu-Bold.woff") format('woff');
   font-weight: normal;
   font-style: normal;
 }
