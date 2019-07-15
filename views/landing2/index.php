@@ -131,7 +131,7 @@
         <div class="content --felx">
             <div class="sf-content-info">
                 <div class="box-info">
-                    <h2><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
+                    <h2 class="break-line"><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
                     <hr class="separatingline mb24">
                     <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
                         Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
@@ -151,7 +151,7 @@
             </div>
             <div class="sf-content-info ">
                 <div class="box-info --right"">
-                    <h2>SERVICIOS <span>ESPECIALIZADOS</span></h2>
+                    <h2 class="break-line">SERVICIOS <span>ESPECIALIZADOS</span></h2>
                     <hr class="separatingline mb24">
                     <ul class="sf-content-list --right">
                         <li>Estructuras metálicas</li>
@@ -174,7 +174,7 @@
         <div class="content --felx">
             <div class="sf-content-info">
                 <div class="box-info">
-                    <h2>SERVICIOS <span>COMPLEMENTARIOS</span></h2>
+                    <h2 class="break-line">SERVICIOS <span>COMPLEMENTARIOS</span></h2>
                     <hr class="separatingline mb24">
                     <ul class="sf-content-list">
                         <li>Gasfitería</li>

@@ -5,6 +5,9 @@ body
         font-family: $font-family-lato-bold
 p
     line-height: 24px
+h1.break-line, h2.break-line, h3.break-line, h4.break-line
+    span
+        display: block
 h1
     color: $color-primary-blue
     font-family: $font-family-lato-regular
@@ -94,14 +97,17 @@ section.sf-container
     .sf-content-info
         pading: 0
         .box-info
-            padding: 40px 100px 0 0
+            padding: 40px 100px 0px 48px
             +media-m()
                 padding: 0
             &.--right
-                padding: 40px 0px 0px 100px
+                padding: 40px 48px 0px 100px
             +media-m()
                 padding: 0
-            
+    .sf-content-img
+        margin: unset
+        +media-l()
+            margin: auto
     +media-xl()
         margin: auto 4%
         width: auto
