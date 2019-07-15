@@ -922,16 +922,12 @@ section.sf-container .sf-banner-block01 .block01-title h1 {
     text-align: center;
   }
 }
-section.sf-container .sf-banner-block01 .block01-line {
-  padding: 15px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
+section.sf-container .sf-banner-block01 .separatingline {
+  margin-inline-start: initial;
 }
 @media screen and (max-width: 480px) {
-  section.sf-container .sf-banner-block01 .block01-line {
-    justify-content: center;
-    padding: 10px 0;
+  section.sf-container .sf-banner-block01 .separatingline {
+    margin-inline-start: auto;
   }
 }
 section.sf-container .sf-banner-block01 .block01-subtitle {
@@ -1681,7 +1677,12 @@ h4 span {
 }
 .block-01 p {
   text-align: center;
-  padding: 0 4%;
+  padding: 0 20%;
+}
+@media screen and (max-width: 480px) {
+  .block-01 p {
+    padding: 0 4%;
+  }
 }
 .p-block-01 {
   padding: 50px 0px;
@@ -1801,6 +1802,12 @@ section.sf-container .block-image {
 }
 .separatingline.mb24 {
   margin-bottom: 24px;
+}
+.line_left {
+  margin-inline-start: initial;
+}
+.line_right {
+  margin-inline-end: initial;
 }
 .show-mobile {
   display: none;

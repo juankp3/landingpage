@@ -5,23 +5,18 @@ section.sf-container
         padding-top: 30px
         background-image: url(../img/bg-familia-web.png)
         height: 660px
+        background-repeat: no-repeat
         +media-m()
             background-image: none
             height: auto
-
-        background-repeat: no-repeat
         & .block01-title h1
             text-align: left
             +media-s()
                 text-align: center
-        & .block01-line
-            padding: 15px 0
-            display: flex
-            flex-direction: row
-            justify-content: left
+        & .separatingline 
+            margin-inline-start: initial
             +media-s()
-                justify-content: center
-                padding: 10px 0
+                margin-inline-start: auto
         & .block01-subtitle
             text-align: left
             width: 170px
