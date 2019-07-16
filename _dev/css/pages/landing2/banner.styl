@@ -11,25 +11,37 @@ section.sf-container
             height: auto
         & .block01-title h1
             text-align: left
+            +media-m()
+                text-align: center
             +media-s()
                 text-align: center
         & .separatingline 
             margin-inline-start: initial
+            +media-m()
+                margin-inline-start: auto
             +media-s()
                 margin-inline-start: auto
         & .block01-subtitle
             text-align: left
             width: 170px
+            +media-m()
+                text-align: center
+                width: auto
+                padding: 0 10%
             +media-s()
                 text-align: center
                 width: auto
                 padding: 0 10%
-    & .sf-banner-block02 img 
+    & .sf-banner-block02 img
+        +media-m()
+            width: 100%
         +media-s()
             width: 100%
 
 section.banner
     & .sf-quehacemos
         background : $color-white
+        +media-m()
+            background: $color-gray-servife-100
         +media-s()
             background: $color-gray-servife-100

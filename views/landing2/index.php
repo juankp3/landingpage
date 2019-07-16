@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="content show-mobile">
+        <div class="content "> <!-- show-mobile -->
             <?php include '_partials/form.php' ?>
         </div>
     </section>
@@ -80,7 +80,7 @@
         </div>
     </section>
 
-    <section class="sf-container">
+    <section class="sf-container servicios">
         <div class="content">
             <div class="block-01">
                 <h2>PREPARA Y PROTEGE TU CASA</h2>
@@ -89,12 +89,12 @@
         </div>
     </section>
 
-    <section class="sf-container --gray pt50">
+    <section class="sf-container --gray pt50 mb8">
         <div class="content --felx">
             <div class="sf-content-info">
                 <div class="box-info">
                     <h2> <span>PREPARACIÓN</span> DE ESTRUCTURAS DE TU CASA PARA CASOS DE <span>SISMOS.</span></h2>
-                    <hr class="separatingline mb24" />
+                    <hr class="separatingline separatingline_left mb24" />
                     <p>Realízalo en estos 3 pasos:</p>
                     <ul class="sf-content-list ">
                         <li><p><strong>Estudio Estructural</strong> - Visita técnica, planos, escaneos, etc.</p></li>
@@ -110,7 +110,7 @@
         <img src="/assets/img/preparacion-de-estructuras.jpg" class="ft-image" alt="Preparación de estrcutura de tu casa para casos de sismos">
     </section>
     
-    <section class="sf-container --gray pt50">
+    <section class="sf-container --gray pt50 mb8">
         <div class="content --felx">
             <div class="sf-content-img">
                 <img src="/assets/img/w-Impermeabilizacion-y-reparacion.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
@@ -118,7 +118,7 @@
             <div class="sf-content-info">
                 <div class="box-info --right">
                     <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
-                    <hr class="separatingline mb24">
+                    <hr class="separatingline separatingline_right mb24">
                     <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
                         Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
                 </div>
@@ -127,12 +127,12 @@
             <img src="/assets/img/Impermeabilizacion-y-reparacion.jpg" class="ft-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
     </section>
 
-    <section class="sf-container --gray pt50">
+    <section class="sf-container --gray pt50 mb8">
         <div class="content --felx">
             <div class="sf-content-info">
                 <div class="box-info">
                     <h2 class="break-line"><span>IMPERMEABILIZACIÓN</span> DE TECHOS</h2>
-                    <hr class="separatingline mb24">
+                    <hr class="separatingline separatingline_left mb24">
                     <p>Protege tu inmueble de las lluvias. Ten un ambiente más saludable para ti y tu familia. 
                         Evita las filtraciones, manchas de humedad y moho en muros y techos.</p>
                 </div>
@@ -144,7 +144,7 @@
         <img src="/assets/img/Impermeabilizacion-de-techos.jpg" class="ft-image" alt="Impermebilización de techos">
     </section>
     
-    <section class="sf-container --gray pt50">
+    <section class="sf-container --gray pt50 mb8">
         <div class="content --felx">
             <div class="sf-content-img">
                 <img src="/assets/img/w-servicios-especializados.jpg" class="block-image" alt="Servicios Especializados">
@@ -152,7 +152,7 @@
             <div class="sf-content-info ">
                 <div class="box-info --right"">
                     <h2 class="break-line">SERVICIOS <span>ESPECIALIZADOS</span></h2>
-                    <hr class="separatingline mb24">
+                    <hr class="separatingline separatingline_right mb24">
                     <ul class="sf-content-list --right">
                         <li>Estructuras metálicas</li>
                         <li>Cableado eléctrico, data y telefonía</li>
@@ -175,7 +175,7 @@
             <div class="sf-content-info">
                 <div class="box-info">
                     <h2 class="break-line">SERVICIOS <span>COMPLEMENTARIOS</span></h2>
-                    <hr class="separatingline mb24">
+                    <hr class="separatingline separatingline_left mb24">
                     <ul class="sf-content-list">
                         <li>Gasfitería</li>
                         <li>Electricidad</li>
@@ -237,15 +237,23 @@
 
     <section class="sf-container">
         <div class="content">
-            <p class="">¡YA LO SABES!</p>
-            <p>CONFÍANOS TU NUEVO PROYECTO</p>
+            <div class="block-01 p-block-01">
+                <h2>¡YA LO SABES!</h2>
+                <p>CONFÍANOS TU NUEVO PROYECTO</p>
+            </div>
         </div>
 
-        <div class="content">
-            <button class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
-            <p>Aceptamos todas las formas de pago</p>
-            <img src="/assets/img/aceptamos-todas-las-tarjetas.png" alt="Aceptamos todas las formas de pago">
-
+        <div class="form-footer">
+            <div class="content">
+                <button class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
+                <p>Aceptamos todas las formas de pago</p>
+                <div class="img_cards">
+                    <img src="/assets/img/visa.png" alt="" title="visa">
+                    <img src="/assets/img/american.png" alt="" title="american">
+                    <img src="/assets/img/master.png" alt="" title="master">
+                    <img src="/assets/img/paypal.png" alt="" title="paypal">
+                </div>
+            </div>
         </div>
     </section>
 

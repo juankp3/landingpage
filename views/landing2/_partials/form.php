@@ -2,7 +2,7 @@
     <form class="mainForm" action="/thanks" method="post">
         <div class="form-top">
             <div class="content-text block-01">
-                <h3>SOLICITA INFORMACIÓN Y OBTÉN UN <span>5% DE DESCUENTO</span></h3>
+                <h3>SOLICITA INFORMACIÓN Y LLÉVATE <span>5% DE DESCUENTO</span></h3>
                 <p>Incluiremos además el plano de distribución de tu proyecto</p>
             </div>
             <div class="input">

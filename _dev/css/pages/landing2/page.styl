@@ -56,9 +56,13 @@ h4
     +media-s()
         padding: 35px 0
 
+.mb8
+    margin-bottom: 8px
+
 section.sf-container
     display: flex
     background: $color-white
+    position: relative
     &.p66
         padding: 66px 0px
     &.pt50
@@ -87,7 +91,6 @@ section.sf-container
     max-width: $extra-large
     width: $extra-large
     margin: auto
-    
     &.--felx
         display: flex
         > div
@@ -97,15 +100,15 @@ section.sf-container
         +media-m()
             display: block
     .sf-content-info
-        pading: 0
+        padding: 0
         .box-info
             padding: 40px 100px 0px 48px
             +media-m()
                 padding: 0
             &.--right
                 padding: 40px 48px 0px 100px
-            +media-m()
-                padding: 0
+                +media-m()
+                    padding: 0
     .sf-content-img
         margin: unset
         +media-l()
@@ -127,9 +130,9 @@ section.sf-container
     width: 50px
     &.mb24
         margin-bottom: 24px
-.line_left
+.separatingline_left
     margin-inline-start: initial
-.line_right
+.separatingline_right
     margin-inline-end: initial
 
 .show-mobile
@@ -150,10 +153,25 @@ section.sf-container
     overflow-x: auto
 
 ul.sf-content-item
-    display: flex;
+    display: flex
+    flex-direction: row
+    justify-content: center
+    +media-l()
+        justify-content: start
+    +media-m()
+        justify-content: start
+    +media-s()
+        justify-content: start
     li
-        list-style: none
+        list-style: none;
         padding: 20px
+        width: 164px
+        margin: 0 14px
+        p
+            text-align: center
+            font-size: 14px
+            line-height: 18px
+            padding: 10px 0
 
 ul.sf-content-list
      margin-bottom: 24px;
@@ -168,3 +186,21 @@ ul.sf-content-list
 
 .center
     text-align: center
+
+section.servicios
+    padding: 35px 0 20px 0
+
+.form-footer 
+    padding-bottom: 35px
+    & .content
+        width: 500px
+        +media-xl()
+            margin: auto 
+        +media-m()
+            margin: auto 4%
+            width: auto
+        +media-s()
+            width: auto
+    p
+        text-align: center
+    
