@@ -6,9 +6,13 @@ class Landing2Controller
 
     public function index() 
     {
-        $gallery = $this->gallery();
-        $dataForm = $this->dataValueForm();
-        Flight::render('landing2/index.php', array('gallery' => $gallery, 'dataForm' => $dataForm) );
+        $params = array();
+        $params['gallery'] = $gallery = $this->gallery();
+        $params['dataForm'] = $this->dataValueForm();
+        $params['customers'] = $customer = $this->getCustomer();
+        $params['works'] = $customer = $this->getWorks();
+
+        Flight::render('landing2/index.php', $params);
     }
 
     public function dataValueForm() {
@@ -21,6 +25,28 @@ class Landing2Controller
             '6' => 'Preparación de estructuras de tu casa para casos de sismos.',
             '7' => 'Filtración de lluvias, fugas en tanques, piscinas o cisternas',
             '8' => 'Impermeabilización de techos',
+        );
+    }
+
+    public function getCustomer()
+    {
+        return array(
+            array('name' => 'Pamer', 'img' => 'pamer.png'),
+            array('name' => 'Quimica Suiza', 'img' => 'quimica-suiza.png'),
+            array('name' => 'QSI', 'img' => 'QSI.png'),
+            array('name' => 'Soyuz', 'img' => 'soyuz.png'),
+            array('name' => 'Buro', 'img' => 'buro.png'),
+            array('name' => 'BBL Logistics', 'img' => 'ppl-logistics.png'),
+        );
+    }
+
+    public function getWorks()
+    {
+        return array(
+            array('name' => 'Manejamos altos estándares de seguridad', 'img' => 'epps.jpg'),
+            array('name' => 'Excelente manejo del presupuesto asignado', 'img' => 'epps2.jpg'),
+            array('name' => 'Conocimiento claro del RNC (Reglamento Nacional de construcción)', 'img' => 'epps3.jpg'),
+            array('name' => 'Staff de profesionales de apoyo en las diferentes especialidades', 'img' => 'epps4.jpg'),
         );
     }
     

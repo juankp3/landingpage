@@ -200,15 +200,11 @@
                 piscinas y tanques, en casas, edificios y oficinas. </p>
             </div>
 
-            <?php
-                $clientes = ['cliente01.png','cliente02.png','cliente03.png','cliente04.png','cliente05.png','cliente06.png'];
-            ?>
-
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
-                    <?php foreach($clientes as $cli): ?>
+                    <?php foreach($customers as $customer): ?>
                         <li>
-                            <img src="/assets/img/<?php echo $cli ?>" alt="QSI">
+                            <img src="/assets/img/customer/<?php echo $customer['img'] ?>" alt="<?php echo $customer['name'] ?>">
                         </li>
                     <?php endforeach ?>
                 </ul>
@@ -225,35 +221,14 @@
                     Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
             </div>
 
-            <?php
-            $data = [
-                            [
-                                'img' => 'epps.jpg',
-                                'text' => 'Manejamos altos estándares de seguridad'
-                            ],
-                            [
-                                'img' => 'epps2.jpg',
-                                'text' => 'Excelente manejo del presupuesto asignado'
-                            ],
-                            [
-                                'img' => 'epps3.jpg',
-                                'text' => 'Conocimiento claro del RNC (Reglamento Nacional de construcción)'
-                            ],
-                            [
-                                'img' => 'epps4.jpg',
-                                'text' => 'Staff de profesionales de apoyo en las diferentes especialidades'
-                            ]
-                        ];
-            ?>
-
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
                     <?php 
-                        foreach($data as $val):
+                        foreach($works as $work):
                     ?>
                         <li>
-                            <img src="/assets/img/<?php echo $val['img'] ?>" alt="">
-                            <p><?php echo $val['text'] ?></p>
+                            <img src="/assets/img/works/<?php echo $work['img'] ?>" alt="<?php echo $work['name'] ?>">
+                            <p><?php echo $work['name'] ?></p>
                             <hr class="separatingline">
                         </li>    
                     <?php 
