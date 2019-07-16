@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/newstyle.css" >
+    <link rel="stylesheet" type="text/css" href="/assets/css/newstyle2.css" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
@@ -45,20 +45,21 @@
     
     <section class="sf-container-thanks">
         <div class="content">
-            <div class="sf-content-thanks">
-                <p class="thanks-tit">¡GRACIAS!</p>
-                <p class="thanks-desc">Se ha registrado tu solicitud. Tan pronto nos sea posible, nos pondremos en contacto contigo.</p>
-                <div class="thanks-subtit">Contáctanos</div>
+            <div class="sf-content-thanks block-01">
+                <h1>¡GRACIAS!</h1>
+                <p>Se ha registrado tu solicitud. Tan pronto nos sea posible, nos pondremos en contacto contigo.</p>
+                <h3>Contáctanos</h3>
                 <div class="thanks-whatsapp">
                     <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=_*Hola!*_">
                         <i class="fab fa-whatsapp mr5" aria-hidden="true"></i>
                         <span>997-360-983</span>
                     </a>
                 </div>
-                <div class="thanks-email"><strong>E-mail:</strong> isr200305@outlook.com</div>
-                <div class="thanks-btn">
-                    <button onclick="window.location.href='/'" class="mainButton btn-content-solid-2" type="submit">VOLVER A LA PÁGINA</button>
+                <p><strong>E-mail:</strong> isr200305@outlook.com</p>
+                <div class="sf_btn">
+                    <button onclick="window.location.href='/landing2'" class="mainButton btn-content-solid-rectagle-organge" type="submit">VOLVER A LA PÁGINA</button>
                 </div>
+
             </div>
         </div>
     </section>
