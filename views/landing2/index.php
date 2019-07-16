@@ -21,18 +21,18 @@
     <script src="assets/js/init.js?v=1"></script>
 
     <!-- SEO -->
-    <title>Servicios Felix</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>Protege la seguridad de tu familia y de tu hogar | Servicios Felix</title>
+    <meta name="description" content="Preparación de estructuras de tu casa para casos de sismos, Impermeabilización y preparación de cisternas, picinas y tanques elevados, impermebilización de techos, servicios especializados, servicios complementarios">
+    <meta name="keywords" content="sismos,creparación de cisternas, picinas,impermebilización de techos, servicios especializados, servicios complementarios">
 
     <!-- Image icon -->
     <?php Flight::render( '_partials/favicon.php') ?>
 
     <!-- Properties for social -->
-    <meta property="og:site_name" content="Entel Perú"/>
-    <meta property="og:title" content="Ofertas y promociones"/>
-    <meta property="og:description" content=""/>
-    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Servicios Felix"/>
+    <meta property="og:title" content="Protege la seguridad de tu familia y de tu hogar"/>
+    <meta property="og:description" content="Preparación de estructuras de tu casa para casos de sismos, Impermeabilización y preparación de cisternas, picinas y tanques elevados, impermebilización de techos, servicios especializados, servicios complementarios"/>
+    <meta property="og:image" content="/assets/img/familia-feliz.jpg">
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
 
@@ -261,7 +261,6 @@
         </div>
     </section>
 
-    
     <?php Flight::render('_partials/footer2.php'); ?>
 
 </body>
