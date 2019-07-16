@@ -21,18 +21,18 @@
     <script src="assets/js/init.js?v=1"></script>
 
     <!-- SEO -->
-    <title>Servicios Felix</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>Protege la seguridad de tu familia y de tu hogar | Servicios Felix</title>
+    <meta name="description" content="Preparación de estructuras de tu casa para casos de sismos, Impermeabilización y preparación de cisternas, picinas y tanques elevados, impermebilización de techos, servicios especializados, servicios complementarios">
+    <meta name="keywords" content="sismos,creparación de cisternas, picinas,impermebilización de techos, servicios especializados, servicios complementarios">
 
     <!-- Image icon -->
     <?php Flight::render( '_partials/favicon.php') ?>
 
     <!-- Properties for social -->
-    <meta property="og:site_name" content="Entel Perú"/>
-    <meta property="og:title" content="Ofertas y promociones"/>
-    <meta property="og:description" content=""/>
-    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Servicios Felix"/>
+    <meta property="og:title" content="Protege la seguridad de tu familia y de tu hogar"/>
+    <meta property="og:description" content="Preparación de estructuras de tu casa para casos de sismos, Impermeabilización y preparación de cisternas, picinas y tanques elevados, impermebilización de techos, servicios especializados, servicios complementarios"/>
+    <meta property="og:image" content="/assets/img/familia-feliz.jpg">
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
 
@@ -205,15 +205,11 @@
                 piscinas y tanques, en casas, edificios y oficinas. </p>
             </div>
 
-            <?php
-                $clientes = ['cliente01.png','cliente02.png','cliente03.png','cliente04.png','cliente05.png','cliente06.png'];
-            ?>
-
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
-                    <?php foreach($clientes as $cli): ?>
+                    <?php foreach($customers as $customer): ?>
                         <li>
-                            <img src="/assets/img/<?php echo $cli ?>" alt="QSI">
+                            <img src="/assets/img/customer/<?php echo $customer['img'] ?>" alt="<?php echo $customer['name'] ?>">
                         </li>
                     <?php endforeach ?>
                 </ul>
@@ -230,35 +226,14 @@
                     Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
             </div>
 
-            <?php
-            $data = [
-                            [
-                                'img' => 'epps.jpg',
-                                'text' => 'Manejamos altos estándares de seguridad'
-                            ],
-                            [
-                                'img' => 'epps2.jpg',
-                                'text' => 'Excelente manejo del presupuesto asignado'
-                            ],
-                            [
-                                'img' => 'epps3.jpg',
-                                'text' => 'Conocimiento claro del RNC (Reglamento Nacional de construcción)'
-                            ],
-                            [
-                                'img' => 'epps4.jpg',
-                                'text' => 'Staff de profesionales de apoyo en las diferentes especialidades'
-                            ]
-                        ];
-            ?>
-
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
                     <?php 
-                        foreach($data as $val):
+                        foreach($works as $work):
                     ?>
                         <li>
-                            <img src="/assets/img/<?php echo $val['img'] ?>" alt="">
-                            <p><?php echo $val['text'] ?></p>
+                            <img src="/assets/img/works/<?php echo $work['img'] ?>" alt="<?php echo $work['name'] ?>">
+                            <p><?php echo $work['name'] ?></p>
                             <hr class="separatingline">
                         </li>    
                     <?php 
@@ -291,7 +266,6 @@
         </div>
     </section>
 
-    
     <?php Flight::render('_partials/footer2.php'); ?>
 
 </body>
