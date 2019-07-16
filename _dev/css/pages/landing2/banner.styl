@@ -6,6 +6,27 @@ section.sf-container
         background-image: url(../img/bg-familia-web.png)
         height: 660px
         background-repeat: no-repeat
+
+        display : flex
+        & .b01
+            width: 70%
+            +media-xl()
+                width: 60%
+            +media-m()
+                width: 100%
+            +media-s()
+                width: 100%
+        & .b02
+            width: 30%
+            align-self: center
+            box-shadow: 0px 0px 60px 20px rgba(0,0,0,0.08)
+            +media-xl()
+                width: auto
+            p
+                color : $color-primary-blue
+                margin: 5px 0
+                padding: 0 15%
+
         +media-m()
             background-image: none
             height: auto

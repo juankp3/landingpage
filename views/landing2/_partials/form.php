@@ -1,4 +1,4 @@
-<div class="sf-form p-block-01">
+<div class="sf-form">
     <form class="mainForm" action="/thanks" method="post">
         <div class="form-top">
             <div class="content-text block-01">

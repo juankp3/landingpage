@@ -907,6 +907,40 @@ section.sf-container .sf-banner-block01 {
   background-image: url("../img/bg-familia-web.png");
   height: 660px;
   background-repeat: no-repeat;
+  display: flex;
+}
+section.sf-container .sf-banner-block01 .b01 {
+  width: 70%;
+}
+@media screen and (max-width: 1200px) {
+  section.sf-container .sf-banner-block01 .b01 {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.sf-container .sf-banner-block01 .b01 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  section.sf-container .sf-banner-block01 .b01 {
+    width: 100%;
+  }
+}
+section.sf-container .sf-banner-block01 .b02 {
+  width: 30%;
+  align-self: center;
+  box-shadow: 0px 0px 60px 20px rgba(0,0,0,0.08);
+}
+@media screen and (max-width: 1200px) {
+  section.sf-container .sf-banner-block01 .b02 {
+    width: auto;
+  }
+}
+section.sf-container .sf-banner-block01 .b02 p {
+  color: #000466;
+  margin: 5px 0;
+  padding: 0 15%;
 }
 @media screen and (max-width: 768px) {
   section.sf-container .sf-banner-block01 {
@@ -1090,8 +1124,8 @@ div.img_cards img {
 }
 .sf-form {
   padding: 20px 0px 20px 0px;
-  border-radius: 12px;
   width: 365px;
+  background: #fff;
   margin: 0 auto;
 }
 .sf-form form {
