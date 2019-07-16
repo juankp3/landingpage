@@ -15,6 +15,21 @@ class Landing2Controller
         Flight::render('landing2/index.php', $params);
     }
 
+    public function thanks()
+    {
+        $post = $_POST;
+        // $cone = new Conexion();
+        // $res = $cone->insert($post);
+
+        // $email = new Mail();
+        // $email->sendMail($post);
+
+        // if (!$res)
+        //     Flight::redirect('/');
+
+        Flight::render('landing2/thanks.php');
+    }
+
     public function dataValueForm() {
         return array(
             '1' => 'Sala',
@@ -109,3 +124,5 @@ class Landing2Controller
 $landing2 = new Landing2Controller();
 
 Flight::route('GET /landing2', array($landing2, 'index'));
+Flight::route('GET /landing2/thanks', array($landing2, 'thanks'));
+Flight::route('POST /landing2/thanks', array($landing2, 'thanks'));
