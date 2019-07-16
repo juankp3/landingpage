@@ -1828,6 +1828,17 @@ li p {
 section.servicios {
   padding: 35px 0 20px 0;
 }
+@media screen and (max-width: 1200px) {
+  section.clientes ul.sf-content-item {
+    justify-content: start;
+  }
+}
+section.clientes ul.sf-content-item li {
+  padding: 10px;
+  width: auto;
+  margin: 0;
+  align-self: center;
+}
 .form-footer {
   padding-bottom: 35px;
 }

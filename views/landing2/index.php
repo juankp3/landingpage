@@ -191,7 +191,7 @@
         <img src="/assets/img/plomero1.jpg" class="ft-image" alt="Servicios Complementarios">
     </section>
 
-    <section class="sf-container p66">
+    <section class="sf-container p66 clientes">
         <div class="content">
             <div class="block-01">
                 <h2 class="center">ALGUNOS DE NUESTROS CLIENTES</h2>
@@ -200,13 +200,17 @@
                 piscinas y tanques, en casas, edificios y oficinas. </p>
             </div>
 
+            <?php
+                $clientes = ['cliente01.png','cliente02.png','cliente03.png','cliente04.png','cliente05.png','cliente06.png'];
+            ?>
+
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
-                    <?php for($i = 1; $i <= 6; $i++): ?>
+                    <?php foreach($clientes as $cli): ?>
                         <li>
-                            <img src="/assets/img/qsi.jpg" alt="QSI">
+                            <img src="/assets/img/<?php echo $cli ?>" alt="QSI">
                         </li>
-                    <?php endfor ?>
+                    <?php endforeach ?>
                 </ul>
             </div>
         </div>
@@ -221,15 +225,40 @@
                     Es por ello que te ofrecemos la más amplia solución en servicios para tu casa, departamento u oficina.</p>
             </div>
 
+            <?php
+            $data = [
+                            [
+                                'img' => 'epps.jpg',
+                                'text' => 'Manejamos altos estándares de seguridad'
+                            ],
+                            [
+                                'img' => 'epps2.jpg',
+                                'text' => 'Excelente manejo del presupuesto asignado'
+                            ],
+                            [
+                                'img' => 'epps3.jpg',
+                                'text' => 'Conocimiento claro del RNC (Reglamento Nacional de construcción)'
+                            ],
+                            [
+                                'img' => 'epps4.jpg',
+                                'text' => 'Staff de profesionales de apoyo en las diferentes especialidades'
+                            ]
+                        ];
+            ?>
+
             <div class="sf-container-ul">
                 <ul class="sf-content-item">
-                    <?php for($i = 1; $i <= 4; $i++): ?>
+                    <?php 
+                        foreach($data as $val):
+                    ?>
                         <li>
-                            <img src="/assets/img/epps.jpg" alt="">
-                            <p>Manejamos altos estándares de seguridad</p>
+                            <img src="/assets/img/<?php echo $val['img'] ?>" alt="">
+                            <p><?php echo $val['text'] ?></p>
                             <hr class="separatingline">
-                        </li>
-                    <?php endfor ?>
+                        </li>    
+                    <?php 
+                        endforeach 
+                    ?>
                 </ul>
             </div>
         </div>
