@@ -103,10 +103,17 @@ section.sf-container
         padding: 0
         .box-info
             padding: 40px 100px 0px 48px
+            & h2 
+                font-size: 28px
+            +media-l()
+                padding: 40px 50px 0 0
             +media-m()
                 padding: 0
             &.--right
                 padding: 40px 48px 0px 100px
+                text-align: right 
+                +media-l()
+                    padding: 40px 0 0px 50px
                 +media-m()
                     padding: 0
     .sf-content-img
@@ -174,7 +181,7 @@ ul.sf-content-item
             padding: 10px 0
 
 ul.sf-content-list
-     margin-bottom: 24px;
+    margin-bottom: 24px;
     &.--right
         text-align: right 
     li
@@ -192,8 +199,7 @@ section.servicios
 
 section.clientes
     ul.sf-content-item 
-        +media-xl()
-            justify-content: start
+        justify-content: start
         & li
             padding: 10px
             width: auto
@@ -201,14 +207,14 @@ section.clientes
             align-self: center
 
 .form-footer .content
-        width: 500px
-        +media-xl()
-            margin: auto 
-        +media-m()
-            margin: auto 4%
-            width: auto
-        +media-s()
-            width: auto
+    width: 500px
+    +media-xl()
+        margin: auto 
+    +media-m()
+        margin: auto 4%
+        width: auto
+    +media-s()
+        width: auto
     p
         text-align: center
     

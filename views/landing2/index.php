@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css?v=4" >
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
@@ -66,7 +66,7 @@
                 <div class="block-01  p-block-01">
                     <h2>¿QUÉ HACEMOS?</h2>
                     <hr class="separatingline" />
-                    <h4>¡Te ofrecemos la más completa solución!</h4>
+                    <h3>¡Te ofrecemos la más completa solución!</h3>
                     <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
                 </div>
             </div>
@@ -86,7 +86,7 @@
         </div>
     </section>
 
-    <section class="sf-container servicios">
+    <section class="sf-container p-block-01">
         <div class="content">
             <div class="block-01">
                 <h2>PREPARA Y PROTEGE TU CASA</h2>
@@ -105,7 +105,7 @@
                     <ul class="sf-content-list ">
                         <li><p><strong>Estudio Estructural</strong> - Visita técnica, planos, escaneos, etc.</p></li>
                         <li><p><strong>Diagnóstico y presupuesto</strong> - Informe y valorización de la solución.</p></li>
-                        <li><p><strong>Ejecución de obra </strong>  - Ejecución de obra - Ponemos en marcha la solución.</p></li>
+                        <li><p><strong>Ejecución de obra </strong>  - Ponemos en marcha la solución.</p></li>
                     </ul>
                 </div>
             </div>
@@ -122,10 +122,10 @@
                 <img src="/assets/img/w-Impermeabilizacion-y-reparacion.jpg" class="block-image" alt="Impermebilización y reparación de cisternas, piscinas y tanques elevados">
             </div>
             <div class="sf-content-info">
-                <div class="box-info --right">
-                    <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
+                <div class="box-info  --right">
+                    <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PISCINAS Y TANQUES ELEVADOS</h2>
                     <hr class="separatingline separatingline_right mb24">
-                    <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
+                    <p>Evita que las lluvias y las fugas deterioren tu cisterna, piscina o tanque elevado. 
                         Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
                 </div>
             </div>
@@ -156,7 +156,7 @@
                 <img src="/assets/img/w-servicios-especializados.jpg" class="block-image" alt="Servicios Especializados">
             </div>
             <div class="sf-content-info ">
-                <div class="box-info --right"">
+                <div class="box-info --right">
                     <h2 class="break-line">SERVICIOS <span>ESPECIALIZADOS</span></h2>
                     <hr class="separatingline separatingline_right mb24">
                     <ul class="sf-content-list --right">

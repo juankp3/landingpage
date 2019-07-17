@@ -3,10 +3,9 @@ section.sf-container
     flex-direction: column
     & .sf-banner-block01
         padding-top: 30px
-        background-image: url(../img/bg-familia-web.png)
+        background: url(../img/bg-familia-web.png) -50px
         height: 660px
         background-repeat: no-repeat
-
         display : flex
         & .b01
             width: 70%
@@ -26,7 +25,15 @@ section.sf-container
                 color : $color-primary-blue
                 margin: 5px 0
                 padding: 0 15%
-
+        +media-xl()
+            background: url(../img/bg-familia-web.png) -200px
+            background-size: contain
+            background-repeat: no-repeat
+        +media-l()
+            background: url(../img/bg-familia-web.png) -230px
+            height: 600px
+            background-size: contain
+            background-repeat: no-repeat
         +media-m()
             background-image: none
             height: auto
