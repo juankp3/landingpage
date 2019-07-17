@@ -1073,9 +1073,6 @@ footer .sf-middle-footer .middle-footer-data .m-f-d-title {
 footer .sf-middle-footer .middle-footer-data .m-f-d-description {
   font-family: "LatoRegular";
 }
-footer .sf-middle-footer .middle-footer-data .m-f-d-description a {
-  color: #fff;
-}
 @media screen and (max-width: 480px) {
   footer .sf-middle-footer {
     font-size: 16px;
@@ -1095,6 +1092,11 @@ footer .sf-bottom-footer {
     margin-top: 20%;
     font-size: 12px;
   }
+}
+.format-phone {
+  text-decoration: none;
+  color: #fff;
+  font-family: "LatoRegular";
 }
 .input > input {
   color: #aeaeae;

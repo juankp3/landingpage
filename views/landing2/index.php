@@ -36,8 +36,6 @@
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
 
-    <!-- no format like a link for default -->
-    <meta name="format-detection" content="telephone=no">
 
     <!-- Google Analytics -->
     <?php Flight::render( '_partials/analytics.php') ?>
