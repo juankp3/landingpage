@@ -245,9 +245,9 @@
         </div>
     </section>
 
-    <section class="sf-container">
+    <section class="sf-container  p-block-01">
         <div class="content">
-            <div class="block-01 p-block-01">
+            <div class="block-01">
                 <h2>¡YA LO SABES!</h2>
                 <p>CONFÍANOS TU NUEVO PROYECTO</p>
             </div>

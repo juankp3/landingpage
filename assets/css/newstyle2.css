@@ -1875,9 +1875,6 @@ section.clientes ul.sf-content-item li {
   margin: 0;
   align-self: center;
 }
-.form-footer {
-  padding-bottom: 35px;
-}
 .form-footer .content {
   width: 500px;
 }
@@ -1897,7 +1894,7 @@ section.clientes ul.sf-content-item li {
     width: auto;
   }
 }
-.form-footer p {
+p {
   text-align: center;
 }
 .sf-container-thanks {
