@@ -1093,11 +1093,6 @@ footer .sf-bottom-footer {
     font-size: 12px;
   }
 }
-.format-phone {
-  text-decoration: none;
-  color: #fff;
-  font-family: "LatoRegular";
-}
 .input > input {
   color: #aeaeae;
   border: 1px solid #ffd6c4;
