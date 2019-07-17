@@ -6,8 +6,8 @@
             <a href="/"><h1 class="cl-blue">SERVICIOS FELIX</h1></a>
         </div>
         <div class="cl-whatsapp">
-            <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=*Hola, estoy interesado en información y mi proyecto es*">
-                <i class="fab fa-whatsapp mr5" aria-hidden="true"></i> 
+            <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=Hola, estoy interesado en información y mi proyecto es">
+                <i class="fab fa-whatsapp mr5" aria-hidden="true"></i>
                 <span>997-360-983</span>
             </a>
         </div>
