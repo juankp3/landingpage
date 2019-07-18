@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css?v=4" >
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
@@ -66,9 +66,7 @@
         </div>
     </section>
 
-    
-
-    <section class="sf-container servicios">
+    <section class="sf-container p-block-01">
         <div class="content">
             <div class="block-01">
                 <h2>PREPARA Y PROTEGE TU CASA</h2>
@@ -149,9 +147,9 @@
         </div>
     </section>
 
-    <section class="sf-container">
+    <section class="sf-container  p-block-01">
         <div class="content">
-            <div class="block-01 p-block-01">
+            <div class="block-01">
                 <h2>¡YA LO SABES!</h2>
                 <p>CONFÍANOS TU NUEVO PROYECTO</p>
             </div>

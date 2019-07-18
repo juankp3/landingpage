@@ -67,9 +67,11 @@ ul.list-categories
                 border-right: solid 1px $color-gray-350
 
 //seccion galeria
-.gallery .content
-    +media-s()
-        margin: 0
+.gallery
+    background-image: url(../img/bggallery.png)
+    & .content
+        +media-s()
+            margin: 0
 
 div.sf-container-flex-proyectos
     display: flex
