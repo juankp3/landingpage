@@ -39,6 +39,7 @@
 
 </head>
 <body>
+<?php Flight::render( '_partials/tagmanager.php') ?>
 
     <?php Flight::render('_partials/header.php'); ?>
     
