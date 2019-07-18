@@ -1905,6 +1905,8 @@ section.servicios {
 }
 section.clientes ul.sf-content-item {
   justify-content: start;
+  width: 1100px;
+  margin: 0 auto;
 }
 section.clientes ul.sf-content-item li {
   padding: 10px;
