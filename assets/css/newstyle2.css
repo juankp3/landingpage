@@ -1352,7 +1352,7 @@ ul.list-categories li div {
   }
 }
 .gallery {
-  background-image: url("../img/bggallery.png");
+  background: url("../img/bggallery.png") #f4f4f4 !important;
 }
 @media screen and (max-width: 480px) {
   .gallery .content {
