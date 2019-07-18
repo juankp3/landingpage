@@ -78,26 +78,6 @@
         </div>
     </section>
 
-    <section class="sf-container p-block-01 gallery">
-        <div class="content">
-            <div class="block-01">
-                <h2>¡RENUÉVALO TODO!</h2>
-                <p>MIRA NUESTROS PROYECTOS REALIZADOS</p>
-            </div>
-            <?php  include '_partials/gallery.php' ?>
-        </div>
-    </section>
-
-    <section class="sf-container p-block-01">
-        <div class="content">
-            <div class="block-01">
-                <h2>PREPARA Y PROTEGE TU CASA</h2>
-                <hr class="separatingline" />
-                <p>TENEMOS LA MÁS COMPLETA SOLUCIÓN</p>
-            </div>
-        </div>
-    </section>
-
     <?php  include '_partials/services.php' ?>
 
     <section class="sf-container p66 clientes">
@@ -128,12 +108,13 @@
             <div class="block-01">
                 <h2>¡RENUÉVALO TODO!</h2>
                 <p>MIRA NUESTROS PROYECTOS REALIZADOS</p>
+                <br>
             </div>
             <?php  include '_partials/gallery.php' ?>
         </div>
     </section>
 
-    <section class="sf-container --gray p66">
+    <section class="sf-container  p66">
         <div class="content">
             <div class="block-01">
                 <h2>¿POR QUÉ TRABAJAR CON NOSOTROS?</h2>
@@ -160,7 +141,7 @@
         </div>
     </section>
 
-    <section class="sf-container  p-block-01">
+    <section class="sf-container --gray  p-block-01">
         <div class="content">
             <div class="block-01">
                 <h2>¡YA LO SABES!</h2>
