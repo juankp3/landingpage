@@ -21,11 +21,12 @@ div.popup
         z-index: 3
         cursor: pointer
     & .popup_title
-        color: $color-orange
-        font-size: 22px
         padding-left: 6px
-        +media-s()
-            font-size: 20px
+        & h3
+            color: $color-orange
+            font-size: 22px
+            +media-s()
+                font-size: 20px
     & .popup_description
         display: flex
         flex-direction: row
