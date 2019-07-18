@@ -78,8 +78,7 @@
         </div>
     </section>
 
-<<<<<<< HEAD
-    <section class="sf-container p-block-01 gallery"> <!--  --gray -->
+    <section class="sf-container p-block-01 gallery">
         <div class="content">
             <div class="block-01">
                 <h2>¡RENUÉVALO TODO!</h2>
@@ -89,8 +88,6 @@
         </div>
     </section>
 
-=======
->>>>>>> f013a1898121b510963de9781c1e7239aad9f1f0
     <section class="sf-container p-block-01">
         <div class="content">
             <div class="block-01">
