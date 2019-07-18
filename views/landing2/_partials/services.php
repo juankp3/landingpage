@@ -72,7 +72,6 @@
                     <li>Pintura</li>
                     <li>Ventanas y mamparas de vídrio</li>
                     <li>Escaleras metálicas</li>
-                    <li>Servicios Complementarios</li>
                 </ul>
             </div>
         </div>
