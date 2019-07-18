@@ -9,7 +9,7 @@
                 <ul class="sf-content-list ">
                     <li><p><strong>Estudio Estructural</strong> - Visita técnica, planos, escaneos, etc.</p></li>
                     <li><p><strong>Diagnóstico y presupuesto</strong> - Informe y valorización de la solución.</p></li>
-                    <li><p><strong>Ejecución de obra </strong>  - Ponemos en marcha la solución.</p></li>
+                    <li><p><strong>Ejecución de obra</strong> - Ponemos en marcha la solución.</p></li>
                 </ul>
             </div>
         </div>
@@ -27,9 +27,9 @@
         </div>
         <div class="sf-content-info">
             <div class="box-info --right">
-                <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PICINAS Y TANQUES ELEVADOS</h2>
+                <h2><span>IMPERMEABILIZACIÓN</span> Y <span>REPARACIÓN</span> DE CISTERNAS, PISCINAS Y TANQUES ELEVADOS</h2>
                 <hr class="separatingline separatingline_right mb24">
-                <p>Evita que las lluvias y las fugas deteriore tu cisterna, piscina o tanque elevado. 
+                <p>Evita que las lluvias y las fugas deterioren tu cisterna, piscina o tanque elevado. 
                     Restaurarlas te ayudará a evitar el consumo excesivo de agua. </p>
             </div>
         </div>

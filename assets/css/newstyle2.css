@@ -1833,7 +1833,7 @@ section.sf-container .block-image {
 }
 @media screen and (max-width: 480px) {
   .show-mobile {
-    display: flex;
+    display: block;
   }
 }
 @media screen and (max-width: 768px) {
