@@ -9,7 +9,7 @@
                 <ul class="sf-content-list ">
                     <li><p><strong>Estudio Estructural</strong> - Visita técnica, planos, escaneos, etc.</p></li>
                     <li><p><strong>Diagnóstico y presupuesto</strong> - Informe y valorización de la solución.</p></li>
-                    <li><p><strong>Ejecución de obra </strong> - Ponemos en marcha la solución.</p></li>
+                    <li><p><strong>Ejecución de obra</strong> - Ponemos en marcha la solución.</p></li>
                 </ul>
             </div>
         </div>
