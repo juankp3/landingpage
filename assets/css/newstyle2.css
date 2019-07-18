@@ -1354,9 +1354,10 @@ ul.list-categories li div {
 .gallery {
   background-image: url("../img/bggallery.png");
 }
-.gallery .content,
-.gallery +media-s() {
-  margin: 0;
+@media screen and (max-width: 480px) {
+  .gallery .content {
+    margin: 0;
+  }
 }
 div.sf-container-flex-proyectos {
   display: flex;
