@@ -78,16 +78,6 @@
         </div>
     </section>
 
-    <!-- <section class="sf-container p-block-01">
-        <div class="content">
-            <div class="block-01">
-                <h2>PREPARA Y PROTEGE TU CASA</h2>
-                <hr class="separatingline" />
-                <p>TENEMOS LA MÁS COMPLETA SOLUCIÓN</p>
-            </div>
-        </div>
-    </section> -->
-
     <?php  include '_partials/services.php' ?>
 
     <section class="sf-container p66 clientes">
