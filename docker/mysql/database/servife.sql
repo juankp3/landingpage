@@ -9,6 +9,7 @@ CREATE TABLE `clientes` (
   `celular` varchar(9) COLLATE utf8_spanish_ci NOT NULL,
   `area` varchar(100) COLLATE utf8_spanish_ci NOT NULL,
   `mensaje` TEXT,
+  `tipo` varchar(100) COLLATE utf8_spanish_ci NOT NULL,
   `fecha_registro` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
@@ -23,3 +24,5 @@ LOCK TABLES `clientes` WRITE;
 /*!40000 ALTER TABLE `clientes` ENABLE KEYS */;
 UNLOCK TABLES;
 
+-- ALTER TABLE clientes
+-- ADD COLUMN `tipo`  varchar(100) AFTER `mensaje`;

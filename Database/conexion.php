@@ -27,13 +27,14 @@ class Conexion {
 
     public function insert($data) {
 
-        $sql = "INSERT INTO clientes (nombre,correo,celular,area,mensaje,fecha_registro) VALUES(?,?,?,?,?,NOW())";
+        $sql = "INSERT INTO clientes (nombre,correo,celular,area,mensaje,tipo,fecha_registro) VALUES(?,?,?,?,?,?,NOW())";
         $sth = Flight::db()->prepare($sql);
         $sth->bindParam(1, $data["name"]);
         $sth->bindParam(2, $data["email"]);
         $sth->bindParam(3, $data["phone"]);
         $sth->bindParam(4, $data["area"]);
-        $sth->bindParam(5, $data["message"]);
+        $sth->bindParam(5, $data["tipo"]);
+        $sth->bindParam(6, $data["message"]);
         $res = $sth->execute();
 
         return $res;

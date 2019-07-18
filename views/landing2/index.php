@@ -11,14 +11,13 @@
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
-
-
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/owlcarousel/owl.carousel.js"></script>
-    <script src="assets/js/init2.js?v=1"></script>
+    <script src="/assets/js/jquery.validate.js"></script>
+    <script src="assets/js/init2.js?v=2"></script>
 
     <!-- SEO -->
     <title>Protege la seguridad de tu familia y de tu hogar | Servicios Felix</title>

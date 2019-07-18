@@ -9,7 +9,3 @@ class HomeController
         Flight::render('home/index.php');
     }
 }
-
-$home = new HomeController();
-
-// Flight::route('GET /', array($home, 'index'));

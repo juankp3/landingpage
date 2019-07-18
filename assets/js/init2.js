@@ -112,7 +112,6 @@ function landing() {
         $('body,html').stop(true,true).animate({				
             scrollTop: $(strAncla).offset().top
         },1000, function () {
-            fn.animationHide()
             setTimeout(function(){ 
                 dom.inputFormArea.val(dataForm)
                 // fn.closeAllPopUp()
@@ -141,18 +140,6 @@ function landing() {
             }
             })
         })
-    }
-
-    fn.closeAllPopUp = function () {
-        dom.boxPopUp1.hide()
-        dom.boxPopUp2.hide()
-        dom.boxPopUp3.hide()
-    }
-
-    fn.animationHide = function () {
-        dom.boxPopUp1.addClass('animation_hide_left');
-        dom.boxPopUp2.addClass('animation_hide_right');
-        dom.boxPopUp3.addClass('animation_hide_left'); 
     }
 
 

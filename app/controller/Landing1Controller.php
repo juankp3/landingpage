@@ -13,17 +13,22 @@ class Landing1Controller
 
     public function thanks()
     {
-        $post = $_POST;
-        $cone = new Conexion();
-        $res = $cone->insert($post);
-
-        $email = new Mail();
-        $email->sendMail($post);
-
-        if (!$res)
-            Flight::redirect('/');
-
-        Flight::render('landing1/thanks.php');
+        if(!empty($_POST)) {
+            $post = $_POST;
+            $post['tipo'] = 'remodelacion';
+            $cone = new Conexion();
+            $res = $cone->insert($post);
+    
+            $email = new Mail();
+            $email->sendMail($post);
+    
+            if (!$res)
+                Flight::redirect('/');
+    
+            Flight::render('landing1/thanks.php');
+        } else {
+            Flight::redirect('/remodelacion');
+        }
     }
 
 
@@ -95,9 +100,3 @@ class Landing1Controller
     }
 
 }
-
-$landing1 = new Landing1Controller();
-
-Flight::route('GET /', array($landing1, 'index'));
-Flight::route('GET /thanks', array($landing1, 'thanks'));
-Flight::route('POST /thanks', array($landing1, 'thanks'));

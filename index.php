@@ -6,10 +6,7 @@ require 'Database/conexion.php';
 
 date_default_timezone_set('America/Lima');
 
-
-require 'app/controller/HomeController.php';
-require 'app/controller/Landing1Controller.php';
-require 'app/controller/Landing2Controller.php';
+require 'app/route.php';
 
 
 function download_send_headers($filename) 

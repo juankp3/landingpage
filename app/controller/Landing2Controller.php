@@ -17,17 +17,23 @@ class Landing2Controller
 
     public function thanks()
     {
-        $post = $_POST;
-        // $cone = new Conexion();
-        // $res = $cone->insert($post);
+        if(!empty($_POST)) {
+            $post = $_POST;
+            $post['tipo'] = 'servicios';
+            $cone = new Conexion();
+            $res = $cone->insert($post);
+    
+            $email = new Mail();
+            $email->sendMail($post);
+    
+            if (!$res)
+                Flight::redirect('/');
+    
+            Flight::render('landing2/thanks.php');
 
-        // $email = new Mail();
-        // $email->sendMail($post);
-
-        // if (!$res)
-        //     Flight::redirect('/');
-
-        Flight::render('landing2/thanks.php');
+        } else {
+            Flight::redirect('/');
+        }
     }
 
     public function dataValueForm() {
@@ -120,9 +126,3 @@ class Landing2Controller
     }
 
 }
-
-$landing2 = new Landing2Controller();
-
-Flight::route('GET /landing2', array($landing2, 'index'));
-Flight::route('GET /landing2/thanks', array($landing2, 'thanks'));
-Flight::route('POST /landing2/thanks', array($landing2, 'thanks'));

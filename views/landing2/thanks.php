@@ -21,18 +21,9 @@
     <!-- <script src="assets/js/dist/jquery.validate.js"></script> -->
     <!-- SEO -->
     <title>Servicios Felix</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
 
     <!-- Image icon -->
     <?php Flight::render( '_partials/favicon.php') ?>
-
-    <!-- Properties for social -->
-    <meta property="og:site_name" content="Entel Perú"/>
-    <meta property="og:title" content="Ofertas y promociones"/>
-    <meta property="og:description" content=""/>
-    <meta property="og:image" content="">
-    <meta property="og:type" content="page"/>
 
     <!-- Google Analytics -->
     <?php Flight::render( '_partials/analytics.php') ?>
@@ -41,7 +32,6 @@
 <body>
 
     <?php Flight::render('_partials/header.php'); ?>
-    
     
     <section class="sf-container-thanks">
         <div class="content">
@@ -57,13 +47,12 @@
                 </div>
                 <p><strong>E-mail:</strong> isr200305@outlook.com</p>
                 <div class="sf_btn">
-                    <button onclick="window.location.href='/landing2'" class="mainButton btn-content-solid-rectagle-organge" type="submit">VOLVER A LA PÁGINA</button>
+                    <button onclick="window.location.href='/'" class="mainButton btn-content-solid-rectagle-organge" type="submit">VOLVER A LA PÁGINA</button>
                 </div>
 
             </div>
         </div>
     </section>
-    
 
     <?php Flight::render('_partials/footer2.php'); ?>
 

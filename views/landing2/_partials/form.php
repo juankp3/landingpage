@@ -1,5 +1,5 @@
 <div class="sf-form">
-    <form class="mainForm" action="/thanks" method="post">
+    <form class="mainForm" action="/gracias" method="post">
         <div class="form-top">
             <div class="content-text block-01">
                 <h3>SOLICITA INFORMACIÓN Y LLÉVATE <span>5% DE DESCUENTO</span></h3>

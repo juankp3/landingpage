@@ -57,7 +57,7 @@
                 </div>
                 <div class="thanks-email"><strong>E-mail:</strong> isr200305@outlook.com</div>
                 <div class="thanks-btn">
-                    <button onclick="window.location.href='/'" class="mainButton btn-content-solid-2" type="submit">VOLVER A LA PÁGINA</button>
+                    <button onclick="window.location.href='/remodelacion/gracias'" class="mainButton btn-content-solid-2" type="submit">VOLVER A LA PÁGINA</button>
                 </div>
             </div>
         </div>
