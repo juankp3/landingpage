@@ -1088,6 +1088,12 @@ footer .sf-middle-footer .middle-footer-data .m-f-d-title {
 footer .sf-middle-footer .middle-footer-data .m-f-d-description {
   font-family: "LatoRegular";
 }
+footer .sf-middle-footer .middle-footer-data .m-f-d-description a,
+footer .sf-middle-footer .middle-footer-data .m-f-d-description a:hover,
+footer .sf-middle-footer .middle-footer-data .m-f-d-description a:focus,
+footer .sf-middle-footer .middle-footer-data .m-f-d-description a:active {
+  color: #fff;
+}
 @media screen and (max-width: 480px) {
   footer .sf-middle-footer {
     font-size: 16px;
