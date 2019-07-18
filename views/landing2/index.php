@@ -53,6 +53,7 @@
                     <div class="block01-subtitle"><h3>Construye y refuerza las zonas seguras de tu casa.</h3></div>
                 </div>
                 <div class="b02 hide-mobile">
+                    <a name="formWeb" id="formWeb"> </a>
                     <?php include '_partials/form.php' ?>
                 </div>
                 
@@ -74,6 +75,7 @@
         </div>
         
         <div class="content show-mobile">
+            <a name="formMobile" id="formMobile"> </a>
             <?php include '_partials/form.php' ?>
         </div>
     </section>
@@ -151,7 +153,7 @@
 
         <div class="form-footer">
             <div class="content">
-                <button class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
+                <button id="getInformation" class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
                 <p>Aceptamos todas las formas de pago</p>
                 <div class="img_cards">
                     <img src="/assets/img/visa.png" alt="" title="visa">

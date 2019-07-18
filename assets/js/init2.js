@@ -12,6 +12,7 @@ function landing() {
 
         // Form
         dom.inputFormArea = $(".--area")
+        dom.getInformation = $("#getInformation")
 
     }
 
@@ -20,9 +21,14 @@ function landing() {
         dom.actionButton.on('click', events.onClickActionButton)
         dom.actionButtonPopup.on('click', events.onClickActionButtonPopup)
         dom.actionMainButton.on('click', events.onClickActionMainButton)
+        dom.getInformation.on('click', events.onClickGetInformation)
     }
 
     events = {}
+    events.onClickGetInformation = function(e) {
+        fn.goToForm('')
+    }
+
     events.onClickActionMainButton = function(e) {
         // validate signup form on keyup and submit
         dom.form = $(this).parent().parent().parent()
