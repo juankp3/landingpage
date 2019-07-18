@@ -103,7 +103,7 @@
         
     </section>
 
-    <section class="sf-container --gray p-block-01 gallery">
+    <section class="sf-container p-block-01 gallery">
         <div class="content">
             <div class="block-01">
                 <h2>¡RENUÉVALO TODO!</h2>
