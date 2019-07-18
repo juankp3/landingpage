@@ -55,10 +55,22 @@
                 <div class="b02 hide-mobile">
                     <?php include '_partials/form.php' ?>
                 </div>
+                
             </div>
         </div>
         <div class="sf-banner-block02 show-mobile">
             <img src="/assets/img/familia-feliz.jpg" alt="">
+        </div>
+
+        <div class="sf-quehacemos">
+            <div class="content">
+                <div class="block-01  p-block-01">
+                    <h2>¿QUÉ HACEMOS?</h2>
+                    <hr class="separatingline" />
+                    <h3>¡Te ofrecemos la más completa solución!</h3>
+                    <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
+                </div>
+            </div>
         </div>
         
         <div class="content show-mobile">
@@ -98,16 +110,7 @@
             </div>
         </div>
 
-        <div class="sf-quehacemos">
-            <div class="content">
-                <div class="block-01  p-block-01">
-                    <h2>¿QUÉ HACEMOS?</h2>
-                    <hr class="separatingline" />
-                    <h4>¡Te ofrecemos la más completa solución!</h4>
-                    <p>Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.</p>
-                </div>
-            </div>
-        </div>
+        
     </section>
 
     <section class="sf-container --gray p-block-01 gallery">
