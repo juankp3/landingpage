@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/newstyle.css" >
+    <link rel="stylesheet" type="text/css" href="/assets/css/newstyle.css?v=3" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.theme.default.min.css">
     <script src="/assets/vendors/jquery.min.js"></script>
     <script src="/assets/owlcarousel/owl.carousel.js"></script>
-    <script src="/assets/js/init.js?v=1"></script>
+    <script src="/assets/js/init.js?v=3"></script>
     <script src="/assets/js/jquery.validate.js"></script>
     <!-- <script src="assets/js/dist/jquery.validate.js"></script> -->
     <!-- SEO -->
