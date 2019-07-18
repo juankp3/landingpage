@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css?v=3" >
     <!-- JS - fontawesome -->
     <script src="https://kit.fontawesome.com/4a94473818.js"></script>
 
@@ -17,7 +17,7 @@
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/owlcarousel/owl.carousel.js"></script>
     <script src="/assets/js/jquery.validate.js"></script>
-    <script src="assets/js/init2.js?v=2"></script>
+    <script src="assets/js/init2.js?v=3"></script>
 
     <!-- SEO -->
     <title>Protege la seguridad de tu familia y de tu hogar | Servicios Felix</title>
