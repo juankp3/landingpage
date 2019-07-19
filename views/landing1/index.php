@@ -46,7 +46,7 @@
     
     <section class="sf-title sf-gray-100">
         <div class="content">
-            <p>¿Necesitas <strong>Remodelar</strong> o <strong>Ampliar</strong> los ambientes de tu hogar?</p>
+            <h1>¿Necesitas <strong>Remodelar</strong> o <strong>Ampliar</strong> los ambientes de tu hogar?</h1>
         </div>
     </section>
 
@@ -61,8 +61,8 @@
             <div class="sf-container-room">
                 <div class="sf-content-description">
                     <h2 class="sf-room-title">¡No te preocupes! <p>Tenemos la más completa solución.</p></h2>
-                    <p class="sf-room-description">Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
-                    muebles a medida y más. Todos con precios a tu alcance.</p>
+                    <h3 class="sf-room-description">Realizamos asesorías, proyectos de remodelación y diseño, servicios de mantenimiento e instalación,
+                    muebles a medida y más. Todos con precios a tu alcance.</h3>
                 </div>
                 <div class="sf-content-form hide-mobile">
                     <a name="formWeb" id="formWeb"> </a>
@@ -130,7 +130,7 @@
                 <div class="sf-data-servicios">
                     <div class="sf-especializados">
                         <div class="sf-title-especializacion">
-                            <p>Servicios Especializados</p>
+                            <h3>Servicios Especializados</h3>
                         </div>
                         <div class="sf-list-especializacion">
                             <ul class="list-especializacion">
@@ -150,7 +150,7 @@
                     </div>
                     <div class="sf-complementarios">
                         <div class="sf-title-complementarios">
-                            <p>Servicios Complementarios</p>
+                            <h3>Servicios Complementarios</h3>
                         </div>
                         <div class="sf-list-complementarios">
                             <ul class="list-complementarios">

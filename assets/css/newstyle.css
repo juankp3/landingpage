@@ -1139,7 +1139,7 @@ section.sf-room .sf-container-room .sf-content-description h2.sf-room-title {
 section.sf-room .sf-container-room .sf-content-description h2.sf-room-title p {
   margin: 0;
 }
-section.sf-room .sf-container-room .sf-content-description p.sf-room-description {
+section.sf-room .sf-container-room .sf-content-description h3.sf-room-description {
   font-size: 21px;
   padding: 0 0 10px 0;
   line-height: 30px;
@@ -1454,6 +1454,15 @@ section.sf-title {
   align-items: center;
   display: flex;
 }
+section.sf-title h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  line-height: 35px;
+  text-align: center;
+  font-size: 30px;
+  color: #00caa9;
+  margin: 0;
+}
 section.sf-title p {
   font-family: 'Ubuntu', sans-serif;
   font-weight: lighter;
@@ -1546,12 +1555,14 @@ div.popup .popup_btn_close {
   cursor: pointer;
 }
 div.popup .popup_title {
-  color: #fe9a2e;
-  font-size: 22px;
   padding-left: 6px;
 }
+div.popup .popup_title h3 {
+  color: #fe9a2e;
+  font-size: 22px;
+}
 @media screen and (max-width: 480px) {
-  div.popup .popup_title {
+  div.popup .popup_title h3 {
     font-size: 20px;
   }
 }
@@ -2123,20 +2134,20 @@ section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.
     font-size: 35px;
   }
 }
-section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
+section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos h3 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 26px;
 }
-section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos label {
+section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos h3 label {
   font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (max-width: 768px) {
-  section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
+  section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos h3 {
     font-size: 22px;
   }
 }
 @media screen and (max-width: 480px) {
-  section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos {
+  section.sf-container-proyectos-new .content div.sf-container-flex-proyectos div.sf-content-titles-proyectos div.sf-subtitle-proyectos h3 {
     font-size: 22px;
   }
 }
@@ -2347,21 +2358,22 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-esp
     margin: 0 10%;
   }
 }
-section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion {
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion h3 {
   color: #000;
   font-size: 20px;
+  margin: 0 0 10px 0;
 }
 @media screen and (max-width: 768px) {
-  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion h3 {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 480px) {
-  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion h3 {
     font-size: 28px;
   }
 }
-section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion p {
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-title-especializacion h3 p {
   margin: 0 0 10px 0;
 }
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-especializados div.sf-list-especializacion ul.list-especializacion {
@@ -2397,21 +2409,22 @@ section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-com
     margin: 20px 10% 0 10%;
   }
 }
-section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios {
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios h3 {
   color: #000;
   font-size: 20px;
+  margin: 0 0 10px 0;
 }
 @media screen and (max-width: 768px) {
-  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios h3 {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 480px) {
-  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios {
+  section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios h3 {
     font-size: 28px;
   }
 }
-section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios p {
+section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-title-complementarios h3 p {
   margin: 0 0 10px 0;
 }
 section.sf-container-servicios div.sf-servicios div.sf-data-servicios div.sf-complementarios div.sf-list-complementarios ul.list-complementarios {

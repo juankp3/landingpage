@@ -3,7 +3,7 @@
     <div class="sf-container-flex-proyectos">
         <div class="sf-content-titles-proyectos">
             <div class="sf-title-proyectos">¡RENUEVA <label>TODO</label>!</div>
-            <div class="sf-subtitle-proyectos">PROYECTOS <label>REALIZADOS</label></div>
+            <div class="sf-subtitle-proyectos"><h3>PROYECTOS <label>REALIZADOS</label></h3></div>
         </div>
         <div class="sf-container-pictures-proyectos">
             <div class="sf-container-pictures-tiny">
