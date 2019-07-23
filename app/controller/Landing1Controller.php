@@ -13,9 +13,12 @@ class Landing1Controller
 
     public function thanks()
     {
-        // if(!empty($_POST)) {
+        if(!empty($_POST)) {
             $post = $_POST;
             $post['tipo'] = 'remodelacion';
+            $area = $this->dataValueForm();
+            $post['name_area'] = $area[$post['area']];
+            
             $cone = new Conexion();
             $res = $cone->insert($post);
     
@@ -26,9 +29,9 @@ class Landing1Controller
                 Flight::redirect('/');
     
             Flight::render('landing1/thanks.php');
-        // } else {
-        //     Flight::redirect('/remodelacion');
-        // }
+        } else {
+            Flight::redirect('/remodelacion');
+        }
     }
 
 

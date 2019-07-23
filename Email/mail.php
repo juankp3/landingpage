@@ -88,10 +88,11 @@ class Mail{
                         <body>";
 
                 $message .= '<h2>Datos del Cliente:</h2>';
+                $message .= '<p>Landing: '.$datos['tipo'].'</p>';
                 $message .= '<p>Nombres: '.$datos['name'].'</p>';
                 $message .= '<p>Correo: '.$datos['email'].'</p>';
                 $message .= '<p>Télefono: '.$datos['phone'].'</p>';
-                $message .= '<p>Area: '.$datos['area'].'</p>';
+                $message .= '<p>Area: ('.$datos['area'].') '.$datos['name_area'].'</p>';
                 $message .= '<p>Mensaje: '.$datos['message'].'</p>';
 
                 $message .="

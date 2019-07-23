@@ -20,6 +20,9 @@ class Landing2Controller
         if(!empty($_POST)) {
             $post = $_POST;
             $post['tipo'] = 'servicios';
+            $area = $this->dataValueForm();
+            $post['name_area'] = $area[$post['area']];
+            
             $cone = new Conexion();
             $res = $cone->insert($post);
     
