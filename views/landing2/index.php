@@ -42,7 +42,7 @@
 <body>
 <?php Flight::render( '_partials/tagmanager.php') ?>
 
-    <?php Flight::render('_partials/header.php'); ?>
+    <?php Flight::render('_partials/header2.php'); ?>
 
     <section class="sf-container banner">
         <div class="content">
@@ -153,7 +153,7 @@
 
         <div class="form-footer">
             <div class="content">
-                <button id="getInformation" class="mainButton btn-content-solid-rectagle-organge" type="submit">SOLICITAR INFORMACIÓN</button>
+                <button id="getInformation" class="mainButton btn-content-solid-rectagle-organge second" type="submit">SOLICITAR INFORMACIÓN</button>
                 <p>Aceptamos todas las formas de pago</p>
                 <div class="img_cards">
                     <img src="/assets/img/visa.png" alt="" title="visa">
