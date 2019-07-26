@@ -7,8 +7,8 @@
         </div>
         <div class="cl-whatsapp">
             <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=Hola, estoy interesado en información y mi proyecto es">
-                <i class="fab fa-whatsapp mr5 --whatsapp-prevencion" aria-hidden="true"></i>
-                <span class="--whatsapp-prevencion">997-360-983</span>
+                <i class="fab fa-whatsapp mr5 --whatsapp-construccion" aria-hidden="true"></i>
+                <span class="--whatsapp-construccion">997-360-983</span>
             </a>
         </div>
     </div>
