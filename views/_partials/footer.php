@@ -11,7 +11,7 @@
                 <p>CONTÁCTANOS</p>
             </div>
             <div class="sf-data-contact-footer">
-                <span><strong>Teléfonos : </strong>  997 360 983</span>
+                <span><strong>Teléfonos : </strong><a class="-gtm-celular-footer" href="tel:+51997360983">997 360 983</a></span>
                 <span><strong>E-mail : </strong>  isr200305@outlook.com</span>
                 <span><strong>Atención : </strong>  Lunes a Sábado</span>
             </div>
