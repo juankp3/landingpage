@@ -10,8 +10,8 @@
                 ?>
                     <li>
                         <a href="#" class="<?php echo ($cont == 1)?'active':'';  ?>" data-id="<?php echo $cont; ?>">
-                            <i class="fas <?php echo $room['icon'] ?>"></i>
-                            <div><?php echo $room['name'] ?></div>
+                            <i class="fas <?php echo $room['icon'] ?> prev-gtm-<?php echo $room['name'] ?>"></i>
+                            <div class="prev-gtm-<?php echo $room['name'] ?>"><?php echo $room['name'] ?></div>
                         </a>
                     </li>
                 <?php endforeach ?>
