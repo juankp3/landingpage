@@ -38,7 +38,7 @@
         </div>
         <div class="form-bottom">
             <div class="sf_btn">
-                <button class="mainButton btn-content-solid-2" type="submit">SOLICITAR INFORMACIÓN</button>
+                <button class="mainButton btn-content-solid-2 -gtm-form-btn" type="submit">SOLICITAR INFORMACIÓN</button>
             </div>
         </div>
     </form>

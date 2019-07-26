@@ -118,7 +118,7 @@
             <div class="sf-container-flex-msj-proyectos">
                 <div class="sf-msj-proyectos">"<label>Ahora cuenta con nosotros</label> para los cambios que planeabas”</div>
                 <div class="sf-msj-button">
-                    <button class="btn-content-solid" type="submit">CONTÁCTENOS</button>
+                    <button class="btn-content-solid -gtm-first-btn-contactenos" type="submit">CONTÁCTENOS</button>
                 </div>
             </div> 
         </div>
@@ -188,7 +188,7 @@
                         </ul>
                     </div>
                     <div class="sf-button-data-contactenos">
-                        <button class="btn-content-solid" type="submit">CONTÁCTENOS</button>
+                        <button class="btn-content-solid  -gtm-second-btn-contactenos" type="submit">CONTÁCTENOS</button>
                     </div>
                 </div>
             </section>

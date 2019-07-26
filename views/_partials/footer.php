@@ -16,7 +16,7 @@
                 <span><strong>Atención : </strong>  Lunes a Sábado</span>
             </div>
             <div class="sf-button-contact-footer">
-                <button class="btn-content-solid" type="submit">ENVIAR SU PROYECTO</button>
+                <button class="btn-content-solid -gtm-footer-btn-proyecto" type="submit">ENVIAR SU PROYECTO</button>
             </div>
         </div>
     </section>
