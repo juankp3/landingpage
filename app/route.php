@@ -4,8 +4,10 @@ require_once 'controller/HomeController.php';
 require_once 'controller/Landing1Controller.php';
 require_once 'controller/Landing2Controller.php';
 
+// $front = new FrontController();
 $home = new HomeController();
 // Flight::route('GET /', array($home, 'index'));
+Flight::route('GET /reporte', array($home, 'report'));
 
 $landing1 = new Landing1Controller();
 Flight::route('GET /remodelacion', array($landing1, 'index'));

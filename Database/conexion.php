@@ -1,5 +1,5 @@
 <?php
-require "config.php";
+require_once "config.php";
 
 class Conexion {
 
@@ -19,12 +19,6 @@ class Conexion {
         return $customers;
     }
 
-
-    public function get_dni($dni) {
-        $query = "SELECT id  FROM participante WHERE dni = '".$dni."' LIMIT 1";
-        return mysqli_fetch_assoc(mysqli_query($this->_CON,$query));
-    }
-
     public function insert($data) {
 
         $sql = "INSERT INTO clientes (nombre,correo,celular,area,mensaje,tipo,fecha_registro) VALUES(?,?,?,?,?,?,NOW())";
@@ -40,26 +34,9 @@ class Conexion {
         return $res;
     }
 
-    public function get_ganadores() {
-        $query = "SELECT nombre, dni  FROM participante WHERE ganador = 1 ORDER bY puesto ASC LIMIT 3";
-        $result = mysqli_query($this->_CON,$query);
-        $data = array();
-        while ($d  = mysqli_fetch_assoc($result)) {
-            $data[] = $d;
-        }
-        return $data;
-    }
 
-    public function participantes() {
-        $customers =$this->_CON->query("SELECT * FROM clientes")->fetchAll();
+    public function getCustomers() {
+        $customers =$this->_CON->query("SELECT * FROM clientes ORDER BY id desc")->fetchAll();
         return $customers;
-
-        // $query = "SELECT * FROM clientes";
-        // $result = mysqli_query($this->_CON,$query);
-        // $data = array();
-        // while ($d  = mysqli_fetch_assoc($result)) {
-        //     $data[] = $d;
-        // }
-        // return $data;
     }
 }

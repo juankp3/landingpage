@@ -1,11 +1,12 @@
 <?php 
 
+require_once 'Database/conexion.php';
+
 class FrontController 
 {
-    public $vModel;
-
-    public function __construct() {
-    }
+    // public function __construct() {
+    //     $vModel = new Conexion();
+    // }
 
     public function index() 
     {
@@ -16,6 +17,15 @@ class FrontController
         if (ENV == 'prod' || ENV == 'dev') 
             return true;
         return false;
+    }
+
+    public function report() 
+    {
+        $this->validate();
+        $vModel = new Conexion();
+        $customers = $vModel->getCustomers();
+
+        Flight::render('home/report.php', array('customers' => $customers));
     }
 
     public function authenticate() {
@@ -33,6 +43,24 @@ class FrontController
                         echo '<a href="/">Ir la pagina</a>';
                         exit;
                     }
+                }
+            }
+        }
+    }
+
+    public function validate() {
+        if (!isset($_SERVER['PHP_AUTH_USER'])) {
+            header('WWW-Authenticate: Basic realm="Mi dominio"');
+            header('HTTP/1.0 401 Unauthorized');
+            echo '<a href="/">Ir la pagina</a>';
+            exit;
+        }else {
+            if (isset ($_SERVER['PHP_AUTH_USER']) and isset($_SERVER['PHP_AUTH_PW'])) {
+                if (!($_SERVER['PHP_AUTH_USER']  == USER_DOWNLOAD and $_SERVER['PHP_AUTH_PW'] == PASS_DOWNLOAD)) {
+                    header('WWW-Authenticate: Basic realm="Mi dominio"');
+                    header('HTTP/1.0 401 Unauthorized');
+                    echo '<a href="/">Ir la pagina</a>';
+                    exit;
                 }
             }
         }

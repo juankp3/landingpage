@@ -2,7 +2,7 @@
 require 'lib/flight/flight/Flight.php';
 require 'lib/PHPExcel/PHPExcel.php';
 require 'Email/mail.php';
-require 'Database/conexion.php';
+require_once 'Database/conexion.php';
 
 date_default_timezone_set('America/Lima');
 
@@ -45,7 +45,7 @@ function getData()
 {
     $person = array();
     $model = new Conexion();
-    $content = $model->participantes();
+    $content = $model->getCustomers();
 
     $landing1 = new Landing1Controller();
     $data = $landing1->dataValueForm();

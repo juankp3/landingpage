@@ -52,9 +52,6 @@ switch (ENV) {
         define('RECEPTIONISTS', $correos);
 
         break;
-    
-    default:
-        # code...
-        break;
+
 }
 
