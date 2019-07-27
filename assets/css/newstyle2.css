@@ -1093,6 +1093,7 @@ footer .sf-middle-footer .middle-footer-data .m-f-d-description a:hover,
 footer .sf-middle-footer .middle-footer-data .m-f-d-description a:focus,
 footer .sf-middle-footer .middle-footer-data .m-f-d-description a:active {
   color: #fff;
+  text-decoration: underline;
 }
 @media screen and (max-width: 480px) {
   footer .sf-middle-footer {
@@ -1984,6 +1985,7 @@ section.clientes ul.sf-content-item li {
   font-size: 19px;
   color: #f9743b;
   font-family: "LatoBold";
+  font-family: "UbuntuBold";
 }
 .sf-container-thanks div.sf-content-thanks .sf_btn {
   width: 500px;

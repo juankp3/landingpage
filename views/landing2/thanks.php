@@ -41,7 +41,7 @@
                 <p>Se ha registrado tu solicitud. Tan pronto nos sea posible, nos pondremos en contacto contigo.</p>
                 <h3>Contáctanos</h3>
                 <div class="thanks-whatsapp">
-                    <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=_*Hola!*_">
+                    <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=Hola, estoy interesado en información y mi proyecto es">
                         <i class="fab fa-whatsapp mr5" aria-hidden="true"></i>
                         <span>997-360-983</span>
                     </a>
