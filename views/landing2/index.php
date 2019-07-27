@@ -35,7 +35,6 @@
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
 
-    <!-- Google Analytics -->
     <?php Flight::render( '_partials/analytics.php') ?>
     
 </head>

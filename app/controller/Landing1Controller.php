@@ -1,11 +1,12 @@
 <?php 
 
-class Landing1Controller 
+class Landing1Controller extends FrontController
 {
     public $vModel;
 
     public function index() 
     {
+        parent::index();
         $gallery = $this->gallery();
         $dataForm = $this->dataValueForm();
         Flight::render('landing1/index.php', array('gallery' => $gallery, 'dataForm' => $dataForm));

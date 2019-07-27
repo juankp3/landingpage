@@ -34,7 +34,6 @@
     <meta property="og:image" content="/assets/img/sala.png">
     <meta property="og:type" content="page"/>
 
-    <!-- Google Analytics -->
     <?php Flight::render( '_partials/analytics.php') ?>
 
 </head>

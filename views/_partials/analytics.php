@@ -1,6 +1,7 @@
 
 <?php 
-if (ENV == 'prod' || ENV == 'dev') : ?>
+if (FrontController::isEnviromentRemote()) : ?>
+  <!-- Google Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143017368-1"></script>
   <script>

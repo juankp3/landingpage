@@ -4,7 +4,7 @@
 /vendor
 .env
 composer.lock
-config.php
+env.php
 
 # Dev
 dev.serviciosfe.com/

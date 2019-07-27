@@ -1,42 +1,40 @@
 <?php 
 
-class Landing2Controller extends FrontController
+class FrontController 
 {
     public $vModel;
 
-    public function index() 
-    {
-        parent::index();
-        $params = array();
-        $params['gallery'] = $gallery = $this->gallery();
-        $params['dataForm'] = $this->dataValueForm();
-        $params['customers'] = $customer = $this->getCustomer();
-        $params['works'] = $customer = $this->getWorks();
-
-        Flight::render('landing2/index.php', $params);
+    public function __construct() {
     }
 
-    public function thanks()
+    public function index() 
     {
-        if(!empty($_POST)) {
-            $post = $_POST;
-            $post['tipo'] = 'servicios';
-            $area = $this->dataValueForm();
-            $post['name_area'] = $area[$post['area']];
-            
-            $cone = new Conexion();
-            $res = $cone->insert($post);
-    
-            $email = new Mail();
-            $email->sendMail($post);
-    
-            if (!$res)
-                Flight::redirect('/');
-    
-            Flight::render('landing2/thanks.php');
+        $this->authenticate();
+    }
 
-        } else {
-            Flight::redirect('/');
+    public static function isEnviromentRemote() {
+        if (ENV == 'prod' || ENV == 'dev') 
+            return true;
+        return false;
+    }
+
+    public function authenticate() {
+        if (ENV == 'dev') {
+            if (!isset($_SERVER['PHP_AUTH_USER'])) {
+                header('WWW-Authenticate: Basic realm="Mi dominio"');
+                header('HTTP/1.0 401 Unauthorized');
+                echo '<a href="/">Ir la pagina</a>';
+                exit;
+            }else {
+                if (isset ($_SERVER['PHP_AUTH_USER']) and isset($_SERVER['PHP_AUTH_PW'])) {
+                    if (!($_SERVER['PHP_AUTH_USER']  == USER_DOWNLOAD and $_SERVER['PHP_AUTH_PW'] == PASS_DOWNLOAD)) {
+                        header('WWW-Authenticate: Basic realm="Mi dominio"');
+                        header('HTTP/1.0 401 Unauthorized');
+                        echo '<a href="/">Ir la pagina</a>';
+                        exit;
+                    }
+                }
+            }
         }
     }
 
@@ -53,28 +51,6 @@ class Landing2Controller extends FrontController
         );
     }
 
-    public function getCustomer()
-    {
-        return array(
-            array('name' => 'Pamer', 'img' => 'pamer.png'),
-            array('name' => 'Quimica Suiza', 'img' => 'quimica-suiza.png'),
-            array('name' => 'QSI', 'img' => 'QSI.png'),
-            array('name' => 'Soyuz', 'img' => 'soyuz.png'),
-            array('name' => 'Buro', 'img' => 'buro.png'),
-            array('name' => 'BBL Logistics', 'img' => 'ppl-logistics.png'),
-        );
-    }
-
-    public function getWorks()
-    {
-        return array(
-            array('name' => 'Manejamos altos estándares de seguridad', 'img' => 'epps.jpg'),
-            array('name' => 'Excelente manejo del presupuesto asignado', 'img' => 'epps2.jpg'),
-            array('name' => 'Conocimiento claro del RNC (Reglamento Nacional de construcción)', 'img' => 'epps3.jpg'),
-            array('name' => 'Staff de profesionales de apoyo en las diferentes especialidades', 'img' => 'epps4.jpg'),
-        );
-    }
-    
     public function gallery()
     {
         $gallery = array(
