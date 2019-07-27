@@ -5,7 +5,7 @@
         <div class="sf-middle-footer">
             <div class="middle-footer-data">
                 <div class="m-f-d-title">Teléfono</div>
-                <div class="m-f-d-description"><a class="-gtm-celular-footer" href="tel:+51997360983">997 360 983</a></div>
+                <div class="m-f-d-description"><a class="" href="tel:+51997360983">997 360 983</a></div>
             </div>
             <div class="middle-footer-data">
                 <div class="m-f-d-title">E-mail</div>

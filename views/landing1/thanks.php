@@ -52,13 +52,13 @@
                 <div class="thanks-subtit">Contáctanos</div>
                 <div class="thanks-whatsapp">
                     <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=Hola, estoy interesado en información y mi proyecto es">
-                        <i class="fab fa-whatsapp mr5 -whatsapp-gracias-construccion" aria-hidden="true"></i>
-                        <span class="-whatsapp-gracias-construccion">997-360-983</span>
+                        <i class="fab fa-whatsapp mr5 -gtm-l1-gracias-whatsapp" aria-hidden="true"></i>
+                        <span class="-gtm-l1-gracias-whatsapp">997-360-983</span>
                     </a>
                 </div>
                 <div class="thanks-email"><strong>E-mail:</strong> isr200305@outlook.com</div>
                 <div class="thanks-btn">
-                    <button onclick="window.location.href='/remodelacion/gracias'" class="mainButton btn-content-solid-2 -btn-volver-gracias-construccion" type="submit">VOLVER A LA PÁGINA</button>
+                    <button onclick="window.location.href='/remodelacion/gracias'" class="mainButton btn-content-solid-2 -gtm-l1-gracias-btn-volver" type="submit">VOLVER A LA PÁGINA</button>
                 </div>
             </div>
         </div>
