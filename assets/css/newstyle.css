@@ -2671,6 +2671,7 @@ section section.sf-trabaja-nosotros div.sf-content-bgmovil-nosotros img {
   font-size: 19px;
   color: #00466f;
   font-family: "UbuntuBold";
+  text-decoration: underline;
 }
 .sf-container-thanks div.sf-content-thanks .thanks-email {
   color: #00466f;
