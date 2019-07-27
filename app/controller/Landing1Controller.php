@@ -27,7 +27,7 @@ class Landing1Controller extends FrontController
             $email->sendMail($post);
     
             if (!$res)
-                Flight::redirect('/');
+                Flight::redirect('/remodelacion');
     
             Flight::render('landing1/thanks.php');
         } else {
