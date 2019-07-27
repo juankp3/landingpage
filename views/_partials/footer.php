@@ -15,9 +15,14 @@
                 <span><strong>E-mail : </strong>  isr200305@outlook.com</span>
                 <span><strong>Atención : </strong>  Lunes a Sábado</span>
             </div>
+
+            <?php 
+            if($showBtnProyecto):
+            ?>
             <div class="sf-button-contact-footer">
                 <button class="btn-content-solid -gtm-footer-btn-proyecto" type="submit">ENVIAR SU PROYECTO</button>
             </div>
+            <?php endif ?>
         </div>
     </section>
 </footer>

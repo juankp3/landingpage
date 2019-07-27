@@ -9,7 +9,7 @@ class Landing1Controller extends FrontController
         parent::index();
         $gallery = $this->gallery();
         $dataForm = $this->dataValueForm();
-        Flight::render('landing1/index.php', array('gallery' => $gallery, 'dataForm' => $dataForm));
+        Flight::render('landing1/index.php', array('gallery' => $gallery, 'dataForm' => $dataForm,'showBtnProyecto' => true));
     }
 
     public function thanks()
