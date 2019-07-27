@@ -1073,6 +1073,7 @@ footer section.sf-bottom-footer div.sf-data-contact-footer span a:hover,
 footer section.sf-bottom-footer div.sf-data-contact-footer span a:focus,
 footer section.sf-bottom-footer div.sf-data-contact-footer span a:active {
   color: #fff;
+  text-decoration: underline;
 }
 footer section.sf-bottom-footer div.sf-button-contact-footer {
   text-align: center;
