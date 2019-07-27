@@ -15,8 +15,8 @@
                     ?>
                         <li>
                             <a href="#" class="<?php echo ($cont == 1)?'active':'';  ?>" data-id="<?php echo $cont; ?>">
-                                <i class="fas <?php echo $room['icon'] ?>"></i>
-                                <div><?php echo $room['name'] ?></div>
+                                <i class="fas <?php echo $room['icon'] ?> -gtm-l1-galeria-<?php echo $room['name']?>" ></i>
+                                <div class="-gtm-l1-galeria-<?php echo $room['name']?>"><?php echo $room['name'] ?></div>
                             </a>
                         </li>
                     <?php endforeach ?>
