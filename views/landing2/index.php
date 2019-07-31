@@ -6,26 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
+    <?php Flight::render( '_partials/script.php') ?>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css?v=3" >
-    <!-- JS - fontawesome -->
-    <script src="https://kit.fontawesome.com/4a94473818.js"></script>
-
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="assets/vendors/jquery.min.js"></script>
-    <script src="assets/owlcarousel/owl.carousel.js"></script>
-    <script src="/assets/js/jquery.validate.js"></script>
+    <!-- JS -->
     <script src="assets/js/init2.js?v=3"></script>
 
     <!-- SEO -->
     <title>Protege la seguridad de tu familia y de tu hogar | Servicios Felix</title>
     <meta name="description" content="Preparación de estructuras de tu casa para casos de sismos, Impermeabilización y preparación de cisternas, picinas y tanques elevados, impermebilización de techos, servicios especializados, servicios complementarios">
     <meta name="keywords" content="sismos,creparación de cisternas, picinas,impermebilización de techos, servicios especializados, servicios complementarios">
-
-    <!-- Image icon -->
-    <?php Flight::render( '_partials/favicon.php') ?>
 
     <!-- Properties for social -->
     <meta property="og:site_name" content="Servicios Felix"/>
@@ -35,7 +25,6 @@
     <meta property="og:type" content="page"/>
     <!-- <meta name="google-site-verification" content="" /> -->
 
-    <?php Flight::render( '_partials/analytics.php') ?>
     
 </head>
 <body>

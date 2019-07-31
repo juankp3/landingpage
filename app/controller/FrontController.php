@@ -19,6 +19,12 @@ class FrontController
         return false;
     }
 
+    public static function isProduction() {
+        if (ENV == 'prod') 
+            return true;
+        return false;
+    }
+
     public function report() 
     {
         $this->validate();

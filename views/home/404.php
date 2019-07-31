@@ -6,11 +6,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Image icon -->
-<?php Flight::render( '_partials/favicon.php') ?>
-
-<!-- Google Analytics -->
-<?php Flight::render( '_partials/analytics.php') ?>
+<?php Flight::render( '_partials/script.php') ?>
 
 <style type="text/css">
 body {

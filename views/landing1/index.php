@@ -6,26 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
+    <?php Flight::render( '_partials/script.php') ?>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/css/newstyle.css?v=3" >
-    <!-- JS - fontawesome -->
-    <script src="https://kit.fontawesome.com/4a94473818.js"></script>
-
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="/assets/vendors/jquery.min.js"></script>
-    <script src="/assets/owlcarousel/owl.carousel.js"></script>
+    <!-- JS -->
     <script src="/assets/js/init.js?v=3"></script>
-    <script src="/assets/js/jquery.validate.js"></script>
-    <!-- <script src="assets/js/dist/jquery.validate.js"></script> -->
+
     <!-- SEO -->
     <title>¿Necesitas Remodelar o Ampliar los ambientes de tu hogar? | Servicios Felix</title>
     <meta name="description" content="Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance.">
     <meta name="keywords" content="Realizamos asesorias, remodelación, casa, ">
-
-    <!-- Image icon -->
-    <?php Flight::render( '_partials/favicon.php') ?>
 
     <!-- Properties for social -->
     <meta property="og:site_name" content="Servicios Felix"/>
@@ -33,13 +23,9 @@
     <meta property="og:description" content="Realizamos asesorias, proyectos de remodelación y diseño, servicios de mantenimiento e instalación, muebles a medida y más. Todos con precios a tu alcance."/>
     <meta property="og:image" content="/assets/img/sala.png">
     <meta property="og:type" content="page"/>
-
-    <?php Flight::render( '_partials/analytics.php') ?>
-
 </head>
 <body>
 <?php Flight::render( '_partials/tagmanager.php') ?>
-
     <?php Flight::render('_partials/header.php'); ?>
     <?php include '_partials/popup.php' ?>
     

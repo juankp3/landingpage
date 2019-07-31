@@ -6,28 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
+    <?php Flight::render( '_partials/script.php') ?>
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/newstyle2.css" >
-    <!-- JS - fontawesome -->
-    <script src="https://kit.fontawesome.com/4a94473818.js"></script>
-
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="/assets/vendors/jquery.min.js"></script>
-    <script src="/assets/owlcarousel/owl.carousel.js"></script>
-    <script src="/assets/js/init.js?v=1"></script>
-    <script src="/assets/js/jquery.validate.js"></script>
-    <!-- <script src="assets/js/dist/jquery.validate.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/newstyle2.css?v=3" >
+    <!-- JS -->
+    <script src="assets/js/init2.js?v=3"></script>
     <!-- SEO -->
     <title>Servicios Felix</title>
-
-    <!-- Image icon -->
-    <?php Flight::render( '_partials/favicon.php') ?>
-
-    <!-- Google Analytics -->
-    <?php Flight::render( '_partials/analytics.php') ?>
-
 </head>
 <body>
 <?php Flight::render( '_partials/tagmanager.php') ?>
